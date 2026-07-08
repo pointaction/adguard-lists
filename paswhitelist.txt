@@ -1,0 +1,73 @@
+! Title: Point Action Whitelist
+! Description: A URL whitelist of legit websites that should not be blocked.
+! Version: 1.0
+! URL: https://pointaction.net/adguard/paswhitelist.txt
+!
+! Example: @@||kelkoogroup.net^
+! 
+! ==========================================
+! ROKU CHANNEL - WHITELISTS (if blocking entire *.sr.roku.com)
+! Only needed if using extensive regex blocking below
+! ==========================================
+! Channel functionality (whitelist if using broad regex)
+@@||configsvc.sc.roku.com^
+@@||keysvc.sc.roku.com^
+@@||content.sr.roku.com^
+@@||content-detail.sr.roku.com^
+@@||playback-detail.sr.roku.com^
+@@||images.sr.roku.com^
+@@||api2.sr.roku.com^
+@@||vod.delivery.roku.com^
+@@||vod-playlist.sr.roku.com^
+@@||rights-manager.sr.roku.com^
+@@||wv-license.sr.roku.com^
+@@||static-delivery.sr.roku.com^
+@@||bookmarks.sr.roku.com^
+@@||navigation.sr.roku.com^
+@@||images-svc.sr.roku.com^
+! Roku Channel app requirements (still being tested)
+@@||tis.cti.roku.com^
+@@||ls.cti.roku.com^
+
+! ==========================================
+! Personal Whitelist below
+! ==========================================
+@@||pointaction.com^
+@@||pathmail.net^
+@@||pointaction.net^
+@@||pointaction.org^
+@@||snowypopcorn.com^
+@@||snowypopcorn.net^
+@@||snowypopcorn.org^
+@@||proctoru.com^
+@@||meazurelearning.com^
+@@||logmeinrescue.com^
+@@||ysasecure.com^
+@@||guardianbrowser.com^
+@@||proctorio.com^
+@@||honorlock.com^
+@@||respondus.com^
+@@||examsoft.com^
+@@||://proctoru.com^
+@@||cloudfront.net^
+@@||pearsonvue.com^
+@@||pearson.com^
+@@||starttest.com^
+@@||starttest2.com^
+@@||startpractice.com^
+@@||programworkshop.com^
+@@||gettesting.com^
+@@||ably.com^
+@@||sd-rtn.com^
+@@||wgneagle.wgu.edu^
+@@||wgu.edu^
+@@||examity.com^
+@@||assessments.wgu.edu^
+@@||smarthinking.com^
+@@||download.onvue.com^
+@@||onvue.com^
+@@||op-prd-1.pvue2.com^
+@@||pearsonvue-rest.ably.io^
+@@||244716ee2b26.entrypoint.cloud.wowza.com^
+@@||pearsonvue.realtime.ably.net^
+@@||vuepducopfilessa.blob.core.windows.net^
