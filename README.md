@@ -13,9 +13,7 @@ My network is
 :arrow_double_down:  
 :file_cabinet: Unbound - with Cockpit, Grafana and on Ubuntu 24.04 LTS Server  
 :arrow_double_down:  
-:cloud: DNS-over-TLS  
-:arrow_double_down:  
-Cloudflare  
+:cloud: DNS-over-TLS Cloudflare   
 :arrow_double_down:  
 :satellite: TP Link Omada ER605 Gateway and Smart Switch with VLAN's setup  
 :arrow_double_down:  
