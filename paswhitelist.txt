@@ -1,15 +1,14 @@
 ! Title: Point Action Whitelist
-! Description: A URL whitelist of legit websites that should not be blocked.
-! Version: 1.0
-! URL: https://pointaction.net/adguard/paswhitelist.txt
-!
-! Example: @@||kelkoogroup.net^
-! 
-! ==========================================
-! ROKU CHANNEL - WHITELISTS (if blocking entire *.sr.roku.com)
-! Only needed if using extensive regex blocking below
-! ==========================================
-! Channel functionality (whitelist if using broad regex)
+! Description: Personal AdGuard Home whitelist for trusted services
+! Homepage: https://pointaction.net/adguard/paswhitelist.txt
+! Version: 1.1
+! Last modified: 2026-07-08
+! Expires: 7 days
+
+! ============================================================
+! Roku Channel
+! ============================================================
+
 @@||configsvc.sc.roku.com^
 @@||keysvc.sc.roku.com^
 @@||content.sr.roku.com^
@@ -25,49 +24,166 @@
 @@||bookmarks.sr.roku.com^
 @@||navigation.sr.roku.com^
 @@||images-svc.sr.roku.com^
-! Roku Channel app requirements (still being tested)
 @@||tis.cti.roku.com^
 @@||ls.cti.roku.com^
 
-! ==========================================
-! Personal Whitelist below
-! ==========================================
+! ============================================================
+! Personal Domains
+! ============================================================
+
 @@||pointaction.com^
-@@||pathmail.net^
 @@||pointaction.net^
 @@||pointaction.org^
+
+@@||pathmail.net^
+
 @@||snowypopcorn.com^
 @@||snowypopcorn.net^
 @@||snowypopcorn.org^
+
+! ============================================================
+! WGU / Remote Proctoring
+! ============================================================
+
+@@||wgu.edu^
+@@||my.wgu.edu^
+@@||wgneagle.wgu.edu^
+@@||assessments.wgu.edu^
+
 @@||proctoru.com^
-@@||meazurelearning.com^
-@@||logmeinrescue.com^
-@@||ysasecure.com^
 @@||guardianbrowser.com^
+
 @@||proctorio.com^
 @@||honorlock.com^
 @@||respondus.com^
 @@||examsoft.com^
-@@||://proctoru.com^
-@@||cloudfront.net^
-@@||pearsonvue.com^
+@@||examity.com^
+@@||meazurelearning.com^
+
 @@||pearson.com^
+@@||pearsonvue.com^
+@@||home.pearsonvue.com^
+@@||onvue.com^
+@@||download.onvue.com^
+@@||op-prd-1.pvue2.com^
+@@||pearsonvue-rest.ably.io^
+@@||pearsonvue.realtime.ably.net^
+
+@@||programworkshop.com^
+@@||gettesting.com^
 @@||starttest.com^
 @@||starttest2.com^
 @@||startpractice.com^
-@@||programworkshop.com^
-@@||gettesting.com^
+
+@@||ysasecure.com^
+@@||smarthinking.com^
+
 @@||ably.com^
 @@||sd-rtn.com^
-@@||wgneagle.wgu.edu^
-@@||wgu.edu^
-@@||examity.com^
-@@||assessments.wgu.edu^
-@@||smarthinking.com^
-@@||download.onvue.com^
-@@||onvue.com^
-@@||op-prd-1.pvue2.com^
-@@||pearsonvue-rest.ably.io^
+
 @@||244716ee2b26.entrypoint.cloud.wowza.com^
-@@||pearsonvue.realtime.ably.net^
 @@||vuepducopfilessa.blob.core.windows.net^
+
+! ============================================================
+! GitHub
+! ============================================================
+
+@@||github.com^
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
+
+! ============================================================
+! Docker
+! ============================================================
+
+@@||docker.com^
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||hub.docker.com^
+
+! ============================================================
+! Ubuntu
+! ============================================================
+
+@@||ubuntu.com^
+@@||archive.ubuntu.com^
+@@||security.ubuntu.com^
+@@||canonical.com^
+@@||snapcraft.io^
+
+! ============================================================
+! VMware
+! ============================================================
+
+@@||vmware.com^
+@@||broadcom.com^
+
+! ============================================================
+! Steam
+! ============================================================
+
+@@||steampowered.com^
+@@||steamstatic.com^
+@@||steamcontent.com^
+@@||steamserver.net^
+
+! ============================================================
+! Blizzard
+! ============================================================
+
+@@||battle.net^
+@@||blizzard.com^
+
+! ============================================================
+! Windows Update
+! ============================================================
+
+@@||download.windowsupdate.com^
+@@||windowsupdate.microsoft.com^
+@@||update.microsoft.com^
+@@||dl.delivery.mp.microsoft.com^
+
+! ============================================================
+! Let's Encrypt
+! ============================================================
+
+@@||letsencrypt.org^
+@@||acme-v02.api.letsencrypt.org^
+
+! ============================================================
+! Certificate Validation
+! ============================================================
+
+@@||ocsp.digicert.com^
+@@||ocsp.sectigo.com^
+@@||ocsp.pki.goog^
+
+! ============================================================
+! Microsoft Teams (Support)
+! ============================================================
+
+@@||teams.microsoft.com^
+
+! ============================================================
+! CloudFront
+! NOTE: Very broad. Keep only if required for WGU/Pearson VUE.
+! ============================================================
+
+@@||cloudfront.net^
+
+! ============================================================
+! Zoom
+! ============================================================
+
+@@||zoom.us^
+@@||www.zoom.us^
+@@||us02web.zoom.us^
+@@||us04web.zoom.us^
+@@||zoom.com^
+@@||zoomgov.com^
+@@||zoomcdn.net^
+@@||st1.zoom.us^
+@@||st2.zoom.us^
+@@||source.zoom.us^
+@@||marketplace.zoom.us^
