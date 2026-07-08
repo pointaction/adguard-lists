@@ -328,6 +328,17 @@
 ||local.wish.com^
 ||payments.wish.com^
 
+! ============================================================
+! Blizzard
+! ============================================================
+
+||telemetry.battle.net^
+||telemetry.blizzard.com^
+||vortex.data.microsoft.com^
+||telemetry.microsoft.com^
+||settings-win.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+
 ! ========== Personal Blacklist ==========
 ||sex.com^
 ||pushbuttonsystem.net^
