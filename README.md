@@ -3,7 +3,7 @@ Personal AdGuard Home whitelist and blocklist
 
 This is my personal blocklist and whitelist for my AdGuard Home server.
 
-Feel free copy or use them if you want to do so.
+Feel free copy or use them or contribute if you want to do so.
 
 My network is 
 
