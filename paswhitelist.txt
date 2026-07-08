@@ -132,8 +132,17 @@
 ! Blizzard
 ! ============================================================
 
-@@||battle.net^
-@@||blizzard.com^
+@@||blizzard.com^$important
+@@||battle.net^$important
+@@||battlenet.com.cn^$important
+@@||worldofwarcraft.com^$important
+@@||blizzard.cn^$important
+@@||blznav.akamaized.net^$important
+@@||level3.blizzard.com^$important
+@@||dist.blizzard.com^$important
+@@||nydus.battle.net^$important
+@@||us.cdn.blizzard.com^$important
+@@||eu.cdn.blizzard.com^$important
 
 ! ============================================================
 ! Windows Update
