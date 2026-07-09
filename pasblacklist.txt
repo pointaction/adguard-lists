@@ -1,11 +1,17 @@
 ! Title: Point Action Personal Blacklist
 ! Description: Personal DNS blocklist
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.txt
-! Version: 1.1
+! Version: 1.3
 ! Last modified: 2026-07-08
 ! Expires: 7 days
 !
-! ========== AMAZON PRIME VIDEO (streaming-specific) ==========
+! NOTE: AdGuard Home is a DNS filter. It matches HOSTNAMES only, never URL paths.
+!       Any rule containing a "/path" is ineffective and has been removed/rewritten.
+!       Regex rules must be wrapped in /slashes/ (not ||...^).
+!
+! ============================================================
+! AMAZON PRIME VIDEO (streaming-specific)
+! ============================================================
 ||ads.amazon.com^
 ||analytics.amazon.com^
 ||tracking.amazon.com^
@@ -16,9 +22,10 @@
 ||advertising.amazon.com^
 ||adapis.amazon.com^
 ||prime-video-ads.com^
-! ==========================================
+
+! ============================================================
 ! PEACOCK WHITELISTS (REQUIRED FOR PLAYBACK)
-! ==========================================
+! ============================================================
 @@||mytv.clients.peacocktv.com^
 @@||bff-ext.clients.peacocktv.com^
 @@||imageservice.disco.peacocktv.com^
@@ -28,34 +35,29 @@
 @@||meg.disco.peacocktv.com^
 @@||ovp.peacocktv.com^
 @@||pconfig-prd.cdn.peacocktv.com^
-! CRITICAL: Video loading regex - DO NOT BLOCK
-@@||g[^.]+-vod-us-cmaf-prd-mc.cdn.peacocktv.com^
-
-! === NEW MAY 2026 - ajstrick81 v2.7 whitelists ===
+! CRITICAL: Video loading host pattern - DO NOT BLOCK (fixed to valid regex allow rule)
+@@/^g[a-z0-9]+-vod-us-cmaf-prd-mc\.cdn\.peacocktv\.com$/
+! NEW MAY 2026 - ajstrick81 v2.7 whitelists
 @@||assets.adobedtm.com^
 @@||ingest.webcol.sdp.peacocktv.com^
 
-! ==========================================
+! ============================================================
 ! PEACOCK BLACKLIST (AD BLOCKING ATTEMPTS)
-! ==========================================
+! ============================================================
 ! SSAI ad server
 ||mt.ssai.peacocktv.com^
 ||ssai.peacocktv.com^
-
-! Ad CDN clusters (may trigger app updates' ad workarounds)
+! Ad CDN clusters (specific hash + broad cluster - broad one may affect other AWS MediaTailor apps)
 ||f701e91aabed43fa8064e91da398bfbc.mediatailor.us-east-1.amazonaws.com^
 ||mediatailor.us-east-1.amazonaws.com^
-
 ! Analytics/tracking (safe to block)
 ||analytics.peacocktv.com^
 ||tracking.peacocktv.com^
 ||peacock-analytics.com^
 ||peacock-tracking.com^
-
-! Ads.ironSource domains
+! Ads / ironSource
 ||ads.ironsrc.mobi^
-
-! === NEW MAY 2026 - ajstrick81 v2.7 domains ===
+! NEW MAY 2026 - ajstrick81 v2.7 domains
 ||vac.peacocktv.com^
 ||sas.peacocktv.com^
 ||video-ads-module.ad-tech.nbcuni.com^
@@ -67,123 +69,99 @@
 ||s0.2mdn.net^
 ||ad.doubleclick.net^
 ||telemetry.nbcuott.com^
-! ==========================================
+
+! ============================================================
 ! ROKU BLACKLIST - INDIVIDUAL DOMAINS
-! ==========================================
+! ============================================================
 ||roku.admeasurement.com^
 ||ravm.tv^
 ||display.ravm.tv^
 ||lat-services.api.data.roku.com^
 ||captive.roku.com^
 
-! ==========================================
-! ROKU BLACKLIST - REGEX PATTERNS
+! ============================================================
+! ROKU BLACKLIST - REGEX PATTERNS (rewritten to valid AdGuard regex)
 ! Source: ozankiratli gist (July 2025)
-! ==========================================
-! Pattern 1: Block logs, ads, web, cti, voice, prod.mobile
-||^(([^.]+\.)*(logs|ads|web|prod\.mobile|cti|voice)(\.[^.]+)*\.)roku\.com$^
+! ============================================================
+! Pattern 1: logs, ads, web, cti, voice, prod.mobile subdomains of roku.com
+/^([a-z0-9-]+\.)*(logs|ads|web|cti|voice)\.roku\.com$/
+/^([a-z0-9-]+\.)*prod\.mobile\.roku\.com$/
+! Pattern 2: named server hosts under roku.com
+/^([a-z0-9-]*)(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)([a-z0-9-]*\.)+roku\.com$/
+! Pattern 3: captive, cloudservices, wwwimg
+/^(cloudservices|wwwimg)\.roku\.com$/
+! Pattern 4: bif, microsites, traces, track, userdata under sr.roku.com
+/^(bif|microsites|traces|track|userdata)\.sr\.roku\.com$/
 
-! Pattern 2: Block specific server names (amarillo, amoeba, austin, etc)
-||^(([^.]+\.)*[^.]*(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|lb|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)[^.]*(\.([^.]+)*\.))roku\.com$^
-
-! Pattern 3: Block captive, cloudservices, wwwimg
-||^((captive|cloudservices|wwwimg)\.))roku\.com$^
-
-! Pattern 4: Block .sr.roku.com tracking domains (bif, microsites, traces, track, userdata)
-||^((bif|microsites|traces|track|userdata)\.sr\.)roku\.com$^
-
-! Pattern 5: Block ravm.tv queries (all subdomains)
-||^([^.]+\.)*ravm\.tv$^
-
-! --- TDS TELECOM TELEMETRY & APPS BLOCKLIST ---
-
-! Block TDS Web Portal Tracking and Core Analytics
-||://tdstelecom.com^
-||tds.net/telemetry^
+! ============================================================
+! TDS TELECOM TELEMETRY (hostname rules only; path rules removed - ineffective in DNS)
+! ============================================================
+||tdstelecom.com^
 ||metrics.tds.net^
 ||smetrics.tds.net^
-
-! Block TDS Mobile and Billing App Web Beacons
-||api.://tdstelecom.com^
-||mobile-api.tds.net/telemetry^
-
-! Block TDS Device Management (TR-069) Data Gathering Nodes
+! Device management (TR-069) data nodes
 ||acs.tds.net^
 ||acs.tdstelecom.com^
 ||cwmp.tds.net^
 
-! --- RELIANCE CONNECTS & SMARTHUB TELEMETRY ---
-
-! Block Core Reliance Connects Tracking & Analytics
-||://rconnects.com^
-||://relianceconnects.com^
+! ============================================================
+! RELIANCE CONNECTS & SMARTHUB TELEMETRY
+! ============================================================
+||rconnects.com^
+||relianceconnects.com^
 ||metrics.relianceconnects.com^
-
-! Block SmartHub Remote Router Management Telemetry (NISC)
-||coop.nisc.android.smarthubwifi^
+! SmartHub remote router management telemetry (NISC)
+! (removed Android package-name rule - not a DNS hostname)
 ||smarthubwifi.com^
 ||api.smarthub.coop^
 ||telemetry.smarthub.coop^
 
-! --- COX COMMUNICATIONS TELEMETRY BLOCKLIST ---
-
-! Block Core Web Metrics & Adobe Analytics Trackers
+! ============================================================
+! COX COMMUNICATIONS TELEMETRY
+! ============================================================
 ||smetrics.cox.com^
 ||target.cox.com^
 ||metrics.cox.com^
 ||telemetry.cox.com^
-
-! Block Rented Panoramic Router Phone-Home Telemetry
+! Rented Panoramic router phone-home telemetry
 ||coxappapi.cox.com^
 ||uwp-wifi-access-portal.cox.com^
 
-! Block Ad-Targeting and Marketing Pixels
-||://
-
-! Verizon Corporate Telemetry and Tracking
+! ============================================================
+! VERIZON CORPORATE TELEMETRY & TRACKING
+! ============================================================
 ||vzw.com^
-||://vzw.com^
-||://vzw.com^
 ||vzw.demdex.net^
 ||api.verizon.com^
-
-! Verizon Partner & Insurance Tracking (Asurion)
+! Verizon partner / insurance tracking (Asurion)
 ||events.asurion.com^
 
 ! ============================================================
 ! AI
 ! ============================================================
-
 ! DeepSeek
 ||deepseek.com^
-||www.deepseek.com^
 ||chat.deepseek.com^
 ||api.deepseek.com^
 ||cdn.deepseek.com^
-
 ! Microsoft Copilot
 ||copilot.microsoft.com^
 ||copilot.ai^
 ||copilot.cloud.microsoft^
 ||edgeservices.bing.com^
-
 ! Meta AI
 ||meta.ai^
 
 ! ============================================================
 ! Messaging
 ! ============================================================
-
 ! Kik
 ||kik.com^
-||www.kik.com^
 ||kik.me^
-
 ! KakaoTalk
 ||kakao.com^
 ||kakaocorp.com^
 ||kakaotalk.com^
-
 ! Telegram
 ||telegram.org^
 ||telegram.me^
@@ -193,32 +171,24 @@
 ||desktop.telegram.org^
 ||api.telegram.org^
 ||passport.telegram.org^
-
 ! WhatsApp
 ||whatsapp.com^
-||www.whatsapp.com^
 ||web.whatsapp.com^
 ||api.whatsapp.com^
 ||whatsapp.net^
-
 ! WeChat
 ||wechat.com^
-||www.wechat.com^
 ||weixin.qq.com^
 
 ! ============================================================
 ! Shopping
 ! ============================================================
-
 ! AliExpress
 ||aliexpress.com^
-||www.aliexpress.com^
 ||m.aliexpress.com^
 ||api.aliexpress.com^
-
 ! CoolApk
 ||coolapk.com^
-
 ! Lazada
 ||lazada.com^
 ||lazada.sg^
@@ -227,7 +197,6 @@
 ||lazada.co.id^
 ||lazada.vn^
 ||lazada.com.ph^
-
 ! Mercado Libre
 ||mercadolibre.com^
 ||mercadolibre.com.ar^
@@ -235,14 +204,11 @@
 ||mercadolibre.cl^
 ||mercadolibre.com.co^
 ||mercadolivre.com.br^
-
 ! SHEIN
 ||shein.com^
-||www.shein.com^
 ||m.shein.com^
 ||api.shein.com^
 ||us.shein.com^
-
 ! Shopee
 ||shopee.com^
 ||shopee.sg^
@@ -253,72 +219,14 @@
 ||shopee.co.th^
 ||shopee.co.id^
 ||shp.ee^
-
 ! Temu
 ||temu.com^
-||www.temu.com^
 ||api.temu.com^
-
 ! Xiaohongshu (RedNote)
 ||xiaohongshu.com^
-||www.xiaohongshu.com^
 ||xhslink.com^
-
-! ============================================================
-! Forums / Communities
-! ============================================================
-
-! 4chan
-||4chan.org^
-||4channel.org^
-
-! Amino
-||aminoapps.com^
-
-! 9GAG
-||9gag.com^
-
-! Douban
-||douban.com^
-
-! KOOK
-||kookapp.com^
-||kookapp.cn^
-
-! ============================================================
-! Social
-! ============================================================
-
-! Mail.ru
-||mail.ru^
-||my.mail.ru^
-
-! Odysee
-||odysee.com^
-
-! OK.ru
-||ok.ru^
-
-! OnlyFans
-||onlyfans.com^
-
-! Snapchat
-||snapchat.com^
-||accounts.snapchat.com^
-
-! VK
-||vk.com^
-||vk.ru^
-
-! Zhihu
-||zhihu.com^
-
-! ============================================================
 ! Wish
-! ============================================================
-
 ||wish.com^
-||www.wish.com^
 ||m.wish.com^
 ||api.wish.com^
 ||merchant.wish.com^
@@ -329,9 +237,45 @@
 ||payments.wish.com^
 
 ! ============================================================
-! Blizzard
+! Forums / Communities
 ! ============================================================
+! 4chan
+||4chan.org^
+||4channel.org^
+! Amino
+||aminoapps.com^
+! 9GAG
+||9gag.com^
+! Douban
+||douban.com^
+! KOOK
+||kookapp.com^
+||kookapp.cn^
 
+! ============================================================
+! Social
+! ============================================================
+! Mail.ru
+||mail.ru^
+||my.mail.ru^
+! Odysee
+||odysee.com^
+! OK.ru
+||ok.ru^
+! OnlyFans
+||onlyfans.com^
+! Snapchat
+||snapchat.com^
+||accounts.snapchat.com^
+! VK
+||vk.com^
+||vk.ru^
+! Zhihu
+||zhihu.com^
+
+! ============================================================
+! Blizzard / Windows telemetry (game-machine noise reduction)
+! ============================================================
 ||telemetry.battle.net^
 ||telemetry.blizzard.com^
 ||vortex.data.microsoft.com^
@@ -339,8 +283,44 @@
 ||settings-win.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 
-! ========== Personal Blacklist ==========
+! ============================================================
+! Game launcher telemetry (safe to block; reduces background chatter
+! while gaming - does NOT touch matchmaking/game servers)
+! ============================================================
+! Epic Games
+||datarouter.ol.epicgames.com^
+||tracking.epicgames.com^
+! Electronic Arts
+||pin-river.data.ea.com^
+||pin-em.data.ea.com^
+! Riot Games
+||telemetry.riotgames.com^
+! Ubisoft
+||telemetry.ubi.com^
+! NVIDIA GeForce telemetry
+||telemetry.nvidia.com^
+||gfe.nvidia.com^
+
+! ============================================================
+! General ads & trackers (high-value, broadly safe)
+! ============================================================
+||google-analytics.com^
+||ssl.google-analytics.com^
+||app-measurement.com^
+||googlesyndication.com^
+||doubleclick.net^
+||adservice.google.com^
+||scorecardresearch.com^
+||connect.facebook.net^
+||adnxs.com^
+||criteo.com^
+||branch.io^
+||bugsnag.com^
+||sentry.io^
+
+! ============================================================
+! Personal Blacklist
+! ============================================================
 ||sex.com^
 ||pushbuttonsystem.net^
 ||wealoveaza.click^
-
