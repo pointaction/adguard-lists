@@ -1,14 +1,16 @@
 ! Title: Point Action Whitelist
 ! Description: Personal AdGuard Home whitelist for trusted services
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
-! Version: 1.1
+! Version: 1.2
 ! Last modified: 2026-07-08
 ! Expires: 7 days
+!
+! NOTE: @@ = allow rule. A root domain (e.g. @@||arena.net^) also allows all its
+!       subdomains. $important forces the allow to win over any blocklist match.
 
 ! ============================================================
 ! Roku Channel
 ! ============================================================
-
 @@||configsvc.sc.roku.com^
 @@||keysvc.sc.roku.com^
 @@||content.sr.roku.com^
@@ -30,13 +32,10 @@
 ! ============================================================
 ! Personal Domains
 ! ============================================================
-
 @@||pointaction.com^
 @@||pointaction.net^
 @@||pointaction.org^
-
 @@||pathmail.net^
-
 @@||snowypopcorn.com^
 @@||snowypopcorn.net^
 @@||snowypopcorn.org^
@@ -44,22 +43,18 @@
 ! ============================================================
 ! WGU / Remote Proctoring
 ! ============================================================
-
 @@||wgu.edu^
 @@||my.wgu.edu^
 @@||wgneagle.wgu.edu^
 @@||assessments.wgu.edu^
-
 @@||proctoru.com^
 @@||guardianbrowser.com^
-
 @@||proctorio.com^
 @@||honorlock.com^
 @@||respondus.com^
 @@||examsoft.com^
 @@||examity.com^
 @@||meazurelearning.com^
-
 @@||pearson.com^
 @@||pearsonvue.com^
 @@||home.pearsonvue.com^
@@ -68,26 +63,21 @@
 @@||op-prd-1.pvue2.com^
 @@||pearsonvue-rest.ably.io^
 @@||pearsonvue.realtime.ably.net^
-
 @@||programworkshop.com^
 @@||gettesting.com^
 @@||starttest.com^
 @@||starttest2.com^
 @@||startpractice.com^
-
 @@||ysasecure.com^
 @@||smarthinking.com^
-
 @@||ably.com^
 @@||sd-rtn.com^
-
 @@||244716ee2b26.entrypoint.cloud.wowza.com^
 @@||vuepducopfilessa.blob.core.windows.net^
 
 ! ============================================================
 ! GitHub
 ! ============================================================
-
 @@||github.com^
 @@||githubusercontent.com^
 @@||raw.githubusercontent.com^
@@ -96,7 +86,6 @@
 ! ============================================================
 ! Docker
 ! ============================================================
-
 @@||docker.com^
 @@||docker.io^
 @@||registry-1.docker.io^
@@ -105,7 +94,6 @@
 ! ============================================================
 ! Ubuntu
 ! ============================================================
-
 @@||ubuntu.com^
 @@||archive.ubuntu.com^
 @@||security.ubuntu.com^
@@ -115,23 +103,40 @@
 ! ============================================================
 ! VMware
 ! ============================================================
-
 @@||vmware.com^
 @@||broadcom.com^
 
 ! ============================================================
-! Steam
+! Steam / Valve  (game + content + CDN; $important so downloads/login never blocked)
 ! ============================================================
-
-@@||steampowered.com^
-@@||steamstatic.com^
-@@||steamcontent.com^
-@@||steamserver.net^
+@@||steampowered.com^$important
+@@||steamstatic.com^$important
+@@||steamcontent.com^$important
+@@||steamserver.net^$important
+@@||steamcommunity.com^$important
+@@||steamusercontent.com^$important
+@@||steamgames.com^$important
+@@||valvesoftware.com^$important
+@@||steamcdn-a.akamaihd.net^$important
+@@||steamcommunity-a.akamaihd.net^$important
+@@||steambroadcast.akamaized.net^$important
+@@||steammobile.akamaized.net^$important
 
 ! ============================================================
-! Blizzard
+! Guild Wars 2 / ArenaNet / NCSoft
+! (roots cover auth.arena.net, assetcdn.101.arenanetworks.com,
+!  cligate.101.ncplatform.net, launcher.arenanetworks.com, etc.)
 ! ============================================================
+@@||guildwars2.com^$important
+@@||arena.net^$important
+@@||arenanetworks.com^$important
+@@||ncplatform.net^$important
+@@||ncsoft.com^$important
+@@||plaync.com^$important
 
+! ============================================================
+! Blizzard / World of Warcraft
+! ============================================================
 @@||blizzard.com^$important
 @@||battle.net^$important
 @@||battlenet.com.cn^$important
@@ -143,11 +148,20 @@
 @@||nydus.battle.net^$important
 @@||us.cdn.blizzard.com^$important
 @@||eu.cdn.blizzard.com^$important
+@@||blzddist1-a.akamaihd.net^$important
+
+! ============================================================
+! Discord (in-game voice/comms - latency relevant)
+! ============================================================
+@@||discord.com^$important
+@@||discord.gg^$important
+@@||discordapp.com^$important
+@@||discordapp.net^$important
+@@||discord.media^$important
 
 ! ============================================================
 ! Windows Update
 ! ============================================================
-
 @@||download.windowsupdate.com^
 @@||windowsupdate.microsoft.com^
 @@||update.microsoft.com^
@@ -156,14 +170,12 @@
 ! ============================================================
 ! Let's Encrypt
 ! ============================================================
-
 @@||letsencrypt.org^
 @@||acme-v02.api.letsencrypt.org^
 
 ! ============================================================
-! Certificate Validation
+! Certificate Validation (OCSP - blocking these breaks TLS)
 ! ============================================================
-
 @@||ocsp.digicert.com^
 @@||ocsp.sectigo.com^
 @@||ocsp.pki.goog^
@@ -171,20 +183,17 @@
 ! ============================================================
 ! Microsoft Teams (Support)
 ! ============================================================
-
 @@||teams.microsoft.com^
 
 ! ============================================================
 ! CloudFront
 ! NOTE: Very broad. Keep only if required for WGU/Pearson VUE.
 ! ============================================================
-
 @@||cloudfront.net^
 
 ! ============================================================
 ! Zoom
 ! ============================================================
-
 @@||zoom.us^
 @@||www.zoom.us^
 @@||us02web.zoom.us^
