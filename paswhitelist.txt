@@ -205,3 +205,31 @@
 @@||st2.zoom.us^
 @@||source.zoom.us^
 @@||marketplace.zoom.us^
+
+! ============================
+! Indeed
+! ============================
+
+@@||indeed.com^
+@@||*.indeed.com^
+@@||indeedstatic.com^
+@@||*.indeedstatic.com^
+@@||indeedassets.com^
+@@||*.indeedassets.com^
+
+! hCaptcha (used by Indeed)
+@@||hcaptcha.com^
+@@||*.hcaptcha.com^
+
+! Google reCAPTCHA (fallback)
+@@||recaptcha.net^
+@@||*.recaptcha.net^
+@@||www.google.com/recaptcha^
+
+! Google static resources
+@@||gstatic.com^
+@@||*.gstatic.com^
+
+! Google APIs
+@@||googleapis.com^
+@@||*.googleapis.com^
