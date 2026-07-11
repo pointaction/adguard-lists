@@ -5,12 +5,12 @@ name: Validate AdGuard lists
 on:
   push:
     paths:
-      - "*.txt"
+      - "**/*.txt"
       - "validate_lists.py"
       - ".github/workflows/validate-lists.yml"
   pull_request:
     paths:
-      - "*.txt"
+      - "**/*.txt"
       - "validate_lists.py"
   schedule:
     - cron: "0 12 * * 1"
@@ -25,7 +25,9 @@ jobs:
 
       # No setup-python needed: ubuntu-latest already ships Python 3.
       - name: Validate lists
-        # Syntax errors and duplicates fail the run.
+        # No filenames given -> the script auto-discovers every *.txt list
+        # in the repo, so any new list you add is validated automatically.
+        # Syntax errors and within-file duplicates fail the run.
         # Unresolved domains are reported but do NOT fail the run
-        # (add --strict-dns below if you want them to).
-        run: python validate_lists.py pasblacklist.txt paswhitelist.txt
+        # (add --strict-dns if you want them to).
+        run: python validate_lists.py
