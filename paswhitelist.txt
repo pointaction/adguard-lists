@@ -3,7 +3,7 @@
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
 ! Version: 1.3
 ! Last modified: 2026-07-08
-! Expires: 7 days
+! Expires: 1 days
 !
 ! NOTE: @@ = allow rule. A root domain (e.g. @@||arena.net^) also allows all its
 !       subdomains. $important forces the allow to win over any blocklist match.
