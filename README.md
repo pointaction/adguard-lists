@@ -36,7 +36,35 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Stats are generated automatically on each sync._
+_Last updated: 2026-07-11 15:02 UTC_
+
+| List | Allow rules | Block rules |
+|------|------------:|------------:|
+| `pasallow-badblock-whitelist.txt` | 6,519 | — |
+| `pasallow-referral.txt` | 1,542 | — |
+| `pasblacklist.built.txt` | 98 | 231,191 |
+| `pasblacklist.txt` | — | — |
+| `pasblock-amazon.txt` | — | 360 |
+| `pasblock-apple.txt` | — | 107 |
+| `pasblock-badblock-whitelist.txt` | — | 5 |
+| `pasblock-dandelion-sprout.txt` | — | 11,519 |
+| `pasblock-gambling.txt` | — | 146,524 |
+| `pasblock-huawei.txt` | — | 135 |
+| `pasblock-lgwebos.txt` | — | 340 |
+| `pasblock-microsoft.txt` | — | 388 |
+| `pasblock-native-oppo.txt` | — | 465 |
+| `pasblock-nsfw.txt` | — | 107,446 |
+| `pasblock-oisd-big.txt` | — | 328,470 |
+| `pasblock-rebind.txt` | — | — |
+| `pasblock-roku.txt` | — | 71 |
+| `pasblock-samsung.txt` | — | 202 |
+| `pasblock-tif.txt` | — | 528,256 |
+| `pasblock-tiktok.txt` | — | 424 |
+| `pasblock-vivo.txt` | — | 227 |
+| `pasblock-xiaomi.txt` | — | 347 |
+| `paswhitelist.txt` | 98 | — |
+| **Total (sum)** | **8,257** | **1,356,477** |
+| **Total (unique domains)** | **8,117** | **1,030,967** |
 
 <!-- STATS:END -->
 
