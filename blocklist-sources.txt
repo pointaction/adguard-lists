@@ -6,4 +6,4 @@
 #
 # Examples (uncomment the ones you want, or add your own):
 
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
+samsung https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
