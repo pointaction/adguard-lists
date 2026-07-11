@@ -1,0 +1,14 @@
+# Whitelist (allowlist) sources for the "Sync allowlists" workflow.
+# One source per line:   <name>  <url>
+#   <name> becomes the output file  pasallow-<name>.txt
+#   Use simple names (letters, numbers, dashes) — no spaces.
+# Lines starting with # are ignored. Add or remove sources any time.
+# Any input format (plain domains, @@|domain^, @@||domain^, hosts) is
+# normalized to clean @@||domain^ allow rules.
+
+badblock https://badblock.celenity.dev/abp/whitelist.txt
+
+# Optional: you can move the referral list here too. If you enable it below,
+# retire the old sync-referral-whitelist.yml workflow and update the URL you
+# added in Technitium to the new filename (pasallow-referral.txt).
+# referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
