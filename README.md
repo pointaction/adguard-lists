@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 15:40 UTC_
+_Last updated: 2026-07-11 15:49 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -53,7 +53,6 @@ _Last updated: 2026-07-11 15:40 UTC_
 | `pasblock-microsoft.txt` | — | 388 |
 | `pasblock-native-oppo.txt` | — | 465 |
 | `pasblock-nsfw.txt` | — | 107,446 |
-| `pasblock-rebind.txt` | — | — |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 202 |
 | `pasblock-tif.txt` | — | 528,256 |
