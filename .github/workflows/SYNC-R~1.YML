@@ -1,0 +1,65 @@
+name: Sync referral whitelist
+
+# Fetches HaGeZi's referral allowlist (plain domains), converts it to
+# adblock allow format (@@||domain^) so Technitium loads it as an allow
+# list WITHOUT the "!" prefix, and commits it to this repo.
+# Runs daily (HaGeZi refreshes ~every 24h) and can be run manually.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # required so the job can commit the updated file
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SOURCE_URL: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt"
+      OUT_FILE: "pasreferral-whitelist.txt"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and convert to allow format
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 "$SOURCE_URL" -o raw.txt
+
+          # Keep only valid domain lines (drops comments/blanks/junk),
+          # dedupe, then wrap each as an adblock allow rule.
+          grep -E '^[A-Za-z0-9._-]+\.[A-Za-z]{2,}$' raw.txt \
+            | sort -u \
+            | sed 's/^/@@||/; s/$/^/' > body.txt
+
+          COUNT=$(wc -l < body.txt)
+          {
+            echo "! Title: Point Action Referral Whitelist (auto-synced from HaGeZi)"
+            echo "! Description: Referral/affiliate/tracking domains unblocked so those links still resolve."
+            echo "! Source: $SOURCE_URL"
+            echo "! Synced: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo "! Entries: $COUNT"
+            echo "!"
+            cat body.txt
+          } > "$OUT_FILE"
+
+          rm -f raw.txt body.txt
+          echo "Wrote $COUNT entries to $OUT_FILE"
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$OUT_FILE"
+          # The "! Synced:" line changes every run; ignore a diff that is
+          # only that timestamp so we don't create empty daily commits.
+          if git diff --staged -G'^@@\|\|' --quiet; then
+            echo "No domain changes; skipping commit."
+            git reset -q
+          else
+            git commit -m "Sync referral whitelist ($(date -u +%F))"
+            git push
+          fi
