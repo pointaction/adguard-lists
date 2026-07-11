@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 17:34 UTC_
+_Last updated: 2026-07-11 21:57 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -61,7 +61,7 @@ _Last updated: 2026-07-11 17:34 UTC_
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
 | **Total (sum)** | **7,286** | **1,027,969** |
-| **Total (unique domains)** | **7,264** | **873,090** |
+| **Total (unique domains)** | **7,264** | **873,091** |
 
 <!-- STATS:END -->
 

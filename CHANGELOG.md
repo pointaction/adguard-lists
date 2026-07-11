@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Added: 1** (0 allow, 1 block)
+
+- block: `valorsusa.com`
+
+**Removed: 1** (0 allow, 1 block)
+
+- block: `sex.com`
+
+## 2026-07-11
+
 **Added: 2** (0 allow, 2 block)
 
 - block: `aan.amazon.com`, `i.mxplayer.j2inter.com`
