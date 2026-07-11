@@ -13,19 +13,29 @@ Exit codes:
   2  DNS failures were found AND --strict-dns was given
 
 Usage:
-  python validate_lists.py                         # checks pasblacklist.txt & paswhitelist.txt
-  python validate_lists.py file1.txt file2.txt     # checks the files you name
+  python validate_lists.py                         # auto-discovers every *.txt list in the repo
+  python validate_lists.py file1.txt file2.txt     # checks only the files you name
   python validate_lists.py --no-dns                # skip the live DNS check (fast)
   python validate_lists.py --strict-dns            # treat unresolved domains as failures
 """
 
 import argparse
+import glob
+import os
 import re
 import socket
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-DEFAULT_FILES = ["pasblacklist.txt", "paswhitelist.txt"]
+
+def discover_lists():
+    """Find every *.txt file in the repo (recursive), excluding .git."""
+    found = []
+    for path in glob.glob("**/*.txt", recursive=True):
+        if ".git" + os.sep in path or path.startswith(".git" + os.sep):
+            continue
+        found.append(path)
+    return sorted(found)
 
 # Matches an AdGuard network rule and captures the domain.
 #   optional @@ (allow), then ||, the domain, then ^, then optional modifiers ($...)
@@ -77,15 +87,18 @@ def resolve(domain):
 
 def main():
     ap = argparse.ArgumentParser(description="Validate AdGuard Home lists.")
-    ap.add_argument("files", nargs="*", default=DEFAULT_FILES,
-                    help="list files to validate (default: %s)" % ", ".join(DEFAULT_FILES))
+    ap.add_argument("files", nargs="*",
+                    help="list files to validate (default: auto-discover every *.txt in the repo)")
     ap.add_argument("--no-dns", action="store_true", help="skip the live DNS check")
     ap.add_argument("--strict-dns", action="store_true",
                     help="fail the run when a domain does not resolve")
     ap.add_argument("--workers", type=int, default=32, help="parallel DNS lookups")
     args = ap.parse_args()
 
-    files = args.files or DEFAULT_FILES
+    files = args.files or discover_lists()
+    if not files:
+        print("No .txt list files found to validate.")
+        return 1
     syntax_errors = 0
     all_rules = []          # (domain, is_allow, file, lineno)
     seen = {}               # domain -> list of "file:line"
