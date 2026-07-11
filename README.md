@@ -46,14 +46,14 @@ _Stats are generated automatically on each sync._
 
 | File | What it is | Source |
 |------|------------|--------|
-| `paswhitelist.txt` | My personal allowlist — trusted services I never want blocked (WGU / remote proctoring, Roku Channel, personal domains, dev tools). | Hand-maintained |
+| `paswhitelist.txt` | My allowlist — trusted services I never want blocked (WGU / remote proctoring, Roku Channel, personal domains, dev tools). | Hand-maintained |
 | `pasreferral-whitelist.txt` | Affiliate / referral / tracking domains kept working so links in mail and search resolve. | Auto-synced daily from HaGeZi, converted to allow format |
 
 ### Block lists (`||domain^`)
 
 | File | What it is | Source |
 |------|------------|--------|
-| `pasblacklist.built.txt` | My personal blocklist (streaming ads, telemetry) with a few inline `@@` allows for playback. | Built from my own rules |
+| `pasblacklist.built.txt` | My blocklist (streaming ads, telemetry) with a few inline `@@` allows for playback. | Built from my own rules |
 | `pasblock-*.txt` | Category blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung). | Auto-synced daily, cleaned & deduped |
 
 ### Scripts & config
