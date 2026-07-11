@@ -13,10 +13,10 @@ Exit codes:
   2  DNS failures were found AND --strict-dns was given
 
 Usage:
-  python validate_lists.py                         # auto-discovers every *.txt list in the repo
+  python validate_lists.py                         # syntax + duplicate checks on every *.txt (fast)
   python validate_lists.py file1.txt file2.txt     # checks only the files you name
-  python validate_lists.py --no-dns                # skip the live DNS check (fast)
-  python validate_lists.py --strict-dns            # treat unresolved domains as failures
+  python validate_lists.py --dns paswhitelist.txt  # also live-check DNS (opt-in; use on small lists)
+  python validate_lists.py --strict-dns file.txt   # treat unresolved domains as failures
 """
 
 import argparse
@@ -39,22 +39,31 @@ def discover_lists():
 
 # Matches an AdGuard network rule and captures the domain.
 #   optional @@ (allow), then ||, the domain, then ^, then optional modifiers ($...)
-RULE_RE = re.compile(r"^(@@)?\|\|([A-Za-z0-9._*-]+)\^(\$[^\s]*)?$")
+RULE_RE = re.compile(r"^(@@)?\|\|([A-Za-z0-9_.*-]+)\^(\$[^\s]*)?$")
 
-# A conservative sanity check for the captured domain itself.
-DOMAIN_RE = re.compile(r"^(\*\.)?([A-Za-z0-9_-]+\.)+[A-Za-z]{2,}$")
+# Sanity check for the captured domain. Accepts normal domains, a leading
+# "*." wildcard, underscores (e.g. _dmarc), and punycode/IDN TLDs (xn--...).
+DOMAIN_RE = re.compile(
+    r"^(\*\.)?([A-Za-z0-9_-]+\.)+(?:[A-Za-z]{2,}|xn--[A-Za-z0-9-]+)$"
+)
 
 
 def parse_file(path):
-    """Return (rules, errors). rules = list of (domain, is_allow, lineno)."""
+    """Return (rules, errors, warnings).
+
+    errors   = hard problems (malformed rules) -> fail the run.
+    warnings = soft problems (odd-looking domains) -> reported only.
+    rules    = list of (domain, is_allow, lineno).
+    """
     rules = []
     errors = []
+    warnings = []
     try:
         with open(path, "r", encoding="utf-8") as fh:
             lines = fh.readlines()
     except FileNotFoundError:
         errors.append((0, f"file not found: {path}"))
-        return rules, errors
+        return rules, errors, warnings
 
     for i, raw in enumerate(lines, start=1):
         line = raw.strip()
@@ -67,9 +76,10 @@ def parse_file(path):
         domain = m.group(2).lower()
         is_allow = m.group(1) == "@@"
         if "*" not in domain and not DOMAIN_RE.match(domain):
-            errors.append((i, f"suspicious domain: {domain!r}"))
+            # Unusual but not necessarily wrong (odd TLDs, IDN, etc.) — warn only.
+            warnings.append((i, f"unusual domain: {domain!r}"))
         rules.append((domain, is_allow, i))
-    return rules, errors
+    return rules, errors, warnings
 
 
 def resolve(domain):
@@ -89,17 +99,20 @@ def main():
     ap = argparse.ArgumentParser(description="Validate AdGuard Home lists.")
     ap.add_argument("files", nargs="*",
                     help="list files to validate (default: auto-discover every *.txt in the repo)")
-    ap.add_argument("--no-dns", action="store_true", help="skip the live DNS check")
+    ap.add_argument("--dns", action="store_true",
+                    help="run a live DNS check (opt-in; slow on large lists)")
     ap.add_argument("--strict-dns", action="store_true",
-                    help="fail the run when a domain does not resolve")
+                    help="implies --dns and fails the run when a domain does not resolve")
     ap.add_argument("--workers", type=int, default=32, help="parallel DNS lookups")
     args = ap.parse_args()
+    do_dns = args.dns or args.strict_dns
 
     files = args.files or discover_lists()
     if not files:
         print("No .txt list files found to validate.")
         return 1
     syntax_errors = 0
+    warn_count = 0
     all_rules = []          # (domain, is_allow, file, lineno)
     seen = {}               # domain -> list of "file:line"
     per_file = {}           # file -> {domain -> [line numbers]}
@@ -109,11 +122,16 @@ def main():
     print("=" * 60)
 
     for path in files:
-        rules, errors = parse_file(path)
-        print(f"\n[{path}]  {len(rules)} rules, {len(errors)} syntax issue(s)")
+        rules, errors, warnings = parse_file(path)
+        print(f"\n[{path}]  {len(rules)} rules, {len(errors)} error(s), {len(warnings)} warning(s)")
         for ln, msg in errors:
             print(f"  ✗ line {ln}: {msg}")
             syntax_errors += 1
+        for ln, msg in warnings[:10]:
+            print(f"  ⚠ line {ln}: {msg}")
+        if len(warnings) > 10:
+            print(f"  ⚠ ...and {len(warnings) - 10} more warnings")
+        warn_count += len(warnings)
         for domain, is_allow, ln in rules:
             all_rules.append((domain, is_allow, path, ln))
             seen.setdefault(domain, []).append(f"{path}:{ln}")
@@ -141,7 +159,7 @@ def main():
 
     # ---- DNS ----
     dns_failures = []
-    if not args.no_dns:
+    if do_dns:
         unique = sorted({d for d, *_ in all_rules if "*" not in d})
         print(f"\n[dns]  resolving {len(unique)} unique domain(s)...")
         with ThreadPoolExecutor(max_workers=args.workers) as ex:
@@ -157,12 +175,13 @@ def main():
         else:
             print("  all domains resolved ✓")
     else:
-        print("\n[dns]  skipped (--no-dns)")
+        print("\n[dns]  skipped (pass --dns to enable)")
 
     # ---- summary + exit code ----
     print("\n" + "=" * 60)
-    print(f"Summary: {syntax_errors} syntax error(s), "
+    print(f"Summary: {syntax_errors} error(s), "
           f"{within_dupes} within-file duplicate(s), "
+          f"{warn_count} warning(s), "
           f"{len(cross_dupes)} cross-file overlap(s), "
           f"{len(dns_failures)} unresolved domain(s)")
     print("=" * 60)
