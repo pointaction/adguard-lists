@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 15:39 UTC_
+_Last updated: 2026-07-11 15:40 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -45,7 +45,6 @@ _Last updated: 2026-07-11 15:39 UTC_
 | `pasblacklist.txt` | 11 | 175 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-badblock-whitelist.txt` | — | 5 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
 | `pasblock-gambling.txt` | — | 146,524 |
 | `pasblock-haGeZi-pro.txt` | — | 231,152 |
@@ -62,8 +61,8 @@ _Last updated: 2026-07-11 15:39 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **8,170** | **1,028,143** |
-| **Total (unique domains)** | **8,128** | **873,229** |
+| **Total (sum)** | **8,170** | **1,028,138** |
+| **Total (unique domains)** | **8,128** | **873,224** |
 
 <!-- STATS:END -->
 
