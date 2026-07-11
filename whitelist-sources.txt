@@ -6,9 +6,11 @@
 # Any input format (plain domains, @@|domain^, @@||domain^, hosts) is
 # normalized to clean @@||domain^ allow rules.
 
-badblock https://badblock.celenity.dev/abp/whitelist.txt
+badblock-whitelist https://badblock.celenity.dev/abp/whitelist.txt
+referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
 
 # Optional: you can move the referral list here too. If you enable it below,
 # retire the old sync-referral-whitelist.yml workflow and update the URL you
 # added in Technitium to the new filename (pasallow-referral.txt).
 # referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
+
