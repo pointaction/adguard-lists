@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 22:21 UTC_
+_Last updated: 2026-07-11 22:30 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -53,6 +53,7 @@ _Last updated: 2026-07-11 22:21 UTC_
 | `pasblock-microsoft.txt` | — | 370 |
 | `pasblock-native-oppo.txt` | — | 465 |
 | `pasblock-nsfw.txt` | — | 107,836 |
+| `pasblock-osid.txt` | — | 502,823 |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 189 |
 | `pasblock-shadow-whisper.txt` | — | 43,201 |
@@ -62,8 +63,8 @@ _Last updated: 2026-07-11 22:21 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **7,286** | **1,098,133** |
-| **Total (unique domains)** | **7,264** | **922,618** |
+| **Total (sum)** | **7,286** | **1,600,956** |
+| **Total (unique domains)** | **7,264** | **1,210,089** |
 
 <!-- STATS:END -->
 

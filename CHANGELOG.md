@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Added: 502823** (0 allow, 502823 block)
+
+- block: `0--foodwarez.da.ru`, `0-0-2day.vercel.app`, `0-0.fr`, `0-02.net`, `0-16detroitlions.org`, `0-249.vercel.app`, `0-29.com`, `0-8b.vercel.app`, `0-auth-b1-us.vercel.app`, `0-cz.com`, `0-g9.vercel.app`, `0-ll.com`, `0-ps.vercel.app`, `0-serv.vercel.app`, `0-tox.com` _+502808 more_
+
+## 2026-07-11
+
 **Added: 70300** (0 allow, 70300 block)
 
 - block: `0-38.com`, `00000.live`, `0000o.xyz`, `00104186da.com`, `0011.s3.cubbit.eu`, `0012e30263.com`, `0019x.com`, `002.sh.cn`, `0022a601.pphost.net`, `0059.ws`, `006300.cn`, `0069672d29.com`, `0073a85a5d.com`, `0074854f80.com`, `008dd84707.com` _+70285 more_
