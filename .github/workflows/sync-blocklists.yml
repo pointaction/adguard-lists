@@ -1,0 +1,80 @@
+name: Sync blocklists
+
+# For every source listed in blocklist-sources.txt, fetch it, normalize to
+# clean ||domain^ rules (handles hosts/adblock/plain formats), drop junk,
+# de-duplicate, subtract your allow-listed domains, and commit one file per
+# source as pasblock-<name>.txt. Runs daily and can be run manually.
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # required so the job can commit updated lists
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build allow-domain set from whitelist files
+        run: |
+          set -euo pipefail
+          # Pull bare domains out of every @@||domain^ allow rule in the repo,
+          # so no source can block a domain you've explicitly allowed.
+          grep -hE '^@@\|\|' *.txt 2>/dev/null \
+            | sed -E 's/^@@\|\|//; s/\^.*$//' \
+            | sort -u > allow_domains.txt || true
+          echo "Allow-listed domains: $(wc -l < allow_domains.txt)"
+
+      - name: Sync each source
+        run: |
+          set -euo pipefail
+          if [ ! -f blocklist-sources.txt ]; then
+            echo "No blocklist-sources.txt found — nothing to do."
+            exit 0
+          fi
+          # Strip possible Windows CR so names/urls parse cleanly.
+          while read -r name url _rest; do
+            case "$name" in ''|\#*) continue ;; esac
+            [ -z "${url:-}" ] && continue
+            echo "== $name -> $url"
+            if ! curl -fsSL --retry 3 "$url" -o raw_src.txt; then
+              echo "  fetch failed — skipping $name"; continue
+            fi
+            python3 build_blocklist.py raw_src.txt \
+              --title "Point Action Blocklist: $name" \
+              --source "$url" \
+              --allow allow_domains.txt > "pasblock-$name.txt"
+            echo "  wrote pasblock-$name.txt ($(grep -c '^||' "pasblock-$name.txt" || true) entries)"
+          done < <(sed 's/\r$//' blocklist-sources.txt)
+          rm -f raw_src.txt allow_domains.txt
+
+      - name: Commit changed lists
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          changed=0
+          # Existing files: stage only if the block rules changed (ignore the
+          # timestamp-only header diff so we don't make empty daily commits).
+          for f in pasblock-*.txt; do
+            [ -e "$f" ] || continue
+            if ! git diff -G'^\|\|' --quiet -- "$f"; then
+              git add "$f"; changed=1
+            fi
+          done
+          # Brand-new (untracked) list files.
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            git add "$f"; changed=1
+          done < <(git ls-files --others --exclude-standard 'pasblock-*.txt')
+          if [ "$changed" -eq 1 ]; then
+            git commit -m "Sync blocklists ($(date -u +%F))"
+            git push
+          else
+            echo "No domain changes; nothing to commit."
+          fi
