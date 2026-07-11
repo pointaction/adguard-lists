@@ -47,6 +47,10 @@ DOMAIN_RE = re.compile(
     r"^(\*\.)?([A-Za-z0-9_-]+\.)+(?:[A-Za-z]{2,}|xn--[A-Za-z0-9-]+)$"
 )
 
+# Adblock/AdGuard regex rules are wrapped in /slashes/, optionally with a
+# leading @@ (allow) and trailing $modifiers. These are valid, not malformed.
+REGEX_RULE_RE = re.compile(r"^(@@)?/.+/(\$[^\s]*)?$")
+
 
 def parse_file(path):
     """Return (rules, errors, warnings).
@@ -69,8 +73,12 @@ def parse_file(path):
         line = raw.strip()
         if not line or line.startswith("!") or line.startswith("#"):
             continue  # comment or blank
+        if line.startswith("[") and line.endswith("]"):
+            continue  # list-format header, e.g. [Adblock Plus 2.0]
         m = RULE_RE.match(line)
         if not m:
+            if REGEX_RULE_RE.match(line):
+                continue  # valid regex rule (/.../ or @@/.../), not a domain
             errors.append((i, f"malformed rule: {line!r}"))
             continue
         domain = m.group(2).lower()
