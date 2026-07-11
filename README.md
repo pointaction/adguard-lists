@@ -27,7 +27,7 @@ FileWhat it isSourcepaswhitelist.txt My allowlist — trusted services I never w
 
 Block lists (||domain^)
 
-FileWhat it is Sourcepasblacklist.built.txt My blocklist (streaming ads, telemetry) with a few inline @@ allows for playback.Built from my own rulespasblock-*.txt Category blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung).Auto-synced daily, cleaned & deduped
+FileWhat it is Sourcepasblacklist.built.txt My blocklist (streaming ads, telemetry) with a few inline @@ allows for playback.Built from my own rulespasblock-*.txt Category blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung). Auto-synced daily, cleaned & deduped
 
 Scripts & config
 
