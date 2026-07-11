@@ -1,0 +1,43 @@
+name: Check sources
+
+# Weekly health check: verifies every URL in blocklist-sources.txt and
+# whitelist-sources.txt still returns real content. Fails (red X + email)
+# if any source 404s, errors, or comes back empty — so a dead upstream feed
+# doesn't silently rot.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Probe every source URL
+        run: |
+          set -uo pipefail
+          fail=0
+          for cfg in blocklist-sources.txt whitelist-sources.txt; do
+            [ -f "$cfg" ] || continue
+            echo "== $cfg"
+            while read -r name url _rest; do
+              case "$name" in ''|\#*) continue ;; esac
+              [ -z "${url:-}" ] && continue
+              bytes=$(curl -fsSL --max-time 30 "$url" 2>/dev/null | wc -c || echo 0)
+              if [ "$bytes" -lt 32 ]; then
+                echo "  ✗ $name — DEAD or empty ($bytes bytes): $url"
+                fail=1
+              else
+                echo "  ✓ $name — ok ($bytes bytes)"
+              fi
+            done < <(sed 's/\r$//' "$cfg")
+          done
+          if [ "$fail" -ne 0 ]; then
+            echo "One or more sources are unreachable or empty."
+            exit 1
+          fi
+          echo "All sources healthy."
