@@ -6,6 +6,13 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Added: 186** (11 allow, 175 block)
+
+- allow: `assets.adobedtm.com`, `atom.peacocktv.com`, `bff-ext.clients.peacocktv.com`, `cybertron.id.peacocktv.com`, `imageservice.disco.peacocktv.com`, `ingest.webcol.sdp.peacocktv.com`, `meg.disco.peacocktv.com`, `mytv.clients.peacocktv.com`, `ovp.peacocktv.com`, `pconfig-prd.cdn.peacocktv.com`, `play.ovp.peacocktv.com`
+- block: `4chan.org`, `4channel.org`, `9gag.com`, `accounts.snapchat.com`, `acs.tds.net`, `acs.tdstelecom.com`, `ad.doubleclick.net`, `adapis.amazon.com`, `adnxs.com`, `ads.amazon.com`, `ads.ironsrc.mobi`, `adservice.google.com`, `advertising.amazon.com`, `aliexpress.com`, `amazon-ads.com` _+160 more_
+
+## 2026-07-11
+
 **Removed: 231289** (98 allow, 231191 block)
 
 - allow: `244716ee2b26.entrypoint.cloud.wowza.com`, `ably.com`, `acme-v02.api.letsencrypt.org`, `api2.sr.roku.com`, `archive.ubuntu.com`, `assessments.wgu.edu`, `battle.net`, `blizzard.com`, `bookmarks.sr.roku.com`, `broadcom.com`, `canonical.com`, `cloudfront.net`, `configsvc.sc.roku.com`, `content-detail.sr.roku.com`, `content.sr.roku.com` _+83 more_
