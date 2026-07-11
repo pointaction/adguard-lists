@@ -1,0 +1,65 @@
+name: Sync allowlists
+
+# For every source listed in whitelist-sources.txt, fetch it, normalize to
+# clean @@||domain^ allow rules (handles plain / @@| / @@|| / hosts formats),
+# drop junk, de-duplicate, and commit one file per source as
+# pasallow-<name>.txt. Runs daily and can be run manually.
+
+on:
+  schedule:
+    - cron: "45 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # required so the job can commit updated lists
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Sync each source
+        run: |
+          set -euo pipefail
+          if [ ! -f whitelist-sources.txt ]; then
+            echo "No whitelist-sources.txt found — nothing to do."
+            exit 0
+          fi
+          while read -r name url _rest; do
+            case "$name" in ''|\#*) continue ;; esac
+            [ -z "${url:-}" ] && continue
+            echo "== $name -> $url"
+            if ! curl -fsSL --retry 3 "$url" -o raw_src.txt; then
+              echo "  fetch failed — skipping $name"; continue
+            fi
+            python3 build_allowlist.py raw_src.txt \
+              --title "Point Action Allowlist: $name" \
+              --source "$url" > "pasallow-$name.txt"
+            echo "  wrote pasallow-$name.txt ($(grep -c '^@@||' "pasallow-$name.txt" || true) entries)"
+          done < <(sed 's/\r$//' whitelist-sources.txt)
+          rm -f raw_src.txt
+
+      - name: Commit changed lists
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          changed=0
+          for f in pasallow-*.txt; do
+            [ -e "$f" ] || continue
+            if ! git diff -G'^@@\|\|' --quiet -- "$f"; then
+              git add "$f"; changed=1
+            fi
+          done
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            git add "$f"; changed=1
+          done < <(git ls-files --others --exclude-standard 'pasallow-*.txt')
+          if [ "$changed" -eq 1 ]; then
+            git commit -m "Sync allowlists ($(date -u +%F))"
+            git push
+          else
+            echo "No allow-rule changes; nothing to commit."
+          fi
