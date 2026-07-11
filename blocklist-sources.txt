@@ -21,7 +21,5 @@ lgwebos https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.
 xiaomi https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt
 gambling https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt
 nsfw https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
-oisd-big https://big.oisd.nl
 dandelion-sprout https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-badblock-whitelist https://badblock.celenity.dev/abp/whitelist.txt
 haGeZi-pro https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
