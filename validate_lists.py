@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+"""
+validate_lists.py — Validate AdGuard Home block/allow lists.
+
+Checks performed:
+  1. Syntax     — every non-comment line is a well-formed rule (||domain^ or @@||domain^).
+  2. Duplicates — the same domain listed more than once, within a file or across files.
+  3. DNS (live) — each unique domain is queried to see whether it still resolves.
+
+Exit codes:
+  0  everything passed (DNS misses are warnings by default)
+  1  syntax errors or duplicates were found
+  2  DNS failures were found AND --strict-dns was given
+
+Usage:
+  python validate_lists.py                         # checks pasblacklist.txt & paswhitelist.txt
+  python validate_lists.py file1.txt file2.txt     # checks the files you name
+  python validate_lists.py --no-dns                # skip the live DNS check (fast)
+  python validate_lists.py --strict-dns            # treat unresolved domains as failures
+"""
+
+import argparse
+import re
+import socket
+import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+DEFAULT_FILES = ["pasblacklist.txt", "paswhitelist.txt"]
+
+# Matches an AdGuard network rule and captures the domain.
+#   optional @@ (allow), then ||, the domain, then ^, then optional modifiers ($...)
+RULE_RE = re.compile(r"^(@@)?\|\|([A-Za-z0-9._*-]+)\^(\$[^\s]*)?$")
+
+# A conservative sanity check for the captured domain itself.
+DOMAIN_RE = re.compile(r"^(\*\.)?([A-Za-z0-9_-]+\.)+[A-Za-z]{2,}$")
+
+
+def parse_file(path):
+    """Return (rules, errors). rules = list of (domain, is_allow, lineno)."""
+    rules = []
+    errors = []
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            lines = fh.readlines()
+    except FileNotFoundError:
+        errors.append((0, f"file not found: {path}"))
+        return rules, errors
+
+    for i, raw in enumerate(lines, start=1):
+        line = raw.strip()
+        if not line or line.startswith("!") or line.startswith("#"):
+            continue  # comment or blank
+        m = RULE_RE.match(line)
+        if not m:
+            errors.append((i, f"malformed rule: {line!r}"))
+            continue
+        domain = m.group(2).lower()
+        is_allow = m.group(1) == "@@"
+        if "*" not in domain and not DOMAIN_RE.match(domain):
+            errors.append((i, f"suspicious domain: {domain!r}"))
+        rules.append((domain, is_allow, i))
+    return rules, errors
+
+
+def resolve(domain):
+    """Return True if the domain resolves (A/AAAA), False otherwise."""
+    if "*" in domain:
+        return True  # wildcards can't be resolved directly; skip
+    try:
+        socket.getaddrinfo(domain, None)
+        return True
+    except socket.gaierror:
+        return False
+    except Exception:
+        return False
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Validate AdGuard Home lists.")
+    ap.add_argument("files", nargs="*", default=DEFAULT_FILES,
+                    help="list files to validate (default: %s)" % ", ".join(DEFAULT_FILES))
+    ap.add_argument("--no-dns", action="store_true", help="skip the live DNS check")
+    ap.add_argument("--strict-dns", action="store_true",
+                    help="fail the run when a domain does not resolve")
+    ap.add_argument("--workers", type=int, default=32, help="parallel DNS lookups")
+    args = ap.parse_args()
+
+    files = args.files or DEFAULT_FILES
+    syntax_errors = 0
+    all_rules = []          # (domain, is_allow, file, lineno)
+    seen = {}               # domain -> list of "file:line"
+    per_file = {}           # file -> {domain -> [line numbers]}
+
+    print("=" * 60)
+    print("AdGuard list validation")
+    print("=" * 60)
+
+    for path in files:
+        rules, errors = parse_file(path)
+        print(f"\n[{path}]  {len(rules)} rules, {len(errors)} syntax issue(s)")
+        for ln, msg in errors:
+            print(f"  ✗ line {ln}: {msg}")
+            syntax_errors += 1
+        for domain, is_allow, ln in rules:
+            all_rules.append((domain, is_allow, path, ln))
+            seen.setdefault(domain, []).append(f"{path}:{ln}")
+            per_file.setdefault(path, {}).setdefault(domain, []).append(ln)
+
+    # ---- duplicates ----
+    # Within-file duplicates are genuine redundancy -> failure.
+    # Cross-file overlaps are informational (e.g. a domain in both an
+    # allow list and a block list) -> warning only.
+    within_dupes = 0
+    print("\n[duplicates: within a file]")
+    for path, domains in per_file.items():
+        for d, lns in sorted(domains.items()):
+            if len(lns) > 1:
+                print(f"  ✗ {path}: {d} on lines {', '.join(map(str, lns))}")
+                within_dupes += 1
+    if within_dupes == 0:
+        print("  none ✓")
+
+    cross_dupes = {d: locs for d, locs in seen.items()
+                   if len({loc.rsplit(':', 1)[0] for loc in locs}) > 1}
+    print(f"\n[duplicates: across files]  {len(cross_dupes)} domain(s) in more than one file (info only)")
+    for d, locs in sorted(cross_dupes.items()):
+        print(f"  ⚠ {d}  ->  {', '.join(locs)}")
+
+    # ---- DNS ----
+    dns_failures = []
+    if not args.no_dns:
+        unique = sorted({d for d, *_ in all_rules if "*" not in d})
+        print(f"\n[dns]  resolving {len(unique)} unique domain(s)...")
+        with ThreadPoolExecutor(max_workers=args.workers) as ex:
+            futs = {ex.submit(resolve, d): d for d in unique}
+            for fut in as_completed(futs):
+                d = futs[fut]
+                if not fut.result():
+                    dns_failures.append(d)
+        if dns_failures:
+            print(f"  {len(dns_failures)} domain(s) did NOT resolve:")
+            for d in sorted(dns_failures):
+                print(f"  ✗ {d}  ({', '.join(seen[d])})")
+        else:
+            print("  all domains resolved ✓")
+    else:
+        print("\n[dns]  skipped (--no-dns)")
+
+    # ---- summary + exit code ----
+    print("\n" + "=" * 60)
+    print(f"Summary: {syntax_errors} syntax error(s), "
+          f"{within_dupes} within-file duplicate(s), "
+          f"{len(cross_dupes)} cross-file overlap(s), "
+          f"{len(dns_failures)} unresolved domain(s)")
+    print("=" * 60)
+
+    if syntax_errors or within_dupes:
+        return 1
+    if dns_failures and args.strict_dns:
+        return 2
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
