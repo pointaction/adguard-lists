@@ -7,9 +7,4 @@
 # normalized to clean @@||domain^ allow rules.
 
 referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-
-# Optional: you can move the referral list here too. If you enable it below,
-# retire the old sync-referral-whitelist.yml workflow and update the URL you
-# added in Technitium to the new filename (pasallow-referral.txt).
-# referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-
+https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
