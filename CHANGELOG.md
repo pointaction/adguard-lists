@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Removed: 328441** (0 allow, 328441 block)
+
+- block: `0--foodwarez.da.ru`, `0-0-2day.vercel.app`, `0-02.net`, `0-249.vercel.app`, `0-29.com`, `0-8b.vercel.app`, `0-auth-b1-us.vercel.app`, `0-g9.vercel.app`, `0-ps.vercel.app`, `0-serv.vercel.app`, `0.myikas.com`, `00-0002.weebly.com`, `00-002.weebly.com`, `00-023.weebly.com`, `00-11.weebly.com` _+328426 more_
+
+## 2026-07-11
+
 **Added: 186** (11 allow, 175 block)
 
 - allow: `assets.adobedtm.com`, `atom.peacocktv.com`, `bff-ext.clients.peacocktv.com`, `cybertron.id.peacocktv.com`, `imageservice.disco.peacocktv.com`, `ingest.webcol.sdp.peacocktv.com`, `meg.disco.peacocktv.com`, `mytv.clients.peacocktv.com`, `ovp.peacocktv.com`, `pconfig-prd.cdn.peacocktv.com`, `play.ovp.peacocktv.com`
