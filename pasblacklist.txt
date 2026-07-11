@@ -2,6 +2,7 @@
 ! Description: DNS blocklist of untrusted sites and services
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.txt
 ! Version: 1.4
+! Expires: 1 day
 ! Last modified: 2026-07-08
 !
 ! NOTE: AdGuard Home is a DNS filter. It matches HOSTNAMES only, never URL paths.
