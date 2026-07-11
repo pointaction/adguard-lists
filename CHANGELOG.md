@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Removed: 6519** (6519 allow, 0 block)
+
+- allow: `0.africa.pool.ntp.org`, `0.amazon.pool.ntp.org`, `0.android.pool.ntp.org`, `0.antarctica.pool.ntp.org`, `0.asia.pool.ntp.org`, `0.au.pool.ntp.org`, `0.ch.pool.ntp.org`, `0.cn.pool.ntp.org`, `0.europe.pool.ntp.org`, `0.fedora.pool.ntp.org`, `0.north-america.pool.ntp.org`, `0.oceania.pool.ntp.org`, `0.openwrt.pool.ntp.org`, `0.pool.ntp.org`, `0.rhel.pool.ntp.org` _+6504 more_
+
+## 2026-07-11
+
 **Removed: 5** (0 allow, 5 block)
 
 - block: `0.datadog.pool.ntp.org`, `1.datadog.pool.ntp.org`, `2.datadog.pool.ntp.org`, `3.datadog.pool.ntp.org`, `datadog.pool.ntp.org`
