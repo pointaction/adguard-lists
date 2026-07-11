@@ -23,11 +23,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
+      # No setup-python needed: ubuntu-latest already ships Python 3.
       - name: Validate lists
         # Syntax errors and duplicates fail the run.
         # Unresolved domains are reported but do NOT fail the run
