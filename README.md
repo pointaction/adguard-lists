@@ -23,15 +23,15 @@ What's in this repo
 
 Allow lists (@@||domain^)
 
-FileWhat it isSourcepaswhitelist.txtMy personal allowlist — trusted services I never want blocked (WGU / remote proctoring, Roku Channel, personal domains, dev tools).Hand-maintainedpasreferral-whitelist.txtAffiliate / referral / tracking domains kept working so links in mail and search resolve.Auto-synced daily from HaGeZi, converted to allow format
+FileWhat it isSourcepaswhitelist.txt My allowlist — trusted services I never want blocked (WGU / remote proctoring, Roku Channel, domains, dev tools).Hand-maintainedpasreferral-whitelist.txtAffiliate / referral / tracking domains kept working so links in mail and search resolve.Auto-synced daily from HaGeZi, converted to allow format
 
 Block lists (||domain^)
 
-FileWhat it isSourcepasblacklist.built.txtMy personal blocklist (streaming ads, telemetry) with a few inline @@ allows for playback.Built from my own rulespasblock-*.txtCategory blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung).Auto-synced daily, cleaned & deduped
+FileWhat it is Sourcepasblacklist.built.txt My blocklist (streaming ads, telemetry) with a few inline @@ allows for playback.Built from my own rulespasblock-*.txt Category blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung).Auto-synced daily, cleaned & deduped
 
 Scripts & config
 
-FilePurposevalidate_lists.pyValidates every .txt list: syntax, within-file duplicates, and live DNS resolution.build_blocklist.pyNormalizes a raw upstream list (hosts / adblock / plain) into clean `build_lists.pyBuilds pasblacklist.built.txt from my personal rules.blocklist-sources.txtControl panel for the blocklist sync — one name url line per source.
+File Purposevalidate_lists.py Validates every .txt list: syntax, within-file duplicates, and live DNS resolution.build_blocklist.py Normalizes a raw upstream list (hosts / adblock / plain) into clean `build_lists.py Builds pasblacklist.built.txt from my rules.blocklist-sources.txt Control panel for the blocklist sync — one name url line per source.
 
 Automation (GitHub Actions)
 
