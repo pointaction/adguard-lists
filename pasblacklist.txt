@@ -1,326 +1,189 @@
-! Title: Point Action DNS Blacklist
-! Description: DNS blocklist of untrusted sites and services
+! Title: Point Action Whitelist
+! Description: Personal AdGuard Home whitelist for trusted services
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.txt
-! Version: 1.4
-! Expires: 1 day
+! Version: 1.1
 ! Last modified: 2026-07-08
-!
-! NOTE: AdGuard Home is a DNS filter. It matches HOSTNAMES only, never URL paths.
-!       Any rule containing a "/path" is ineffective and has been removed/rewritten.
-!       Regex rules must be wrapped in /slashes/ (not ||...^).
+! Expires: 7 days
 
 ! ============================================================
-! Personal Blacklist
+! Roku Channel
 ! ============================================================
-||sex.com^
-||pushbuttonsystem.net^
-||wealoveaza.click^
+
+@@||configsvc.sc.roku.com^
+@@||keysvc.sc.roku.com^
+@@||content.sr.roku.com^
+@@||content-detail.sr.roku.com^
+@@||playback-detail.sr.roku.com^
+@@||images.sr.roku.com^
+@@||api2.sr.roku.com^
+@@||vod.delivery.roku.com^
+@@||vod-playlist.sr.roku.com^
+@@||rights-manager.sr.roku.com^
+@@||wv-license.sr.roku.com^
+@@||static-delivery.sr.roku.com^
+@@||bookmarks.sr.roku.com^
+@@||navigation.sr.roku.com^
+@@||images-svc.sr.roku.com^
+@@||tis.cti.roku.com^
+@@||ls.cti.roku.com^
 
 ! ============================================================
-! AMAZON PRIME VIDEO (streaming-specific)
+! Personal Domains
 ! ============================================================
-||ads.amazon.com^
-||analytics.amazon.com^
-||tracking.amazon.com^
-||amazon-ads.com^
-||amazon-analytics.com^
-||amazon-tracking.com^
-||amazonadvertising.com^
-||advertising.amazon.com^
-||adapis.amazon.com^
-||prime-video-ads.com^
+
+@@||pointaction.com^
+@@||pointaction.net^
+@@||pointaction.org^
+
+@@||pathmail.net^
+
+@@||snowypopcorn.com^
+@@||snowypopcorn.net^
+@@||snowypopcorn.org^
 
 ! ============================================================
-! PEACOCK WHITELISTS (REQUIRED FOR PLAYBACK)
+! WGU / Remote Proctoring
 ! ============================================================
-@@||mytv.clients.peacocktv.com^
-@@||bff-ext.clients.peacocktv.com^
-@@||imageservice.disco.peacocktv.com^
-@@||play.ovp.peacocktv.com^
-@@||atom.peacocktv.com^
-@@||cybertron.id.peacocktv.com^
-@@||meg.disco.peacocktv.com^
-@@||ovp.peacocktv.com^
-@@||pconfig-prd.cdn.peacocktv.com^
-! CRITICAL: Video loading host pattern - DO NOT BLOCK (fixed to valid regex allow rule)
-@@/^g[a-z0-9]+-vod-us-cmaf-prd-mc\.cdn\.peacocktv\.com$/
-! NEW MAY 2026 - ajstrick81 v2.7 whitelists
-@@||assets.adobedtm.com^
-@@||ingest.webcol.sdp.peacocktv.com^
+
+@@||wgu.edu^
+@@||my.wgu.edu^
+@@||wgneagle.wgu.edu^
+@@||assessments.wgu.edu^
+
+@@||proctoru.com^
+@@||guardianbrowser.com^
+
+@@||proctorio.com^
+@@||honorlock.com^
+@@||respondus.com^
+@@||examsoft.com^
+@@||examity.com^
+@@||meazurelearning.com^
+
+@@||pearson.com^
+@@||pearsonvue.com^
+@@||home.pearsonvue.com^
+@@||onvue.com^
+@@||download.onvue.com^
+@@||op-prd-1.pvue2.com^
+@@||pearsonvue-rest.ably.io^
+@@||pearsonvue.realtime.ably.net^
+
+@@||programworkshop.com^
+@@||gettesting.com^
+@@||starttest.com^
+@@||starttest2.com^
+@@||startpractice.com^
+
+@@||ysasecure.com^
+@@||smarthinking.com^
+
+@@||ably.com^
+@@||sd-rtn.com^
+
+@@||244716ee2b26.entrypoint.cloud.wowza.com^
+@@||vuepducopfilessa.blob.core.windows.net^
 
 ! ============================================================
-! PEACOCK BLACKLIST (AD BLOCKING ATTEMPTS)
+! GitHub
 ! ============================================================
-! SSAI ad server
-||mt.ssai.peacocktv.com^
-||ssai.peacocktv.com^
-! Ad CDN clusters (specific hash + broad cluster - broad one may affect other AWS MediaTailor apps)
-||f701e91aabed43fa8064e91da398bfbc.mediatailor.us-east-1.amazonaws.com^
-||mediatailor.us-east-1.amazonaws.com^
-! Analytics/tracking (safe to block)
-||analytics.peacocktv.com^
-||tracking.peacocktv.com^
-||peacock-analytics.com^
-||peacock-tracking.com^
-! Ads / ironSource
-||ads.ironsrc.mobi^
-! NEW MAY 2026 - ajstrick81 v2.7 domains
-||vac.peacocktv.com^
-||sas.peacocktv.com^
-||video-ads-module.ad-tech.nbcuni.com^
-||identity.mparticle.com^
-||census-app.scorecardresearch.com^
-||sb.scorecardresearch.com^
-||nbcstreaming.sc.omtrdc.net^
-||nbcstreaming.hb-api.omtrdc.net^
-||s0.2mdn.net^
-||ad.doubleclick.net^
-||telemetry.nbcuott.com^
+
+@@||github.com^
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
 
 ! ============================================================
-! ROKU BLACKLIST - INDIVIDUAL DOMAINS
+! Docker
 ! ============================================================
-||roku.admeasurement.com^
-||ravm.tv^
-||display.ravm.tv^
-||lat-services.api.data.roku.com^
-||captive.roku.com^
+
+@@||docker.com^
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||hub.docker.com^
 
 ! ============================================================
-! ROKU BLACKLIST - REGEX PATTERNS (rewritten to valid AdGuard regex)
-! Source: ozankiratli gist (July 2025)
+! Ubuntu
 ! ============================================================
-! Pattern 1: logs, ads, web, cti, voice, prod.mobile subdomains of roku.com
-/^([a-z0-9-]+\.)*(logs|ads|web|cti|voice)\.roku\.com$/
-/^([a-z0-9-]+\.)*prod\.mobile\.roku\.com$/
-! Pattern 2: named server hosts under roku.com
-/^([a-z0-9-]*)(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)([a-z0-9-]*\.)+roku\.com$/
-! Pattern 3: captive, cloudservices, wwwimg
-/^(cloudservices|wwwimg)\.roku\.com$/
-! Pattern 4: bif, microsites, traces, track, userdata under sr.roku.com
-/^(bif|microsites|traces|track|userdata)\.sr\.roku\.com$/
+
+@@||ubuntu.com^
+@@||archive.ubuntu.com^
+@@||security.ubuntu.com^
+@@||canonical.com^
+@@||snapcraft.io^
 
 ! ============================================================
-! TDS TELECOM TELEMETRY (hostname rules only; path rules removed - ineffective in DNS)
+! VMware
 ! ============================================================
-||tdstelecom.com^
-||metrics.tds.net^
-||smetrics.tds.net^
-! Device management (TR-069) data nodes
-||acs.tds.net^
-||acs.tdstelecom.com^
-||cwmp.tds.net^
+
+@@||vmware.com^
+@@||broadcom.com^
 
 ! ============================================================
-! RELIANCE CONNECTS & SMARTHUB TELEMETRY
+! Steam
 ! ============================================================
-||rconnects.com^
-||relianceconnects.com^
-||metrics.relianceconnects.com^
-! SmartHub remote router management telemetry (NISC)
-! (removed Android package-name rule - not a DNS hostname)
-||smarthubwifi.com^
-||api.smarthub.coop^
-||telemetry.smarthub.coop^
+
+@@||steampowered.com^
+@@||steamstatic.com^
+@@||steamcontent.com^
+@@||steamserver.net^
 
 ! ============================================================
-! COX COMMUNICATIONS TELEMETRY
+! Blizzard
 ! ============================================================
-||smetrics.cox.com^
-||target.cox.com^
-||metrics.cox.com^
-||telemetry.cox.com^
-! Rented Panoramic router phone-home telemetry
-||coxappapi.cox.com^
-||uwp-wifi-access-portal.cox.com^
+
+@@||battle.net^
+@@||blizzard.com^
 
 ! ============================================================
-! VERIZON CORPORATE TELEMETRY & TRACKING
+! Windows Update
 ! ============================================================
-||vzw.com^
-||vzw.demdex.net^
-||api.verizon.com^
-! Verizon partner / insurance tracking (Asurion)
-||events.asurion.com^
+
+@@||download.windowsupdate.com^
+@@||windowsupdate.microsoft.com^
+@@||update.microsoft.com^
+@@||dl.delivery.mp.microsoft.com^
 
 ! ============================================================
-! AI
+! Let's Encrypt
 ! ============================================================
-! DeepSeek
-||deepseek.com^
-||chat.deepseek.com^
-||api.deepseek.com^
-||cdn.deepseek.com^
-! Microsoft Copilot
-||copilot.microsoft.com^
-||copilot.ai^
-||copilot.cloud.microsoft^
-||edgeservices.bing.com^
-! Meta AI
-||meta.ai^
+
+@@||letsencrypt.org^
+@@||acme-v02.api.letsencrypt.org^
 
 ! ============================================================
-! Messaging
+! Certificate Validation
 ! ============================================================
-! Kik
-||kik.com^
-||kik.me^
-! KakaoTalk
-||kakao.com^
-||kakaocorp.com^
-||kakaotalk.com^
-! Telegram
-||telegram.org^
-||telegram.me^
-||t.me^
-||web.telegram.org^
-||webk.telegram.org^
-||desktop.telegram.org^
-||api.telegram.org^
-||passport.telegram.org^
-! WhatsApp
-||whatsapp.com^
-||web.whatsapp.com^
-||api.whatsapp.com^
-||whatsapp.net^
-! WeChat
-||wechat.com^
-||weixin.qq.com^
+
+@@||ocsp.digicert.com^
+@@||ocsp.sectigo.com^
+@@||ocsp.pki.goog^
 
 ! ============================================================
-! Shopping
+! Microsoft Teams (Support)
 ! ============================================================
-! AliExpress
-||aliexpress.com^
-||m.aliexpress.com^
-||api.aliexpress.com^
-! CoolApk
-||coolapk.com^
-! Lazada
-||lazada.com^
-||lazada.sg^
-||lazada.com.my^
-||lazada.co.th^
-||lazada.co.id^
-||lazada.vn^
-||lazada.com.ph^
-! Mercado Libre
-||mercadolibre.com^
-||mercadolibre.com.ar^
-||mercadolibre.com.mx^
-||mercadolibre.cl^
-||mercadolibre.com.co^
-||mercadolivre.com.br^
-! SHEIN
-||shein.com^
-||m.shein.com^
-||api.shein.com^
-||us.shein.com^
-! Shopee
-||shopee.com^
-||shopee.sg^
-||shopee.tw^
-||shopee.vn^
-||shopee.ph^
-||shopee.com.my^
-||shopee.co.th^
-||shopee.co.id^
-||shp.ee^
-! Temu
-||temu.com^
-||api.temu.com^
-! Xiaohongshu (RedNote)
-||xiaohongshu.com^
-||xhslink.com^
-! Wish
-||wish.com^
-||m.wish.com^
-||api.wish.com^
-||merchant.wish.com^
-||blog.wish.com^
-||cs.wish.com^
-||contest.wish.com^
-||local.wish.com^
-||payments.wish.com^
+
+@@||teams.microsoft.com^
 
 ! ============================================================
-! Forums / Communities
+! CloudFront
+! NOTE: Very broad. Keep only if required for WGU/Pearson VUE.
 ! ============================================================
-! 4chan
-||4chan.org^
-||4channel.org^
-! Amino
-||aminoapps.com^
-! 9GAG
-||9gag.com^
-! Douban
-||douban.com^
-! KOOK
-||kookapp.com^
-||kookapp.cn^
+
+@@||cloudfront.net^
 
 ! ============================================================
-! Social
+! Zoom
 ! ============================================================
-! Mail.ru
-||mail.ru^
-||my.mail.ru^
-! Odysee
-||odysee.com^
-! OK.ru
-||ok.ru^
-! OnlyFans
-||onlyfans.com^
-! Snapchat
-||snapchat.com^
-||accounts.snapchat.com^
-! VK
-||vk.com^
-||vk.ru^
-! Zhihu
-||zhihu.com^
 
-! ============================================================
-! Blizzard / Windows telemetry (game-machine noise reduction)
-! ============================================================
-||telemetry.battle.net^
-||telemetry.blizzard.com^
-||vortex.data.microsoft.com^
-||telemetry.microsoft.com^
-||settings-win.data.microsoft.com^
-||watson.telemetry.microsoft.com^
-
-! ============================================================
-! Game launcher telemetry (safe to block; reduces background chatter
-! while gaming - does NOT touch matchmaking/game servers)
-! ============================================================
-! Epic Games
-||datarouter.ol.epicgames.com^
-||tracking.epicgames.com^
-! Electronic Arts
-||pin-river.data.ea.com^
-||pin-em.data.ea.com^
-! Riot Games
-||telemetry.riotgames.com^
-! Ubisoft
-||telemetry.ubi.com^
-! NVIDIA GeForce telemetry
-||telemetry.nvidia.com^
-||gfe.nvidia.com^
-
-! ============================================================
-! General ads & trackers (high-value, broadly safe)
-! ============================================================
-||google-analytics.com^
-||ssl.google-analytics.com^
-||app-measurement.com^
-||googlesyndication.com^
-||doubleclick.net^
-||adservice.google.com^
-||scorecardresearch.com^
-||connect.facebook.net^
-||adnxs.com^
-||criteo.com^
-||branch.io^
-||bugsnag.com^
-||sentry.io^
+@@||zoom.us^
+@@||www.zoom.us^
+@@||us02web.zoom.us^
+@@||us04web.zoom.us^
+@@||zoom.com^
+@@||zoomgov.com^
+@@||zoomcdn.net^
+@@||st1.zoom.us^
+@@||st2.zoom.us^
+@@||source.zoom.us^
+@@||marketplace.zoom.us^

@@ -1,16 +1,15 @@
 ! Title: Point Action Whitelist
-! Description: Whitelist for trusted sites and services
-! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
-! Version: 1.3
-! Last modified: 2026-07-08
-! Expires: 1 days
+! Description: A URL whitelist of legit websites that should not be blocked.
+! Version: 1.0
+! URL: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
 !
-! NOTE: @@ = allow rule. A root domain (e.g. @@||arena.net^) also allows all its
-!       subdomains. $important forces the allow to win over any blocklist match.
-
-! ============================================================
-! Roku Channel
-! ============================================================
+! Example: @@||kelkoogroup.net^
+!
+! ==========================================
+! ROKU CHANNEL - WHITELISTS (if blocking entire *.sr.roku.com)
+! Only needed if using extensive regex blocking below
+! ==========================================
+! Channel functionality (whitelist if using broad regex)
 @@||configsvc.sc.roku.com^
 @@||keysvc.sc.roku.com^
 @@||content.sr.roku.com^
@@ -26,221 +25,48 @@
 @@||bookmarks.sr.roku.com^
 @@||navigation.sr.roku.com^
 @@||images-svc.sr.roku.com^
+! Roku Channel app requirements (still being tested)
 @@||tis.cti.roku.com^
 @@||ls.cti.roku.com^
 
-! ============================================================
-! Personal Domains
-! ============================================================
+! ==========================================
+! Personal Whitelist below
+! ==========================================
 @@||pointaction.com^
+@@||pathmail.net^
 @@||pointaction.net^
 @@||pointaction.org^
-@@||pathmail.net^
 @@||snowypopcorn.com^
 @@||snowypopcorn.net^
 @@||snowypopcorn.org^
-
-! ============================================================
-! WGU / Remote Proctoring
-! ============================================================
-@@||wgu.edu^
-@@||my.wgu.edu^
-@@||wgneagle.wgu.edu^
-@@||assessments.wgu.edu^
 @@||proctoru.com^
+@@||meazurelearning.com^
+@@||logmeinrescue.com^
+@@||ysasecure.com^
 @@||guardianbrowser.com^
 @@||proctorio.com^
 @@||honorlock.com^
 @@||respondus.com^
 @@||examsoft.com^
-@@||examity.com^
-@@||meazurelearning.com^
-@@||pearson.com^
-@@||pearsonvue.com^
-@@||home.pearsonvue.com^
-@@||onvue.com^
-@@||download.onvue.com^
-@@||op-prd-1.pvue2.com^
-@@||pearsonvue-rest.ably.io^
-@@||pearsonvue.realtime.ably.net^
-@@||programworkshop.com^
-@@||gettesting.com^
 @@||starttest.com^
 @@||starttest2.com^
 @@||startpractice.com^
-@@||ysasecure.com^
-@@||smarthinking.com^
+@@||cloudfront.net^
+@@||pearsonvue.com^
+@@||pearson.com^
+@@||programworkshop.com^
+@@||gettesting.com^
 @@||ably.com^
 @@||sd-rtn.com^
+@@||wgneagle.wgu.edu^
+@@||wgu.edu^
+@@||examity.com^
+@@||assessments.wgu.edu^
+@@||smarthinking.com^
+@@||download.onvue.com^
+@@||onvue.com^
+@@||op-prd-1.pvue2.com^
+@@||pearsonvue-rest.ably.io^
 @@||244716ee2b26.entrypoint.cloud.wowza.com^
+@@||pearsonvue.realtime.ably.net^
 @@||vuepducopfilessa.blob.core.windows.net^
-
-! ============================================================
-! GitHub
-! ============================================================
-@@||github.com^
-@@||githubusercontent.com^
-@@||raw.githubusercontent.com^
-@@||objects.githubusercontent.com^
-
-! ============================================================
-! Docker
-! ============================================================
-@@||docker.com^
-@@||docker.io^
-@@||registry-1.docker.io^
-@@||hub.docker.com^
-
-! ============================================================
-! Ubuntu
-! ============================================================
-@@||ubuntu.com^
-@@||archive.ubuntu.com^
-@@||security.ubuntu.com^
-@@||canonical.com^
-@@||snapcraft.io^
-
-! ============================================================
-! VMware
-! ============================================================
-@@||vmware.com^
-@@||broadcom.com^
-
-! ============================================================
-! Steam / Valve  (game + content + CDN; $important so downloads/login never blocked)
-! ============================================================
-@@||steampowered.com^$important
-@@||steamstatic.com^$important
-@@||steamcontent.com^$important
-@@||steamserver.net^$important
-@@||steamcommunity.com^$important
-@@||steamusercontent.com^$important
-@@||steamgames.com^$important
-@@||valvesoftware.com^$important
-@@||steamcdn-a.akamaihd.net^$important
-@@||steamcommunity-a.akamaihd.net^$important
-@@||steambroadcast.akamaized.net^$important
-@@||steammobile.akamaized.net^$important
-
-! ============================================================
-! Guild Wars 2 / ArenaNet / NCSoft
-! (roots cover auth.arena.net, assetcdn.101.arenanetworks.com,
-!  cligate.101.ncplatform.net, launcher.arenanetworks.com, etc.)
-! ============================================================
-@@||guildwars2.com^$important
-@@||arena.net^$important
-@@||arenanetworks.com^$important
-@@||ncplatform.net^$important
-@@||ncsoft.com^$important
-@@||plaync.com^$important
-
-! ============================================================
-! Blizzard / World of Warcraft
-! ============================================================
-@@||blizzard.com^$important
-@@||battle.net^$important
-@@||battlenet.com.cn^$important
-@@||worldofwarcraft.com^$important
-@@||blizzard.cn^$important
-@@||blznav.akamaized.net^$important
-@@||level3.blizzard.com^$important
-@@||dist.blizzard.com^$important
-@@||nydus.battle.net^$important
-@@||us.cdn.blizzard.com^$important
-@@||eu.cdn.blizzard.com^$important
-@@||blzddist1-a.akamaihd.net^$important
-
-! ============================================================
-! Discord (in-game voice/comms - latency relevant)
-! ============================================================
-@@||discord.com^$important
-@@||discord.gg^$important
-@@||discordapp.com^$important
-@@||discordapp.net^$important
-@@||discord.media^$important
-
-! ============================================================
-! Windows Update
-! ============================================================
-@@||download.windowsupdate.com^
-@@||windowsupdate.microsoft.com^
-@@||update.microsoft.com^
-@@||dl.delivery.mp.microsoft.com^
-
-! ============================================================
-! Let's Encrypt
-! ============================================================
-@@||letsencrypt.org^
-@@||acme-v02.api.letsencrypt.org^
-
-! ============================================================
-! Certificate Validation (OCSP - blocking these breaks TLS)
-! ============================================================
-@@||ocsp.digicert.com^
-@@||ocsp.sectigo.com^
-@@||ocsp.pki.goog^
-
-! ============================================================
-! Microsoft Teams (Support)
-! ============================================================
-@@||teams.microsoft.com^
-
-! ============================================================
-! CloudFront
-! NOTE: Very broad. Keep only if required for WGU/Pearson VUE.
-! ============================================================
-@@||cloudfront.net^
-
-! ============================================================
-! Zoom
-! ============================================================
-@@||zoom.us^
-@@||www.zoom.us^
-@@||us02web.zoom.us^
-@@||us04web.zoom.us^
-@@||zoom.com^
-@@||zoomgov.com^
-@@||zoomcdn.net^
-@@||st1.zoom.us^
-@@||st2.zoom.us^
-@@||source.zoom.us^
-@@||marketplace.zoom.us^
-
-! ============================
-! Indeed
-! ============================
-
-@@||indeed.com^
-@@||*.indeed.com^
-@@||indeedstatic.com^
-@@||*.indeedstatic.com^
-@@||indeedassets.com^
-@@||*.indeedassets.com^
-
-! hCaptcha (used by Indeed)
-@@||hcaptcha.com^
-@@||*.hcaptcha.com^
-
-! Google reCAPTCHA (fallback)
-@@||recaptcha.net^
-@@||*.recaptcha.net^
-@@||www.google.com/recaptcha^
-
-! Google static resources
-@@||gstatic.com^
-@@||*.gstatic.com^
-
-! Google APIs
-@@||googleapis.com^
-@@||*.googleapis.com^
-
-
-! ============================
-! Verizon
-! ============================
-
-@@||scache1.vzw.com^
-@@||scache2.vzw.com^
-@@||scache-ws.vzw.com^
-@@||sanalytics.verizon.com^
-@@||ss7.vzw.com^
