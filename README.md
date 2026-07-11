@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 15:03 UTC_
+_Last updated: 2026-07-11 15:22 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -48,12 +48,13 @@ _Last updated: 2026-07-11 15:03 UTC_
 | `pasblock-badblock-whitelist.txt` | — | 5 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
 | `pasblock-gambling.txt` | — | 146,524 |
+| `pasblock-haGeZi-pro.txt` | — | 231,152 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 340 |
 | `pasblock-microsoft.txt` | — | 388 |
 | `pasblock-native-oppo.txt` | — | 465 |
 | `pasblock-nsfw.txt` | — | 107,446 |
-| `pasblock-oisd-big.txt` | — | 328,470 |
+| `pasblock-oisd-big.txt` | — | 328,441 |
 | `pasblock-rebind.txt` | — | — |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 202 |
@@ -62,8 +63,8 @@ _Last updated: 2026-07-11 15:03 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **8,159** | **1,125,286** |
-| **Total (unique domains)** | **8,117** | **945,585** |
+| **Total (sum)** | **8,159** | **1,356,409** |
+| **Total (unique domains)** | **8,117** | **1,030,918** |
 
 <!-- STATS:END -->
 
