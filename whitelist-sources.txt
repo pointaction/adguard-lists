@@ -6,7 +6,6 @@
 # Any input format (plain domains, @@|domain^, @@||domain^, hosts) is
 # normalized to clean @@||domain^ allow rules.
 
-badblock-whitelist https://badblock.celenity.dev/abp/whitelist.txt
 referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
 
 # Optional: you can move the referral list here too. If you enable it below,
