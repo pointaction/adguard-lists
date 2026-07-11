@@ -1,0 +1,9 @@
+# Blocklist sources for the "Sync blocklists" workflow.
+# One source per line:   <name>  <url>
+#   <name> becomes the output file  pasblock-<name>.txt
+#   Use simple names (letters, numbers, dashes) — no spaces.
+# Lines starting with # are ignored. Add or remove sources any time.
+#
+# Examples (uncomment the ones you want, or add your own):
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
