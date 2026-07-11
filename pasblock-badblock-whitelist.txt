@@ -1,0 +1,10 @@
+! Title: Point Action Blocklist: badblock-whitelist
+! Source: https://badblock.celenity.dev/abp/whitelist.txt
+! Synced: 2026-07-11 14:08 UTC
+! Entries: 5 (removed 0 allow-listed)
+!
+||0.datadog.pool.ntp.org^
+||1.datadog.pool.ntp.org^
+||2.datadog.pool.ntp.org^
+||3.datadog.pool.ntp.org^
+||datadog.pool.ntp.org^
