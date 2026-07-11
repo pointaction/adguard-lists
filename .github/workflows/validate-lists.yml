@@ -1,19 +1,21 @@
 name: Validate AdGuard lists
 
-# Runs on every push and pull request that touches a list,
-# and every Monday at 12:00 UTC to catch domains that have gone dead.
+# Validates ONLY the personal, hand-maintained lists (paswhitelist.txt and
+# pasblacklist.txt). The synced pas*-*.txt lists come from upstream and are
+# already cleaned by the build scripts, so they are intentionally not checked
+# here — that keeps validation focused on the files you actually edit.
 on:
   push:
     paths:
-      - "**/*.txt"
+      - "paswhitelist.txt"
+      - "pasblacklist.txt"
       - "validate_lists.py"
       - ".github/workflows/validate-lists.yml"
   pull_request:
     paths:
-      - "**/*.txt"
+      - "paswhitelist.txt"
+      - "pasblacklist.txt"
       - "validate_lists.py"
-  schedule:
-    - cron: "0 12 * * 1"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
 jobs:
@@ -24,11 +26,6 @@ jobs:
         uses: actions/checkout@v4
 
       # No setup-python needed: ubuntu-latest already ships Python 3.
-      - name: Validate lists
-        # No filenames given -> the script auto-discovers every *.txt list
-        # in the repo, so any new list you add is validated automatically.
-        # Checks syntax and within-file duplicates only (fast). The live DNS
-        # check is opt-in and intentionally NOT used here — resolving hundreds
-        # of thousands of blocklist domains is slow and meaningless (blocklists
-        # are full of dead domains on purpose).
-        run: python validate_lists.py
+      - name: Validate personal lists
+        # Only your two hand-maintained files. Checks syntax + duplicates.
+        run: python validate_lists.py paswhitelist.txt pasblacklist.txt
