@@ -1,13 +1,12 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
-! Synced: 2026-07-11 06:34 UTC
-! Entries: 388 (removed 0 allow-listed)
+! Synced: 2026-07-11 17:32 UTC
+! Entries: 370 (removed 18 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
 ||a-ring.msedge.net^
 ||a4.bing.com^
 ||ac2.msn.com^
-||activity.windows.com^
 ||ad.msn.com^
 ||adevents.msn.com^
 ||ads-msn-com-profile.trafficmanager.net^
@@ -48,12 +47,9 @@
 ||arc5.msn.com^
 ||arc9.msn.com^
 ||auc-visio-telemetry.officeapps.live.com^
-||az667904.vo.msecnd.net^
 ||azurewatson.microsoft.com^
 ||azurewatsontest.microsoft.com^
 ||b-ring-fallback.msedge.net^
-||b-ring.msedge.net^
-||bat.bing.com^
 ||bat.r.msn.com^
 ||beacons.trafficmanager.net^
 ||beacons.xboxlive.com^
@@ -62,11 +58,9 @@
 ||brc-visio-telemetry.officeapps.live.com^
 ||c-bingapis-com.dual-a-0034.a-msedge.net^
 ||c-ring-fallback.msedge.net^
-||c-ring.msedge.net^
 ||c.ar.msn.com^
 ||c.at.msn.com^
 ||c.be.msn.com^
-||c.bing.com^
 ||c.bingapis.com^
 ||c.br.msn.com^
 ||c.ca.msn.com^
@@ -99,9 +93,7 @@
 ||c.tr.msn.com^
 ||c.tw.msn.com^
 ||c.uk.msn.com^
-||c.xbox.com^
 ||c.za.msn.com^
-||c1.microsoft.com^
 ||cac-visio-telemetry.officeapps.live.com^
 ||cache.datamart.windows.com^
 ||ceuswatcab01.blob.core.windows.net^
@@ -132,7 +124,6 @@
 ||confiant.msn.com^
 ||dc.applicationinsights.azure.cn^
 ||dc.applicationinsights.azure.us^
-||dc.services.visualstudio.com^
 ||dec-visio-telemetry.officeapps.live.com^
 ||diagnostics-eudb.office.com^
 ||diagnostics.office.com^
@@ -169,7 +160,6 @@
 ||ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net^
 ||fgteu1-word-telemetry-vip.officeapps.live.com^
 ||flex.msn.com^
-||fp.msedge.net^
 ||frc-visio-telemetry.officeapps.live.com^
 ||g.bing.com^
 ||g00.msn.com^
@@ -184,7 +174,6 @@
 ||i1.services.social.microsoft.com^
 ||identity.nel.measure.office.net.cardano.com^
 ||ieonline.microsoft.com^
-||in.appcenter.ms^
 ||in.applicationinsights.azure.cn^
 ||in.applicationinsights.azure.us^
 ||inc-visio-telemetry.officeapps.live.com^
@@ -206,7 +195,6 @@
 ||js2.cdn.applicationinsights.io^
 ||js2.tst.applicationinsights.io^
 ||k-ring-fallback.msedge.net^
-||k-ring.msedge.net^
 ||kg-legacy-analytics.servicebus.windows.net^
 ||legacywatson.trafficmanager.net^
 ||licensingtelemetry-prod.servicebus.windows.net^
@@ -231,7 +219,6 @@
 ||nexusrules.officeapps.live.com^
 ||nexxtv-events.servicebus.windows.net^
 ||noc-visio-telemetry.officeapps.live.com^
-||o.xbox.com^
 ||o365diagtelemetry.trafficmanager.net^
 ||oca.microsoft.com^
 ||office-events-data.trafficmanager.net^
@@ -324,7 +311,6 @@
 ||spo.nel.measure.office.net.cardano.com^
 ||spynet2.microsoft.com^
 ||spynetalt.microsoft.com^
-||srtb.msn.com^
 ||ss-telemetry.servicebus.windows.net^
 ||ssp-prod-eastus-nonmutt.trafficmanager.net^
 ||ssw.live.com^
@@ -335,9 +321,6 @@
 ||swiftanalyticsprod.servicebus.windows.net^
 ||t-ring-fallback-s2.msedge.net^
 ||t-ring-fallback.msedge.net^
-||t-ring-fallbacks1.msedge.net^
-||t-ring-fallbacks2.msedge.net^
-||t-ring-fdv2.msedge.net^
 ||t-ring-s.msedge.net^
 ||t-ring-s2.msedge.net^
 ||t-ring-trafficshield.msedge.net^
@@ -377,7 +360,6 @@
 ||vortex-sandbox.data.microsoft.com^
 ||vortex-win-sandbox.data.microsoft.com^
 ||vortex-win.data.microsoft.com^
-||vortex.data.microsoft.com^
 ||vortex.data.trafficmanager.net^
 ||vstelemetry.trafficmanager.net^
 ||watson.live.com^
