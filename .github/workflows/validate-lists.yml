@@ -1,0 +1,35 @@
+name: Validate AdGuard lists
+
+# Runs on every push and pull request that touches a list,
+# and every Monday at 12:00 UTC to catch domains that have gone dead.
+on:
+  push:
+    paths:
+      - "*.txt"
+      - "validate_lists.py"
+      - ".github/workflows/validate-lists.yml"
+  pull_request:
+    paths:
+      - "*.txt"
+      - "validate_lists.py"
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate lists
+        # Syntax errors and duplicates fail the run.
+        # Unresolved domains are reported but do NOT fail the run
+        # (add --strict-dns below if you want them to).
+        run: python validate_lists.py pasblacklist.txt paswhitelist.txt
