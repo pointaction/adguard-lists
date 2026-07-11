@@ -36,31 +36,32 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 16:47 UTC_
+_Last updated: 2026-07-11 17:34 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
+| `pasallow-h12-whitelist.txt` | 5,635 | — |
 | `pasallow-referral.txt` | 1,542 | — |
 | `pasblacklist.txt` | 11 | 175 |
 | `pasblock-amazon.txt` | — | 360 |
-| `pasblock-apple.txt` | — | 107 |
+| `pasblock-apple.txt` | — | 106 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
 | `pasblock-gambling.txt` | — | 146,524 |
-| `pasblock-haGeZi-pro.txt` | — | 231,152 |
+| `pasblock-haGeZi-pro.txt` | — | 231,044 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 340 |
-| `pasblock-microsoft.txt` | — | 388 |
+| `pasblock-microsoft.txt` | — | 370 |
 | `pasblock-native-oppo.txt` | — | 465 |
-| `pasblock-nsfw.txt` | — | 107,446 |
+| `pasblock-nsfw.txt` | — | 107,419 |
 | `pasblock-roku.txt` | — | 71 |
-| `pasblock-samsung.txt` | — | 202 |
-| `pasblock-tif.txt` | — | 528,256 |
+| `pasblock-samsung.txt` | — | 189 |
+| `pasblock-tif.txt` | — | 528,254 |
 | `pasblock-tiktok.txt` | — | 424 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **1,651** | **1,028,138** |
-| **Total (unique domains)** | **1,651** | **873,224** |
+| **Total (sum)** | **7,286** | **1,027,969** |
+| **Total (unique domains)** | **7,264** | **873,090** |
 
 <!-- STATS:END -->
 

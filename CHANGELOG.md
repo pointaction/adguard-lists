@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-11
 
+**Added: 2** (0 allow, 2 block)
+
+- block: `aan.amazon.com`, `i.mxplayer.j2inter.com`
+
+**Removed: 139** (0 allow, 139 block)
+
+- block: `0xxx.ws`, `22pixx.xyz`, `a.idio.co`, `acs.woolworths.com.au`, `activity.windows.com`, `adult.com`, `af.opera.com`, `api.rollbar.com`, `apu.samsungelectronics.com`, `async-px.dynamicyield.com`, `az667904.vo.msecnd.net`, `b-ring.msedge.net`, `babesource.com`, `banner.eset.com`, `bat.bing.com` _+124 more_
+
+## 2026-07-11
+
 **Removed: 6519** (6519 allow, 0 block)
 
 - allow: `0.africa.pool.ntp.org`, `0.amazon.pool.ntp.org`, `0.android.pool.ntp.org`, `0.antarctica.pool.ntp.org`, `0.asia.pool.ntp.org`, `0.au.pool.ntp.org`, `0.ch.pool.ntp.org`, `0.cn.pool.ntp.org`, `0.europe.pool.ntp.org`, `0.fedora.pool.ntp.org`, `0.north-america.pool.ntp.org`, `0.oceania.pool.ntp.org`, `0.openwrt.pool.ntp.org`, `0.pool.ntp.org`, `0.rhel.pool.ntp.org` _+6504 more_
