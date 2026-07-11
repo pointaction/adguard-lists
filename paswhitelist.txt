@@ -233,3 +233,12 @@
 ! Google APIs
 @@||googleapis.com^
 @@||*.googleapis.com^
+
+
+! ============================
+! Verizon
+! ============================
+
+@@||scache1.vzw.com^
+@@||scache2.vzw.com^
+@@||scache-ws.vzw.com^
