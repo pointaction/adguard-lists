@@ -1,9 +1,9 @@
-DNS allowlists and blocklists for my home network.
+DNS allowlists and blocklists for my network.
 
-This repo hosts my personal allow/block lists in AdGuard / Adblock Plus format
+This repo hosts my allow/block lists in AdGuard / Adblock Plus format
 (@@||domain^ to allow, ||domain^ to block). The format works with both AdGuard
 Home and Technitium DNS Server, which is what I run. Everything is hosted here on
-GitHub so it stays available even if my own site (pointaction.net) goes down.
+GitHub.
 
 Feel free to copy, use, or contribute.
 
