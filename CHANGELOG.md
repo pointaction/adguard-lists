@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-12
+
+**Added: 1** (0 allow, 1 block)
+
+- block: `shop.app`
+
 ## 2026-07-11
 
 **Added: 502823** (0 allow, 502823 block)

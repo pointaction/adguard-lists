@@ -36,13 +36,13 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-11 22:30 UTC_
+_Last updated: 2026-07-12 01:44 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
 | `pasallow-h12-whitelist.txt` | 5,635 | — |
 | `pasallow-referral.txt` | 1,542 | — |
-| `pasblacklist.txt` | 11 | 175 |
+| `pasblacklist.txt` | 11 | 176 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 106 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
@@ -63,8 +63,8 @@ _Last updated: 2026-07-11 22:30 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **7,286** | **1,600,956** |
-| **Total (unique domains)** | **7,264** | **1,210,089** |
+| **Total (sum)** | **7,286** | **1,600,957** |
+| **Total (unique domains)** | **7,264** | **1,210,090** |
 
 <!-- STATS:END -->
 
