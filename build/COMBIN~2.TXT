@@ -1,0 +1,11 @@
+# Sources merged into the combined whitelist -> pasallow-completewhitelist.txt
+# One source per line:   <name>  <url>
+# Fetched directly, cleaned to @@||domain^, de-duplicated.
+# A source that fails to fetch is skipped (never breaks the build).
+# Lines starting with # are ignored.
+
+badblock https://badblock.celenity.dev/abp/whitelist.txt
+referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
+
+# Add more as you like:
+# h12-whitelist https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-onlydomains.txt

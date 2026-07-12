@@ -1,0 +1,27 @@
+# Sources merged into the combined blocklist -> pasblock-completeblocklist.txt
+# One source per line:   <name>  <url>
+# Fetched directly, cleaned to ||domain^, de-duplicated, allow-list subtracted.
+# A source that fails to fetch is skipped (never breaks the build).
+# Lines starting with # are ignored. Add or remove sources any time.
+
+tif https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
+samsung https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
+amazon https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt
+apple https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt
+microsoft https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
+tiktok https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
+roku https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt
+vivo https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt
+native-oppo https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt
+huawei https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt
+lgwebos https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt
+xiaomi https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt
+gambling https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt
+nsfw https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
+dandelion-sprout https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
+haGeZi-pro https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro-onlydomains.txt
+urlhaus https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
+shadow-whisper https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
+# NOTE: OISD asks not to be mirrored/redistributed. Keep it commented unless
+# you've confirmed its terms allow republishing in a combined feed.
+# osid https://big.oisd.nl
