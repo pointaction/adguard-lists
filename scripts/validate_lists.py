@@ -29,10 +29,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def discover_lists():
-    """Find every *.txt file in the repo (recursive), excluding .git."""
+    """Find every *.txt list in the repo (recursive), excluding support dirs."""
+    skip = (".git", "build", "scripts", ".github")
     found = []
     for path in glob.glob("**/*.txt", recursive=True):
-        if ".git" + os.sep in path or path.startswith(".git" + os.sep):
+        parts = path.replace("\\", "/").split("/")
+        if parts and parts[0] in skip:
             continue
         found.append(path)
     return sorted(found)
