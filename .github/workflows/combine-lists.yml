@@ -1,22 +1,20 @@
 name: Combine lists
 
-# Builds the curated combined feeds from the member lists in
-# blocklist-combine.txt / whitelist-combine.txt:
-#   pasblock-completeblocklist.txt   and   pasallow-completewhitelist.txt
-# Runs after the sync workflows update member lists, and can be run manually.
-# The combined outputs are EXCLUDED from the trigger so this never re-triggers
-# itself.
+# Builds the curated one-URL feeds by fetching the sources listed in
+#   build/combine-blocklist-sources.txt  ->  pasblock-completeblocklist.txt
+#   build/combine-whitelist-sources.txt  ->  pasallow-completewhitelist.txt
+# Each source is fetched directly, cleaned, de-duplicated and merged into a
+# single file. A source that fails to fetch is skipped, never failing the run.
+# Runs daily (after the per-source syncs) and can be run manually.
 
 on:
   push:
     paths:
-      - "pasblock-*.txt"
-      - "pasallow-*.txt"
-      - "build/blocklist-combine.txt"
-      - "build/whitelist-combine.txt"
+      - "build/combine-blocklist-sources.txt"
+      - "build/combine-whitelist-sources.txt"
       - "scripts/build_combined.py"
-      - "!pasblock-completeblocklist.txt"
-      - "!pasallow-completewhitelist.txt"
+  schedule:
+    - cron: "0 8 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -29,19 +27,54 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Build combined blocklist
+      - name: Build allow-domain set (for blocklist subtraction)
         run: |
-          python3 scripts/build_combined.py --kind block \
-            --members build/blocklist-combine.txt --sources build/blocklist-sources.txt \
-            --out pasblock-completeblocklist.txt \
-            --title "Point Action Complete Blocklist"
+          set -euo pipefail
+          grep -hE '^@@\|\|' *.txt 2>/dev/null \
+            | sed -E 's/^@@\|\|//; s/\^.*$//' | sort -u > allow_domains.txt || true
+          echo "allow-listed domains: $(wc -l < allow_domains.txt)"
 
-      - name: Build combined whitelist
+      - name: Fetch and build combined blocklist
         run: |
+          set -euo pipefail
+          mkdir -p _rawb
+          if [ -f build/combine-blocklist-sources.txt ]; then
+            while read -r name url _rest; do
+              case "$name" in ''|\#*) continue ;; esac
+              [ -z "${url:-}" ] && continue
+              if curl -fsSL --retry 3 --max-time 60 "$url" -o "_rawb/$name.txt"; then
+                echo "  fetched $name ($(wc -l < "_rawb/$name.txt") lines)"
+              else
+                echo "  fetch failed — skipping $name"; rm -f "_rawb/$name.txt"
+              fi
+            done < <(sed 's/\r$//' build/combine-blocklist-sources.txt)
+          fi
+          python3 scripts/build_combined.py --kind block \
+            --sources build/combine-blocklist-sources.txt --rawdir _rawb \
+            --allow allow_domains.txt --out pasblock-completeblocklist.txt \
+            --title "Point Action Complete Blocklist"
+          rm -rf _rawb
+
+      - name: Fetch and build combined whitelist
+        run: |
+          set -euo pipefail
+          mkdir -p _raww
+          if [ -f build/combine-whitelist-sources.txt ]; then
+            while read -r name url _rest; do
+              case "$name" in ''|\#*) continue ;; esac
+              [ -z "${url:-}" ] && continue
+              if curl -fsSL --retry 3 --max-time 60 "$url" -o "_raww/$name.txt"; then
+                echo "  fetched $name ($(wc -l < "_raww/$name.txt") lines)"
+              else
+                echo "  fetch failed — skipping $name"; rm -f "_raww/$name.txt"
+              fi
+            done < <(sed 's/\r$//' build/combine-whitelist-sources.txt)
+          fi
           python3 scripts/build_combined.py --kind allow \
-            --members build/whitelist-combine.txt --sources build/whitelist-sources.txt \
+            --sources build/combine-whitelist-sources.txt --rawdir _raww \
             --out pasallow-completewhitelist.txt \
             --title "Point Action Complete Whitelist"
+          rm -rf _raww allow_domains.txt
 
       - name: Commit combined feeds
         run: |
@@ -51,8 +84,7 @@ jobs:
           changed=0
           for f in pasblock-completeblocklist.txt pasallow-completewhitelist.txt; do
             [ -e "$f" ] || continue
-            # Stage only if the rules changed (ignore the timestamp-only header).
-            if ! git diff -G'^(\|\||@@|/)' --quiet -- "$f"; then
+            if ! git diff -G'^(\|\||@@)' --quiet -- "$f"; then
               git add "$f"; changed=1
             fi
           done
