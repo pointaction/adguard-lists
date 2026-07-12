@@ -7,7 +7,7 @@ name: Sync blocklists
 
 on:
   schedule:
-    - cron: "15 */6 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -33,8 +33,8 @@ jobs:
       - name: Sync each source
         run: |
           set -euo pipefail
-          if [ ! -f blocklist-sources.txt ]; then
-            echo "No blocklist-sources.txt found — nothing to do."
+          if [ ! -f build/blocklist-sources.txt ]; then
+            echo "No build/blocklist-sources.txt found — nothing to do."
             exit 0
           fi
           # Strip possible Windows CR so names/urls parse cleanly.
@@ -45,12 +45,12 @@ jobs:
             if ! curl -fsSL --retry 3 "$url" -o raw_src.txt; then
               echo "  fetch failed — skipping $name"; continue
             fi
-            python3 build_blocklist.py raw_src.txt \
+            python3 scripts/build_blocklist.py raw_src.txt \
               --title "Point Action Blocklist: $name" \
               --source "$url" \
               --allow allow_domains.txt > "pasblock-$name.txt"
             echo "  wrote pasblock-$name.txt ($(grep -c '^||' "pasblock-$name.txt" || true) entries)"
-          done < <(sed 's/\r$//' blocklist-sources.txt)
+          done < <(sed 's/\r$//' build/blocklist-sources.txt)
           rm -f raw_src.txt allow_domains.txt
 
       - name: Commit changed lists

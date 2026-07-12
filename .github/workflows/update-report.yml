@@ -23,13 +23,13 @@ jobs:
           fetch-depth: 2   # need the parent commit to diff against
 
       - name: Update README stats table
-        run: python3 stats.py
+        run: python3 scripts/stats.py
 
       - name: Update CHANGELOG
         run: |
           set -euo pipefail
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --unified=0 HEAD~1 HEAD -- 'pas*.txt' | python3 changelog.py
+            git diff --unified=0 HEAD~1 HEAD -- 'pas*.txt' | python3 scripts/changelog.py
           else
             echo "No parent commit yet; skipping changelog."
           fi

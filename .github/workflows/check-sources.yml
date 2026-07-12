@@ -7,7 +7,7 @@ name: Check sources
 
 on:
   schedule:
-    - cron: "1 */6 * * 1"
+    - cron: "0 7 * * 1"
   workflow_dispatch: {}
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
         run: |
           set -uo pipefail
           fail=0
-          for cfg in blocklist-sources.txt whitelist-sources.txt; do
+          for cfg in build/blocklist-sources.txt build/whitelist-sources.txt; do
             [ -f "$cfg" ] || continue
             echo "== $cfg"
             while read -r name url _rest; do

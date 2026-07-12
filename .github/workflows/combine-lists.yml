@@ -12,9 +12,9 @@ on:
     paths:
       - "pasblock-*.txt"
       - "pasallow-*.txt"
-      - "blocklist-combine.txt"
-      - "whitelist-combine.txt"
-      - "build_combined.py"
+      - "build/blocklist-combine.txt"
+      - "build/whitelist-combine.txt"
+      - "scripts/build_combined.py"
       - "!pasblock-completeblocklist.txt"
       - "!pasallow-completewhitelist.txt"
   workflow_dispatch: {}
@@ -31,15 +31,15 @@ jobs:
 
       - name: Build combined blocklist
         run: |
-          python3 build_combined.py --kind block \
-            --members blocklist-combine.txt --sources blocklist-sources.txt \
+          python3 scripts/build_combined.py --kind block \
+            --members build/blocklist-combine.txt --sources build/blocklist-sources.txt \
             --out pasblock-completeblocklist.txt \
             --title "Point Action Complete Blocklist"
 
       - name: Build combined whitelist
         run: |
-          python3 build_combined.py --kind allow \
-            --members whitelist-combine.txt --sources whitelist-sources.txt \
+          python3 scripts/build_combined.py --kind allow \
+            --members build/whitelist-combine.txt --sources build/whitelist-sources.txt \
             --out pasallow-completewhitelist.txt \
             --title "Point Action Complete Whitelist"
 
