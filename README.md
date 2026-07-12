@@ -20,7 +20,7 @@ Feel free to copy, use, or contribute.
 📺💻📱  Clients
    │
    ▼
-🖥️  Technitium DNS Server (Webmin + Configserver Firewall on Ubuntu 24.04) ← loads the lists in this repo
+🖥️  Technitium DNS Server (Webmin + Configserver Firewall on Ubuntu 24.04) loads the lists in this repo
    │
    ▼
 ☁️  DNSSEC + DNS-over-TLS (Cloudflare)
