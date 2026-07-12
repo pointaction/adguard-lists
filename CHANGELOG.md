@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-12
 
+**Removed: 4** (0 allow, 4 block)
+
+- block: `aan.amazon.com`, `d1u9wuqimc88kc.cloudfront.net`, `i.mxplayer.j2inter.com`, `tracking.services.mozilla.com`
+
+## 2026-07-12
+
 **Added: 1** (0 allow, 1 block)
 
 - block: `shop.app`
