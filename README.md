@@ -20,10 +20,10 @@ Feel free to copy, use, or contribute.
 📺💻📱  Clients
    │
    ▼
-🖥️  Technitium DNS Server (Webmin + Configserver Firewall on Ubuntu 24.04) loads the lists in this repo
+🖥️  Technitium DNS Server  (Cockpit on Ubuntu 24.04 LTS)   ← loads the lists in this repo
    │
    ▼
-☁️  DNSSEC + DNS-over-TLS (Cloudflare)
+☁️  DNSSEC + DNS-over-TLS  (Cloudflare)
    │
    ▼
 🛜  TP-Link Omada ER605 Gateway + Smart Switch (VLANs)
@@ -36,37 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-12 18:07 UTC_
-
-| List | Allow rules | Block rules |
-|------|------------:|------------:|
-| `pasallow-completewhitelist.txt` | 8,029 | — |
-| `pasallow-h12-whitelist.txt` | 5,635 | — |
-| `pasallow-referral.txt` | 1,542 | — |
-| `pasblacklist.txt` | 11 | 176 |
-| `pasblock-amazon.txt` | — | 359 |
-| `pasblock-apple.txt` | — | 106 |
-| `pasblock-completeblocklist.txt` | — | 936,342 |
-| `pasblock-dandelion-sprout.txt` | — | 11,519 |
-| `pasblock-gambling.txt` | — | 146,115 |
-| `pasblock-haGeZi-pro.txt` | — | 232,335 |
-| `pasblock-huawei.txt` | — | 135 |
-| `pasblock-lgwebos.txt` | — | 340 |
-| `pasblock-microsoft.txt` | — | 370 |
-| `pasblock-native-oppo.txt` | — | 465 |
-| `pasblock-nsfw.txt` | — | 107,807 |
-| `pasblock-osid.txt` | — | 327,964 |
-| `pasblock-roku.txt` | — | 71 |
-| `pasblock-samsung.txt` | — | 189 |
-| `pasblock-shadow-whisper.txt` | — | 43,201 |
-| `pasblock-tif.txt` | — | 554,444 |
-| `pasblock-tiktok.txt` | — | 424 |
-| `pasblock-urlhaus.txt` | — | 12,340 |
-| `pasblock-vivo.txt` | — | 227 |
-| `pasblock-xiaomi.txt` | — | 347 |
-| `paswhitelist.txt` | 98 | — |
-| **Total (sum)** | **15,315** | **2,375,276** |
-| **Total (unique domains)** | **13,443** | **1,092,721** |
+_Stats are generated automatically on each sync._
 
 <!-- STATS:END -->
 
@@ -134,3 +104,35 @@ https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblock-samsun
 
 Then **Settings → Blocking → Update Now** and confirm the Allow List / Block List
 counts on the dashboard.
+
+## Disclaimer
+
+These lists are a personal project, provided **as-is and with no warranty** of any
+kind. DNS filtering can break websites, apps, and devices in ways that are hard to
+predict. You are responsible for what you load on your own network — test before you
+rely on it, and use at your own risk. Nothing here is affiliated with, endorsed by,
+or supported by any of the upstream projects credited below, nor by AdGuard,
+Technitium, or any listed service.
+
+The combined feeds (`pasblock-completeblocklist.txt`, `pasallow-completewhitelist.txt`)
+are convenience aggregations. The **individual upstream projects are the authoritative
+source** — if you want the canonical, maintained version of any list, get it from its
+own project rather than from here.
+
+## Attribution & licenses
+
+Huge thanks to the maintainers whose work these feeds build on. Each upstream list
+remains under **its own license and terms** — please consult and respect them before
+redistributing:
+
+- **HaGeZi's DNS Blocklists** — https://github.com/hagezi/dns-blocklists
+- **DandelionSprout's Anti-Malware List** — https://github.com/DandelionSprout/adfilt
+- **abuse.ch URLhaus** (via the malware-filter project) — https://gitlab.com/malware-filter/urlhaus-filter
+- **AdGuard Team — Hostlists Registry** — https://github.com/AdguardTeam/HostlistsRegistry
+- **celenity — BadBlock** — https://badblock.celenity.dev
+- **OISD** (only if enabled) — https://oisd.nl
+- Roku regex patterns adapted from an **ozankiratli** gist; Peacock playback rules
+  informed by **ajstrick81**'s community work.
+
+If you maintain one of these lists and would prefer it not be redistributed here,
+please open an issue and I'll remove it promptly.
