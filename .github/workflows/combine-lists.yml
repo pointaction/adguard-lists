@@ -1,0 +1,69 @@
+name: Combine lists
+
+# Builds the curated combined feeds from the member lists in
+# blocklist-combine.txt / whitelist-combine.txt:
+#   pasblock-completeblocklist.txt   and   pasallow-completewhitelist.txt
+# Runs after the sync workflows update member lists, and can be run manually.
+# The combined outputs are EXCLUDED from the trigger so this never re-triggers
+# itself.
+
+on:
+  push:
+    paths:
+      - "pasblock-*.txt"
+      - "pasallow-*.txt"
+      - "blocklist-combine.txt"
+      - "whitelist-combine.txt"
+      - "build_combined.py"
+      - "!pasblock-completeblocklist.txt"
+      - "!pasallow-completewhitelist.txt"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  combine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build combined blocklist
+        run: |
+          python3 build_combined.py --kind block \
+            --members blocklist-combine.txt --sources blocklist-sources.txt \
+            --out pasblock-completeblocklist.txt \
+            --title "Point Action Complete Blocklist"
+
+      - name: Build combined whitelist
+        run: |
+          python3 build_combined.py --kind allow \
+            --members whitelist-combine.txt --sources whitelist-sources.txt \
+            --out pasallow-completewhitelist.txt \
+            --title "Point Action Complete Whitelist"
+
+      - name: Commit combined feeds
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          changed=0
+          for f in pasblock-completeblocklist.txt pasallow-completewhitelist.txt; do
+            [ -e "$f" ] || continue
+            # Stage only if the rules changed (ignore the timestamp-only header).
+            if ! git diff -G'^(\|\||@@|/)' --quiet -- "$f"; then
+              git add "$f"; changed=1
+            fi
+          done
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            git add "$f"; changed=1
+          done < <(git ls-files --others --exclude-standard \
+                     'pasblock-completeblocklist.txt' 'pasallow-completewhitelist.txt')
+          if [ "$changed" -eq 1 ]; then
+            git commit -m "Rebuild combined feeds ($(date -u +%F))"
+            git push
+          else
+            echo "No rule changes; combined feeds unchanged."
+          fi
