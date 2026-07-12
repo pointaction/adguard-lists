@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-12
 
+**Added: 22** (0 allow, 22 block)
+
+- block: `0ix.69284715.shop`, `89492038445-859.cfd`, `allegrolokalnie.659825.lat`, `allegrolokalnie.983902.lat`, `allegrolokalnie.lokalna-3215.sbs`, `allegrolokalnie.pl-oferta18929821.shop`, `allegrolokalnie.pl-oferta90213.sbs`, `allegrolokalnie.pl-ogloszenie693128473.cfd`, `allegrolokalnie.pl-ro.lat`, `allegrolokalnie.pl447.lat`, `chiloriamm.cyou`, `columvouch.cyou`, `discfsecure.info`, `freelserra.cyou`, `ilerwat.com` _+7 more_
+
+**Removed: 1** (0 allow, 1 block)
+
+- block: `allegrolokalnie.89492038445-859.cfd`
+
+## 2026-07-12
+
 **Removed: 4** (0 allow, 4 block)
 
 - block: `aan.amazon.com`, `d1u9wuqimc88kc.cloudfront.net`, `i.mxplayer.j2inter.com`, `tracking.services.mozilla.com`
