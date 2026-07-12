@@ -1,0 +1,14 @@
+# Member lists for the combined blocklist -> pasblock-completeblocklist.txt
+# One member name per line. Each name MUST also be a source in
+# blocklist-sources.txt, so its pasblock-<name>.txt file exists to merge.
+# Pick your best performance set — you do NOT need everything.
+# Lines starting with # are ignored.
+
+haGeZi-pro
+tif
+
+# Enable more once you've added them to blocklist-sources.txt and synced:
+# osid
+# dandelion-sprout
+# urlhaus
+# shadow-whisper
