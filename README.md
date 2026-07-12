@@ -5,7 +5,7 @@
 [![Sync blocklists](https://github.com/pointaction/adguard-lists/actions/workflows/sync-blocklists.yml/badge.svg)](https://github.com/pointaction/adguard-lists/actions/workflows/sync-blocklists.yml)
 [![Check sources](https://github.com/pointaction/adguard-lists/actions/workflows/check-sources.yml/badge.svg)](https://github.com/pointaction/adguard-lists/actions/workflows/check-sources.yml)
 
-Personal DNS allowlists and blocklists for my network.
+DNS allowlists and blocklists for my network.
 
 This repo hosts my allow/block lists in **AdGuard / Adblock Plus format**
 (`@@||domain^` to allow, `||domain^` to block). The format works with both AdGuard
