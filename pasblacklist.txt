@@ -1,9 +1,12 @@
 ! Title: Point Action Personal Blacklist
 ! Description: Personal DNS blocklist
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.txt
-! Version: 1.4
+! Version: 1.5
 ! Last modified: 2026-07-13
 ! Expires: 1 days
+!
+! NOTE: DNS filters match HOSTNAMES only — never "://" schemes or "/paths".
+!       Regex rules must be wrapped in /slashes/, not ||...^.
 !
 ! ========== AMAZON PRIME VIDEO (streaming-specific) ==========
 ||ads.amazon.com^
@@ -49,6 +52,7 @@
 ||s0.2mdn.net^
 ||ad.doubleclick.net^
 ||telemetry.nbcuott.com^
+
 ! ==========================================
 ! ROKU BLACKLIST - INDIVIDUAL DOMAINS
 ! ==========================================
@@ -59,35 +63,28 @@
 ||captive.roku.com^
 
 ! ==========================================
-! ROKU BLACKLIST - REGEX PATTERNS
+! ROKU BLACKLIST - REGEX PATTERNS (valid /slashes/ form)
 ! Source: ozankiratli gist (July 2025)
 ! ==========================================
-! Pattern 1: Block logs, ads, web, cti, voice, prod.mobile
-||^(([^.]+\.)*(logs|ads|web|prod\.mobile|cti|voice)(\.[^.]+)*\.)roku\.com$^
-
-! Pattern 2: Block specific server names (amarillo, amoeba, austin, etc)
-||^(([^.]+\.)*[^.]*(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|lb|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)[^.]*(\.([^.]+)*\.))roku\.com$^
-
-! Pattern 3: Block captive, cloudservices, wwwimg
-||^((captive|cloudservices|wwwimg)\.))roku\.com$^
-
-! Pattern 4: Block .sr.roku.com tracking domains (bif, microsites, traces, track, userdata)
-||^((bif|microsites|traces|track|userdata)\.sr\.)roku\.com$^
-
-! Pattern 5: Block ravm.tv queries (all subdomains)
-||^([^.]+\.)*ravm\.tv$^
+! Pattern 1: logs, ads, web, cti, voice, prod.mobile subdomains of roku.com
+/^([a-z0-9-]+\.)*(logs|ads|web|cti|voice)\.roku\.com$/
+/^([a-z0-9-]+\.)*prod\.mobile\.roku\.com$/
+! Pattern 2: named server hosts under roku.com
+/^([a-z0-9-]*)(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|lb|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)([a-z0-9-]*\.)+roku\.com$/
+! Pattern 3: captive, cloudservices, wwwimg
+/^(captive|cloudservices|wwwimg)\.roku\.com$/
+! Pattern 4: bif, microsites, traces, track, userdata under sr.roku.com
+/^(bif|microsites|traces|track|userdata)\.sr\.roku\.com$/
+! Pattern 5: all subdomains of ravm.tv
+/^([a-z0-9-]+\.)*ravm\.tv$/
 
 ! --- TDS TELECOM TELEMETRY & APPS BLOCKLIST ---
-
-! Block TDS Web Portal Tracking and Core Analytics
-||://tdstelecom.com^
-||tds.net/telemetry^
+! (path rules like tds.net/telemetry can't work in DNS — hostname rules only)
+||tdstelecom.com^
+||api.tdstelecom.com^
 ||metrics.tds.net^
 ||smetrics.tds.net^
-
-! Block TDS Mobile and Billing App Web Beacons
-||api.://tdstelecom.com^
-||mobile-api.tds.net/telemetry^
+||mobile-api.tds.net^
 
 ! Block TDS Device Management (TR-069) Data Gathering Nodes
 ||acs.tds.net^
@@ -95,20 +92,16 @@
 ||cwmp.tds.net^
 
 ! --- RELIANCE CONNECTS & SMARTHUB TELEMETRY ---
-
-! Block Core Reliance Connects Tracking & Analytics
-||://rconnects.com^
-||://relianceconnects.com^
+||rconnects.com^
+||relianceconnects.com^
 ||metrics.relianceconnects.com^
 
 ! Block SmartHub Remote Router Management Telemetry (NISC)
-||coop.nisc.android.smarthubwifi^
 ||smarthubwifi.com^
 ||api.smarthub.coop^
 ||telemetry.smarthub.coop^
 
 ! --- COX COMMUNICATIONS TELEMETRY BLOCKLIST ---
-
 ! Block Core Web Metrics & Adobe Analytics Trackers
 ||smetrics.cox.com^
 ||target.cox.com^
@@ -119,13 +112,8 @@
 ||coxappapi.cox.com^
 ||uwp-wifi-access-portal.cox.com^
 
-! Block Ad-Targeting and Marketing Pixels
-||://
-
-! Verizon Corporate Telemetry and Tracking
+! --- VERIZON CORPORATE TELEMETRY & TRACKING ---
 ||vzw.com^
-||://vzw.com^
-||://vzw.com^
 ||vzw.demdex.net^
 ||api.verizon.com^
 
@@ -135,7 +123,6 @@
 ! ============================================================
 ! AI
 ! ============================================================
-
 ! DeepSeek
 ||deepseek.com^
 ||www.deepseek.com^
@@ -155,7 +142,6 @@
 ! ============================================================
 ! Messaging
 ! ============================================================
-
 ! Kik
 ||kik.com^
 ||www.kik.com^
@@ -191,7 +177,6 @@
 ! ============================================================
 ! Shopping
 ! ============================================================
-
 ! AliExpress / Alibaba
 ||aliexpress.com^
 ||*.aliexpress.com^
@@ -339,7 +324,6 @@
 ! ============================================================
 ! Forums / Communities
 ! ============================================================
-
 ! 4chan
 ||4chan.org^
 ||4channel.org^
@@ -360,7 +344,6 @@
 ! ============================================================
 ! Social
 ! ============================================================
-
 ! Mail.ru
 ||mail.ru^
 ||my.mail.ru^
@@ -386,9 +369,8 @@
 ||zhihu.com^
 
 ! ============================================================
-! Blizzard
+! Blizzard / Windows telemetry
 ! ============================================================
-
 ||telemetry.battle.net^
 ||telemetry.blizzard.com^
 ||vortex.data.microsoft.com^
