@@ -244,68 +244,42 @@
 ||bugsnag.com^
 ||sentry.io^
 
-! ============================================
-! AliExpress Complete Block
-! ============================================
+! ==========================================================
+! Shopping Sites - User Choice Blocklist
+! Blocks access to selected shopping platforms, apps,
+! APIs, CDNs, images, telemetry, and related services.
+! ==========================================================
+
+! ==========================================================
+! AliExpress / Alibaba
+! ==========================================================
 
 ||aliexpress.com^
 ||*.aliexpress.com^
-
 ||alicdn.com^
 ||*.alicdn.com^
-
 ||alicdn.net^
 ||*.alicdn.net^
-
 ||aliexpress-media.com^
 ||*.aliexpress-media.com^
-
-||ae01.alicdn.com^
-||ae02.alicdn.com^
-||ae03.alicdn.com^
-||ae04.alicdn.com^
-
-||g.alicdn.com^
-||assets.alicdn.com^
-
-||umeng.com^
-||*.umeng.com^
-
-||umengcloud.com^
-||*.umengcloud.com^
-
-||alibabachengdun.com^
-||*.alibabachengdun.com^
-
-||alipay.com^
-||*.alipay.com^
-
-||alipayobjects.com^
-||*.alipayobjects.com^
-
-||mmstat.com^
-||*.mmstat.com^
-
-||atpanel.com^
-||*.atpanel.com^
-
-||tanx.com^
-||*.tanx.com^
-
-||tanx.net^
-||*.tanx.net^
-
 ||taobao.com^
 ||*.taobao.com^
-
-||tbcdn.cn^
-||*.tbcdn.cn^
-
 ||tmall.com^
 ||*.tmall.com^
-
-||aliyuncs.com^
-||*.aliyuncs.com^
+||tbcdn.cn^
+||*.tbcdn.cn^
+||umeng.com^
+||*.umeng.com^
+||umengcloud.com^
+||*.umengcloud.com^
+||mmstat.com^
+||*.mmstat.com^
+||atpanel.com^
+||*.atpanel.com^
+||tanx.com^
+||*.tanx.com^
+||tanx.net^
+||*.tanx.net^
 
 ! ==========================================================
 ! SHEIN
@@ -313,10 +287,14 @@
 
 ||shein.com^
 ||*.shein.com^
-||sheinshop.com^
-||*.sheinshop.com^
 ||sheingroup.com^
 ||*.sheingroup.com^
+||sheinshop.com^
+||*.sheinshop.com^
+||sheinimg.com^
+||*.sheinimg.com^
+||ltwebstatic.com^
+||*.ltwebstatic.com^
 
 ! ==========================================================
 ! TEMU / PDD Holdings
@@ -328,6 +306,10 @@
 ||*.pinduoduo.com^
 ||pddpic.com^
 ||*.pddpic.com^
+||temucdn.com^
+||*.temucdn.com^
+||temuimg.com^
+||*.temuimg.com^
 
 ! ==========================================================
 ! WISH
@@ -344,6 +326,8 @@
 
 ||shopee.com^
 ||*.shopee.com^
+||shopeemobile.com^
+||*.shopeemobile.com^
 ||shopee.sg^
 ||*.shopee.sg^
 ||shopee.ph^
@@ -358,8 +342,6 @@
 ||*.shopee.tw^
 ||shopee.co.th^
 ||*.shopee.co.th^
-||shopeemobile.com^
-||*.shopeemobile.com^
 
 ! ==========================================================
 ! LAZADA
@@ -386,8 +368,6 @@
 
 ||mercadolibre.com^
 ||*.mercadolibre.com^
-||mercadolibre.com.ar^
-||*.mercadolibre.com.ar^
 ||mercadolivre.com.br^
 ||*.mercadolivre.com.br^
 ||mercadopago.com^
@@ -401,12 +381,12 @@
 
 ||xiaohongshu.com^
 ||*.xiaohongshu.com^
+||xiaohongshu.net^
+||*.xiaohongshu.net^
 ||xhscdn.com^
 ||*.xhscdn.com^
 ||xhscdn.net^
 ||*.xhscdn.net^
-||xiaohongshu.net^
-||*.xiaohongshu.net^
 
 ! ============================================================
 ! Scamming Unsafe Websites
