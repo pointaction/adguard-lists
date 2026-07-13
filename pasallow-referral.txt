@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-13 09:55 UTC
-! Entries: 1544
+! Synced: 2026-07-13 19:59 UTC
+! Entries: 1545
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -478,6 +478,7 @@
 @@||d.hodes.com^
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
+@@||data.email.tangerine.ca^
 @@||dct.klaviyodns.com^
 @@||dealabs.digidip.net^
 @@||deeplink.page^
