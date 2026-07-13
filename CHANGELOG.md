@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Added: 5** (0 allow, 5 block)
+
+- block: `api.tdstelecom.com`, `mobile-api.tds.net`, `rconnects.com`, `relianceconnects.com`, `tdstelecom.com`
+
+**Removed: 1** (0 allow, 1 block)
+
+- block: `coop.nisc.android.smarthubwifi`
+
+## 2026-07-13
+
 **Added: 124** (0 allow, 124 block)
 
 - block: `*.360buyimg.com`, `*.alibaba.com`, `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.atpanel.com`, `*.banggood.com`, `*.coolapk.com`, `*.dhgate.com`, `*.dhresource.com`, `*.geekbuying.com`, `*.jd.com`, `*.jd.hk`, `*.joybuy.com` _+109 more_
