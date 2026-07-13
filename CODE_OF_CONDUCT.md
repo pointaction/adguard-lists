@@ -83,6 +83,8 @@ redistributing:
 - **AdGuard Team — Hostlists Registry** — https://github.com/AdguardTeam/HostlistsRegistry
 - **celenity — BadBlock** — https://badblock.celenity.dev
 - **OISD** (only if enabled) — https://oisd.nl
+- **AdAway default blocklist** - https://adaway.org/hosts.txt
+- **StevenBlack/hosts** - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 - Roku regex patterns adapted from an **ozankiratli** gist; Peacock playback rules
   informed by **ajstrick81**'s community work.
 
