@@ -129,7 +129,7 @@ prefix on any of them**. Because these are adblock format, Technitium auto-detec
 ```
 https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
 https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasreferral-whitelist.txt
-https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.built.txt
+https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblacklist.txt
 https://raw.githubusercontent.com/pointaction/adguard-lists/main/pasblock-samsung.txt
 ...
 ```
