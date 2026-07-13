@@ -7,7 +7,7 @@ name: Sync blocklists
 
 on:
   schedule:
-    - cron: "30 6 * * *"
+    - cron: "15 0/6 * * *"
   workflow_dispatch: {}
 
 permissions:
