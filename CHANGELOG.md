@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Removed: 98** (0 allow, 98 block)
+
+- block: `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.atpanel.com`, `*.lazada.co.id`, `*.lazada.co.th`, `*.lazada.com`, `*.lazada.com.my`, `*.lazada.com.ph`, `*.lazada.sg`, `*.lazada.vn`, `*.ltwebstatic.com`, `*.mercadocdn.com`, `*.mercadolibre.com` _+83 more_
+
+## 2026-07-13
+
 **Added: 20** (0 allow, 20 block)
 
 - block: `*.ltwebstatic.com`, `*.sheinimg.com`, `*.sheinshop.com`, `*.shopeemobile.com`, `*.taobao.com`, `*.tbcdn.cn`, `*.temucdn.com`, `*.temuimg.com`, `*.tmall.com`, `*.xiaohongshu.net`, `ltwebstatic.com`, `sheinimg.com`, `sheinshop.com`, `shopeemobile.com`, `taobao.com` _+5 more_
