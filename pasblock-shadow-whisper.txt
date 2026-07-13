@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: shadow-whisper
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
-! Synced: 2026-07-11 22:19 UTC
-! Entries: 43201 (removed 7 allow-listed)
+! Synced: 2026-07-13 15:07 UTC
+! Entries: 43202 (removed 7 allow-listed)
 !
 ||0-38.com^
 ||00000.live^
@@ -3604,6 +3604,7 @@
 ||anamuel-careslie.com^
 ||anatomyassault.com^
 ||anatoperio.com^
+||anbank.biz^
 ||anbtr.com^
 ||anchornails.com^
 ||anchorrespitefire.com^
