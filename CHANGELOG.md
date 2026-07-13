@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Added: 106** (0 allow, 106 block)
+
+- block: `*.alibabachengdun.com`, `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.alipay.com`, `*.alipayobjects.com`, `*.aliyuncs.com`, `*.atpanel.com`, `*.lazada.co.id`, `*.lazada.co.th`, `*.lazada.com`, `*.lazada.com.my`, `*.lazada.com.ph`, `*.lazada.sg` _+91 more_
+
+**Removed: 43** (0 allow, 43 block)
+
+- block: `aliexpress.com`, `api.aliexpress.com`, `api.shein.com`, `api.temu.com`, `api.wish.com`, `blog.wish.com`, `contest.wish.com`, `coolapk.com`, `cs.wish.com`, `lazada.co.id`, `lazada.co.th`, `lazada.com`, `lazada.com.my`, `lazada.com.ph`, `lazada.sg` _+28 more_
+
+## 2026-07-13
+
 **Added: 11** (0 allow, 11 block)
 
 - block: `athortamoved.cfd`, `cicadacacophony.space`, `elmiestindishshole.qpon`, `fieldandhaven.com`, `gibbousgambol.site`, `h1no26ftnb9ucf1fovk4p.cfd`, `quicktoolera.com`, `sampleobtuse.shop`, `sorrilylivyershape.cyou`, `tryuseelements.com`, `ukasesboorish.qpon`
