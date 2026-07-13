@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Added: 20** (0 allow, 20 block)
+
+- block: `*.ltwebstatic.com`, `*.sheinimg.com`, `*.sheinshop.com`, `*.shopeemobile.com`, `*.taobao.com`, `*.tbcdn.cn`, `*.temucdn.com`, `*.temuimg.com`, `*.tmall.com`, `*.xiaohongshu.net`, `ltwebstatic.com`, `sheinimg.com`, `sheinshop.com`, `shopeemobile.com`, `taobao.com` _+5 more_
+
+**Removed: 28** (0 allow, 28 block)
+
+- block: `*.alibabachengdun.com`, `*.alipay.com`, `*.alipayobjects.com`, `*.aliyuncs.com`, `*.mercadolibre.com.ar`, `*.sheinshop.com`, `*.shopeemobile.com`, `*.taobao.com`, `*.tbcdn.cn`, `*.tmall.com`, `*.xiaohongshu.net`, `ae01.alicdn.com`, `ae02.alicdn.com`, `ae03.alicdn.com`, `ae04.alicdn.com` _+13 more_
+
+## 2026-07-13
+
 **Added: 106** (0 allow, 106 block)
 
 - block: `*.alibabachengdun.com`, `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.alipay.com`, `*.alipayobjects.com`, `*.aliyuncs.com`, `*.atpanel.com`, `*.lazada.co.id`, `*.lazada.co.th`, `*.lazada.com`, `*.lazada.com.my`, `*.lazada.com.ph`, `*.lazada.sg` _+91 more_
