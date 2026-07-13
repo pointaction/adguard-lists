@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-12 08:52 UTC
-! Entries: 1542
+! Synced: 2026-07-13 09:55 UTC
+! Entries: 1544
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -213,10 +213,11 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
+@@||api-fra04-origin.hubapi.com^
+@@||api-iad02-origin.hubapi.com^
 @@||api-mobile.cleverpush.com^
 @@||api-na1.hubapi.com^
 @@||api-na2.hubapi.com^
@@ -1160,6 +1161,7 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
