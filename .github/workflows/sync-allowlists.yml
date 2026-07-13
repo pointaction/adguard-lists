@@ -7,7 +7,7 @@ name: Sync allowlists
 
 on:
   schedule:
-    - cron: "20 0/6 * * *"
+    - cron: "30 0/6 * * *"
   workflow_dispatch: {}
 
 permissions:
