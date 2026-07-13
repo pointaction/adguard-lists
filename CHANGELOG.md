@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-13
+
+**Removed: 17** (17 allow, 0 block)
+
+- allow: `api2.sr.roku.com`, `bookmarks.sr.roku.com`, `configsvc.sc.roku.com`, `content-detail.sr.roku.com`, `content.sr.roku.com`, `images-svc.sr.roku.com`, `images.sr.roku.com`, `keysvc.sc.roku.com`, `ls.cti.roku.com`, `navigation.sr.roku.com`, `playback-detail.sr.roku.com`, `rights-manager.sr.roku.com`, `static-delivery.sr.roku.com`, `tis.cti.roku.com`, `vod-playlist.sr.roku.com` _+2 more_
+
 ## 2026-07-12
 
 **Added: 22** (0 allow, 22 block)
