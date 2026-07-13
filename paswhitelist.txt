@@ -5,27 +5,6 @@
 ! Last modified: 2026-07-11
 
 ! ============================================================
-! Roku Channel
-! ============================================================
-@@||configsvc.sc.roku.com^
-@@||keysvc.sc.roku.com^
-@@||content.sr.roku.com^
-@@||content-detail.sr.roku.com^
-@@||playback-detail.sr.roku.com^
-@@||images.sr.roku.com^
-@@||api2.sr.roku.com^
-@@||vod.delivery.roku.com^
-@@||vod-playlist.sr.roku.com^
-@@||rights-manager.sr.roku.com^
-@@||wv-license.sr.roku.com^
-@@||static-delivery.sr.roku.com^
-@@||bookmarks.sr.roku.com^
-@@||navigation.sr.roku.com^
-@@||images-svc.sr.roku.com^
-@@||tis.cti.roku.com^
-@@||ls.cti.roku.com^
-
-! ============================================================
 ! Personal Domains
 ! ============================================================
 @@||pointaction.com^
