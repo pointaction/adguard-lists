@@ -14,7 +14,7 @@ on:
       - "build/combine-whitelist-sources.txt"
       - "scripts/build_combined.py"
   schedule:
-    - cron: "45 0/6 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -95,7 +95,14 @@ jobs:
                      'pasblock-completeblocklist.txt' 'pasallow-completewhitelist.txt')
           if [ "$changed" -eq 1 ]; then
             git commit -m "Rebuild combined feeds ($(date -u +%F))"
-            git push
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git push; then pushed=1; break; fi
+              echo "Push rejected (remote moved) — rebasing and retrying ($attempt)..."
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+              sleep $((RANDOM % 4 + 2))
+            done
+            [ "$pushed" -eq 1 ] || { echo "Push still failing after retries."; exit 1; }
           else
             echo "No rule changes; combined feeds unchanged."
           fi

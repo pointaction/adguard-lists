@@ -7,7 +7,7 @@ name: Sync blocklists
 
 on:
   schedule:
-    - cron: "15 0/6 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -74,7 +74,17 @@ jobs:
           done < <(git ls-files --others --exclude-standard 'pasblock-*.txt')
           if [ "$changed" -eq 1 ]; then
             git commit -m "Sync blocklists ($(date -u +%F))"
-            git push
+            # Another workflow may push to main while this one runs. Retry the
+            # push, rebasing onto the latest main each time, so concurrent
+            # commits don't fail the job.
+            pushed=0
+            for attempt in 1 2 3 4 5; do
+              if git push; then pushed=1; break; fi
+              echo "Push rejected (remote moved) — rebasing and retrying ($attempt)..."
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+              sleep $((RANDOM % 4 + 2))
+            done
+            [ "$pushed" -eq 1 ] || { echo "Push still failing after retries."; exit 1; }
           else
             echo "No domain changes; nothing to commit."
           fi
