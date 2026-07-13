@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-13 10:00 UTC
-! Entries: 8031
+! Generated: 2026-07-13 20:03 UTC
+! Entries: 8032
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -2468,6 +2468,7 @@
 @@||data.appattest.v.aaplimg.com^
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
+@@||data.email.tangerine.ca^
 @@||data1.eronet.ba^
 @@||data2.eronet.ba^
 @@||dct.klaviyodns.com^
