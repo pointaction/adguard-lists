@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Added: 11** (0 allow, 11 block)
+
+- block: `athortamoved.cfd`, `cicadacacophony.space`, `elmiestindishshole.qpon`, `fieldandhaven.com`, `gibbousgambol.site`, `h1no26ftnb9ucf1fovk4p.cfd`, `quicktoolera.com`, `sampleobtuse.shop`, `sorrilylivyershape.cyou`, `tryuseelements.com`, `ukasesboorish.qpon`
+
+## 2026-07-13
+
 **Removed: 11** (11 allow, 0 block)
 
 - allow: `assets.adobedtm.com`, `atom.peacocktv.com`, `bff-ext.clients.peacocktv.com`, `cybertron.id.peacocktv.com`, `imageservice.disco.peacocktv.com`, `ingest.webcol.sdp.peacocktv.com`, `meg.disco.peacocktv.com`, `mytv.clients.peacocktv.com`, `ovp.peacocktv.com`, `pconfig-prd.cdn.peacocktv.com`, `play.ovp.peacocktv.com`
