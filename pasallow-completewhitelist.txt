@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-12 18:00 UTC
-! Entries: 8029
+! Generated: 2026-07-13 10:00 UTC
+! Entries: 8031
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -694,11 +694,12 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
+@@||api-fra04-origin.hubapi.com^
+@@||api-iad02-origin.hubapi.com^
 @@||api-mobile.cleverpush.com^
 @@||api-na1.hubapi.com^
 @@||api-na2.hubapi.com^
@@ -6341,6 +6342,7 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
