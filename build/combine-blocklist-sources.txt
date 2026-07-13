@@ -25,3 +25,5 @@ shadow-whisper https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.
 # NOTE: OISD asks not to be mirrored/redistributed. Keep it commented unless
 # you've confirmed its terms allow republishing in a combined feed.
 # osid https://big.oisd.nl
+adway https://adaway.org/hosts.txt
+StevenBlack https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
