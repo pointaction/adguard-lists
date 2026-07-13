@@ -36,19 +36,19 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-13 19:59 UTC_
+_Last updated: 2026-07-13 20:10 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `pasallow-completewhitelist.txt` | 8,031 | — |
+| `pasallow-completewhitelist.txt` | 8,032 | — |
 | `pasallow-h12-whitelist.txt` | 5,635 | — |
-| `pasallow-referral.txt` | 1,544 | — |
-| `pasblacklist.txt` | — | 133 |
+| `pasallow-referral.txt` | 1,545 | — |
+| `pasblacklist.txt` | — | 231 |
 | `pasblock-StevenBlack.txt` | — | 78,192 |
 | `pasblock-adway.txt` | — | 6,434 |
 | `pasblock-amazon.txt` | — | 359 |
 | `pasblock-apple.txt` | — | 106 |
-| `pasblock-completeblocklist.txt` | — | 944,539 |
+| `pasblock-completeblocklist.txt` | — | 951,844 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
 | `pasblock-gambling.txt` | — | 146,258 |
 | `pasblock-haGeZi-pro.txt` | — | 233,694 |
@@ -67,8 +67,8 @@ _Last updated: 2026-07-13 19:59 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 81 | — |
-| **Total (sum)** | **15,291** | **2,551,905** |
-| **Total (unique domains)** | **13,417** | **1,246,439** |
+| **Total (sum)** | **15,293** | **2,559,308** |
+| **Total (unique domains)** | **13,418** | **1,244,795** |
 
 <!-- STATS:END -->
 

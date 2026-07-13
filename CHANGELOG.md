@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-13
 
+**Added: 124** (0 allow, 124 block)
+
+- block: `*.360buyimg.com`, `*.alibaba.com`, `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.atpanel.com`, `*.banggood.com`, `*.coolapk.com`, `*.dhgate.com`, `*.dhresource.com`, `*.geekbuying.com`, `*.jd.com`, `*.jd.hk`, `*.joybuy.com` _+109 more_
+
+**Removed: 26** (0 allow, 26 block)
+
+- block: `adnxs.com`, `adservice.google.com`, `app-measurement.com`, `branch.io`, `bugsnag.com`, `connect.facebook.net`, `criteo.com`, `datarouter.ol.epicgames.com`, `doubleclick.net`, `gfe.nvidia.com`, `google-analytics.com`, `googlesyndication.com`, `pin-em.data.ea.com`, `pin-river.data.ea.com`, `rconnects.com` _+11 more_
+
+## 2026-07-13
+
 **Removed: 98** (0 allow, 98 block)
 
 - block: `*.alicdn.com`, `*.alicdn.net`, `*.aliexpress-media.com`, `*.aliexpress.com`, `*.atpanel.com`, `*.lazada.co.id`, `*.lazada.co.th`, `*.lazada.com`, `*.lazada.com.my`, `*.lazada.com.ph`, `*.lazada.sg`, `*.lazada.vn`, `*.ltwebstatic.com`, `*.mercadocdn.com`, `*.mercadolibre.com` _+83 more_
