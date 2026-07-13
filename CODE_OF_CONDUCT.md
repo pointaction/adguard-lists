@@ -71,16 +71,20 @@ reporter of any incident.
 Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:
 
-## Attribution
+## Attribution & licenses
 
-Huge thanks to the maintainers whose work these feeds build on. Each upstream list remains under its own license and terms — please consult and respect them before redistributing:
+Huge thanks to the maintainers whose work these feeds build on. Each upstream list
+remains under **its own license and terms** — please consult and respect them before
+redistributing:
 
-HaGeZi's DNS Blocklists — https://github.com/hagezi/dns-blocklists
-DandelionSprout's Anti-Malware List — https://github.com/DandelionSprout/adfilt
-abuse.ch URLhaus (via the malware-filter project) — https://gitlab.com/malware-filter/urlhaus-filter
-AdGuard Team — Hostlists Registry — https://github.com/AdguardTeam/HostlistsRegistry
-celenity — BadBlock — https://badblock.celenity.dev
-OISD (only if enabled) — https://oisd.nl
-Roku regex patterns adapted from an ozankiratli gist; Peacock playback rules informed by ajstrick81's community work.
+- **HaGeZi's DNS Blocklists** — https://github.com/hagezi/dns-blocklists
+- **DandelionSprout's Anti-Malware List** — https://github.com/DandelionSprout/adfilt
+- **abuse.ch URLhaus** (via the malware-filter project) — https://gitlab.com/malware-filter/urlhaus-filter
+- **AdGuard Team — Hostlists Registry** — https://github.com/AdguardTeam/HostlistsRegistry
+- **celenity — BadBlock** — https://badblock.celenity.dev
+- **OISD** (only if enabled) — https://oisd.nl
+- Roku regex patterns adapted from an **ozankiratli** gist; Peacock playback rules
+  informed by **ajstrick81**'s community work.
 
-If you maintain one of these lists and would prefer it not be redistributed here, please open an issue and I'll remove it promptly.
+If you maintain one of these lists and would prefer it not be redistributed here,
+please open an issue and I'll remove it promptly.
