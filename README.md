@@ -43,7 +43,7 @@ _Last updated: 2026-07-13 13:30 UTC_
 | `pasallow-completewhitelist.txt` | 8,031 | — |
 | `pasallow-h12-whitelist.txt` | 5,635 | — |
 | `pasallow-referral.txt` | 1,544 | — |
-| `pasblacklist.txt` | 11 | 176 |
+| `pasblacklist.txt` | — | 176 |
 | `pasblock-amazon.txt` | — | 359 |
 | `pasblock-apple.txt` | — | 106 |
 | `pasblock-completeblocklist.txt` | — | 875,745 |
@@ -65,8 +65,8 @@ _Last updated: 2026-07-13 13:30 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 81 | — |
-| **Total (sum)** | **15,302** | **2,314,700** |
-| **Total (unique domains)** | **13,428** | **1,132,701** |
+| **Total (sum)** | **15,291** | **2,314,700** |
+| **Total (unique domains)** | **13,417** | **1,132,701** |
 
 <!-- STATS:END -->
 
