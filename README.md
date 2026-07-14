@@ -92,7 +92,6 @@ _Last updated: 2026-07-13 20:42 UTC_
 | File | Purpose |
 |------|---------|
 | `validate_lists.py` | Validates every `.txt` list: syntax, within-file duplicates, and live DNS resolution. |
-| `build_lists.py` | Builds `pasblacklist.built.txt` from my personal rules. |
 | `blocklist-sources.txt` | Control panel for the blocklist sync — one `name url` line per source. |
 
 ## Automation (GitHub Actions)
