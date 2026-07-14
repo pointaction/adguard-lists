@@ -85,7 +85,6 @@ _Last updated: 2026-07-13 20:42 UTC_
 
 | File | What it is | Source |
 |------|------------|--------|
-| `pasblacklist.built.txt` | My blocklist (streaming ads, telemetry) with a few inline `@@` allows for playback. | Built from my own rules |
 | `pasblock-*.txt` | Category blocklists — one file per upstream source (tif, rebind, amazon, apple, gambling, huawei, lgwebos, microsoft, native-oppo, nsfw, roku, tiktok, vivo, xiaomi, samsung). | Auto-synced daily, cleaned & deduped |
 
 ### Scripts & config
