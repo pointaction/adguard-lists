@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-14
+
+**Added: 1** (0 allow, 1 block)
+
+- block: `valorsusa.com`
+
 ## 2026-07-13
 
 **Added: 5** (0 allow, 5 block)
