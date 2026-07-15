@@ -91,8 +91,16 @@ _Last updated: 2026-07-15 05:13 UTC_
 
 | File | Purpose |
 |------|---------|
+| `changelog.py` | Turn a git diff of the list files into a dated CHANGELOG entry. |
+| `stats.py` | Count entries in every pas*.txt list and write a stats table into README.md between the markers. |
 | `validate_lists.py` | Validates every `.txt` list: syntax, within-file duplicates, and live DNS resolution. |
+| `build_blocklist.py` | Normalize a raw blocklist into a clean AdGuard/Technitium block list. |
+| `build_allowlist.py` | Normalize a raw allowlist into clean AdGuard/Technitium allow rules (`@@||domain^`). |
+| `build_combined.py` | Merge many upstream lists into ONE curated combined feed. |
 | `blocklist-sources.txt` | Control panel for the blocklist sync — one `name url` line per source. |
+| `whitelist-sources.txt` | Control panel for the whitelist sync — one `name url` line per source. |
+| `combine-blocklist-sources.txt` | Control panel for the Sources merged into the combined blocklist sync — one `name url` line per source. |
+| `combine-whitelist-sources.txt` | Control panel for the Sources merged into the combined whitelist sync — one `name url` line per source. |
 
 ## Automation (GitHub Actions)
 
