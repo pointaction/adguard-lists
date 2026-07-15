@@ -1,8 +1,11 @@
 ! Title: Point Action Blocklist: native-oppo
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt
-! Synced: 2026-07-11 06:34 UTC
-! Entries: 465 (removed 0 allow-listed)
+! Synced: 2026-07-15 08:40 UTC
+! Entries: 468 (removed 0 allow-listed)
 !
+||ad-growth-in.heytapmobile.com^
+||ad-growth-ru.heytapmobile.com^
+||ad-growth-sg.heytapmobile.com^
 ||ads-bdapi-my.heytapmobile.com^
 ||ads-bdapi-ph.heytapmobile.com^
 ||ads-bdapi-th.heytapmobile.com^

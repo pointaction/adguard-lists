@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: shadow-whisper
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
-! Synced: 2026-07-13 15:10 UTC
-! Entries: 43217 (removed 7 allow-listed)
+! Synced: 2026-07-15 08:41 UTC
+! Entries: 43219 (removed 7 allow-listed)
 !
 ||0-38.com^
 ||00000.live^
@@ -8639,6 +8639,7 @@
 ||citizenhid.com^
 ||citizensmantle.com^
 ||citralschancrecensing.qpon^
+||citylovejunction.online^
 ||citysubcss.com^
 ||cityunddder.com^
 ||ciuvo.com^
@@ -43197,6 +43198,7 @@
 ||zremgec.com^
 ||zryydi.com^
 ||zsrc-now.com^
+||ztnjcc.com^
 ||ztomy.com^
 ||zugriffemailnt.com^
 ||zuhaowan.com^
