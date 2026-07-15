@@ -36,11 +36,11 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-15 19:00 UTC_
+_Last updated: 2026-07-15 19:01 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `pas-shipping-carrier.txt` | 20 | — |
+| `pas-shipping-carrier-whitelist.txt` | 20 | — |
 | `pasallow-completewhitelist.txt` | 8,035 | — |
 | `pasallow-referral.txt` | 1,548 | — |
 | `pasblacklist.txt` | — | 236 |
