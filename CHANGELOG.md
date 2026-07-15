@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-15
+
+**Added: 1** (1 allow, 0 block)
+
+- allow: `falcon-nw.com`
+
 ## 2026-07-14
 
 **Added: 1** (0 allow, 1 block)

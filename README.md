@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-14 23:22 UTC_
+_Last updated: 2026-07-15 05:13 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -66,9 +66,9 @@ _Last updated: 2026-07-14 23:22 UTC_
 | `pasblock-urlhaus.txt` | — | 12,008 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
-| `paswhitelist.txt` | 81 | — |
-| **Total (sum)** | **15,295** | **2,573,814** |
-| **Total (unique domains)** | **13,419** | **1,259,631** |
+| `paswhitelist.txt` | 82 | — |
+| **Total (sum)** | **15,296** | **2,573,814** |
+| **Total (unique domains)** | **13,420** | **1,259,631** |
 
 <!-- STATS:END -->
 
