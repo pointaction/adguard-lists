@@ -36,10 +36,11 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-15 13:32 UTC_
+_Last updated: 2026-07-15 19:00 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
+| `pas-shipping-carrier.txt` | 20 | — |
 | `pasallow-completewhitelist.txt` | 8,035 | — |
 | `pasallow-referral.txt` | 1,548 | — |
 | `pasblacklist.txt` | — | 236 |
@@ -66,8 +67,8 @@ _Last updated: 2026-07-15 13:32 UTC_
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 82 | — |
-| **Total (sum)** | **9,665** | **2,473,710** |
-| **Total (unique domains)** | **8,107** | **1,139,043** |
+| **Total (sum)** | **9,685** | **2,473,710** |
+| **Total (unique domains)** | **8,127** | **1,139,043** |
 
 <!-- STATS:END -->
 

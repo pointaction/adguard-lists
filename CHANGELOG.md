@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-15
 
+**Added: 20** (20 allow, 0 block)
+
+- allow: `17track.net`, `aftership.com`, `auspost.com.au`, `canadapost-postescanada.ca`, `canadapost.ca`, `dhl.com`, `dpdhl.com`, `fedex.com`, `lasership.com`, `ontrac.com`, `parcelpanel.com`, `parcelsapp.com`, `purolator.com`, `royalmail.com`, `ship24.com` _+5 more_
+
+## 2026-07-15
+
 **Removed: 5635** (5635 allow, 0 block)
 
 - allow: `*.abs.hls.ttvnw.net`, `*.ahcdn.com`, `*.aria.microsoft.com`, `*.australiasoutheast.cloudapp.azure.com`, `*.awsglobalaccelerator.com`, `*.b.akamaiedge.net`, `*.battle.net`, `*.bootstrap.libp2p.io`, `*.branch.io`, `*.cdn.office.net`, `*.cdn.optimizely.com`, `*.cdn.rumble.cloud`, `*.cdn.snapcraft.io`, `*.cdn13.com`, `*.cdnrobot.xyz` _+5620 more_
