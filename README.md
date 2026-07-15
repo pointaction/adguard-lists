@@ -36,39 +36,38 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-15 05:13 UTC_
+_Last updated: 2026-07-15 13:32 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `pasallow-completewhitelist.txt` | 8,033 | — |
-| `pasallow-h12-whitelist.txt` | 5,635 | — |
-| `pasallow-referral.txt` | 1,546 | — |
+| `pasallow-completewhitelist.txt` | 8,035 | — |
+| `pasallow-referral.txt` | 1,548 | — |
 | `pasblacklist.txt` | — | 236 |
-| `pasblock-StevenBlack.txt` | — | 78,192 |
+| `pasblock-StevenBlack.txt` | — | 75,735 |
 | `pasblock-adway.txt` | — | 6,434 |
 | `pasblock-amazon.txt` | — | 359 |
 | `pasblock-apple.txt` | — | 106 |
-| `pasblock-completeblocklist.txt` | — | 965,263 |
+| `pasblock-completeblocklist.txt` | — | 984,832 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
-| `pasblock-gambling.txt` | — | 146,258 |
-| `pasblock-haGeZi-pro.txt` | — | 234,409 |
+| `pasblock-gambling.txt` | — | 146,559 |
+| `pasblock-haGeZi-pro.txt` | — | 235,831 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 340 |
 | `pasblock-microsoft.txt` | — | 370 |
-| `pasblock-native-oppo.txt` | — | 465 |
-| `pasblock-nsfw.txt` | — | 108,423 |
-| `pasblock-osid.txt` | — | 508,902 |
+| `pasblock-native-oppo.txt` | — | 468 |
+| `pasblock-nsfw.txt` | — | 108,930 |
+| `pasblock-osid.txt` | — | 324,187 |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 189 |
-| `pasblock-shadow-whisper.txt` | — | 43,217 |
-| `pasblock-tif.txt` | — | 455,920 |
+| `pasblock-shadow-whisper.txt` | — | 43,219 |
+| `pasblock-tif.txt` | — | 521,266 |
 | `pasblock-tiktok.txt` | — | 424 |
-| `pasblock-urlhaus.txt` | — | 12,008 |
+| `pasblock-urlhaus.txt` | — | 11,926 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 82 | — |
-| **Total (sum)** | **15,296** | **2,573,814** |
-| **Total (unique domains)** | **13,420** | **1,259,631** |
+| **Total (sum)** | **9,665** | **2,473,710** |
+| **Total (unique domains)** | **8,107** | **1,139,043** |
 
 <!-- STATS:END -->
 
