@@ -1,0 +1,36 @@
+! Title: Point Action Shipping / Carriers Whitelist
+! Description: AdGuard/Technitium allowlist of trusted Shipping / Carriers services.
+! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
+! Version: 2.0
+! Last modified: 2026-07-11
+
+! ============================================================
+! Shipping / Carriers
+! ============================================================
+! US majors
+@@||usps.com^
+@@||ups.com^
+@@||fedex.com^
+@@||dhl.com^
+@@||dpdhl.com^
+
+! Regional US / last-mile
+@@||ontrac.com^
+@@||lasership.com^
+@@||track.amazon.com^
+@@||swiship.com^
+
+! International
+@@||canadapost.ca^
+@@||canadapost-postescanada.ca^
+@@||purolator.com^
+@@||royalmail.com^
+@@||auspost.com.au^
+@@||startrack.com.au^
+
+! Tracking aggregators (embedded on store order pages)
+@@||aftership.com^
+@@||17track.net^
+@@||parcelsapp.com^
+@@||ship24.com^
+@@||parcelpanel.com^
