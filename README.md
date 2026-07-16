@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-16 18:13 UTC_
+_Last updated: 2026-07-16 19:13 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
