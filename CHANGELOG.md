@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Added: 101** (101 allow, 0 block)
+
+- allow: `244716ee2b26.entrypoint.cloud.wowza.com`, `ably.com`, `acme-v02.api.letsencrypt.org`, `battle.net`, `battleye.com`, `blizzard.com`, `broadcom.com`, `canonical.com`, `cloudfront.net`, `denuvo.com`, `discord.com`, `discord.gg`, `discord.media`, `discordapp.com`, `discordapp.net` _+86 more_
+
+## 2026-07-16
+
 **Removed: 70** (70 allow, 0 block)
 
 - allow: `244716ee2b26.entrypoint.cloud.wowza.com`, `ably.com`, `acme-v02.api.letsencrypt.org`, `battle.net`, `blizzard.com`, `broadcom.com`, `canonical.com`, `cloudfront.net`, `dl.delivery.mp.microsoft.com`, `docker.com`, `docker.io`, `download.onvue.com`, `download.windowsupdate.com`, `examity.com`, `examsoft.com` _+55 more_
