@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Removed: 75804** (0 allow, 75804 block)
+
+- block: `0.0.0.0.creative.hpyrdr.com`, `0.0.0.0.hpyrdr.com`, `0.ackzany.com`, `0.athwartwhoafat.com`, `0.blissfullyzebra.com`, `0.duhquietly.com`, `0.gadzooksrudely.com`, `0.nextyourcontent.com`, `0.r.msn.com`, `000.gaysexe.free.fr`, `00000.uno`, `000free.us`, `000tristanprod.free.fr`, `0022a601.pphost.net`, `005.free-counter.co.uk` _+75789 more_
+
+## 2026-07-16
+
 **Added: 1** (1 allow, 0 block)
 
 - allow: `snapcraft.io`
