@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Removed: 237009** (0 allow, 237009 block)
+
+- block: `0--0.info`, `0--4.com`, `0--d.com`, `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0checkmate.com`, `0-0-7.site`, `0-0.fr`, `0-02.net`, `0-0asia.com`, `0-100mph.com`, `0-2-0-7.casino`, `0-2.net`, `0-3.org`, `0-31.com` _+236994 more_
+
+## 2026-07-16
+
 **Removed: 75804** (0 allow, 75804 block)
 
 - block: `0.0.0.0.creative.hpyrdr.com`, `0.0.0.0.hpyrdr.com`, `0.ackzany.com`, `0.athwartwhoafat.com`, `0.blissfullyzebra.com`, `0.duhquietly.com`, `0.gadzooksrudely.com`, `0.nextyourcontent.com`, `0.r.msn.com`, `000.gaysexe.free.fr`, `00000.uno`, `000free.us`, `000tristanprod.free.fr`, `0022a601.pphost.net`, `005.free-counter.co.uk` _+75789 more_
