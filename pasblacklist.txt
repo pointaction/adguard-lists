@@ -62,22 +62,6 @@
 ||lat-services.api.data.roku.com^
 ||captive.roku.com^
 
-! ==========================================
-! ROKU BLACKLIST - REGEX PATTERNS (valid /slashes/ form)
-! Source: ozankiratli gist (July 2025)
-! ==========================================
-! Pattern 1: logs, ads, web, cti, voice, prod.mobile subdomains of roku.com
-/^([a-z0-9-]+\.)*(logs|ads|web|cti|voice)\.roku\.com$/
-/^([a-z0-9-]+\.)*prod\.mobile\.roku\.com$/
-! Pattern 2: named server hosts under roku.com
-/^([a-z0-9-]*)(amarillo|amoeba|austin|benjamin|bryan|camden|cooper|copper|digdug|external|giga|gilbert|griffin|hereford|lb|liberty|littlefield|longview|madison|marlin|midland|paolo|richmond|rollingwood|scribe|sugarland|tyler|victoria|windsor)([a-z0-9-]*\.)+roku\.com$/
-! Pattern 3: captive, cloudservices, wwwimg
-/^(captive|cloudservices|wwwimg)\.roku\.com$/
-! Pattern 4: bif, microsites, traces, track, userdata under sr.roku.com
-/^(bif|microsites|traces|track|userdata)\.sr\.roku\.com$/
-! Pattern 5: all subdomains of ravm.tv
-/^([a-z0-9-]+\.)*ravm\.tv$/
-
 ! --- TDS TELECOM TELEMETRY & APPS BLOCKLIST ---
 ! (path rules like tds.net/telemetry can't work in DNS — hostname rules only)
 ||tdstelecom.com^
