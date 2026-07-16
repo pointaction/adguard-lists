@@ -1,0 +1,205 @@
+! Title: Point Action False-Positive Fixes
+! Description: A privacy-respecting allowlist that fixes legitimate breakage caused
+!              by DNS blocklists — WITHOUT re-enabling ads, analytics, or tracking.
+! Homepage: https://github.com/pointaction/adguard-lists
+! Version: 1.0
+! Syntax: AdGuard (@@||domain^) — works in AdGuard Home, Technitium, Pi-hole, etc.
+!
+! ============================================================
+! WHAT THIS IS
+! ============================================================
+! Most blocklists focus on blocking MORE. This one does the opposite: it unblocks
+! only the domains that legitimate sites and services genuinely need to function —
+! logins, CAPTCHAs, payment forms, single sign-on, asset/CDN delivery — when an
+! aggressive blocklist breaks them. It is NOT an "allow all Google / Microsoft"
+! list and it does NOT re-enable advertising or analytics.
+!
+! ============================================================
+! CRITERIA FOR ADDING A DOMAIN
+! ============================================================
+!  [x] Reproducible false positive (breakage can be demonstrated).
+!  [x] Legitimate website or service.
+!  [x] Verified in AdGuard Home or Technitium DNS.
+!  [x] Smallest possible exception (prefer a specific host over a whole domain).
+!  [x] No advertising.
+!  [x] No analytics unless absolutely required for core functionality.
+!  [x] No telemetry unless the site genuinely cannot function without it.
+!
+! Sections marked "(security / anti-fraud)" contain device-verification services
+! that are NOT ads, but ARE required by many bank / government login flows. They
+! are separated so you can remove them if you prefer to whitelist per-institution.
+!
+! Provided as-is, no warranty. Credit to each service's operator.
+! ============================================================
+
+
+! ============================================================
+! CAPTCHA / BOT VERIFICATION
+! (the #1 cause of "the login page won't submit")
+! ============================================================
+! Google reCAPTCHA (recaptcha.net is the dedicated, tracker-free delivery domain)
+@@||recaptcha.net^
+@@||gstatic.com^
+! hCaptcha
+@@||hcaptcha.com^
+! Cloudflare Turnstile / challenge pages
+@@||challenges.cloudflare.com^
+! Arkose Labs / FunCaptcha (Microsoft, Xbox, Roblox, X logins)
+@@||arkoselabs.com^
+@@||funcaptcha.com^
+
+! ============================================================
+! CDNs — libraries, fonts, framework assets
+! (blank pages / unstyled sites / missing buttons)
+! ============================================================
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+@@||ajax.googleapis.com^
+@@||cdnjs.cloudflare.com^
+@@||cdn.jsdelivr.net^
+@@||unpkg.com^
+@@||code.jquery.com^
+@@||stackpath.bootstrapcdn.com^
+@@||maxcdn.bootstrapcdn.com^
+
+! ============================================================
+! IDENTITY PROVIDERS / SINGLE SIGN-ON
+! (login loops, "we couldn't sign you in")
+! ============================================================
+! Microsoft / Entra ID (Microsoft 365 sign-in)
+@@||login.microsoftonline.com^
+@@||login.microsoft.com^
+@@||login.live.com^
+@@||msauth.net^
+@@||msftauth.net^
+@@||aadcdn.msftauth.net^
+@@||logincdn.msftauth.net^
+! Google sign-in (account auth only — not all of Google)
+@@||accounts.google.com^
+! Okta
+@@||okta.com^
+@@||oktacdn.com^
+! Auth0
+@@||auth0.com^
+! Ping Identity
+@@||pingidentity.com^
+@@||pingone.com^
+! OneLogin
+@@||onelogin.com^
+! Duo Security (MFA / 2FA push)
+@@||duosecurity.com^
+! Government identity
+@@||login.gov^
+@@||id.me^
+
+! ============================================================
+! PAYMENT PROVIDERS
+! (blank / non-loading checkout and card forms)
+! ============================================================
+! Stripe
+@@||stripe.com^
+@@||stripe.network^
+! PayPal
+@@||paypal.com^
+@@||paypalobjects.com^
+! Square
+@@||squareup.com^
+@@||square.com^
+! Braintree
+@@||braintreegateway.com^
+@@||braintree-api.com^
+! Adyen
+@@||adyen.com^
+! Buy-now-pay-later (only loads on checkouts that offer it)
+@@||klarna.com^
+@@||affirm.com^
+! Plaid (bank-account linking for fintech apps)
+@@||plaid.com^
+
+! ============================================================
+! MICROSOFT 365 / OFFICE
+! ============================================================
+@@||office.com^
+@@||office365.com^
+@@||outlook.com^
+@@||outlook.office.com^
+@@||sharepoint.com^
+@@||onedrive.com^
+
+! ============================================================
+! GOOGLE WORKSPACE
+! (specific apps — deliberately NOT "allow all google.com")
+! ============================================================
+@@||workspace.google.com^
+@@||docs.google.com^
+@@||drive.google.com^
+@@||mail.google.com^
+
+! ============================================================
+! APPLE (Apple ID sign-in, iCloud)
+! ============================================================
+@@||appleid.apple.com^
+@@||idmsa.apple.com^
+@@||gsa.apple.com^
+@@||cdn-apple.com^
+@@||mzstatic.com^
+@@||icloud.com^
+
+! ============================================================
+! VIDEO CONFERENCING
+! ============================================================
+@@||zoom.us^
+@@||zoom.com^
+@@||zoomgov.com^
+@@||teams.microsoft.com^
+@@||teams.live.com^
+@@||meet.google.com^
+@@||webex.com^
+@@||webexcontent.com^
+@@||gotomeeting.com^
+
+! ============================================================
+! EMAIL (web clients)
+! ============================================================
+@@||proton.me^
+@@||protonmail.com^
+@@||outlook.live.com^
+
+! ============================================================
+! SHIPPING / CARRIERS
+! (tracking pages, labels, checkout carrier widgets)
+! ============================================================
+! US majors
+@@||usps.com^
+@@||ups.com^
+@@||fedex.com^
+@@||dhl.com^
+@@||dpdhl.com^
+! Regional US / last-mile
+@@||ontrac.com^
+@@||lasership.com^
+@@||track.amazon.com^
+@@||swiship.com^
+! International
+@@||canadapost.ca^
+@@||canadapost-postescanada.ca^
+@@||purolator.com^
+@@||royalmail.com^
+@@||auspost.com.au^
+@@||startrack.com.au^
+! Tracking aggregators (embedded on store order pages)
+@@||aftership.com^
+@@||17track.net^
+@@||parcelsapp.com^
+@@||ship24.com^
+@@||parcelpanel.com^
+
+! ============================================================
+! SECURITY / ANTI-FRAUD  (device verification)
+! NOT ads or analytics, but IS fingerprinting. Required by many
+! bank / government / insurance logins — remove if you would
+! rather whitelist those institutions individually.
+! ============================================================
+@@||online-metrix.net^
+@@||iovation.com^
+@@||iesnare.com^
