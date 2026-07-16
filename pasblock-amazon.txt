@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt
-! Synced: 2026-07-12 18:04 UTC
-! Entries: 359 (removed 2 allow-listed)
+! Synced: 2026-07-16 08:39 UTC
+! Entries: 360 (removed 1 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -177,6 +177,7 @@
 ||fls-fe.amazon-adsystem.com^
 ||fls-fe.amazon.co.jp^
 ||fls-fe.amazon.com^
+||fls-fe.amazon.com.au^
 ||fls-fe.amazon.sg^
 ||fls-na.amazon-adsystem.com^
 ||fls-na.amazon.ca^

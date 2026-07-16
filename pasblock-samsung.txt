@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: samsung
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
-! Synced: 2026-07-11 17:32 UTC
-! Entries: 189 (removed 13 allow-listed)
+! Synced: 2026-07-16 08:39 UTC
+! Entries: 202 (removed 0 allow-listed)
 !
 ||acr-au-prd.samsungcloud.tv^
 ||acr-br-prd.samsungcloud.tv^
@@ -25,14 +25,19 @@
 ||api-analytics.samsungknox.com^
 ||api-samsung.swypeconnect.com^
 ||api.runestone.samsung.com^
+||apu.samsungelectronics.com^
 ||b2banalytics.samsungknox.com^
 ||bigdata.ssp.samsung.com^
 ||bldr.mkt.samsung.com^
+||bpu.samsungelectronics.com^
 ||business.samsungusa.com^
 ||channelusa.samsung.com^
 ||clientapi-samsung.dtignite.com^
 ||cn-api.mcsvc.samsung.com.cn^
+||cpu.samsungelectronics.com^
+||dc.di.atlas.samsung.com^
 ||dc.di.runestone.samsung.com^
+||dc.dqa.samsung.com^
 ||ddf.di.atlas.samsung.com^
 ||dev-apigw.samsungdmroute.com^
 ||devicelog.samsungcloudsolution.net^
@@ -43,6 +48,7 @@
 ||dls-udc.dqa.samsung.com^
 ||dls.di.runestone.samsung.com^
 ||download-samsung.dtignite.com^
+||dpu.samsungelectronics.com^
 ||dqa-auth.di.atlas.samsung.com^
 ||ehg-samsungusa.hitbox.com^
 ||event-tracking.samsung.com^
@@ -53,6 +59,7 @@
 ||images.partnersupport.samsung.com^
 ||images.ssbusiness.samsung.com^
 ||invitation.samsungiotcloud.com^
+||kpu.samsungelectronics.com^
 ||lbs-samsung.swypeconnect.com^
 ||lp.americas.business.samsung.com^
 ||lp.apac.business.samsung.com^
@@ -176,6 +183,7 @@
 ||sia.internet.apps.samsung.com^
 ||smetrics.samsung.com^
 ||smetrics.samsung.com.cn^
+||sspapi-prd.samsungrs.com^
 ||stats.samsungpass.com^
 ||stg-apigw.samsungdmroute.com^
 ||target-us.samsung.com^
@@ -185,10 +193,15 @@
 ||tracking.europe.business.samsung.com^
 ||tracking.mkt-email.samsungsds.com^
 ||tracking.smartbusiness.samsung.com^
+||upu.samsungelectronics.com^
+||ureca.samsungapps.com^
 ||ureca.samsungapps.com.ad.mexnet.de^
 ||us-report.gras.samsungdm.com^
+||xpu.samsungelectronics.com^
+||ypu.samsungelectronics.com^
 ||zn8qwjgdslpyjq5n3-samsungcustomerboard.siteintercept.qualtrics.com^
 ||zn9xowqszdbqtbfwx-seasamsung.siteintercept.qualtrics.com^
 ||znewylzpqds1jt1sh-samsunggdc.siteintercept.qualtrics.com^
 ||znexudtrhw0nwrmga-seasamsung.siteintercept.qualtrics.com^
 ||zneysvtqyfhzf6n4p-samsungeurope.siteintercept.qualtrics.com^
+||zpu.samsungelectronics.com^

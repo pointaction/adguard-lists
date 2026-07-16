@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: adway
 ! Source: https://adaway.org/hosts.txt
-! Synced: 2026-07-13 15:07 UTC
-! Entries: 6434 (removed 106 allow-listed)
+! Synced: 2026-07-16 08:39 UTC
+! Entries: 6470 (removed 70 allow-listed)
 !
 ||0ce3c-1fd43.api.pushwoosh.com^
 ||100016075.collect.igodigital.com^
@@ -139,6 +139,7 @@
 ||a.et.nytimes.com^
 ||a.exdynsrv.com^
 ||a.fiksu.com^
+||a.idio.co^
 ||a.klaviyo.com^
 ||a.ligatus.com^
 ||a.mgid.com^
@@ -1128,6 +1129,7 @@
 ||api.saypromo.net^
 ||api.sdk.zadn.vn^
 ||api.secondstreetapp.com^
+||api.segment.io^
 ||api.sentiance.com^
 ||api.share.mob.com^
 ||api.smartechmetrics.com^
@@ -1439,6 +1441,7 @@
 ||astat.bugly.qq.com^
 ||aswpsdkus.com^
 ||async-px-eu.dynamicyield.com^
+||async-px.dynamicyield.com^
 ||async01.admantx.com^
 ||at.atwola.com^
 ||at.umeng.com^
@@ -1505,6 +1508,7 @@
 ||b.ns1p.net^
 ||b.scorecardresearch.com^
 ||b.sharethrough.com^
+||b.stats.paypal.com^
 ||b.videoamp.com^
 ||b1-chidc2.zemanta.com^
 ||b1-nydc1.zemanta.com^
@@ -1520,6 +1524,7 @@
 ||balanced-engage.deltadna.net^
 ||balancer.devtodev.com^
 ||bam.eu01.nr-data.net^
+||bam.nr-data.net^
 ||bamtech.sc.omtrdc.net^
 ||bamtech.tt.omtrdc.net^
 ||banner.appsflyer.com^
@@ -1534,6 +1539,7 @@
 ||banners.videosecrets.com^
 ||bannersnack.com^
 ||base-cdn.admarvel.com^
+||bat.bing.com^
 ||batch.upsight-api.com^
 ||batmobil.net^
 ||bats.video.yahoo.com^
@@ -1694,6 +1700,7 @@
 ||c.amazon-adsystem.com^
 ||c.atdmt.com^
 ||c.betrad.com^
+||c.bing.com^
 ||c.cintnetworks.com^
 ||c.clicktale.net^
 ||c.data.mob.com^
@@ -1828,6 +1835,7 @@
 ||cdn.advertserve.com^
 ||cdn.adx1.com^
 ||cdn.amplitude.com^
+||cdn.appdynamics.com^
 ||cdn.appnext.com^
 ||cdn.apprope.com^
 ||cdn.appsflyer.com^
@@ -1861,6 +1869,7 @@
 ||cdn.districtm.ca^
 ||cdn.districtm.io^
 ||cdn.doubleverify.com^
+||cdn.dynamicyield.com^
 ||cdn.exelator.com^
 ||cdn.firstimpression.io^
 ||cdn.flashtalking.com.edgekey.net^
@@ -1914,6 +1923,7 @@
 ||cdn.o333o.com^
 ||cdn.okanjo.com^
 ||cdn.onthe.io^
+||cdn.optimizely.com^
 ||cdn.orangeclickmedia.com^
 ||cdn.otherlevels.com^
 ||cdn.p-n.io^
@@ -1934,6 +1944,7 @@
 ||cdn.rlcdn.com^
 ||cdn.run-syndicate.com^
 ||cdn.scarabresearch.com^
+||cdn.segment.com^
 ||cdn.segment.io^
 ||cdn.segmentify.com^
 ||cdn.selectablemedia.com^
@@ -2005,6 +2016,7 @@
 ||cdnssl.clicktale.net^
 ||cdnstoremedia.com^
 ||cdnwidget.com^
+||cdp.cloud.unity3d.com^
 ||cdp.in.treasuredata.com^
 ||cds.connatix.com^
 ||cds.taboola.com^
@@ -2225,6 +2237,7 @@
 ||config.safedk.com^
 ||config.samsungads.com^
 ||config.sdk.scopely.io^
+||config.uca.cloud.unity3d.com^
 ||config.unityads.unity3d.com^
 ||config2.mparticle.com^
 ||configure.rayjump.com^
@@ -2270,6 +2283,7 @@
 ||conversions.clickmeter.com^
 ||convertexperiments.com.edgekey.net^
 ||conviva.com^
+||cookie-cdn.cookiepro.com^
 ||cookie-sync-service-prod.steelhousemedia.com^
 ||cookie.brealtime.com^
 ||cookie.vrtzads.com^
@@ -2544,6 +2558,7 @@
 ||dotomi.weighted.com.akadns.net^
 ||doubleclick.net^
 ||doubleverify.com^
+||dpm.demdex.net^
 ||dpmsrv.com^
 ||dps.jp.cinarra.com^
 ||dptr.areyouahuman.com^
@@ -2748,6 +2763,7 @@
 ||events.privy.com^
 ||events.redditmedia.com^
 ||events.simpli.fi^
+||events.split.io^
 ||events.streamrail.net^
 ||events.tabmo.io^
 ||events.tremorhub.com^
@@ -3465,6 +3481,7 @@
 ||jp.cinarra.com^
 ||jp1-bid-ga.adsrvr.org^
 ||jp1-bid.adsrvr.org^
+||js-agent.newrelic.com^
 ||js-cdn.dynatrace.com^
 ||js-sec.indexww.com^
 ||js.ad-stir.com^
@@ -3684,6 +3701,7 @@
 ||logs.psm.wmcdp.io^
 ||logserver.insight.ucweb.com^
 ||logupdate.avlyun.sec.miui.com^
+||logx.optimizely.com^
 ||lonrtp1-cdn.marketo.com^
 ||lonrtp1.marketo.com^
 ||lookup.qubit.com^
@@ -3824,6 +3842,7 @@
 ||media.go2speed.org^
 ||media.innity.net^
 ||media.revcontent.com^
+||media.richrelevance.com^
 ||media.trafficjunky.net^
 ||media1.admicro.vn^
 ||mediaforce.grapeshot.co.uk^
@@ -3896,6 +3915,7 @@
 ||mobad.ijinshan.com^
 ||mobclix.com^
 ||mobfox.com^
+||mobile-collector.newrelic.com^
 ||mobile-production.content-square.net^
 ||mobile-sdk-config.gservice.emarsys.net^
 ||mobile-service.segment.com^
@@ -4318,6 +4338,7 @@
 ||pixel-eu.rubiconproject.net.akadns.net^
 ||pixel-origin.mathtag.com^
 ||pixel-s2s.mathtag.com^
+||pixel-static.spotify.com^
 ||pixel-sync.sitescout.com^
 ||pixel-tracking.sonic-us.supersonicads.com^
 ||pixel-us-east.rubiconproject.com^
@@ -4618,6 +4639,7 @@
 ||rc.dxsvr.com^
 ||rcn.asapp.com^
 ||rcom-eu.dynamicyield.com^
+||rcom.dynamicyield.com^
 ||rcp.c.appier.net^
 ||rdi.as.criteo.com^
 ||rdi.da1.vip.prod.criteo.com^
@@ -4665,6 +4687,7 @@
 ||resources.xg4ken.com^
 ||rest.dynamicyield.com^
 ||rest.iad-01.braze.com^
+||rest.iad-03.braze.com^
 ||rest.locuslabs.com^
 ||restartad.com^
 ||retagro.com^
@@ -4790,6 +4813,7 @@
 ||s.d.adup-tech.com^
 ||s.dpmsrv.com^
 ||s.effectivemeasure.net^
+||s.go-mpulse.net^
 ||s.iaudienc.com^
 ||s.idio.co^
 ||s.iff.inmobi.com^
@@ -4961,6 +4985,7 @@
 ||sdk.resu.io^
 ||sdk.scopely.io^
 ||sdk.sharethrough.com^
+||sdk.split.io^
 ||sdk.starbolt.io^
 ||sdk.stat.foreign.nearme.com.cn^
 ||sdk.streamrail.com^
@@ -4995,6 +5020,7 @@
 ||se.monetate.net^
 ||sea.advertising.yahoo.com^
 ||sea1b-ls.naiadsystems.com^
+||search.spotxchange.com^
 ||search.supplyframe.com^
 ||sec-citi.bridgetrack.com^
 ||sec.umeng.com^
@@ -5271,6 +5297,7 @@
 ||sr-tag.abtasty.com^
 ||sr-weight.rlcdn.com^
 ||srepdata.usatoday.com^
+||srtb.msn.com^
 ||srv.buysellads.com^
 ||srv.imonomy.com^
 ||srv.pixel.parsely.com^
@@ -5322,6 +5349,7 @@
 ||st-n.ads3-adnow.com^
 ||st-n.ads5-adnow.com^
 ||st.bebi.com^
+||st.dynamicyield.com^
 ||stackadaptdisplay515602019759.s.moatpixel.com^
 ||stage-a.applovin.com^
 ||stage-assets.applovin.com^
@@ -5363,6 +5391,7 @@
 ||static.cdn.responsys.net^
 ||static.chartbeat.com^
 ||static.clevertap.com^
+||static.cloudflareinsights.com^
 ||static.criteo.com^
 ||static.criteo.net^
 ||static.da1.vip.prod.criteo.net^
@@ -5381,6 +5410,7 @@
 ||static.intentarget.com^
 ||static.iterable.com^
 ||static.jampp.com^
+||static.klaviyo.com^
 ||static.leaddyno.com^
 ||static.leadpages.net^
 ||static.locallogic.co^
@@ -5417,6 +5447,7 @@
 ||static.ziffdavis.com^
 ||static.ziftsolutions.com^
 ||static2.chartbeat.com^
+||statics-marketingsites-eus-ms-com.akamaized.net^
 ||statics-marketingsites-neu-ms-com.akamaized.net^
 ||stats-5-split-vohnu.s.innovid.com.akadns.net^
 ||stats-dev.brid.tv^
@@ -5505,6 +5536,7 @@
 ||sxj8.adj.st^
 ||sxp.smartclip.net^
 ||sy-v1.presage.io^
+||syd-col.eum-appdynamics.com^
 ||sygic-api.infinario.com^
 ||synad3.nuffnang.com.my^
 ||sync-criteo.ads.yieldmo.com^
@@ -5654,6 +5686,7 @@
 ||tags.premiumads.com.br^
 ||tags.srv.stackadapt.com^
 ||tags.t.tailtarget.com^
+||tags.tiqcdn.com^
 ||tags.us.onscroll.com^
 ||tags.viewdeos.com^
 ||tags.w55c.net^
@@ -5697,6 +5730,7 @@
 ||telemetrics.klaviyo.com^
 ||telemetries.jeeng.com^
 ||telemetry.api.swiftkey.com^
+||telemetry.malwarebytes.com^
 ||telemetry.sdk.inmobi.cn^
 ||telemetry.sdk.inmobi.com^
 ||telemetry.servers.getgo.com^
@@ -6352,9 +6386,11 @@
 ||www.adxserve.com^
 ||www.chartboost.com^
 ||www.civicscience.com^
+||www.clarity.ms^
 ||www.geoplugin.net^
 ||www.google-analytics.com^
 ||www.leanplum.com^
+||www.lightboxcdn.com^
 ||www.localytics.com^
 ||www.mczbf.com^
 ||www.npttech.com^
