@@ -36,39 +36,39 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-15 19:26 UTC_
+_Last updated: 2026-07-16 14:12 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
 | `pas-shipping-carrier-whitelist.txt` | 21 | — |
-| `pasallow-completewhitelist.txt` | 8,035 | — |
-| `pasallow-referral.txt` | 1,548 | — |
+| `pasallow-completewhitelist.txt` | 8,033 | — |
+| `pasallow-referral.txt` | 1,546 | — |
 | `pasblacklist.txt` | — | 236 |
-| `pasblock-StevenBlack.txt` | — | 75,735 |
-| `pasblock-adway.txt` | — | 6,434 |
-| `pasblock-amazon.txt` | — | 359 |
-| `pasblock-apple.txt` | — | 106 |
-| `pasblock-completeblocklist.txt` | — | 984,832 |
+| `pasblock-StevenBlack.txt` | — | 75,804 |
+| `pasblock-adway.txt` | — | 6,470 |
+| `pasblock-amazon.txt` | — | 360 |
+| `pasblock-apple.txt` | — | 107 |
+| `pasblock-completeblocklist.txt` | — | 998,059 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
-| `pasblock-gambling.txt` | — | 146,559 |
-| `pasblock-haGeZi-pro.txt` | — | 235,831 |
+| `pasblock-gambling.txt` | — | 150,479 |
+| `pasblock-haGeZi-pro.txt` | — | 237,009 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 340 |
-| `pasblock-microsoft.txt` | — | 370 |
+| `pasblock-microsoft.txt` | — | 388 |
 | `pasblock-native-oppo.txt` | — | 468 |
-| `pasblock-nsfw.txt` | — | 108,930 |
-| `pasblock-osid.txt` | — | 324,187 |
+| `pasblock-nsfw.txt` | — | 109,449 |
+| `pasblock-osid.txt` | — | 323,414 |
 | `pasblock-roku.txt` | — | 71 |
-| `pasblock-samsung.txt` | — | 189 |
-| `pasblock-shadow-whisper.txt` | — | 43,219 |
-| `pasblock-tif.txt` | — | 521,266 |
+| `pasblock-samsung.txt` | — | 202 |
+| `pasblock-shadow-whisper.txt` | — | 43,246 |
+| `pasblock-tif.txt` | — | 530,679 |
 | `pasblock-tiktok.txt` | — | 424 |
-| `pasblock-urlhaus.txt` | — | 11,926 |
+| `pasblock-urlhaus.txt` | — | 11,830 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
-| `paswhitelist.txt` | 82 | — |
-| **Total (sum)** | **9,686** | **2,473,710** |
-| **Total (unique domains)** | **8,128** | **1,139,043** |
+| `paswhitelist.txt` | 85 | — |
+| **Total (sum)** | **9,685** | **2,501,263** |
+| **Total (unique domains)** | **8,128** | **1,152,935** |
 
 <!-- STATS:END -->
 

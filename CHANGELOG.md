@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-16
+
+**Added: 4** (4 allow, 0 block)
+
+- allow: `canonical.com`, `launchpad.net`, `launchpadlibrarian.net`, `ubuntuone.com`
+
 ## 2026-07-15
 
 **Added: 1** (1 allow, 0 block)
