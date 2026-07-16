@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Added: 95** (95 allow, 0 block)
+
+- allow: `17track.net`, `aadcdn.msftauth.net`, `accounts.google.com`, `adyen.com`, `affirm.com`, `aftership.com`, `ajax.googleapis.com`, `appleid.apple.com`, `arkoselabs.com`, `auspost.com.au`, `auth0.com`, `braintree-api.com`, `braintreegateway.com`, `canadapost-postescanada.ca`, `canadapost.ca` _+80 more_
+
+## 2026-07-16
+
 **Removed: 1** (0 allow, 1 block)
 
 - block: `online-metrix.net`
