@@ -2,7 +2,7 @@
 ! Description: A privacy-respecting allowlist that fixes legitimate breakage caused
 !              by DNS blocklists — WITHOUT re-enabling ads, analytics, or tracking.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Version: 1.0
+! Version: 1.1
 ! Syntax: AdGuard (@@||domain^) — works in AdGuard Home, Technitium, Pi-hole, etc.
 !
 ! ============================================================
@@ -61,6 +61,18 @@
 @@||code.jquery.com^
 @@||stackpath.bootstrapcdn.com^
 @@||maxcdn.bootstrapcdn.com^
+! Broad shared CDN — needed for some checkout / proctoring (e.g. OnVUE) flows
+@@||cloudfront.net^
+
+! ============================================================
+! CERTIFICATE VALIDATION (PKI / OCSP)
+! (blocked OCSP -> "connection not secure" warnings, slow TLS)
+! ============================================================
+@@||letsencrypt.org^
+@@||acme-v02.api.letsencrypt.org^
+@@||ocsp.digicert.com^
+@@||ocsp.sectigo.com^
+@@||ocsp.pki.goog^
 
 ! ============================================================
 ! IDENTITY PROVIDERS / SINGLE SIGN-ON
@@ -144,6 +156,138 @@
 @@||cdn-apple.com^
 @@||mzstatic.com^
 @@||icloud.com^
+
+! ============================================================
+! GAMING
+! (functional / anti-cheat only — NOT in-game ad or telemetry servers)
+! ============================================================
+! Epic Games — Store, Launcher, Fortnite, Unreal, Epic Online Services
+@@||epicgames.com^
+@@||epicgames.dev^
+@@||fortnite.com^
+@@||unrealengine.com^
+! Steam / Valve
+@@||steampowered.com^
+@@||steamstatic.com^
+@@||steamcontent.com^
+@@||steamserver.net^
+@@||steamcommunity.com^
+@@||steamgames.com^
+@@||valvesoftware.com^
+! Xbox / Microsoft Gaming (account sign-in uses the Microsoft SSO section above)
+@@||xbox.com^
+@@||xboxlive.com^
+@@||xboxservices.com^
+! PlayStation / PSN
+@@||playstation.com^
+@@||playstation.net^
+@@||sonyentertainmentnetwork.com^
+! Nintendo
+@@||nintendo.com^
+@@||nintendo.net^
+@@||nintendowifi.net^
+! Riot Games (League of Legends, Valorant)
+@@||riotgames.com^
+@@||riotcdn.net^
+@@||leagueoflegends.com^
+@@||playvalorant.com^
+! Electronic Arts (EA app / Origin)
+@@||ea.com^
+@@||easports.com^
+@@||origin.com^
+! Ubisoft (Ubisoft Connect / Uplay)
+@@||ubisoft.com^
+@@||ubi.com^
+@@||ubisoftconnect.com^
+! Blizzard / Battle.net
+@@||battle.net^
+@@||blizzard.com^
+! Rockstar Games (Social Club, GTA Online)
+@@||rockstargames.com^
+! GOG
+@@||gog.com^
+! Roblox
+@@||roblox.com^
+@@||rbxcdn.com^
+! Minecraft / Mojang
+@@||minecraft.net^
+@@||minecraftservices.com^
+@@||mojang.com^
+! Discord (voice/text — essential for multiplayer)
+@@||discord.com^
+@@||discordapp.com^
+@@||discordapp.net^
+@@||discord.gg^
+@@||discord.media^
+! Anti-cheat — required to LAUNCH many titles (top false-positive culprit)
+@@||easyanticheat.net^
+@@||easyanticheat-eos.com^
+@@||easy.ac^
+@@||battleye.com^
+@@||denuvo.com^
+
+! ============================================================
+! DEVELOPER / SOFTWARE PLATFORMS
+! ============================================================
+! GitHub
+@@||github.com^
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||objects.githubusercontent.com^
+! Docker
+@@||docker.com^
+@@||docker.io^
+@@||registry-1.docker.io^
+@@||hub.docker.com^
+! Ubuntu / Canonical (Ubuntu One SSO, Snap Store, Launchpad)
+@@||ubuntu.com^
+@@||ubuntuone.com^
+@@||canonical.com^
+@@||snapcraft.io^
+@@||launchpad.net^
+@@||launchpadlibrarian.net^
+! VMware / Broadcom
+@@||vmware.com^
+@@||broadcom.com^
+
+! ============================================================
+! OPERATING SYSTEM & SOFTWARE UPDATES
+! ============================================================
+@@||download.windowsupdate.com^
+@@||windowsupdate.microsoft.com^
+@@||update.microsoft.com^
+@@||dl.delivery.mp.microsoft.com^
+
+! ============================================================
+! EDUCATION / REMOTE PROCTORING
+! (exam lockdown browsers & online proctoring break constantly)
+! ============================================================
+@@||proctoru.com^
+@@||proctorio.com^
+@@||honorlock.com^
+@@||respondus.com^
+@@||examsoft.com^
+@@||examity.com^
+@@||meazurelearning.com^
+@@||guardianbrowser.com^
+@@||ysasecure.com^
+@@||pearson.com^
+@@||pearsonvue.com^
+@@||home.pearsonvue.com^
+@@||onvue.com^
+@@||download.onvue.com^
+@@||op-prd-1.pvue2.com^
+@@||pearsonvue-rest.ably.io^
+@@||pearsonvue.realtime.ably.net^
+@@||ably.com^
+@@||sd-rtn.com^
+@@||programworkshop.com^
+@@||gettesting.com^
+@@||starttest.com^
+@@||starttest2.com^
+@@||startpractice.com^
+@@||244716ee2b26.entrypoint.cloud.wowza.com^
+@@||vuepducopfilessa.blob.core.windows.net^
 
 ! ============================================================
 ! VIDEO CONFERENCING
