@@ -67,19 +67,14 @@
 @@||hub.docker.com^
 
 ! ============================================================
-! Ubuntu
+! Ubuntu One / Canonical (SSO, Snap Store, Launchpad)
 ! ============================================================
 @@||ubuntu.com^
-@@||archive.ubuntu.com^
-@@||security.ubuntu.com^
-@@||canonical.com^
-@@||snapcraft.io^
 @@||ubuntuone.com^
 @@||canonical.com^
+@@||snapcraft.io^
 @@||launchpad.net^
 @@||launchpadlibrarian.net^
-@@||login.ubuntu.com^
-@@||assets.ubuntu.com^
 
 ! ============================================================
 ! VMware / Broadcom
