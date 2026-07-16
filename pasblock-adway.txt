@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: adway
 ! Source: https://adaway.org/hosts.txt
-! Synced: 2026-07-16 08:39 UTC
-! Entries: 6470 (removed 70 allow-listed)
+! Synced: 2026-07-16 17:54 UTC
+! Entries: 6469 (removed 71 allow-listed)
 !
 ||0ce3c-1fd43.api.pushwoosh.com^
 ||100016075.collect.igodigital.com^
@@ -4130,7 +4130,6 @@
 ||onetag-geo.s-onetag.com^
 ||onetag-sys.com^
 ||onetag.io.edgekey.net^
-||online-metrix.net^
 ||online.mobify.net^
 ||onrt-stsdk.vivo.com.cn^
 ||onrt-stsdk.vivoglobal.com^
