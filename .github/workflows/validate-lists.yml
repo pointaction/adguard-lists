@@ -10,7 +10,7 @@ on:
       - "paswhitelist.txt"
       - "pasblacklist.txt"
       - "pas-shipping-carrier-whitelist.txt"
-      - "false-positive-fixes.txt"
+      - "pasfalse-positive-fixes.txt"
       - "scripts/validate_lists.py"
       - ".github/workflows/validate-lists.yml"
   pull_request:
