@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Added: 265527** (0 allow, 265527 block)
+
+- block: `0--0.info`, `0--4.com`, `0--d.com`, `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0checkmate.com`, `0-0-7.site`, `0-0.fr`, `0-02.net`, `0-09-preview-google-ads-bump.data.taxfix.tech`, `0-0asia.com`, `0-100mph.com`, `0-2-0-7.casino`, `0-2.net`, `0-3.org` _+265512 more_
+
+**Removed: 10839** (0 allow, 10839 block)
+
+- block: `0-10-7.casino`, `002abu.shop`, `004d9fd8a0c53815.com`, `007f5da94202d9f5.com`, `009d7b1931ae4895.com`, `00b2f53954c76e50.com`, `00e5a5947fad66b1f5ad1e48e507a938.xyz`, `00r.casino`, `01-07-26.casino`, `01-07.casino`, `01-7.casino`, `0110live.com`, `012047cc48f2234abc7bc414ba9b199d.xyz`, `0148ce7c31f66abb.com`, `014901490149aa.com` _+10824 more_
+
+## 2026-07-16
+
 **Removed: 237009** (0 allow, 237009 block)
 
 - block: `0--0.info`, `0--4.com`, `0--d.com`, `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0checkmate.com`, `0-0-7.site`, `0-0.fr`, `0-02.net`, `0-0asia.com`, `0-100mph.com`, `0-2-0-7.casino`, `0-2.net`, `0-3.org`, `0-31.com` _+236994 more_
