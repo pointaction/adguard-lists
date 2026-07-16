@@ -78,7 +78,7 @@ _Last updated: 2026-07-16 19:39 UTC_
 
 | File | What it is | Source |
 |------|------------|--------|
-| `paswhitelist.txt` | My allowlist — trusted services I never want blocked (WGU / remote proctoring, Roku Channel, personal domains, dev tools). | Hand-maintained |
+| `paswhitelist.txt` | My allowlist — trusted services I never want blocked. | Hand-maintained |
 | `pasreferral-whitelist.txt` | Affiliate / referral / tracking domains kept working so links in mail and search resolve. | Auto-synced daily from HaGeZi, converted to allow format |
 | `false-positive-fixes.txt` | A privacy-respecting allowlist that fixes legitimate breakage caused by DNS blocklists — WITHOUT re-enabling ads, analytics, or tracking. | Hand-maintained |
 
