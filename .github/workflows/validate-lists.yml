@@ -10,6 +10,7 @@ on:
       - "paswhitelist.txt"
       - "pasblacklist.txt"
       - "pas-shipping-carrier-whitelist.txt"
+      - "false-positive-fixes.txt"
       - "scripts/validate_lists.py"
       - ".github/workflows/validate-lists.yml"
   pull_request:
@@ -17,6 +18,7 @@ on:
       - "paswhitelist.txt"
       - "pasblacklist.txt"
       - "pas-shipping-carrier-whitelist.txt"
+      - "false-positive-fixes.txt"
       - "scripts/validate_lists.py"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
@@ -30,4 +32,4 @@ jobs:
       # No setup-python needed: ubuntu-latest already ships Python 3.
       - name: Validate personal lists
         # Only your two hand-maintained files. Checks syntax + duplicates.
-        run: python3 scripts/validate_lists.py paswhitelist.txt pasblacklist.txt pas-shipping-carrier-whitelist.txt
+        run: python3 scripts/validate_lists.py paswhitelist.txt pasblacklist.txt pas-shipping-carrier-whitelist.txt false-positive-fixes.txt
