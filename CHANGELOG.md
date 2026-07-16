@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Added: 2** (2 allow, 0 block)
+
+- allow: `assets.ubuntu.com`, `login.ubuntu.com`
+
+## 2026-07-16
+
 **Added: 4** (4 allow, 0 block)
 
 - allow: `canonical.com`, `launchpad.net`, `launchpadlibrarian.net`, `ubuntuone.com`
