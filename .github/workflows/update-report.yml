@@ -7,7 +7,7 @@ name: Update report
 on:
   push:
     paths:
-      - "pas*.txt"
+      - "*.txt"        # all published lists at the repo root (pas*, false-positive-fixes, ...)
   workflow_dispatch: {}
 
 permissions:
@@ -29,7 +29,7 @@ jobs:
         run: |
           set -euo pipefail
           if git rev-parse HEAD~1 >/dev/null 2>&1; then
-            git diff --unified=0 HEAD~1 HEAD -- 'pas*.txt' | python3 scripts/changelog.py
+            git diff --unified=0 HEAD~1 HEAD -- '*.txt' ':(exclude)build/*.txt' | python3 scripts/changelog.py
           else
             echo "No parent commit yet; skipping changelog."
           fi
