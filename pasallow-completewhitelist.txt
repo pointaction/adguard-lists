@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-15 10:01 UTC
-! Entries: 8035
+! Generated: 2026-07-16 10:07 UTC
+! Entries: 8033
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -694,7 +694,6 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
@@ -2713,6 +2712,7 @@
 @@||dvca4.ocsp.crosstrust.net^
 @@||dvca5.ocsp.secomtrust.net^
 @@||dvcasha2.ocsp-certum.com^
+@@||dvr-cdn.exponea.com^
 @@||e-eu.customeriomail.com^
 @@||e-me.lv^
 @@||e-trk-eu.customeriomail.com^
@@ -4406,7 +4406,6 @@
 @@||mkto-ab130188.com^
 @@||mkto-ab140048.com^
 @@||mkto-ab150013.com^
-@@||mkto-ab150224.com^
 @@||mkto-ab170094.com^
 @@||mkto-ab170123.com^
 @@||mkto-ab170161.com^
@@ -4418,6 +4417,7 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
+@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4464,7 +4464,6 @@
 @@||mkto-ab480014.com^
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
-@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
@@ -4474,7 +4473,6 @@
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
-@@||mkto-ab560171.com^
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
@@ -4490,6 +4488,7 @@
 @@||mkto-ab640171.com^
 @@||mkto-ab650097.com^
 @@||mkto-ab650172.com^
+@@||mkto-ab650200.com^
 @@||mkto-ab660121.com^
 @@||mkto-ab660168.com^
 @@||mkto-ab680016.com^
@@ -4502,6 +4501,7 @@
 @@||mkto-ab700044.com^
 @@||mkto-abc0114.com^
 @@||mkto-abc0241.com^
+@@||mkto-abd0206.com^
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
 @@||mkto-abm0255.com^
@@ -4510,7 +4510,6 @@
 @@||mkto-cs0007.com^
 @@||mkto-d0024.com^
 @@||mkto-d0170.com^
-@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
@@ -6346,7 +6345,6 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
-@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
