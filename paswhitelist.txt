@@ -1,8 +1,9 @@
 ! Title: Point Action Whitelist
-! Description: Personal AdGuard/Technitium allowlist of trusted services.
+! Description: Personal allowlist — my own domains, my school, and specific accounts.
+!              Universal breakage fixes live in false-positive-fixes.txt.
 ! Homepage: https://raw.githubusercontent.com/pointaction/adguard-lists/main/paswhitelist.txt
-! Version: 2.0
-! Last modified: 2026-07-11
+! Version: 3.0
+! Last modified: 2026-07-13
 
 ! ============================================================
 ! Personal Domains
@@ -16,133 +17,15 @@
 @@||snowypopcorn.org^
 
 ! ============================================================
-! WGU / Remote Proctoring
+! WGU (my school)
 ! ============================================================
 @@||wgu.edu^
 @@||my.wgu.edu^
 @@||wgneagle.wgu.edu^
 @@||assessments.wgu.edu^
-@@||proctoru.com^
-@@||guardianbrowser.com^
-@@||proctorio.com^
-@@||honorlock.com^
-@@||respondus.com^
-@@||examsoft.com^
-@@||examity.com^
-@@||meazurelearning.com^
-@@||pearson.com^
-@@||pearsonvue.com^
-@@||home.pearsonvue.com^
-@@||onvue.com^
-@@||download.onvue.com^
-@@||op-prd-1.pvue2.com^
-@@||pearsonvue-rest.ably.io^
-@@||pearsonvue.realtime.ably.net^
-@@||programworkshop.com^
-@@||gettesting.com^
-@@||starttest.com^
-@@||starttest2.com^
-@@||startpractice.com^
-@@||ysasecure.com^
 @@||smarthinking.com^
-@@||ably.com^
-@@||sd-rtn.com^
-@@||244716ee2b26.entrypoint.cloud.wowza.com^
-@@||vuepducopfilessa.blob.core.windows.net^
 
 ! ============================================================
-! GitHub
-! ============================================================
-@@||github.com^
-@@||githubusercontent.com^
-@@||raw.githubusercontent.com^
-@@||objects.githubusercontent.com^
-
-! ============================================================
-! Docker
-! ============================================================
-@@||docker.com^
-@@||docker.io^
-@@||registry-1.docker.io^
-@@||hub.docker.com^
-
-! ============================================================
-! Ubuntu One / Canonical (SSO, Snap Store, Launchpad)
-! ============================================================
-@@||ubuntu.com^
-@@||ubuntuone.com^
-@@||canonical.com^
-@@||snapcraft.io^
-@@||launchpad.net^
-@@||launchpadlibrarian.net^
-
-! ============================================================
-! VMware / Broadcom
-! ============================================================
-@@||vmware.com^
-@@||broadcom.com^
-
-! ============================================================
-! Steam
-! ============================================================
-@@||steampowered.com^
-@@||steamstatic.com^
-@@||steamcontent.com^
-@@||steamserver.net^
-
-! ============================================================
-! Blizzard
-! ============================================================
-@@||battle.net^
-@@||blizzard.com^
-
-! ============================================================
-! Windows Update
-! ============================================================
-@@||download.windowsupdate.com^
-@@||windowsupdate.microsoft.com^
-@@||update.microsoft.com^
-@@||dl.delivery.mp.microsoft.com^
-
-! ============================================================
-! Let's Encrypt
-! ============================================================
-@@||letsencrypt.org^
-@@||acme-v02.api.letsencrypt.org^
-
-! ============================================================
-! Certificate Validation (OCSP)
-! ============================================================
-@@||ocsp.digicert.com^
-@@||ocsp.sectigo.com^
-@@||ocsp.pki.goog^
-
-! ============================================================
-! Microsoft Teams
-! ============================================================
-@@||teams.microsoft.com^
-
-! ============================================================
-! CloudFront
-! ============================================================
-@@||cloudfront.net^
-
-! ============================================================
-! Zoom
-! ============================================================
-@@||zoom.us^
-@@||www.zoom.us^
-@@||us02web.zoom.us^
-@@||us04web.zoom.us^
-@@||zoom.com^
-@@||zoomgov.com^
-@@||zoomcdn.net^
-@@||st1.zoom.us^
-@@||st2.zoom.us^
-@@||source.zoom.us^
-@@||marketplace.zoom.us^
-
-! ============================================================
-! Other Sites
+! Other
 ! ============================================================
 @@||falcon-nw.com^
