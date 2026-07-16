@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Added: 1** (1 allow, 0 block)
+
+- allow: `snapcraft.io`
+
+**Removed: 6** (6 allow, 0 block)
+
+- allow: `archive.ubuntu.com`, `assets.ubuntu.com`, `canonical.com`, `login.ubuntu.com`, `security.ubuntu.com`, `snapcraft.io`
+
+## 2026-07-16
+
 **Added: 2** (2 allow, 0 block)
 
 - allow: `assets.ubuntu.com`, `login.ubuntu.com`
