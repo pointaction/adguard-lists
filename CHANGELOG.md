@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-16
 
+**Removed: 1** (0 allow, 1 block)
+
+- block: `online-metrix.net`
+
+## 2026-07-16
+
 **Added: 265527** (0 allow, 265527 block)
 
 - block: `0--0.info`, `0--4.com`, `0--d.com`, `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0checkmate.com`, `0-0-7.site`, `0-0.fr`, `0-02.net`, `0-09-preview-google-ads-bump.data.taxfix.tech`, `0-0asia.com`, `0-100mph.com`, `0-2-0-7.casino`, `0-2.net`, `0-3.org` _+265512 more_
