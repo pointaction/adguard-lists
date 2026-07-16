@@ -40,7 +40,10 @@ def count_file(path):
 
 
 def build_table():
-    files = sorted(glob.glob("pas*.txt"))
+    # All published list files live at the repo root as *.txt (the config files
+    # were moved into build/, so root *.txt is only lists). This picks up
+    # pas*.txt AND anything else like false-positive-fixes.txt.
+    files = sorted(glob.glob("*.txt"))
     rows = []
     all_allow, all_block = set(), set()
     tot_allow = tot_block = 0
