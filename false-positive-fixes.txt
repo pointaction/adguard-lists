@@ -367,30 +367,30 @@
 @@||omadanetworks.com^
 @@||tp-link.com^
 
+! ####################################
+! Amazon / AWS
 ####################################
-# Amazon / AWS
-####################################
-amazon.com
-amazonaws.com
-amazontrust.com
-amazonvideo.com
-primevideo.com
-media-amazon.com
+@@||amazon.com^
+@@||amazonaws.com^
+@@||amazontrust.com^
+@@||amazonvideo.com^
+@@||primevideo.com^
+@@||media-amazon.com^
 
-####################################
-# Opera
-####################################
-opera.com
-operacdn.com
+! ####################################
+! Opera
+! ####################################
+@@||opera.com^
+@@||operacdn.com^
 
-####################################
-# Razer
-####################################
-razer.com
-razerapi.com
+! ####################################
+! Razer
+! ####################################
+@@||razer.com^
+@@||razerapi.com^
 
-####################################
-# NordVPN
-####################################
-nordvpn.com
-nordcdn.com
+! ####################################
+! NordVPN
+! ####################################
+@@||nordvpn.com^
+@@||nordcdn.com^
