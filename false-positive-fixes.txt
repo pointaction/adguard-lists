@@ -202,6 +202,12 @@
 ! Blizzard / Battle.net
 @@||battle.net^
 @@||blizzard.com^
+@@||battlenet.com^
+@@||worldofwarcraft.com^
+@@||blzstatic.com^
+@@||blizzardstatic.com^
+@@||warcraftlogs.com^
+@@||raider.io^
 ! Rockstar Games (Social Club, GTA Online)
 @@||rockstargames.com^
 ! GOG
@@ -225,6 +231,9 @@
 @@||easy.ac^
 @@||battleye.com^
 @@||denuvo.com^
+! ArenaNet
+@@||arena.net^
+@@||guildwars2.com^
 
 ! ============================================================
 ! DEVELOPER / SOFTWARE PLATFORMS
@@ -357,3 +366,34 @@
 @@||tplinklink.com^
 @@||cros.tp-link.com^
 @@||pool.ntp.org^
+@@||omadanetworks.com^
+@@||tp-linkcloud.com^
+@@||tp-link.com^
+
+####################################
+# Amazon / AWS
+####################################
+amazon.com
+amazonaws.com
+amazontrust.com
+amazonvideo.com
+primevideo.com
+media-amazon.com
+
+####################################
+# Opera
+####################################
+opera.com
+operacdn.com
+
+####################################
+# Razer
+####################################
+razer.com
+razerapi.com
+
+####################################
+# NordVPN
+####################################
+nordvpn.com
+nordcdn.com
