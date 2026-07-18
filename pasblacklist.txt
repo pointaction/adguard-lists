@@ -362,6 +362,67 @@
 ||settings-win.data.microsoft.com^
 ||watson.telemetry.microsoft.com^
 
+! ==========================================
+! Google Ads / Tracking
+! ==========================================
+||doubleclick.net^
+||googletagmanager.com^
+||google-analytics.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googleoptimize.com^
+||googlecommerce.com^
+||pagead2.googlesyndication.com^
+||partnerad.l.doubleclick.net^
+||adservice.google.com^
+
+! ==========================================
+! Microsoft Telemetry
+! ==========================================
+||browser.events.data.microsoft.com^
+||self.events.data.microsoft.com^
+||v10.events.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+||oca.telemetry.microsoft.com^
+||settings-win.data.microsoft.com^
+||sqm.telemetry.microsoft.com^
+||telecommand.telemetry.microsoft.com^
+
+! ==========================================
+! YouTube Advertising
+! ==========================================
+||googleads.g.doubleclick.net^
+
+! ==========================================
+! Opera
+! ==========================================
+||promo.opera.com^
+||features.opera-api.com^
+
+! ==========================================
+! Razer
+! ==========================================
+||analytics.razer.com^
+||telemetry.razer.com^
+||insider.razer.com^
+||survey.razer.com^
+
+! ==========================================
+! NordVPN
+! ==========================================
+||analytics.nordvpn.com^
+||events.nordvpn.com^
+
+! ==========================================
+! Raider.IO
+! ==========================================
+||analytics.raider.io^
+
+! ==========================================
+! Warcraft Logs
+! ==========================================
+||analytics.warcraftlogs.com^
+
 ! ========== Personal Blacklist ==========
 ||sex.com^
 ||pushbuttonsystem.net^
