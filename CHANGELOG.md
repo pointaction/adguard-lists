@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-18
 
+**Removed: 3** (3 allow, 0 block)
+
+- allow: `blizzardstatic.com`, `blzstatic.com`, `tp-linkcloud.com`
+
+## 2026-07-18
+
 **Added: 11** (11 allow, 0 block)
 
 - allow: `arena.net`, `battlenet.com`, `blizzardstatic.com`, `blzstatic.com`, `guildwars2.com`, `omadanetworks.com`, `raider.io`, `tp-link.com`, `tp-linkcloud.com`, `warcraftlogs.com`, `worldofwarcraft.com`
