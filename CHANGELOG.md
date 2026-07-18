@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-18
 
+**Added: 29** (0 allow, 29 block)
+
+- block: `adservice.google.com`, `analytics.nordvpn.com`, `analytics.raider.io`, `analytics.razer.com`, `analytics.warcraftlogs.com`, `browser.events.data.microsoft.com`, `doubleclick.net`, `events.nordvpn.com`, `features.opera-api.com`, `google-analytics.com`, `googleads.g.doubleclick.net`, `googleadservices.com`, `googlecommerce.com`, `googleoptimize.com`, `googlesyndication.com` _+14 more_
+
+## 2026-07-18
+
 **Added: 12** (12 allow, 0 block)
 
 - allow: `amazon.com`, `amazonaws.com`, `amazontrust.com`, `amazonvideo.com`, `media-amazon.com`, `nordcdn.com`, `nordvpn.com`, `opera.com`, `operacdn.com`, `primevideo.com`, `razer.com`, `razerapi.com`
