@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-18
 
+**Added: 2** (2 allow, 0 block)
+
+- allow: `mapbox.com`, `onetrust.com`
+
+## 2026-07-18
+
 **Added: 1** (1 allow, 0 block)
 
 - allow: `warcraftlogs.com`
