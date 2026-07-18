@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-18
+
+**Added: 1** (1 allow, 0 block)
+
+- allow: `warcraftlogs.com`
+
 ## 2026-07-16
 
 **Added: 101** (101 allow, 0 block)
