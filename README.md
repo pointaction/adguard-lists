@@ -36,11 +36,11 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-18 03:39 UTC_
+_Last updated: 2026-07-18 14:16 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 202 | — |
+| `false-positive-fixes.txt` | 213 | — |
 | `pas-shipping-carrier-whitelist.txt` | 21 | — |
 | `pasallow-completewhitelist.txt` | 8,035 | — |
 | `pasallow-referral.txt` | 1,548 | — |
@@ -48,27 +48,27 @@ _Last updated: 2026-07-18 03:39 UTC_
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-completeblocklist.txt` | — | 979,239 |
+| `pasblock-completeblocklist.txt` | — | 987,136 |
 | `pasblock-dandelion-sprout.txt` | — | 11,519 |
-| `pasblock-gambling.txt` | — | 152,687 |
-| `pasblock-haGeZi-pro++.txt` | — | 270,427 |
+| `pasblock-gambling.txt` | — | 156,004 |
+| `pasblock-haGeZi-pro++.txt` | — | 271,780 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 340 |
-| `pasblock-microsoft.txt` | — | 388 |
+| `pasblock-microsoft.txt` | — | 386 |
 | `pasblock-native-oppo.txt` | — | 468 |
-| `pasblock-nsfw.txt` | — | 111,352 |
-| `pasblock-osid.txt` | — | 324,019 |
+| `pasblock-nsfw.txt` | — | 112,224 |
+| `pasblock-osid.txt` | — | 327,412 |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 202 |
 | `pasblock-shadow-whisper.txt` | — | 43,246 |
-| `pasblock-tif.txt` | — | 542,068 |
-| `pasblock-tiktok.txt` | — | 424 |
-| `pasblock-urlhaus.txt` | — | 11,742 |
+| `pasblock-tif.txt` | — | 552,075 |
+| `pasblock-tiktok.txt` | — | 425 |
+| `pasblock-urlhaus.txt` | — | 11,616 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `paswhitelist.txt` | 16 | — |
-| **Total (sum)** | **9,822** | **2,456,073** |
-| **Total (unique domains)** | **8,236** | **1,134,679** |
+| **Total (sum)** | **9,833** | **2,482,785** |
+| **Total (unique domains)** | **8,250** | **1,156,026** |
 
 <!-- STATS:END -->
 
