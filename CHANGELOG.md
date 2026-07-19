@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Removed: 1** (1 allow, 0 block)
+
+- allow: `warcraftlogs.com`
+
+## 2026-07-19
+
 **Added: 1** (0 allow, 1 block)
 
 - block: `lgsmartad.com`
