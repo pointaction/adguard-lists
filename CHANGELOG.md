@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Removed: 21** (21 allow, 0 block)
+
+- allow: `17track.net`, `aftership.com`, `auspost.com.au`, `canadapost-postescanada.ca`, `canadapost.ca`, `dhl.com`, `dpdhl.com`, `fedex.com`, `fedex.net`, `lasership.com`, `ontrac.com`, `parcelpanel.com`, `parcelsapp.com`, `purolator.com`, `royalmail.com` _+6 more_
+
+## 2026-07-19
+
 **Added: 19** (0 allow, 19 block)
 
 - block: `0077777700140002.myhomescreen.tv`, `cert-test.sandbox.google.com`, `collect-eu-fy2015.myhomescreen.tv`, `collect-eu-fy2017.myhomescreen.tv`, `collect-us-fy2016.myhomescreen.tv`, `mhc-ajax-eu.myhomescreen.tv`, `mhc-ajax-us.myhomescreen.tv`, `mhc-sec-eu.myhomescreen.tv`, `mhc-sec-us.myhomescreen.tv`, `mhc-xpana-eu.myhomescreen.tv`, `mhc-xpana-us.myhomescreen.tv`, `occ-0-399-783.1.nflxso.net`, `usage-eu-fy2015.myhomescreen.tv`, `usage-eu-fy2017.myhomescreen.tv`, `usage-eu-fy2019.myhomescreen.tv` _+4 more_
