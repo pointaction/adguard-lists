@@ -1,15 +1,13 @@
 name: Validate AdGuard lists
 
-# Validates ONLY the personal, hand-maintained lists (paswhitelist.txt and
-# pasblacklist.txt). The synced pas*-*.txt lists come from upstream and are
-# already cleaned by the build scripts, so they are intentionally not checked
-# here — that keeps validation focused on the files you actually edit.
+# Validates the hand-maintained lists (paswhitelist.txt, pasblacklist.txt,
+# false-positive-fixes.txt). The synced upstream lists are already cleaned by
+# the build scripts, so they are intentionally not checked here.
 on:
   push:
     paths:
       - "paswhitelist.txt"
       - "pasblacklist.txt"
-      - "pas-shipping-carrier-whitelist.txt"
       - "false-positive-fixes.txt"
       - "scripts/validate_lists.py"
       - ".github/workflows/validate-lists.yml"
@@ -17,7 +15,6 @@ on:
     paths:
       - "paswhitelist.txt"
       - "pasblacklist.txt"
-      - "pas-shipping-carrier-whitelist.txt"
       - "false-positive-fixes.txt"
       - "scripts/validate_lists.py"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
@@ -30,6 +27,5 @@ jobs:
         uses: actions/checkout@v4
 
       # No setup-python needed: ubuntu-latest already ships Python 3.
-      - name: Validate personal lists
-        # Only your two hand-maintained files. Checks syntax + duplicates.
-        run: python3 scripts/validate_lists.py paswhitelist.txt pasblacklist.txt pas-shipping-carrier-whitelist.txt false-positive-fixes.txt
+      - name: Validate hand-maintained lists
+        run: python3 scripts/validate_lists.py paswhitelist.txt pasblacklist.txt false-positive-fixes.txt
