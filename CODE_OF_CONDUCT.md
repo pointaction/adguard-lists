@@ -83,8 +83,6 @@ redistributing:
 - **celenity — BadBlock** — https://badblock.celenity.dev
 - **AdAway default blocklist** - https://adaway.org/hosts.txt
 - **GoodbyeAds** - https://github.com/jerryn70/GoodbyeAds?tab=readme-ov-file
-- Roku regex patterns adapted from an **ozankiratli** gist; Peacock playback rules
-  informed by **ajstrick81**'s community work.
 
 If you maintain one of these lists and would prefer it not be redistributed here,
 please open an issue and I'll remove it promptly.
