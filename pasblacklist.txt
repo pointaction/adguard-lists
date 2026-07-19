@@ -533,17 +533,17 @@ usage-us-fy2017.myhomescreen.tv
 ||ads.samsung.com^
 
 ! Hisense
-api-gps-em.hismarttv.com
-auth-em.hismarttv.com
-msg-em.hismarttv.com
-api-launcher-em.hismarttv.com
-auth-launcher-em.hismarttv.com
-api-gps-na.hismarttv.com
-auth-na.hismarttv.com
-msg-na.hismarttv.com
-api-launcher-na.hismarttv.com
-auth-launcher-na.hismarttv.com
-unified-ter-na.hismarttv.com
+||api-gps-em.hismarttv.com^
+||auth-em.hismarttv.com^
+||msg-em.hismarttv.com^
+||api-launcher-em.hismarttv.com^
+||auth-launcher-em.hismarttv.com^
+||api-gps-na.hismarttv.com^
+||auth-na.hismarttv.com^
+||msg-na.hismarttv.com^
+||api-launcher-na.hismarttv.com^
+||auth-launcher-na.hismarttv.com^
+||unified-ter-na.hismarttv.com^
 
 ! General Trackers
 ||api.ipify.org^
