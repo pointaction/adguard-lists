@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 375055** (0 allow, 375055 block)
+
+- block: `0--skitch--0.tt.omtrdc.net`, `0-0-0-birkart-clws-ifs-globalmn.net.daraz.com`, `0-0-stagemn.net.daraz.com`, `0-009.0-132.net.daraz.com`, `0-00d10140000motieas-990auyn11w0wpnuy4.dcsportal.0-astrologie.net.daraz.com`, `0-00d10140100motieas-990auyn11w0wpnuy4.net.daraz.com`, `0-00d30000000z4uceak.0-astrologie.net.daraz.com`, `0-00d30000000z4uceak.net.daraz.com`, `0-00d30000000z5uceak.net.daraz.com`, `0-00proplus3xncf83region.net.daraz.com`, `0-01-car21-10-r-oa-1.net.daraz.com`, `0-01-car29cf22.net.daraz.com`, `0-02-121-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com`, `0-02-122-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com`, `0-02-124-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com` _+375040 more_
+
+**Removed: 357** (0 allow, 357 block)
+
+- block: `11q31v.invert-manner.in.net`, `167lo.fortene7vous.in.net`, `1ndex2-gate.bri1laxon.in.net`, `28mp.chain-sinusit.in.net`, `30urtlmu.nelma-report.in.net`, `393llqb.savor-woman.in.net`, `39rd.factpre5ent.in.net`, `491ptjh.multi5ardina.in.net`, `4cti-pulse.photot-sudok.in.net`, `5and-stack.marinmort8ager.in.net`, `5ync-lab.tul7morax.in.net`, `87phs.invert-manner.in.net`, `9adl.racersta7ving.in.net`, `9waxfs6b.multi5ardina.in.net`, `abzxcp.gypsyw0od.in.net` _+342 more_
+
+## 2026-07-19
+
 **Removed: 326245** (0 allow, 326245 block)
 
 - block: `0--foodwarez.da.ru`, `0-0-2day.vercel.app`, `0-02.net`, `0-249.vercel.app`, `0-29.com`, `0-8b.vercel.app`, `0-auth-b1-us.vercel.app`, `0-g9.vercel.app`, `0-ps.vercel.app`, `0-serv.vercel.app`, `0.myikas.com`, `00-0002.weebly.com`, `00-002.weebly.com`, `00-023.weebly.com`, `00-11.weebly.com` _+326230 more_
