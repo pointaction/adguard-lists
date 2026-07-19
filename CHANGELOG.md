@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 1** (1 allow, 0 block)
+
+- allow: `my.getadmiral.com`
+
+## 2026-07-19
+
 **Removed: 2** (0 allow, 2 block)
 
 - block: `settings-win.data.microsoft.com`, `watson.telemetry.microsoft.com`
