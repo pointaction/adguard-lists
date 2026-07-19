@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: dandelion-sprout
 ! Source: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-! Synced: 2026-07-11 13:39 UTC
-! Entries: 11519 (removed 3 allow-listed)
+! Synced: 2026-07-19 08:41 UTC
+! Entries: 11518 (removed 4 allow-listed)
 !
 ||0180info.de^
 ||03122e72f0.com^
@@ -670,7 +670,6 @@
 ||amazingtoilalthough.com^
 ||amazon-security-info.lnk.to^
 ||amazonaus.com^
-||amazonaws.com^
 ||ambassadorsecretion.com^
 ||amberbaum.com^
 ||ambiguityhalfmoon.com^
