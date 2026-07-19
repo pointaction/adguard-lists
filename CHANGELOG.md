@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 2** (2 allow, 0 block)
+
+- allow: `wowlazymacros.com`, `zamimg.com`
+
+## 2026-07-19
+
 **Added: 375055** (0 allow, 375055 block)
 
 - block: `0--skitch--0.tt.omtrdc.net`, `0-0-0-birkart-clws-ifs-globalmn.net.daraz.com`, `0-0-stagemn.net.daraz.com`, `0-009.0-132.net.daraz.com`, `0-00d10140000motieas-990auyn11w0wpnuy4.dcsportal.0-astrologie.net.daraz.com`, `0-00d10140100motieas-990auyn11w0wpnuy4.net.daraz.com`, `0-00d30000000z4uceak.0-astrologie.net.daraz.com`, `0-00d30000000z4uceak.net.daraz.com`, `0-00d30000000z5uceak.net.daraz.com`, `0-00proplus3xncf83region.net.daraz.com`, `0-01-car21-10-r-oa-1.net.daraz.com`, `0-01-car29cf22.net.daraz.com`, `0-02-121-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com`, `0-02-122-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com`, `0-02-124-134-131-223-api1webw17sellerpackaging-profile-pay.net.daraz.com` _+375040 more_
