@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 1** (0 allow, 1 block)
+
+- block: `lgsmartad.com`
+
+## 2026-07-19
+
 **Removed: 21** (21 allow, 0 block)
 
 - allow: `17track.net`, `aftership.com`, `auspost.com.au`, `canadapost-postescanada.ca`, `canadapost.ca`, `dhl.com`, `dpdhl.com`, `fedex.com`, `fedex.net`, `lasership.com`, `ontrac.com`, `parcelpanel.com`, `parcelsapp.com`, `purolator.com`, `royalmail.com` _+6 more_
