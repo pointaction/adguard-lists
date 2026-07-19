@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-19
+
+**Removed: 2** (0 allow, 2 block)
+
+- block: `settings-win.data.microsoft.com`, `watson.telemetry.microsoft.com`
+
 ## 2026-07-18
 
 **Added: 29** (0 allow, 29 block)
