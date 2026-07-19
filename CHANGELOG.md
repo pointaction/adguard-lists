@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 19** (0 allow, 19 block)
+
+- block: `0077777700140002.myhomescreen.tv`, `cert-test.sandbox.google.com`, `collect-eu-fy2015.myhomescreen.tv`, `collect-eu-fy2017.myhomescreen.tv`, `collect-us-fy2016.myhomescreen.tv`, `mhc-ajax-eu.myhomescreen.tv`, `mhc-ajax-us.myhomescreen.tv`, `mhc-sec-eu.myhomescreen.tv`, `mhc-sec-us.myhomescreen.tv`, `mhc-xpana-eu.myhomescreen.tv`, `mhc-xpana-us.myhomescreen.tv`, `occ-0-399-783.1.nflxso.net`, `usage-eu-fy2015.myhomescreen.tv`, `usage-eu-fy2017.myhomescreen.tv`, `usage-eu-fy2019.myhomescreen.tv` _+4 more_
+
+## 2026-07-19
+
 **Added: 11** (0 allow, 11 block)
 
 - block: `api-gps-em.hismarttv.com`, `api-gps-na.hismarttv.com`, `api-launcher-em.hismarttv.com`, `api-launcher-na.hismarttv.com`, `auth-em.hismarttv.com`, `auth-launcher-em.hismarttv.com`, `auth-launcher-na.hismarttv.com`, `auth-na.hismarttv.com`, `msg-em.hismarttv.com`, `msg-na.hismarttv.com`, `unified-ter-na.hismarttv.com`
