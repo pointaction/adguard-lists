@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Removed: 1** (0 allow, 1 block)
+
+- block: `ravm.tv`
+
+## 2026-07-19
+
 **Added: 84** (0 allow, 84 block)
 
 - block: `acr.roku.com`, `ad-bl.geoproximity.staging.rpay.roku.com`, `ad-bl.prod.rpay.int.roku.com`, `ad-bl.usw2.staging.rpay.int.roku.com`, `ad-eng-bl.geoproximity.staging.rpay.roku.com`, `ad-eng-bl.use1.prod.rpay.int.roku.com`, `ad-eng-bl.usw2.prod.rpay.int.roku.com`, `ad-eng-pci-bl.geoproximity.rpay.roku.com`, `ad-eng-pci-bl.geoproximity.staging.rpay.roku.com`, `ad-eng-pci-bl.prod.rpay.int.roku.com`, `ad-eng-pci-bl.use1.prod.rpay.int.roku.com`, `ad-eng-pci-bl.usw2.prod.rpay.int.roku.com`, `ad-eng-pci.prod.rpay.int.roku.com`, `ad-eng.prod.rpay.int.roku.com`, `ad-eng.staging.rpay.int.roku.com` _+69 more_
