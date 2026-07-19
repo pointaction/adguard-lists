@@ -81,8 +81,8 @@ redistributing:
 - **DandelionSprout's Anti-Malware List** — https://github.com/DandelionSprout/adfilt
 - **abuse.ch URLhaus** (via the malware-filter project) — https://gitlab.com/malware-filter/urlhaus-filter
 - **celenity — BadBlock** — https://badblock.celenity.dev
-- **OISD** (only if enabled) — https://oisd.nl
 - **AdAway default blocklist** - https://adaway.org/hosts.txt
+- **GoodbyeAds** - https://github.com/jerryn70/GoodbyeAds?tab=readme-ov-file
 - Roku regex patterns adapted from an **ozankiratli** gist; Peacock playback rules
   informed by **ajstrick81**'s community work.
 
