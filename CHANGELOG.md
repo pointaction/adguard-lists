@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-19
 
+**Added: 11** (0 allow, 11 block)
+
+- block: `api-gps-em.hismarttv.com`, `api-gps-na.hismarttv.com`, `api-launcher-em.hismarttv.com`, `api-launcher-na.hismarttv.com`, `auth-em.hismarttv.com`, `auth-launcher-em.hismarttv.com`, `auth-launcher-na.hismarttv.com`, `auth-na.hismarttv.com`, `msg-em.hismarttv.com`, `msg-na.hismarttv.com`, `unified-ter-na.hismarttv.com`
+
+## 2026-07-19
+
 **Removed: 1** (0 allow, 1 block)
 
 - block: `ravm.tv`
