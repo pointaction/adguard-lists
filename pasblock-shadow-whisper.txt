@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: shadow-whisper
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
-! Synced: 2026-07-16 08:39 UTC
-! Entries: 43246 (removed 5 allow-listed)
+! Synced: 2026-07-21 03:05 UTC
+! Entries: 43261 (removed 5 allow-listed)
 !
 ||0-38.com^
 ||00000.live^
@@ -5070,6 +5070,7 @@
 ||b73uszzq3g9h.com^
 ||b74ceb1c82.com^
 ||b7510.com^
+||b7899-43.top^
 ||b7a797fb8bfe2a8860258dd0d256f8f5fb75249f.ph^
 ||b7bf007bbe.com^
 ||b7dff0913b.com^
@@ -6184,6 +6185,7 @@
 ||bittsearch.com^
 ||bitzaar.com^
 ||biuneimpot.com^
+||bixsearch.com^
 ||biz-boardu.com^
 ||biz4zoomers.com^
 ||bizarrehall.com^
@@ -6263,6 +6265,13 @@
 ||blattepush.com^
 ||blattidarchivingsibb.com^
 ||blazemankind.com^
+||blazerapi.com^
+||blazerbrowser.blob.core.windows.net^
+||blazerbrowser.com^
+||blazerextensionsstorage.blob.core.windows.net^
+||blazerhome.com^
+||blazerhomestorage.blob.core.windows.net^
+||blazerwebstorage.blob.core.windows.net^
 ||blazeteamlow.com^
 ||blazingdrape.com^
 ||blazntrak.com^
@@ -13915,6 +13924,7 @@
 ||dtrwsre.shop^
 ||dtsedge.com^
 ||dtsince.com^
+||dtsrchrdr.com^
 ||dtstesting.com^
 ||dtu2kitmpserg.cloudfront.net^
 ||dtv5loup63fac.cloudfront.net^
@@ -33260,6 +33270,7 @@
 ||ripredimez.com^
 ||ripugespur.com^
 ||ripupppl.com^
+||ris-lodge-ridge.pages.dev^
 ||rischinter.com^
 ||riscimugol.com^
 ||risepatioswollen.com^
@@ -34799,6 +34810,7 @@
 ||searchthatonline.com^
 ||searchthatup.com^
 ||searchtheconverter.com^
+||searchtheimages.com^
 ||searchtheweb.co^
 ||searchtheweb.io^
 ||searchtheweb.today^
@@ -34995,6 +35007,7 @@
 ||securetab.xyz^
 ||securetrck-dl.com^
 ||securetrklink.com^
+||securewalle.com^
 ||securewashingwest.com^
 ||secureway.club^
 ||securewebsiteaccess.com^
@@ -39852,6 +39865,7 @@
 ||trusssuccuss.com^
 ||trust.zone^
 ||trust789.cc^
+||trustdataguard.co.in^
 ||trustedantivirus.com^
 ||trustedapknest.com^
 ||trustedcpmrevenue.com^
@@ -41280,6 +41294,7 @@
 ||vistvx.pl^
 ||visualcompressinstantly.com^
 ||visualmirage.co^
+||vitabyte.us^
 ||vitalectium.com^
 ||vitaminendedclearing.com^
 ||vitaminlease.com^
