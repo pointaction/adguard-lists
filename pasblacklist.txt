@@ -460,7 +460,7 @@
 ! YouTube Advertising
 ! ==========================================
 ||googleads.g.doubleclick.net^
-||youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)^
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 
 ! ==========================================
 ! Opera
