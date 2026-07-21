@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-21
+
+**Added: 1** (1 allow, 0 block)
+
+- allow: `adblockplus.org`
+
 ## 2026-07-19
 
 **Added: 2** (2 allow, 0 block)
