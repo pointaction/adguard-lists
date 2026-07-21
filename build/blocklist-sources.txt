@@ -27,3 +27,4 @@ shadow-whisper https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.
 adway https://adaway.org/hosts.txt
 youtube https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-YouTube-AdBlock-Filter.txt
 goodbye-ads https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
+easylist https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_block.txt
