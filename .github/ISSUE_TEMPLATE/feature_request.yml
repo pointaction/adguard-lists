@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest a new rule, list, or improvement for this project
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of the problem (e.g. a certain ad or tracker is not being blocked).
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe the rule or list change you would like
+      description: What filter rule, blocklist, or whitelist entry should be added or changed? Include domains/elements if known.
+    validations:
+      required: true
+  - type: input
+    id: affected-sites
+    attributes:
+      label: Affected sites / platforms
+      description: Which websites or platforms would this help protect on?
+      placeholder: e.g. youtube.com, all sites
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered
+      description: Any alternative rules or existing lists you have tried.
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other context, links, or screenshots about the feature request here.
