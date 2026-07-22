@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-22
+
+**Removed: 3436** (0 allow, 3436 block)
+
+- block: `101com.com`, `180hits.de`, `180searchassistant.com`, `1rx.io`, `2020mustang.com`, `207.net`, `247media.com`, `24log.com`, `24pm-affiliation.com`, `2linkpath.com`, `2mdn.net`, `2o7.net`, `2znp09oa.com`, `30ads.com`, `3337723.com` _+3421 more_
+
 ## 2026-07-21
 
 **Added: 1** (1 allow, 0 block)
