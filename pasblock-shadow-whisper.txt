@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: shadow-whisper
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_42.txt
-! Synced: 2026-07-21 03:05 UTC
-! Entries: 43261 (removed 5 allow-listed)
+! Synced: 2026-07-22 04:19 UTC
+! Entries: 43260 (removed 5 allow-listed)
 !
 ||0-38.com^
 ||00000.live^
@@ -10522,7 +10522,6 @@
 ||curledpastpatty.com^
 ||curledrelative.com^
 ||curlingbesra.com^
-||curls.com^
 ||curlsbatter.com^
 ||curlyhabiru.click^
 ||curlyrice.com^
