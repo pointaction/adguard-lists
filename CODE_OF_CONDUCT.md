@@ -1,125 +1,174 @@
-# Code of Conduct - Adguard Lists
+# Code of Conduct
 
-## Our Pledge
+## Our Commitment
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+The **adguard-lists** project is dedicated to providing a welcoming, respectful, and professional environment for everyone who contributes, reports issues, provides feedback, or uses this project.
 
-## Our Standards
+We are committed to creating a harassment-free experience regardless of age, disability, ethnicity, gender identity or expression, nationality, personal background, race, religion, sexual orientation, technical experience, or any other personal characteristic.
 
-Examples of behaviour that contributes to a positive environment for our
-community include:
+We value constructive discussion, technical collaboration, and respectful disagreement.
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologising to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
+---
 
-Examples of unacceptable behaviour include:
+## Expected Behavior
 
-* The use of sexualised language or imagery, and sexual attention or advances
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+Examples of positive contributions include:
 
-## Our Responsibilities
+- Being respectful and professional toward others.
+- Providing constructive feedback.
+- Explaining technical concerns clearly.
+- Accepting corrections and different viewpoints.
+- Helping improve the quality and reliability of the project.
+- Giving credit to original sources and upstream maintainers.
+- Reporting security concerns responsibly.
+- Helping reduce false positives and improve filtering accuracy.
 
-Project maintainers are responsible for clarifying and enforcing our standards of
-acceptable behaviour and will take appropriate and fair corrective action in
-response to any behaviour that they deem inappropriate,
-threatening, offensive, or harmful.
+---
 
-Project maintainers have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will
-communicate reasons for moderation decisions when appropriate.
+## Unacceptable Behavior
 
-## Scope
+The following behaviors are not acceptable:
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+- Harassment, threats, intimidation, or personal attacks.
+- Discriminatory, hateful, or abusive language.
+- Trolling or deliberately disruptive behavior.
+- Publishing private information without permission.
+- Spam, excessive self-promotion, or unrelated content.
+- Deliberately submitting malicious rules or harmful content.
+- Attempts to damage, sabotage, or compromise the project.
+- Misrepresenting contributions or claiming others' work as your own.
+
+---
+
+## Project-Specific Guidelines
+
+Because **adguard-lists** provides DNS filtering lists, contributors should:
+
+- Verify domains before submitting changes.
+- Avoid adding domains without a clear reason.
+- Provide evidence when reporting malware, phishing, tracking, or abuse domains.
+- Avoid submitting rules that unnecessarily break legitimate services.
+- Respect upstream projects and their licenses.
+- Avoid submitting intentionally harmful whitelist entries.
+
+Quality and accuracy are more important than the number of blocked domains.
+
+---
+
+## Maintainer Responsibilities
+
+Project maintainers are responsible for:
+
+- Reviewing contributions fairly.
+- Maintaining a professional environment.
+- Explaining moderation decisions when practical.
+- Removing content that violates this Code of Conduct.
+- Protecting contributors from harassment or abuse.
+
+Maintainers may modify, reject, or remove issues, pull requests, comments, or other contributions that do not follow these standards.
+
+---
+
+## Reporting Problems
+
+If you experience or witness unacceptable behavior:
+
+- Do not engage in public arguments.
+- Report the issue privately through GitHub.
+- Include as much information as possible.
+
+Reports will be reviewed as promptly and confidentially as possible.
+
+Security-related issues should be reported according to the repository's `SECURITY.md` policy.
+
+---
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be
-reported to the community leaders responsible for enforcement at <https://github.com/pointaction/adguard-lists>.
-All complaints will be reviewed and investigated promptly and fairly.
+Maintainers may take appropriate action based on the severity of the violation.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
-
-## Enforcement Guidelines
-
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Possible actions include:
 
 ### 1. Correction
 
-**Community Impact**: Use of inappropriate language or other behaviour deemed
-unprofessional or unwelcome in the community.
+For minor issues such as inappropriate wording or unintentional mistakes.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behaviour was inappropriate. A public apology may be requested.
+Possible actions:
+
+- Private reminder.
+- Request to correct behavior.
+- Guidance on project expectations.
 
 ### 2. Warning
 
-**Community Impact**: A violation through a single incident or series
-of actions.
+For repeated or more serious violations.
 
-**Consequence**: A warning with consequences for continued behaviour. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+Possible actions:
 
-### 3. Temporary Ban
+- Formal warning.
+- Restrictions on participation.
+- Removal of inappropriate content.
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behaviour.
+### 3. Temporary Restriction
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+For serious violations or continued unacceptable behavior.
 
-### 4. Permanent Ban
+Possible actions:
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behaviour, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+- Temporary suspension from discussions.
+- Temporary restriction from submitting contributions.
 
-**Consequence**: A permanent ban from any sort of public interaction within
-the community.
+### 4. Permanent Removal
 
-## Attribution & licenses
+For severe violations, including:
 
-Huge thanks to the maintainers whose work these feeds build on. Each upstream list
-remains under **its own license and terms** — please consult and respect them before
-redistributing:
+- Harassment.
+- Threats.
+- Malicious activity.
+- Repeated violations after warnings.
+- Attempts to harm the project or community.
 
-- **HaGeZi's DNS Blocklists** — https://github.com/hagezi/dns-blocklists
-- **DandelionSprout's Anti-Malware List** — https://github.com/DandelionSprout/adfilt
-- **abuse.ch URLhaus** (via the malware-filter project) — https://gitlab.com/malware-filter/urlhaus-filter
-- **celenity — BadBlock** — https://badblock.celenity.dev
-- **AdAway default blocklist** - https://adaway.org/hosts.txt
-- **GoodbyeAds** - https://github.com/jerryn70/GoodbyeAds?tab=readme-ov-file
-- **OSID** - https://oisd.nl
+The final decision is made by project maintainers.
 
-If you maintain one of these lists and would prefer it not be redistributed here,
-please open an issue and I'll remove it promptly.
+---
+
+# Upstream Projects and Licenses
+
+The **adguard-lists** project builds upon, references, and organizes publicly available security and privacy resources.
+
+We appreciate the work of the upstream maintainers and respect their licenses and usage requirements.
+
+Original sources remain the property of their respective authors.
+
+Referenced projects include:
+
+- **HaGeZi DNS Blocklists**  
+  https://github.com/hagezi/dns-blocklists
+
+- **DandelionSprout's Anti-Malware List**  
+  https://github.com/DandelionSprout/adfilt
+
+- **abuse.ch URLhaus Filter**  
+  https://gitlab.com/malware-filter/urlhaus-filter
+
+- **celenity BadBlock**  
+  https://badblock.celenity.dev
+
+- **AdAway Default Blocklist**  
+  https://adaway.org/hosts.txt
+
+- **GoodbyeAds**  
+  https://github.com/jerryn70/GoodbyeAds
+
+- **OISD Blocklist**  
+  https://oisd.nl
+
+If you maintain an upstream list and have concerns regarding attribution, licensing, or redistribution, please contact the project maintainer through GitHub.
+
+---
+
+## Final Note
+
+Thank you to everyone who helps improve **adguard-lists**.
+
+Whether you submit a correction, report a false positive, suggest improvements, or help maintain filtering quality, your contributions help make DNS filtering safer and more reliable for everyone.
