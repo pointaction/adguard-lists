@@ -1,0 +1,67 @@
+name: Bug report
+description: Report a problem with one of the filter lists (something blocked that should not be, or not blocked that should be)
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please fill out the fields below so we can reproduce and fix it quickly.
+  - type: input
+    id: filter-list
+    attributes:
+      label: Which filter list is affected?
+      description: Name of the list (e.g. pasblocklist.txt, paswhitelist.txt, or a specific list in this repo).
+      placeholder: e.g. pasblock-youtube.txt
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem
+      description: A clear and concise description of the issue.
+    validations:
+      required: true
+  - type: input
+    id: page-url
+    attributes:
+      label: Affected page URL
+      description: The page where the problem occurs.
+      placeholder: https://example.com/page
+  - type: input
+    id: element-domain
+    attributes:
+      label: Element / request / domain
+      description: The specific element, request, or domain that is (not) being blocked.
+      placeholder: e.g. ads.example.com
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What you expected the filter to do.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please complete the following information.
+      value: |
+        - Ad blocker & version: 
+        - Browser & version: 
+        - OS: 
+        - Filter list version / last updated: 
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the problem here.
