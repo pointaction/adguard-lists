@@ -1,0 +1,69 @@
+name: Auto version
+
+# Bumps the '! Version:' (+0.1) and '! Last modified:' headers of the
+# hand-maintained lists whenever their actual rules change on main.
+# Header-only changes are ignored so the bot never loops on itself.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "paswhitelist.txt"
+      - "pasblacklist.txt"
+      - "false-positive-fixes.txt"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-version
+  cancel-in-progress: false
+
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    # Skip runs triggered by the bot's own version-bump commit.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Bump versions for lists with real rule changes
+        run: |
+          set -euo pipefail
+          LISTS="paswhitelist.txt pasblacklist.txt false-positive-fixes.txt"
+          to_bump=""
+          for f in $LISTS; do
+            [ -e "$f" ] || continue
+            # Compare against the previous commit; only bump when rule lines
+            # (starting with || or @@) actually changed.
+            if ! git diff -G'^(\|\||@@)' --quiet HEAD~1 HEAD -- "$f"; then
+              to_bump="$to_bump $f"
+            fi
+          done
+          if [ -z "$to_bump" ]; then
+            echo "No rule changes; nothing to version."; exit 0
+          fi
+          echo "Bumping:$to_bump"
+          python3 scripts/bump_version.py $to_bump
+
+      - name: Commit version bumps
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Headers already current; nothing to commit."; exit 0
+          fi
+          git add -A
+          git commit -m "Auto-bump list versions ($(date -u +%F)) [skip ci]"
+          pushed=0
+          for attempt in 1 2 3 4 5; do
+            if git push; then pushed=1; break; fi
+            echo "Push rejected (remote moved) — rebasing and retrying ($attempt)..."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME:-main}" || true
+            sleep $((RANDOM % 4 + 2))
+          done
+          [ "$pushed" -eq 1 ] || { echo "Push still failing after retries."; exit 1; }
