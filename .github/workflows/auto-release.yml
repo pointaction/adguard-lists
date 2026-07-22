@@ -1,0 +1,74 @@
+name: Auto release
+
+# Publishes a dated GitHub Release whenever the list files change on main.
+# Skips the routine bot commits (sync / combine / version-bump) so it only
+# releases on real, human-driven changes.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.txt"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    # Don't release on the bot's own sync/combine/version commits.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need full history + tags
+
+      - name: Build release info
+        id: info
+        run: |
+          set -euo pipefail
+          prev="$(git describe --tags --abbrev=0 2>/dev/null || echo '')"
+          if [ -n "$prev" ]; then range="$prev..HEAD"; else range="HEAD"; fi
+          changed="$(git diff --name-status $range -- '*.txt' || true)"
+          if [ -z "$changed" ]; then
+            echo "No list changes since $prev; skipping release."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          base="v$(date -u +%Y.%m.%d)"
+          tag="$base"; n=1
+          while git rev-parse "$tag" >/dev/null 2>&1; do
+            n=$((n+1)); tag="${base}-${n}"
+          done
+          echo "## List changes" > notes.md
+          echo "$changed" | while IFS=$'\t' read -r status file; do
+            [ -z "$file" ] && continue
+            case "$status" in
+              A*) label=Added ;;
+              M*) label=Updated ;;
+              D*) label=Removed ;;
+              R*) label=Renamed ;;
+              *)  label=Changed ;;
+            esac
+            echo "- $label \`$file\`" >> notes.md
+          done
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Create and publish release
+        if: steps.info.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="${{ steps.info.outputs.tag }}"
+          git tag "$tag"
+          git push origin "$tag"
+          gh release create "$tag" \
+            --title "Adguard Lists $tag" \
+            --notes-file notes.md \
+            --latest
