@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-07-22
 
+**Removed: 1** (1 allow, 0 block)
+
+- allow: `autoversion-test.example.com`
+
+## 2026-07-22
+
 **Added: 1** (1 allow, 0 block)
 
 - allow: `autoversion-test.example.com`
