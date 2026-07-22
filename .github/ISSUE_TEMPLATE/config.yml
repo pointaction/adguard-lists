@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation & README
+    url: https://github.com/pointaction/adguard-lists#readme
+    about: Please read the README for how to use these allow/block lists before opening an issue.
+  - name: Questions & Discussions
+    url: https://github.com/pointaction/adguard-lists/discussions
+    about: Have a question or idea to discuss? Please start a discussion instead of opening an issue.
