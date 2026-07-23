@@ -36,40 +36,41 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-22 18:38 UTC_
+_Last updated: 2026-07-23 14:49 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
 | `false-positive-fixes.txt` | 224 | — |
-| `pasallow-completewhitelist.txt` | 8,045 | — |
-| `pasallow-referral.txt` | 1,558 | — |
+| `pasallow-badblock.txt` | 6,519 | — |
+| `pasallow-completewhitelist.txt` | 8,047 | — |
+| `pasallow-referral.txt` | 1,560 | — |
 | `pasblacklist.txt` | — | 377 |
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-completeblocklist.txt` | — | 1,477,306 |
+| `pasblock-completeblocklist.txt` | — | 1,444,283 |
 | `pasblock-dandelion-sprout.txt` | — | 11,518 |
-| `pasblock-gambling.txt` | — | 161,350 |
+| `pasblock-gambling.txt` | — | 159,236 |
 | `pasblock-goodbye-ads.txt` | — | 277,434 |
-| `pasblock-haGeZi-pro++.txt` | — | 277,176 |
+| `pasblock-haGeZi-pro++.txt` | — | 278,543 |
 | `pasblock-huawei.txt` | — | 136 |
 | `pasblock-lgwebos.txt` | — | 340 |
 | `pasblock-microsoft.txt` | — | 386 |
 | `pasblock-native-oppo.txt` | — | 468 |
-| `pasblock-nsfw.txt` | — | 115,914 |
-| `pasblock-osid.txt` | — | 330,359 |
+| `pasblock-nsfw.txt` | — | 112,152 |
+| `pasblock-osid.txt` | — | 331,259 |
 | `pasblock-roku.txt` | — | 71 |
 | `pasblock-samsung.txt` | — | 202 |
 | `pasblock-shadow-whisper.txt` | — | 43,265 |
-| `pasblock-tif.txt` | — | 495,269 |
+| `pasblock-tif.txt` | — | 465,498 |
 | `pasblock-tiktok.txt` | — | 425 |
-| `pasblock-urlhaus.txt` | — | 10,627 |
+| `pasblock-urlhaus.txt` | — | 10,666 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **9,844** | **3,307,774** |
-| **Total (unique domains)** | **8,267** | **1,477,538** |
+| **Total (sum)** | **16,367** | **3,241,410** |
+| **Total (unique domains)** | **8,269** | **1,444,515** |
 
 <!-- STATS:END -->
 

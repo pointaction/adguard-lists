@@ -4,6 +4,16 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-23
+
+**Added: 1860** (0 allow, 1860 block)
+
+- block: `0577pk.com`, `14-0-204-188.static.pccw-hkt.com`, `1760891282-domainkey-helper.petsgourmet.it`, `1stni.com`, `1tvj-ax0m-5eo-gfd-8yf-ia2vh.pages.dev`, `2025032022012311997226.onamaeweb.jp`, `290d8227a2.com`, `2x23x2x.pages.dev`, `301835.cc`, `33ep30evspdxs4f.negocios-internet.com`, `3658coni557.cc`, `3658coni558.cc`, `3658coni559.cc`, `3658coni560.cc`, `3658coni561.cc` _+1845 more_
+
+**Removed: 962** (0 allow, 962 block)
+
+- block: `100489.cc`, `1123uuuququq1.shop`, `1123uuuququq10.shop`, `1123uuuququq2.shop`, `1123uuuququq4.shop`, `1123uuuququq7.shop`, `1123uuuququq8.shop`, `1123uuuququq9.shop`, `135461223.site`, `1800crown.com`, `19191hqjjjjj1.shop`, `19191hqjjjjj10.shop`, `19191hqjjjjj2.shop`, `19191hqjjjjj3.shop`, `19191hqjjjjj4.shop` _+947 more_
+
 ## 2026-07-22
 
 **Removed: 1** (1 allow, 0 block)
