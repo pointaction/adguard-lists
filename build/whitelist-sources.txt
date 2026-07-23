@@ -7,3 +7,4 @@
 # normalized to clean @@||domain^ allow rules.
 
 referral https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
+badblock https://badblock.celenity.dev/abp/whitelist.txt
