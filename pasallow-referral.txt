@@ -1,6 +1,6 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-23 09:13 UTC
+! Synced: 2026-07-24 09:09 UTC
 ! Entries: 1560
 !
 @@||1-aclk.net^
@@ -265,7 +265,6 @@
 @@||auth-analytics.com^
 @@||auth-analytix.com^
 @@||auto-swiat.pl^
-@@||autolinkmaker.itunes.apple.com^
 @@||automotive.services^
 @@||autopurchase.us^
 @@||autoresource.online^
@@ -813,10 +812,10 @@
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
+@@||mkto-ab560171.com^
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
-@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
@@ -950,6 +949,7 @@
 @@||mkto-sj240021.com^
 @@||mkto-sj250062.com^
 @@||mkto-sj250111.com^
+@@||mkto-sj250171.com^
 @@||mkto-sj250187.com^
 @@||mkto-sj270072.com^
 @@||mkto-sj270078.com^
@@ -1021,7 +1021,6 @@
 @@||p.placed.com^
 @@||pan-cdn.exponea.com^
 @@||partnerlinks.io^
-@@||partners.webmasterplan.com^
 @@||pepperjamnetwork.com^
 @@||personaclick.com^
 @@||personalservices.biz^
@@ -1170,6 +1169,7 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
