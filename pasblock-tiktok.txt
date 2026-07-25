@@ -1,9 +1,10 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
-! Synced: 2026-07-18 08:16 UTC
-! Entries: 425 (removed 0 allow-listed)
+! Synced: 2026-07-25 08:28 UTC
+! Entries: 426 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
+||ad-format-sg.tiktokv.com^
 ||ad-instantpage-ru.tiktokv.com^
 ||ad-instantpage-sg.tiktokv.com^
 ||ad-instantpage-sg.tiktokv.com.edgekey.net^
@@ -171,6 +172,7 @@
 ||log19-normal-alisg.tiktokv.com^
 ||log19-normal-useast1a.tiktokv.com^
 ||log19-normal-useast2a.tiktokv.com^
+||log19-normal-useast8.tiktokv.us^
 ||log19-normal.tiktokv.com^
 ||log22-applog-useast1a.tiktokv.com^
 ||log22-applog-useast2a.tiktokv.com^
@@ -284,7 +286,6 @@
 ||pc-mon16-normal-us-ttp.capcutapi.us^
 ||rtc-logger-i18n.tiktokv.com^
 ||rtc-logger-ie.tiktokv.eu^
-||rtc-logger-ttp2.tiktokv.us^
 ||rtc-logger-ttp2.us.tiktokv.com^
 ||rtc-logger-va.tiktokv.com^
 ||rtc-logger.tiktokv.com^

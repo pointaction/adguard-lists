@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: samsung
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
-! Synced: 2026-07-16 08:39 UTC
-! Entries: 202 (removed 0 allow-listed)
+! Synced: 2026-07-25 08:28 UTC
+! Entries: 201 (removed 0 allow-listed)
 !
 ||acr-au-prd.samsungcloud.tv^
 ||acr-br-prd.samsungcloud.tv^
@@ -10,7 +10,6 @@
 ||acr-in-prd.samsungcloud.tv^
 ||acr-kr-prd.samsungcloud.tv^
 ||acr-mx-prd.samsungcloud.tv^
-||acr-nz-prd.samsungcloud.tv^
 ||acr-us-prd.samsungcloud.tv^
 ||acr0.samsungcloudsolution.com^
 ||akcjasamsung.e-kei.pl^
