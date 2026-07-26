@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-07-26
+
+**Removed: 43265** (0 allow, 43265 block)
+
+- block: `0-38.com`, `00000.live`, `0000o.xyz`, `00104186da.com`, `0012e30263.com`, `0019x.com`, `002.sh.cn`, `0059.ws`, `006300.cn`, `0069672d29.com`, `0073a85a5d.com`, `0074854f80.com`, `008dd84707.com`, `00ddns-urlonmicrosoft-net.com`, `00e2120672.com` _+43250 more_
+
 ## 2026-07-23
 
 **Added: 1860** (0 allow, 1860 block)
