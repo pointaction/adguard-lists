@@ -14,7 +14,7 @@ on:
       - "build/combine-whitelist-sources.txt"
       - "scripts/build_combined.py"
   schedule:
-    - cron: "45 0/3 * * *"
+    - cron: "45 0/12 * * *"
   workflow_dispatch: {}
 
 permissions:
