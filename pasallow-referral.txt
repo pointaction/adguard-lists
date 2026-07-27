@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-26 09:01 UTC
-! Entries: 1558
+! Synced: 2026-07-27 04:23 UTC
+! Entries: 1559
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -343,6 +343,7 @@
 @@||clck.wargaming.net^
 @@||clck.yandex.ru^
 @@||clckptrl.com^
+@@||clcktrck.com^
 @@||click-tracking.klarna.net^
 @@||click-trk.com^
 @@||click.adora-ai.com^
