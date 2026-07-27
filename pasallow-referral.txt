@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-27 04:23 UTC
-! Entries: 1559
+! Synced: 2026-07-27 15:25 UTC
+! Entries: 1564
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -275,6 +275,8 @@
 @@||awstrack.me^
 @@||aylink.co^
 @@||banners.livepartners.com^
+@@||bapi-02.moengage.com^
+@@||bapi-04.moengage.com^
 @@||bcp.crwdcntrl.net^
 @@||bdash-tracking.com^
 @@||beehiiv.com^
@@ -297,6 +299,7 @@
 @@||bulletinweb.com^
 @@||c.apple.com^
 @@||c.hubz.pl^
+@@||c.kakaku.com^
 @@||c.msn.com^
 @@||c.neqty.net^
 @@||c.nexinsight.com.ua^
@@ -601,6 +604,7 @@
 @@||impulseonline.shop^
 @@||ink1001.com^
 @@||intercom-clicks.com^
+@@||internshala.bapi-03.moengage.com^
 @@||io.clickguard.com^
 @@||itgreen.com.vn^
 @@||jdoqocy.com^
@@ -809,7 +813,6 @@
 @@||mkto-ab540186.com^
 @@||mkto-ab550041.com^
 @@||mkto-ab550140.com^
-@@||mkto-ab550144.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -1023,6 +1026,7 @@
 @@||pepperjamnetwork.com^
 @@||personaclick.com^
 @@||personalservices.biz^
+@@||physicswallah.bapi-03.moengage.com^
 @@||pi.pardot.com^
 @@||ping.clicksambo.com^
 @@||pixamz.com^
@@ -1387,6 +1391,7 @@
 @@||target.clickfunnels.com^
 @@||target.georiot.com^
 @@||target.microsoft.com^
+@@||tatacliq.bapi-03.moengage.com^
 @@||tc.tradetracker.net^
 @@||tds.pdl-profit.com^
 @@||ti.tradetracker.net^
