@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-27 04:27 UTC
-! Entries: 8047
+! Generated: 2026-07-27 15:31 UTC
+! Entries: 8052
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -982,6 +982,8 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-02.moengage.com^
+@@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
 @@||base.be^
 @@||baylor.qualtrics.com^
@@ -1117,6 +1119,7 @@
 @@||c.eset.com^
 @@||c.gtm.eset.com^
 @@||c.hubz.pl^
+@@||c.kakaku.com^
 @@||c.msn.com^
 @@||c.neqty.net^
 @@||c.nexinsight.com.ua^
@@ -3867,6 +3870,7 @@
 @@||internet3g.unite.md^
 @@||internetmovil.etb.net.co^
 @@||internetupgrade.marriott.com^
+@@||internshala.bapi-03.moengage.com^
 @@||invianet.com^
 @@||io.clickguard.com^
 @@||iorange.sk^
@@ -4472,7 +4476,6 @@
 @@||mkto-ab540186.com^
 @@||mkto-ab550041.com^
 @@||mkto-ab550140.com^
-@@||mkto-ab550144.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -5794,6 +5797,7 @@
 @@||phoneweb.tmh-gprs.se^
 @@||phoneweb.tmh-mms.se^
 @@||phreesia.net^
+@@||physicswallah.bapi-03.moengage.com^
 @@||pi.hole^
 @@||pi.local^
 @@||pi.pardot.com^
@@ -6764,6 +6768,7 @@
 @@||tata.docomo.dive.in^
 @@||tata.docomo.internet^
 @@||tata.docomo.mms^
+@@||tatacliq.bapi-03.moengage.com^
 @@||tbsc.apple.com^
 @@||tbsc.apple.com.v.aaplimg.com^
 @@||tc.tradetracker.net^
