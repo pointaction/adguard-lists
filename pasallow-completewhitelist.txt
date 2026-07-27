@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-26 09:58 UTC
-! Entries: 8046
+! Generated: 2026-07-27 04:27 UTC
+! Entries: 8047
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -1447,6 +1447,7 @@
 @@||clck.wargaming.net^
 @@||clck.yandex.ru^
 @@||clckptrl.com^
+@@||clcktrck.com^
 @@||cleartalk.csky.us^
 @@||click-sap.sfmc-marketing.com^
 @@||click-tracking.klarna.net^
