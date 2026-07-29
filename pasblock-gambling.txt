@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: gambling
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt
-! Synced: 2026-07-28 14:40 UTC
-! Entries: 155226 (removed 0 allow-listed)
+! Synced: 2026-07-29 03:43 UTC
+! Entries: 155229 (removed 0 allow-listed)
 !
 ||0-10-7.casino^
 ||0-2-0-7.casino^
@@ -9995,6 +9995,7 @@
 ||205com.pro^
 ||205come699casino.org^
 ||205joycasino1.top^
+||2069extrabet.cam^
 ||2076-casino.buzz^
 ||20796.casino^
 ||2080x.com^
@@ -24004,7 +24005,6 @@
 ||bahiscasino-get.icu^
 ||bahiscasino-gir2026.vip^
 ||bahiscasino-giris-adres.vip^
-||bahiscasino-giris-yasal.vip^
 ||bahiscasino-giris2.icu^
 ||bahiscasino-girisgunceladres.icu^
 ||bahiscasino-girisi-burada.cam^
@@ -88726,6 +88726,10 @@
 ||jettoncasinos1.top^
 ||jettongames.cyou^
 ||jettongamingcasino.com^
+||jetutestserver6.com^
+||jetutestserver7.com^
+||jetutestserver8.com^
+||jetutestserver9.com^
 ||jetvipcasino.com^
 ||jetwin.com^
 ||jetwincasino.bet^
@@ -99259,6 +99263,7 @@
 ||lochcarron.tv^
 ||lochrasterkarten.com^
 ||locked-in-bets.com^
+||lockerimage.com^
 ||lockhart-web.com^
 ||loco-casinobe.com^
 ||loco-casinobelgium.com^
@@ -109717,7 +109722,6 @@
 ||mrjonescasino.bet^
 ||mrjonescasino.site^
 ||mrjudi33.live^
-||mrking5021.casino^
 ||mrkingcasino.com^
 ||mrl.casino^
 ||mrlot.casino^
@@ -124420,7 +124424,6 @@
 ||pokerklas-gir.club^
 ||pokerklas-gir.co^
 ||pokerklas-giris-adres.vip^
-||pokerklas-giris-yasal.vip^
 ||pokerklas-giris.cam^
 ||pokerklas-giris.club^
 ||pokerklas-giris.top^
