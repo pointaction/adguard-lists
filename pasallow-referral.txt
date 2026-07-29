@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-28 15:01 UTC
-! Entries: 1567
+! Synced: 2026-07-29 14:52 UTC
+! Entries: 1570
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -677,6 +677,7 @@
 @@||m-6pyms.custobar.com^
 @@||m-7ihcs.custobar.com^
 @@||m-7uz3v.custobar.com^
+@@||m-ax.custobar.com^
 @@||m-b2o72.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
@@ -849,6 +850,7 @@
 @@||mkto-abc0241.com^
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
+@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
@@ -892,6 +894,7 @@
 @@||mkto-m0106.com^
 @@||mkto-m0111.com^
 @@||mkto-mlm10010008.com^
+@@||mkto-mlm10030005.com^
 @@||mkto-n0092.com^
 @@||mkto-n0243.com^
 @@||mkto-nld1010057.com^
@@ -977,6 +980,7 @@
 @@||mkto-sjg0030.com^
 @@||mkto-sjh0084.com^
 @@||mkto-sn010116.com^
+@@||mkto-sn030149.com^
 @@||mkto-sn060071.com^
 @@||mkto-trk.cisco.com^
 @@||mktoweb.com^
@@ -1232,7 +1236,6 @@
 @@||suite30-cdnnet.emarsys.net^
 @@||suite30-cf.emarsys.net^
 @@||suite30.emarsys.net^
-@@||suite32.emarsys.net^
 @@||suite33-cf.emarsys.net^
 @@||suite33.emarsys.net^
 @@||suite34.emarsys.net^
