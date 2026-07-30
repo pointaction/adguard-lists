@@ -66,7 +66,7 @@ Examples:
 Block a domain:
 
 ```
-example.com^
+||example.com^
 ```
 
 Allow a domain:
