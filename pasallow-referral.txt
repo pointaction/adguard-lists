@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-07-29 14:52 UTC
-! Entries: 1570
+! Synced: 2026-07-30 03:42 UTC
+! Entries: 1579
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -343,6 +343,15 @@
 @@||ck.hdm3.in^
 @@||cl.adosiz.net^
 @@||cl.exct.net^
+@@||cl.s10.exct.net^
+@@||cl.s11.exct.net^
+@@||cl.s12.exct.net^
+@@||cl.s13.exct.net^
+@@||cl.s4.exct.net^
+@@||cl.s50.exct.net^
+@@||cl.s51.exct.net^
+@@||cl.s6.exct.net^
+@@||cl.s7.exct.net^
 @@||clc.wargaming.net^
 @@||clck.ru^
 @@||clck.wargaming.net^
