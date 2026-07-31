@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
-! Synced: 2026-07-30 03:31 UTC
-! Entries: 386 (removed 0 allow-listed)
+! Synced: 2026-07-31 14:37 UTC
+! Entries: 387 (removed 0 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
 ||a-ring.msedge.net^
@@ -237,6 +237,7 @@
 ||o365diagtelemetry.trafficmanager.net^
 ||oca.microsoft.com^
 ||office-events-data.trafficmanager.net^
+||officehub.nel.measure.office.net.cardano.com^
 ||oms-analytics.trafficmanager.net^
 ||outlookads.live.com^
 ||pgtbr1-excel-telemetry-vip.officeapps.live.com^
