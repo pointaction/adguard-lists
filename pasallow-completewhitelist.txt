@@ -1,7 +1,7 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-07-30 14:55 UTC
+! Generated: 2026-07-31 15:10 UTC
 ! Entries: 8067
 !
 ! Combined from:
@@ -692,9 +692,11 @@
 @@||apaceast.cloudguest.central.arubanetworks.com^
 @@||apacsouth-elb.cloudguest.central.arubanetworks.com^
 @@||apacsouth.cloudguest.central.arubanetworks.com^
+@@||api-01.moengage.com^
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
+@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
@@ -4433,7 +4435,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4494,7 +4495,6 @@
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
-@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
@@ -4523,7 +4523,6 @@
 @@||mkto-abc0241.com^
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
-@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
@@ -6204,6 +6203,7 @@
 @@||s51.exacttarget.com^
 @@||s6.exacttarget.com^
 @@||s7.exacttarget.com^
+@@||s8.exacttarget.com^
 @@||sabafon.com^
 @@||sabda.org.za^
 @@||sacc.aware.org.sg^
