@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
-! Synced: 2026-07-31 14:37 UTC
-! Entries: 387 (removed 0 allow-listed)
+! Synced: 2026-08-01 13:57 UTC
+! Entries: 388 (removed 0 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
 ||a-ring.msedge.net^
@@ -342,6 +342,7 @@
 ||t-ring-trafficshield.msedge.net^
 ||t-ring.msedge.net^
 ||t-s1-ring.msedge.net^
+||t-s2-ring.msedge.net^
 ||tar.microsoft.com^
 ||teams-events-data.trafficmanager.net^
 ||teams.nel.measure.office.net.cardano.com^

@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
-! Synced: 2026-07-27 04:04 UTC
-! Entries: 425 (removed 0 allow-listed)
+! Synced: 2026-08-01 13:57 UTC
+! Entries: 426 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-sg.tiktokv.com^
@@ -406,6 +406,7 @@
 ||tsearch.snssdk.com^
 ||ug-sg.byteoversea.com^
 ||ug.snssdk.com^
+||url4077.ads-service.tiktok.com^
 ||v16-ad.byteoversea.com^
 ||vaali-mcs-useast1a.byteoversea.com^
 ||vaali-mcs-useast2a.byteoversea.com^
