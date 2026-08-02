@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-01 14:15 UTC
-! Entries: 8067
+! Generated: 2026-08-02 04:16 UTC
+! Entries: 8068
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -1203,6 +1203,7 @@
 @@||cadent-match.dotomi.com^
 @@||cafconnection.ca^
 @@||calibour.net^
+@@||callback.api.qgraph.io^
 @@||calyxos.gitlab.io^
 @@||camera.postecert.it^
 @@||campaign.adobe.com^
