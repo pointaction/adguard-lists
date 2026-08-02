@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-01 14:07 UTC
-! Entries: 1579
+! Synced: 2026-08-02 04:04 UTC
+! Entries: 1580
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -314,6 +314,7 @@
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
 @@||cadent-match.dotomi.com^
+@@||callback.api.qgraph.io^
 @@||campaign.adobe.com^
 @@||campaign.aliexpress.com^
 @@||casale-match.dotomi.com^
