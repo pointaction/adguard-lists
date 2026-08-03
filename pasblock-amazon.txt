@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt
-! Synced: 2026-07-31 14:37 UTC
-! Entries: 359 (removed 1 allow-listed)
+! Synced: 2026-08-03 03:56 UTC
+! Entries: 361 (removed 1 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -43,6 +43,7 @@
 ||aax-fe.amazon-adsystem.com^
 ||aax-gamma-us-east.axp.amazon-adsystem.com^
 ||aax-ott-c2s.amazon-adsystem.com^
+||aax-ott-sdk.amazon-adsystem.amazon.com^
 ||aax-ott-sdk.amazon-adsystem.com^
 ||aax-ott.amazon-adsystem.amazon.com^
 ||aax-ott.amazon-adsystem.com^
@@ -70,6 +71,7 @@
 ||aax-us-west-ott-events.amazon-adsystem.com^
 ||aax-us-west-ott.amazon-adsystem.com^
 ||aax-us-west-rtb.amazon-adsystem.com^
+||aax-us.amazon-adsystem.amazon.com^
 ||aax-us.amazon-adsystem.com^
 ||aax-vx-api-us-east-1.amazon-adsystem.com^
 ||aax-vx-api-us-west-2.amazon-adsystem.com^

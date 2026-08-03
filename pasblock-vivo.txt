@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: vivo
 ! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt
-! Synced: 2026-07-29 03:43 UTC
-! Entries: 227 (removed 0 allow-listed)
+! Synced: 2026-08-03 03:56 UTC
+! Entries: 228 (removed 0 allow-listed)
 !
 ||adlog.vivo.com^
 ||adlog.vivo.com.cn^
@@ -137,6 +137,7 @@
 ||kz-st-sl.vivoglobal.com^
 ||kz-st-sysupgrade.vivoglobal.com^
 ||kz-stsdk.vivoglobal.com^
+||kz-vcode-api.vivoglobal.com^
 ||kz-vcode-od.vivoglobal.com^
 ||kz-vcode-or.vivoglobal.com^
 ||monitor-stsdk.vivoglobal.com^
