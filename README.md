@@ -36,40 +36,40 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-07-26 15:25 UTC_
+_Last updated: 2026-08-03 20:16 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 224 | — |
+| `false-positive-fixes.txt` | 226 | — |
 | `pasallow-badblock.txt` | 6,519 | — |
-| `pasallow-completewhitelist.txt` | 8,046 | — |
-| `pasallow-referral.txt` | 1,558 | — |
+| `pasallow-completewhitelist.txt` | 8,066 | — |
+| `pasallow-referral.txt` | 1,578 | — |
 | `pasblacklist.txt` | — | 377 |
 | `pasblock-adway.txt` | — | 6,469 |
-| `pasblock-amazon.txt` | — | 360 |
+| `pasblock-amazon.txt` | — | 361 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-completeblocklist.txt` | — | 1,368,083 |
+| `pasblock-completeblocklist.txt` | — | 1,397,956 |
 | `pasblock-dandelion-sprout.txt` | — | 11,518 |
-| `pasblock-gambling.txt` | — | 154,926 |
-| `pasblock-goodbye-ads.txt` | — | 277,434 |
-| `pasblock-haGeZi-pro++.txt` | — | 272,435 |
+| `pasblock-gambling.txt` | — | 139,708 |
+| `pasblock-goodbye-ads.txt` | — | 277,433 |
+| `pasblock-haGeZi-pro++.txt` | — | 240,466 |
 | `pasblock-huawei.txt` | — | 136 |
 | `pasblock-lgwebos.txt` | — | 340 |
-| `pasblock-microsoft.txt` | — | 385 |
-| `pasblock-native-oppo.txt` | — | 468 |
-| `pasblock-nsfw.txt` | — | 109,767 |
-| `pasblock-osid.txt` | — | 333,577 |
+| `pasblock-microsoft.txt` | — | 389 |
+| `pasblock-native-oppo.txt` | — | 484 |
+| `pasblock-nsfw.txt` | — | 107,082 |
+| `pasblock-osid.txt` | — | 429,916 |
 | `pasblock-roku.txt` | — | 72 |
-| `pasblock-samsung.txt` | — | 201 |
-| `pasblock-tif.txt` | — | 397,938 |
-| `pasblock-tiktok.txt` | — | 426 |
-| `pasblock-urlhaus.txt` | — | 10,179 |
-| `pasblock-vivo.txt` | — | 227 |
+| `pasblock-samsung.txt` | — | 202 |
+| `pasblock-tif.txt` | — | 390,369 |
+| `pasblock-tiktok.txt` | — | 427 |
+| `pasblock-urlhaus.txt` | — | 8,153 |
+| `pasblock-vivo.txt` | — | 228 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,364** | **3,043,413** |
-| **Total (unique domains)** | **8,268** | **1,368,316** |
+| **Total (sum)** | **16,406** | **3,110,181** |
+| **Total (unique domains)** | **8,290** | **1,398,188** |
 
 <!-- STATS:END -->
 

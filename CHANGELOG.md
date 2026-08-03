@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-03
+
+**Added: 2** (2 allow, 0 block)
+
+- allow: `air.usebraintrust.com`, `usebraintrust.com`
+
 ## 2026-07-26
 
 **Removed: 43265** (0 allow, 43265 block)
