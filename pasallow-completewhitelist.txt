@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-05 15:01 UTC
-! Entries: 8069
+! Generated: 2026-08-06 15:00 UTC
+! Entries: 8072
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -440,6 +440,7 @@
 @@||adsbexchange.com^
 @@||adscendmedia.com^
 @@||adservice.google.at^
+@@||adservice.google.bg^
 @@||adservice.google.ca^
 @@||adservice.google.ch^
 @@||adservice.google.co.ao^
@@ -4436,6 +4437,7 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
+@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4530,6 +4532,7 @@
 @@||mkto-cs0007.com^
 @@||mkto-d0024.com^
 @@||mkto-d0170.com^
+@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
@@ -4651,7 +4654,6 @@
 @@||mkto-sj380104.com^
 @@||mkto-sj380142.com^
 @@||mkto-sj390079.com^
-@@||mkto-sj390192.com^
 @@||mkto-sjg0030.com^
 @@||mkto-sjh0084.com^
 @@||mkto-sn010116.com^
@@ -6072,6 +6074,7 @@
 @@||redirect.stripe2.prod.experiment.routing.cloudfront.aws.a2z.com^
 @@||redirect.tracify.ai^
 @@||redirect.viglink.com^
+@@||redirect1069.tagcommander.com^
 @@||redirect476.tagcommander.com^
 @@||redirect492.tagcommander.com^
 @@||redirector-traf.trafficmanager.net^
