@@ -6,22 +6,22 @@
 #
 # Examples (uncomment the ones you want, or add your own):
 
-tif https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt
-samsung https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt
-amazon https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt
-apple https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt
-microsoft https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt
-tiktok https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt
-roku https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.roku.txt
-vivo https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt
-native-oppo https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt
-huawei https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt
-lgwebos https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.lgwebos.txt
-xiaomi https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt
-gambling https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt
-nsfw https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt
+samsung https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.samsung-onlydomains.txt
+amazon https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon-onlydomains.txt
+apple https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple-onlydomains.txt
+microsoft https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.winoffice-onlydomains.txt
+tiktok https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
+roku https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.roku-onlydomains.txt
+vivo https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.vivo-onlydomains.txt
+huawei https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.huawei-onlydomains.txt
+lgwebos https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.lgwebos-onlydomains.txt
+xiaomi https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi-onlydomains.txt
+gambling https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt
+nsfw https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt
+native-oppo https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
+tif https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif-onlydomains.txt
+haGeZi-pro++ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt
 dandelion-sprout https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-haGeZi-pro++ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
 urlhaus https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
 adway https://adaway.org/hosts.txt
 youtube https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-YouTube-AdBlock-Filter.txt
