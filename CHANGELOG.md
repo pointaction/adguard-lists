@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-08-08
 
+**Added: 2018574** (0 allow, 2018574 block)
+
+- block: `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-37-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-55-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-10-7.casino`, `0-100-pool.api.b3pool.com`, `0-16detroitlions.org`, `0-1h.com`, `0-2-0-7.casino`, `0-213008-google.ph`, `0-230-23.rest`, `0-30-7.casino`, `0-5-30.com`, `0-60fps.com` _+2018559 more_
+
+**Removed: 193675** (0 allow, 193675 block)
+
+- block: `0-105.com`, `0-autht-lo-xfin-ity-w0965.vercel.app`, `0-cz.com`, `0.feixue316p.cloudns.biz`, `0.feixue317p.cloudns.biz`, `0.feixue318p.cloudns.biz`, `00-0002.weebly.com`, `00-002.weebly.com`, `00-023.weebly.com`, `00-11.weebly.com`, `00.ai`, `00.lightb0x.ru`, `00.weebly.com`, `000-020.weebly.com`, `000-4242.weebly.com` _+193660 more_
+
+## 2026-08-08
+
 **Added: 1** (0 allow, 1 block)
 
 - block: `leskohelp.com`
