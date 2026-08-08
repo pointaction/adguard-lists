@@ -26,7 +26,7 @@ Feel free to copy, use, or contribute.
 ☁️  DNSSEC + DNS-over-TLS  (Cloudflare)
    │
    ▼
-🛜  (TP-Link Omada Cloud Controller) TP-Link ER605 Gateway + Jet Stream Smart Switch (VLANs) 
+🛜  (TP-Link Omada Cloud Controller) TP-Link ER605 Gateway + TP-Link Jet Stream Smart Switch (VLANs) 
    │
    ▼
 🌐  Internet
