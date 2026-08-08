@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-08
+
+**Added: 1** (0 allow, 1 block)
+
+- block: `leskohelp.com`
+
 ## 2026-08-03
 
 **Added: 2** (2 allow, 0 block)
