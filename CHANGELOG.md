@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-08-08
 
+**Removed: 80** (0 allow, 80 block)
+
+- block: `3q6ixb5ng2pvbp.cfd`, `63o3ug9ol2gjhpbn.cfd`, `allayloofasbedizen.cfd`, `anattoeburin.cyou`, `axmendodonapicea.cfd`, `benthosrazee.shop`, `bhotiyarazored.cyou`, `booktiturel.com`, `boswelllarches.qpon`, `cabindauridine.cyou`, `carhopgregos.shop`, `catkinawshar.qpon`, `cimlinecreakymake.cyou`, `combshyte.shop`, `competent-toe.pro` _+65 more_
+
+## 2026-08-08
+
 **Added: 2018574** (0 allow, 2018574 block)
 
 - block: `0-0-0-0-0-0-0-0-0-0-0-0-0-18-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-33-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-37-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-55-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-0-0-0-0-0-0-0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-0.info`, `0-10-7.casino`, `0-100-pool.api.b3pool.com`, `0-16detroitlions.org`, `0-1h.com`, `0-2-0-7.casino`, `0-213008-google.ph`, `0-230-23.rest`, `0-30-7.casino`, `0-5-30.com`, `0-60fps.com` _+2018559 more_

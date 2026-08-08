@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-08-08 17:02 UTC_
+_Last updated: 2026-08-08 17:43 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -48,7 +48,7 @@ _Last updated: 2026-08-08 17:02 UTC_
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-completeblocklist.txt` | — | 3,158,036 |
+| `pasblock-completeblocklist.txt` | — | 3,157,984 |
 | `pasblock-dandelion-sprout.txt` | — | 11,518 |
 | `pasblock-gambling.txt` | — | 410,978 |
 | `pasblock-goodbye-ads.txt` | — | 277,432 |
@@ -58,7 +58,7 @@ _Last updated: 2026-08-08 17:02 UTC_
 | `pasblock-microsoft.txt` | — | 389 |
 | `pasblock-native-oppo.txt` | — | 484 |
 | `pasblock-nsfw.txt` | — | 109,243 |
-| `pasblock-osid.txt` | — | 252,998 |
+| `pasblock-osid.txt` | — | 252,918 |
 | `pasblock-roku.txt` | — | 72 |
 | `pasblock-samsung.txt` | — | 201 |
 | `pasblock-tif.txt` | — | 2,193,425 |
@@ -68,8 +68,8 @@ _Last updated: 2026-08-08 17:02 UTC_
 | `pasblock-xiaomi.txt` | — | 347 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,420** | **6,768,232** |
-| **Total (unique domains)** | **8,297** | **3,158,268** |
+| **Total (sum)** | **16,420** | **6,768,100** |
+| **Total (unique domains)** | **8,297** | **3,158,216** |
 
 <!-- STATS:END -->
 
