@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-08-10 13:46 UTC
-! Entries: 6091 (removed 0 allow-listed)
+! Synced: 2026-08-11 02:29 UTC
+! Entries: 6043 (removed 0 allow-listed)
 !
 ||0022a601.pphost.net^
 ||00pq7d1j.1xboropartners.com^
@@ -18,7 +18,6 @@
 ||078zq932.betyek.bio^
 ||07vh2ie1.jozve.download^
 ||09c1d5c3-1a6e-4c05-8e4e-eff75c6b5dd6.filesusr.com^
-||09c1d5c3-1a6e-4c05-8e4e-eff75c6b5dd6.usrfiles.com^
 ||09ddpfx9.parspoker.casino^
 ||0dahrppq.taktikbet.bio^
 ||0dt4r35j.gavaedfagahe.xyz^
@@ -238,7 +237,6 @@
 ||4yl6u62i.pdfbama.com^
 ||4z0tdlyo.calvaryhospice.org^
 ||509ukk9c.enf90.vip^
-||51523.file-open.surf^
 ||54328cf8554e67ed-185-174-159-197.serveousercontent.com^
 ||543533s9.nagshekeshi.xyz^
 ||54e20j57.mrslopezsings.org^
@@ -296,7 +294,6 @@
 ||69x4o4j5.bet808.casino^
 ||69xb4m1d.betmajic.cc^
 ||6a109ce5-3c8f-432c-8c07-1b9ff8282c7a.mp-lby-mtch-svc.in.net^
-||6ak-tehnik.si^
 ||6aq224cu.luxerabet100.com^
 ||6b4ki3sp.abt90kade.com^
 ||6dg7sjam.bet404farsi.com^
@@ -473,6 +470,7 @@
 ||aawzmuz.1xvip.live^
 ||ab950zja.testpaye.xyz^
 ||abandoned-asylum-expedition.garden^
+||abdulahad.net^
 ||abimj.edu.af^
 ||abmjl.bertifolia.hu^
 ||abmkzgbs.sakhtemandade.shop^
@@ -685,8 +683,6 @@
 ||automobile-bk.de^
 ||auucqutq.pdfbama.com^
 ||auyc.pikachuplush.com^
-||avariya.cfd^
-||avariya2026dtpru.vercel.app^
 ||avemod.cc^
 ||avfzq.maia-bentley.com^
 ||avhbto.yasbet90.com^
@@ -715,7 +711,6 @@
 ||b53jdkck.photoshopvn.net^
 ||b57agvqn.azmoonhayeravani.shop^
 ||b58jef3z.22beet.com^
-||b5fdl2mw.hor1inka-lonely.digital^
 ||b6ddznvo.reyhanebeheshti.xyz^
 ||b7tibc5u.luxerabet1000.com^
 ||b97pimiu.vip1x.bet^
@@ -774,6 +769,7 @@
 ||bdfzsbr.kvbel.com^
 ||bdyqsrv.kbshavanese.com^
 ||beacontweezersbinge.wiki^
+||beak.in^
 ||bebra-dev.com^
 ||bebra-dev.pro^
 ||bedrive.ru^
@@ -919,7 +915,6 @@
 ||brightestprocexchange.wiki^
 ||brightworks.cz^
 ||brisk-with-easy.xyz^
-||briskinternet.com^
 ||briskpair-rode.xyz^
 ||brmzm.jadoou.space^
 ||broadwalkindia.com^
@@ -969,7 +964,6 @@
 ||byte-network-hub.christmas^
 ||byte-stream-encryption-standard-base.wiki^
 ||byte-vault.christmas^
-||byteforge.surf^
 ||byucosm.bettime.win^
 ||byvvv0is.anodaz.co^
 ||byz28tfk.rasmfani.xyz^
@@ -1045,7 +1039,6 @@
 ||cdn-assets.xyz^
 ||cdn.anzho06.xyz^
 ||cdn.defenders.workers.dev^
-||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.imgtree.co^
 ||cdn.novoline.top^
@@ -1094,7 +1087,6 @@
 ||cheatclients.com^
 ||checkfivem.com^
 ||chekingmax.vercel.app^
-||chenwangqiao.com^
 ||cherish-cultscreencard.wiki^
 ||chhtni23.dancebet.app^
 ||chhul.sm188akurat.sbs^
@@ -1130,6 +1122,7 @@
 ||cknkl.vilagom.hu^
 ||ckugvmkpg.hazarat.now^
 ||ckvcsacd.mechanicsayalat.xyz^
+||cl.ssouy.com^
 ||cla.stingold.com^
 ||clacndjsvulnarbi.beer^
 ||clamprob-folder-runtime-forge.garden^
@@ -1181,11 +1174,11 @@
 ||code-beautify.com^
 ||code.verification-claude-cdn.beer^
 ||codecerification.beer^
-||codeframe.wiki^
 ||codeinspector.ddns.net^
 ||codepit-rized-denengine.garden^
 ||coder-logic-vault.courses^
 ||commercial.great-site.net^
+||compuserviceonline.com.br^
 ||comserlivuior.store^
 ||comumvidros.com.br^
 ||concilicartoes.com.br^
@@ -1259,7 +1252,6 @@
 ||cryptex-core.pw^
 ||crypticdialect.garden^
 ||crypto.betfakade.com^
-||cryptogrid.wiki^
 ||cryptomeshforge5.lol^
 ||crystalpvp.ru^
 ||cryztbbzl.site-shartbandi-farsi.com^
@@ -1304,7 +1296,6 @@
 ||cxxz.co.za^
 ||cyber-defensepro.christmas^
 ||cyber-prosthetic.fit^
-||cybergrid.surf^
 ||cybernetic-prosthetic-lab.garden^
 ||cydm.domirunway.com^
 ||cyki.hayleymarienorman.com^
@@ -1339,10 +1330,7 @@
 ||damiancollier.com^
 ||dampcaps-flor-sou-rail.garden^
 ||daprojektbau.webfaqe-ks.com^
-||dashcorpcloud.co^
-||data-core-logic-resource-center.wiki^
 ||data.yhydl.com^
-||datapulse.wiki^
 ||datastream-hub.christmas^
 ||datingtj22.shop^
 ||dautw.playantwatch.com^
@@ -1401,7 +1389,6 @@
 ||dev1-trucksdirectuk.com^
 ||deviceauth-code.us.com^
 ||devltl.top^
-||devmatrix.wiki^
 ||dexios.co.za^
 ||deyetechnical.com^
 ||dezcom.com^
@@ -1422,7 +1409,6 @@
 ||died-halo-tang.xyz^
 ||diet-graymost.xyz^
 ||digital-magicians.com^
-||digital-node-cloud-ops-manual.wiki^
 ||digital.digitaldatainsights.org^
 ||digobkp.store^
 ||dihsov.jamjahani.cash^
@@ -1538,6 +1524,7 @@
 ||download.suxiazai.com^
 ||download.tfyxzai.com^
 ||download.ubua.online^
+||download2.huduntech.com^
 ||downloads.glazedclients.com^
 ||dows.sabad724.bio^
 ||dozco.com^
@@ -1572,8 +1559,6 @@
 ||dtbgl.bookdrive.xyz^
 ||dtgncsqn.masirpayambari.xyz^
 ||dtp-avaria.vercel.app^
-||dtp-photo19.file-open.surf^
-||dtp-photos10.file-open.surf^
 ||dtphi824.akhbarsport.info^
 ||dtpvideo52.vercel.app^
 ||dtsmmaphe.tampabayspin.com^
@@ -1635,6 +1620,7 @@
 ||earlnotgray.xyz^
 ||earltoll-snap.xyz^
 ||eastbwxa.funxbet.casino^
+||easycryptos.org^
 ||easyfiles.cc^
 ||eaty6go0.anodaz.co^
 ||eayuhgu.xbetone.com^
@@ -1699,7 +1685,6 @@
 ||eligibility-biological-rights-directive.trycloudflare.com^
 ||elisans.novayonetim.com^
 ||elmap.smarthost.pl^
-||elmejorlocal.com.co^
 ||elmqfzy.zsatom.hu^
 ||elng.jadoou.baby^
 ||elsms.webgondozas.hu^
@@ -1819,7 +1804,6 @@
 ||f3i5-0g49bgn-3h95-1324992141.cos.ap-jakarta.myqcloud.com^
 ||f8zkjy83.azmoondadrasi.xyz^
 ||f9e2ff2h.site-asli-bedon-filter-1xbet.com^
-||fabrics.lahoreshoes.com^
 ||fahv2h6l.kimimaro-trance.com^
 ||fairgroovetr.blog^
 ||fairth.dev^
@@ -1830,7 +1814,6 @@
 ||fanlo.addmagad.com^
 ||faogw.bankefile.com^
 ||faqgkjb.testmobo.ir^
-||fast.raidher.icu^
 ||fastdex.myddns.me^
 ||faster-cdn-hk.click^
 ||fatkow.file-online.lat^
@@ -1955,6 +1938,7 @@
 ||flow-hub-green-house-work.garden^
 ||flpquwu.enfejar-site.bet^
 ||fluffynoodle.xyz^
+||fluidfilm.bg^
 ||flux-heldsham.xyz^
 ||flwhdzos.1xbetmag.com^
 ||flyi.jadoou.lat^
@@ -1990,10 +1974,6 @@
 ||formnote-from.xyz^
 ||forspeed.onlinedown.net^
 ||fortune-66seven.com^
-||fotoinstalll.ink^
-||fotolends.lat^
-||fotomaxinstall.click^
-||foundationforwomenshealth.com^
 ||fourhomethen.xyz^
 ||foxo8ujn.prozhe.net^
 ||fphhkiyz.betforward.download^
@@ -2078,6 +2058,7 @@
 ||gakvmew.tinybet.bio^
 ||galdum.ro^
 ||galeri3.arkitera.com^
+||galerisenimutiara.com^
 ||games-point.com^
 ||gangteem-beam.xyz^
 ||gardenautomationframework.garden^
@@ -2107,6 +2088,7 @@
 ||gdtuyoor.gamehazarat.com^
 ||gdxai3cp.shart.casino^
 ||gec56eyc.pczrt.hu^
+||geeconglobal.com^
 ||gefpeqd.bet1xiraq.com^
 ||geirvzju.betxane.com^
 ||gejrdcu.enfejar.poker^
@@ -2165,7 +2147,6 @@
 ||gigs.us.1e.cm^
 ||gijjr.welovevent.com^
 ||gimomouf.red90.casino^
-||girlytrans-fusion.wiki^
 ||git.nightcord.online^
 ||git.nightcord.ru^
 ||git.nightcord.st^
@@ -2186,7 +2167,6 @@
 ||glmm.colg1.org^
 ||glmo.bcgame90.casino^
 ||gloason.com^
-||global-cloud-infra-logic-manual.wiki^
 ||global-infra-logic-get-hash.wiki^
 ||global-infra-node-date-hash.wiki^
 ||globalbank.us^
@@ -2263,6 +2243,7 @@
 ||groan-brim-peak.xyz^
 ||grrab.cannatural.cz^
 ||grupohenry1.com^
+||grupomcperu.com^
 ||gsdzofat.winxbet.co^
 ||gsmtoolpack.com^
 ||gsoxdy.vezaratshart.com^
@@ -2332,7 +2313,6 @@
 ||hardware-resource-monitor-tool-box.wiki^
 ||harm-mint-veto.xyz^
 ||harmlick-mode.xyz^
-||hasalltalent.com^
 ||hasmysql.christmas^
 ||haste-flop-smug.xyz^
 ||hasvideoproxy.christmas^
@@ -2366,7 +2346,6 @@
 ||heroestales.com^
 ||herxydns.hugugbime.xyz^
 ||hetljl.jamjahani.football^
-||hewadexchange.com^
 ||hewsseen-tear.xyz^
 ||hexfiles.top^
 ||hexvm.cloud^
@@ -2465,6 +2444,7 @@
 ||ht326ul6.hazaratbet.bet^
 ||htcaqoat.universaltyresautos.com.au^
 ||htciigz.intelect.gr^
+||htdentshop.com^
 ||htfll3q5.1x303.casino^
 ||htfnjw.jatekotmindenkinek.hu^
 ||htftvttj.1xyek.net^
@@ -2609,6 +2589,7 @@
 ||inasa.pdfbama.com^
 ||increvalor.com^
 ||indf.betawarz.com^
+||indusenterprises.co^
 ||inervadores.life^
 ||infocrabcob.xyz^
 ||infohelprus.vercel.app^
@@ -2616,7 +2597,6 @@
 ||infoworkerone.com^
 ||infoworkerone.org^
 ||infra-blue-high-print.garden^
-||infra-point-bits-service-atlas.wiki^
 ||inhalerotolaryngologist.courses^
 ||inherittruckdoge.courses^
 ||inini.kesug.com^
@@ -2678,6 +2658,7 @@
 ||iwd21.icu^
 ||iwojm.webgondozas.hu^
 ||iwyx.bekabet.casino^
+||ixirgroup.com^
 ||iyejvhz.shansbartar.bet^
 ||iygfxiad.efcasino.bet^
 ||izehzccr.bet90forward.win^
@@ -3028,7 +3009,6 @@
 ||lancer.shartboro.xyz^
 ||landonirwin.com^
 ||lapidorseposoalovbs2.com^
-||laptoplink.wiki^
 ||larpers.eu^
 ||lasagna-bakingpro.christmas^
 ||lasagnabakingsecrets.study^
@@ -3085,6 +3065,7 @@
 ||lightcord.xyz^
 ||liizlfb.bet30bet.com^
 ||like-hold-fray.xyz^
+||lindnerelektroanlagen.de^
 ||linguistic-puzzle-solver.garden^
 ||linguisticpuzzlesolver.christmas^
 ||linkedco.net^
@@ -3129,7 +3110,6 @@
 ||lofybdv.megaparii.pro^
 ||logic-buffer-skills.courses^
 ||logicbufferskills.christmas^
-||logicnode.surf^
 ||lohgcyy.winsportiran.com^
 ||lokb.bekabet.casino^
 ||lokino.perfectgameiran.com^
@@ -3224,6 +3204,7 @@
 ||mail.dns2.vendasptg.com^
 ||mail.fairgroovetr.blog^
 ||mail.pagar10.vendasptg.com^
+||mail.quietsurfwi.help^
 ||mail.rarewingvm.blog^
 ||mail.sandystudiogh.blog^
 ||mail.silverrockay.pro^
@@ -3236,6 +3217,7 @@
 ||malaysianpastrybakery.org^
 ||male-martloss.xyz^
 ||malqen.life^
+||mamabearcoffee.com^
 ||mamigummy.com^
 ||man745va.takbetkade.com^
 ||mandarin.net.au^
@@ -3249,7 +3231,6 @@
 ||maryaxdn.sanjeshravani.shop^
 ||master-core-system-date-slink.wiki^
 ||master-planting-logic-manual.garden^
-||master-system-data-core-wiki.wiki^
 ||master-voivo-system-shop-slink.wiki^
 ||masteringdigital-arch.courses^
 ||masterklass.net^
@@ -3358,7 +3339,6 @@
 ||mirqics.hesabdariosmani.xyz^
 ||miststarvationsify.wiki^
 ||misty-cherry-cea3.uploadsimg.workers.dev^
-||mitreart.com^
 ||mixed-on-storage-layer.garden^
 ||mjbpgp3k.jadoou.cfd^
 ||mjca.fontanayoga.com^
@@ -3530,7 +3510,6 @@
 ||neon-cyberpunk.christmas^
 ||neoncyberpunkcity.garden^
 ||nerve.untergrund.net^
-||netvector.wiki^
 ||network-flow-system.christmas^
 ||network-security-ops-flow-base.wiki^
 ||neural-atlas-code-flat.courses^
@@ -3739,8 +3718,6 @@
 ||ojvh.barcelona11.com^
 ||ojwvrerrm.derbi.promo^
 ||ojxpecw.bet30bet.com^
-||ok-dtpnew.cyou^
-||ok-ru-photo6.live^
 ||okb0lvez.subdermalbiometricchip.digital^
 ||oknmhjx.xenicalby6.com^
 ||oknoplastik.sk^
@@ -3748,6 +3725,7 @@
 ||okuiwrsf.prozhedownload.com^
 ||okv4iaii.contempoconstructiontx.com^
 ||olakv.technologiaiviz.hu^
+||old.bullydog.com^
 ||old.umcl.us^
 ||oleavv.levelupadventure.hu^
 ||olftxqs.dgyekbet1.com^
@@ -3788,12 +3766,12 @@
 ||orbital-mechanics.christmas^
 ||orbital-velocity.fit^
 ||orbitstride7.com^
-||ordersub-versive.wiki^
 ||ordiljgt.entegaljerm.xyz^
 ||oregano.brightleafrv.com^
 ||oregrlk.mangobetfarsi.com^
 ||ores-font-form.xyz^
 ||organza.rapidbranchzi.com^
+||orientedworld.com^
 ||orienttaxtile.com^
 ||orjrdtyn.site-shartbandi-khareji.com^
 ||oryx-foryell.xyz^
@@ -3860,7 +3838,6 @@
 ||p7266yt8.asibshenasiyahya.shop^
 ||p75su278.shimiskoog.shop^
 ||p8rzf42g.radmanwear.ir^
-||p9015zuh.unp2idvalk.digital^
 ||p9kos7r3.scriptyek.com^
 ||pa9xqikq.1000shart.xyz^
 ||pable.sm188login.rest^
@@ -3898,14 +3875,13 @@
 ||part-tape-into.xyz^
 ||partytimedjsohio.com^
 ||pashka-5qrk.vercel.app^
-||passoverphysiqclass.wiki^
-||passwordweb.wiki^
 ||past-reefprin.xyz^
 ||paste.sensio.no^
 ||patenttag.wiki^
 ||path-green-second-hub.garden^
 ||patricstoremegans2.com^
 ||pauheuld.questionsmotor.xyz^
+||pay.aqiu6.com^
 ||payables-deposit.com^
 ||paymentautomations.biz^
 ||paysolutions.ink^
@@ -3973,15 +3949,9 @@
 ||phitqv0l.ravabetensani.site^
 ||phmro.optikusom.hu^
 ||photo-62454.cfd^
-||photo-album-anusa.vercel.app^
-||photo-album-jopki.vercel.app^
-||photo-albuum.vercel.app^
 ||photo-poisk.vercel.app^
-||photoalbbum.vercel.app^
 ||photobookadm.pro^
 ||photodpt-rus.vercel.app^
-||photogrs-rid.top^
-||photomax-12-05.vercel.app^
 ||photomaxost.vercel.app^
 ||photsjpg-archiv22god.vercel.app^
 ||phtod-rus.vercel.app^
@@ -3997,7 +3967,6 @@
 ||pirqlheh.hugugtejarat4.xyz^
 ||pixelart-canvas.christmas^
 ||pixelartcanvas.garden^
-||pixelcore.surf^
 ||pixey.lampaoszlopbolt.hu^
 ||pixxarting21.life^
 ||pixxarting24141.icu^
@@ -4014,7 +3983,6 @@
 ||plain-wnam-prod-public.komododecks.com^
 ||plan-druggrape.xyz^
 ||planetariumobil.ro^
-||plenia.pt^
 ||plgb.koyeb.app^
 ||pljiquv.destek1.com.tr^
 ||plug-halo-flip.xyz^
@@ -4075,7 +4043,6 @@
 ||pqyajjta.betgar.bet^
 ||pqycltd.hokm.casino^
 ||prb02wy1.bingobet.bingo^
-||preciosasjoyitas.com.mx^
 ||predator-hunting-chronicles.garden^
 ||prepstarcenter.com^
 ||prestige-mc.lovable.app^
@@ -4088,6 +4055,7 @@
 ||primordial-soup-evolution.garden^
 ||primultesst.infinityfreeapp.com^
 ||pritinder.ifree.page^
+||privrawmirai.privnetwork.tech^
 ||prl0ivfr.hazaratbet.games^
 ||prmozcj.persian.sex^
 ||pro-architecture-engineering-vault-info.wiki^
@@ -4098,7 +4066,6 @@
 ||proemails.shop^
 ||programandojuntos.us.tempcloudsite.com^
 ||progroup.top^
-||proishestvie2026onlaine.vercel.app^
 ||project-vendors.icu^
 ||projetodegente.com^
 ||propertiesofcayman.com^
@@ -4240,7 +4207,6 @@
 ||q956x3rl.badabingsopranoslounge.digital^
 ||qa4lsxxi.313betapk.com^
 ||qaezg.sm188akurat.sbs^
-||qaff1aeg.chronicle5-diachiha.digital^
 ||qakm.fiorentini.ir^
 ||qaqatrf8.dermatologycongress.org^
 ||qavsqox.footbal90bet.app^
@@ -4337,6 +4303,7 @@
 ||queendent.hu^
 ||quick-load.vercel.app^
 ||quickwebdevops.courses^
+||quietsurfwi.help^
 ||quyycf.parsball.casino^
 ||qv.co.ke^
 ||qv3dp7rx.ahkam.xyz^
@@ -4523,7 +4490,6 @@
 ||rupolicce2026.vercel.app^
 ||ruproishestvie2026.vercel.app^
 ||rurhmgw2.readthisintro.xyz^
-||russia24.icu^
 ||ruuupkia.jadoobet.pro^
 ||ruxi.kernelbridge.top^
 ||ruynyxnj.karafarini.shop^
@@ -4614,9 +4580,7 @@
 ||scjzlqeyk.hazzarat.world^
 ||scoala1gherla.ro^
 ||scrbsmf.activebook.xyz^
-||screencard.wiki^
 ||screenly.cam^
-||scriptmesh.surf^
 ||scsadmm.penaltibazi.com^
 ||scsjldll.prozhedownload.com^
 ||sctawfw.1xgame.games^
@@ -4694,6 +4658,7 @@
 ||shepalemess.xyz^
 ||shfbucmg.tarikhravannovin.shop^
 ||shgaxiz.volleyball.bet^
+||shivsoftwaresolutions.com^
 ||shqdown.ggzuhao.com^
 ||shrqj.mabanimashin.site^
 ||shy-hall-9c09.cryptersandtoolsoficial.workers.dev^
@@ -4710,7 +4675,6 @@
 ||silver-hubdachwohnwagen.de^
 ||silverrockay.pro^
 ||silvion.uk^
-||simonizauto.com^
 ||simplejack.lovestoblog.com^
 ||sinkingyourself.courses^
 ||sir8uu.yandex-file.lat^
@@ -4754,7 +4718,6 @@
 ||smfnctms.fifa90.bet^
 ||smildilt.1xjet.pro^
 ||smoking-hot.net^
-||smother-portf.file-open.surf^
 ||smug-graze-omit.xyz^
 ||smug-lend-gray.xyz^
 ||smuggler-beluga-notion.courses^
@@ -4776,7 +4739,6 @@
 ||softmix.online^
 ||softwarecdn.net^
 ||softwaredesing.x10.mx^
-||softwarefile.wiki^
 ||soilleafmain.xyz^
 ||solar-sanat.net^
 ||sole-cederole.xyz^
@@ -4815,7 +4777,6 @@
 ||stack-core-node-date-hash.wiki^
 ||stack-flow.christmas^
 ||stackbridge.christmas^
-||stackforge.wiki^
 ||stackforgeacademy.courses^
 ||stage1-orschellx.com^
 ||star-workshop.christmas^
@@ -4830,12 +4791,14 @@
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
+||static.zongheng.com^
 ||stdcamtp.behtarin-site-shartbandi-football.bet^
 ||stdown.dinju.com^
 ||stealth-bomber-radar-cross.garden^
 ||steampunkaeronautics.garden^
 ||steel-glok-yes-valence.courses^
 ||stem-doseleft.xyz^
+||stepupnetworks.com^
 ||sterich.online^
 ||sterlingreservewealth.info^
 ||stg.1xfa.xyz^
@@ -4870,7 +4833,6 @@
 ||sumiko.vu^
 ||sun8i9tk.luxerabet1000.com^
 ||sunix-technology.com^
-||supplyflash.wiki^
 ||support-data.com^
 ||support.clz.kr^
 ||surf-life-sank.xyz^
@@ -4880,7 +4842,6 @@
 ||suwqmlyd.efbetfarsi.com^
 ||svganchordev.net^
 ||svirtual.sanviatorperu.edu.pe^
-||svo-baza-poisk.pro^
 ||svo-name-poisk.vercel.app^
 ||svo-pois.file-online.lat^
 ||svo-poiskrat.vercel.app^
@@ -4891,7 +4852,6 @@
 ||swayoralnear.xyz^
 ||sweet-snowflake-8a7e.uploadesclintesss.workers.dev^
 ||swhbk.bohochal.hu^
-||swiftfusion.tech^
 ||swing-nutten-hon-parameter.trycloudflare.com^
 ||swmzey.3sefr3.ir^
 ||swzbdpb.poker-online.bet^
@@ -4911,7 +4871,6 @@
 ||syqxxqi.riyaziyattajrobi.xyz^
 ||syrzz.technologiaiviz.hu^
 ||system-analytics-pro-guide.courses^
-||system-stack-node-data-reference.wiki^
 ||sysupdate.online^
 ||szdfpv.jamjahani2026.football^
 ||t0uo8kf9.basketballiran.com^
@@ -4953,7 +4912,6 @@
 ||te3znaut.parspoker90.com^
 ||teams.alfredcore.com^
 ||tearmbdo.bet1forward.com^
-||tech-script-logic-unit-reference.wiki^
 ||techosazteca.com^
 ||tecmon.hr^
 ||tectonic-fault-seismograph.garden^
@@ -5012,7 +4970,6 @@
 ||theordernetwork.qzz.io^
 ||theoremaoliveoil.com^
 ||thepullmanfolkestone.com^
-||thesalons.in^
 ||theworldofm.net^
 ||thhcalzn.jam-jahani.com^
 ||this-maimreef.xyz^
@@ -5093,7 +5050,6 @@
 ||triflackcom.com^
 ||trlcayaw.matalebeziba.ir^
 ||trlclzb.enfejar.game^
-||trtmyanmar.com^
 ||true-gategrin.xyz^
 ||trwqprv.shartmag.bet^
 ||trzyilzj.sanjeshravani.shop^
@@ -5225,7 +5181,6 @@
 ||unicore.pw^
 ||union.macoms.la^
 ||unitedgs.lovestoblog.com^
-||unitmemory.wiki^
 ||universemap.net^
 ||unix-technology.com^
 ||unixcheats.shop^
@@ -5308,7 +5263,6 @@
 ||vacuum-tube-amplifier.garden^
 ||vafcj.buborekjatszohaz.hu^
 ||vaibhavtripathi.in^
-||valfanto.com^
 ||vame.be^
 ||vaneijkprojecten.nl^
 ||vanta.st^
@@ -5325,7 +5279,6 @@
 ||vbpfixp.hesabdarishabahang.xyz^
 ||vbyiq.yanis.hu^
 ||vbytelot-mead-automation-form.garden^
-||vcc-library.uk^
 ||vchbhqa.betbazi.net^
 ||vcjh.shimiaodaoflushing.com^
 ||vcrjfnwa.ketab.blog^
@@ -5505,12 +5458,12 @@
 ||w18yfaze.yekbetiran.com^
 ||w2hnzhub.fununetadris.shop^
 ||w5kaz0nm.ahkam.xyz^
-||w63709gi.beget.tech^
 ||w7nr7blr.mohandesitraffic.shop^
 ||w8sxay63.varzeshlife.ir^
 ||w9x1nvom.sizzleasianfood.com^
 ||wabel.azmoonzare.online^
 ||wadbrnz.1xx.games^
+||waf.proxytunnel.co^
 ||wagxbxx.ac90bet.net^
 ||wakgo.jbgroup21.com^
 ||wakvssup.1xgame.pro^
@@ -5531,7 +5484,6 @@
 ||weak-obeylore.xyz^
 ||wealthishealth.free.je^
 ||wean-bredfact.xyz^
-||web-logic-stack-dev-notebook.wiki^
 ||web.karbordriyaziyat.xyz^
 ||webangelo.it^
 ||websenorllc.com^
@@ -5590,6 +5542,7 @@
 ||winter-pulse.christmas^
 ||wisemateboth.xyz^
 ||wisvfr.basketballiran.com^
+||wittenhorst.eu^
 ||wiwcg.lelekbuvar.hu^
 ||wj3om1ni.bahigo90bet.com^
 ||wjek.jadoou.lol^
@@ -5958,7 +5911,6 @@
 ||zebswzz.one1xbet.net^
 ||zeiqv2hk.subfossiloakchronology.digital^
 ||zejlnzmy.maharatmodiran.xyz^
-||zenglobalenerji.com^
 ||zet9r6gg.nahjolbalage.xyz^
 ||zetkskre.funxbet.casino^
 ||zeuephv.tafsirquran.xyz^
