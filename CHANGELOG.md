@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-12
+
+**Added: 4** (4 allow, 0 block)
+
+- allow: `digitalsecure.verizon.com`, `mobile-exp.vzw.com`, `verizon.com`, `vzw.com`
+
 ## 2026-08-08
 
 **Removed: 80** (0 allow, 80 block)
