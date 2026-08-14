@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-08-12 13:44 UTC_
+_Last updated: 2026-08-14 02:27 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -48,7 +48,7 @@ _Last updated: 2026-08-12 13:44 UTC_
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 360 |
 | `pasblock-apple.txt` | — | 107 |
-| `pasblock-completeblocklist.txt` | — | 612,148 |
+| `pasblock-completeblocklist.txt` | — | 626,479 |
 | `pasblock-dandelion-sprout.txt` | — | 11,518 |
 | `pasblock-gambling.txt` | — | 411,801 |
 | `pasblock-goodbye-ads.txt` | — | 277,432 |
@@ -58,18 +58,18 @@ _Last updated: 2026-08-12 13:44 UTC_
 | `pasblock-microsoft.txt` | — | 389 |
 | `pasblock-native-oppo.txt` | — | 484 |
 | `pasblock-nsfw.txt` | — | 107,560 |
-| `pasblock-osid.txt` | — | 251,440 |
+| `pasblock-osid.txt` | — | 265,787 |
 | `pasblock-roku.txt` | — | 72 |
 | `pasblock-samsung.txt` | — | 201 |
 | `pasblock-tif.txt` | — | 2,223,762 |
 | `pasblock-tiktok.txt` | — | 427 |
-| `pasblock-urlhaus.txt` | — | 5,997 |
+| `pasblock-urlhaus.txt` | — | 5,895 |
 | `pasblock-vivo.txt` | — | 227 |
 | `pasblock-xiaomi.txt` | — | 347 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **14,874** | **4,247,776** |
-| **Total (unique domains)** | **8,305** | **3,186,644** |
+| **Total (sum)** | **14,874** | **4,276,352** |
+| **Total (unique domains)** | **8,305** | **3,190,865** |
 
 <!-- STATS:END -->
 
