@@ -126,7 +126,7 @@
 ! Buy-now-pay-later (only loads on checkouts that offer it)
 @@||klarna.com^
 @@||affirm.com^
-@@||affirmtiles.ampxdirect.com
+@@||affirmtiles.ampxdirect.com^
 ! Plaid (bank-account linking for fintech apps)
 @@||plaid.com^
 
