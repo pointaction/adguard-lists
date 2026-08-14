@@ -36,11 +36,11 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-08-14 02:27 UTC_
+_Last updated: 2026-08-14 02:30 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 230 | — |
+| `false-positive-fixes.txt` | 231 | — |
 | `pasallow-badblock.txt` | 6,519 | — |
 | `pasallow-completewhitelist.txt` | 6,519 | — |
 | `pasallow-referral.txt` | 1,589 | — |
@@ -68,8 +68,8 @@ _Last updated: 2026-08-14 02:27 UTC_
 | `pasblock-xiaomi.txt` | — | 347 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **14,874** | **4,276,352** |
-| **Total (unique domains)** | **8,305** | **3,190,865** |
+| **Total (sum)** | **14,875** | **4,276,352** |
+| **Total (unique domains)** | **8,306** | **3,190,865** |
 
 <!-- STATS:END -->
 

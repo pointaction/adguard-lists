@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-14
+
+**Added: 1** (1 allow, 0 block)
+
+- allow: `affirmtiles.ampxdirect.com`
+
 ## 2026-08-12
 
 **Added: 4** (4 allow, 0 block)
