@@ -8,6 +8,12 @@ _Domains added and removed automatically by the sync workflows._
 
 **Added: 1** (1 allow, 0 block)
 
+- allow: `bridge.pdx1.admarketplace.net`
+
+## 2026-08-14
+
+**Added: 1** (1 allow, 0 block)
+
 - allow: `affirmtiles.ampxdirect.com`
 
 ## 2026-08-12
