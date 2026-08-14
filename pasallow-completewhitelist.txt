@@ -1,7 +1,7 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-14 03:13 UTC
+! Generated: 2026-08-14 14:03 UTC
 ! Entries: 8080
 !
 ! Combined from:
@@ -4164,6 +4164,7 @@
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-fucdf.custobar.com^
+@@||m-gs5w6.custobar.com^
 @@||m-gzmk5.custobar.com^
 @@||m-hju7x.custobar.com^
 @@||m-htgjb.custobar.com^
@@ -4505,7 +4506,6 @@
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
-@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
