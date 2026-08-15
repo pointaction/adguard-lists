@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-14 13:54 UTC
-! Entries: 1592
+! Synced: 2026-08-15 13:09 UTC
+! Entries: 1595
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -216,7 +216,6 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
@@ -227,6 +226,7 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
+@@||api.getsidekick.comapi.hubapi.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
 @@||api.narrativ.com^
@@ -279,6 +279,7 @@
 @@||awstrack.me^
 @@||aylink.co^
 @@||banners.livepartners.com^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||bcp.crwdcntrl.net^
@@ -606,6 +607,7 @@
 @@||homerl.services^
 @@||homeservices.company^
 @@||homesrvcs.com^
+@@||hpt-cdn.exponea.com^
 @@||href.li^
 @@||hs.eloqua.com^
 @@||hubspotemail.net^
@@ -781,7 +783,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -823,6 +824,7 @@
 @@||mkto-ab440025.com^
 @@||mkto-ab440026.com^
 @@||mkto-ab440032.com^
+@@||mkto-ab440076.com^
 @@||mkto-ab450015.com^
 @@||mkto-ab450037.com^
 @@||mkto-ab470119.com^
@@ -831,6 +833,7 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab520004.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
