@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-08-14 13:47 UTC
-! Entries: 5849 (removed 0 allow-listed)
+! Synced: 2026-08-15 01:51 UTC
+! Entries: 5799 (removed 0 allow-listed)
 !
 ||0022a601.pphost.net^
 ||00pq7d1j.1xboropartners.com^
@@ -54,7 +54,6 @@
 ||132.red-81-42-249.staticip.rima-tde.net^
 ||13d3c8zt.kick1bet.com^
 ||13i466gp.shart303.com^
-||14-0-204-188.static.pccw-hkt.com^
 ||155b3nro.proxy-cascade.digital^
 ||1717.1000uc.com^
 ||172-104-49-49.ip.linodeusercontent.com^
@@ -140,7 +139,6 @@
 ||2lhhe5ae.1xfa.bio^
 ||2lob5o1r.betbuf90.com^
 ||2nyrkdw3.ayinzendegi.xyz^
-||2ol471ks.kernel-lattice.digital^
 ||2os894vl.betfire90.bet^
 ||2q6xaa8u.ravanshenasisaeedi.xyz^
 ||2rhdb98z.comfortinnlaytonutah.com^
@@ -172,7 +170,6 @@
 ||39p49guo.mokatebatedari.xyz^
 ||3b213f9c.lionsport.ir^
 ||3bds554w.megaparivip.vip^
-||3bra.solonettochka.ru^
 ||3cxt05zy.ravanshenakhti.shop^
 ||3efofny3.cielohillsevents.com^
 ||3fbkahzk.coinsgame.pro^
@@ -189,7 +186,6 @@
 ||3snpseyu.enfejar-site.bet^
 ||3tloufwg.oris303.com^
 ||3u06kg6l.onjabet1.com^
-||3w32k3ih.signal-harbor.digital^
 ||3w6k8hlt.pinbahis.bet^
 ||3x6v81kc.varzeshlife.ir^
 ||3yl7mt55.andisheeslami2.xyz^
@@ -522,7 +518,6 @@
 ||agrovelca.com^
 ||ah8vpm3o.tafsirnasiri.xyz^
 ||ahad-cn.com^
-||ahdaratlegalservices.com^
 ||ahfq0ebl.ahkam.xyz^
 ||ahkx.jadoou.lol^
 ||ahkyokta.hugugtatbigi.xyz^
@@ -580,7 +575,6 @@
 ||anakort32ew.site^
 ||analytical-traffic-audit-record-file.wiki^
 ||ancient-colosseum-engineering.garden^
-||ancient-parchment-archive.garden^
 ||ancientparchmentarchive.christmas^
 ||and-last-lock.xyz^
 ||andrefelipedonascime1778799406970.2241107.meusitehostgator.com.br^
@@ -641,7 +635,6 @@
 ||assets.f1cs-dev.it^
 ||astradomain.com^
 ||asynchronouswatering-system.garden^
-||atasapka.com.tr^
 ||atibr.gamehazarat.bet^
 ||atkcgnew.evgeni7e.beget.tech^
 ||atnvjyj.emroze.bet^
@@ -657,7 +650,6 @@
 ||aujh.jadoobet.blog^
 ||aulvud5j.dancebetyek.app^
 ||aupzcajq.biabet90.com^
-||aurekh.com^
 ||auth-clo-id.cc^
 ||authorization-code.info^
 ||automated-sprout-labs.garden^
@@ -823,7 +815,6 @@
 ||bloom-distribution-engine.garden^
 ||bloomdistributioncenter.garden^
 ||bloomglow9.com^
-||bloommonitoringengine.garden^
 ||blue-paper-f69f.acrypters.workers.dev^
 ||blueweqatar.com^
 ||bmdcompany.com^
@@ -848,13 +839,11 @@
 ||borb5c9q.megaparikade.com^
 ||borcwefhl.esteglal.bet^
 ||botanicalanalyticsengine.garden^
-||botanicalautomationengine.garden^
 ||botanicalautomationframework.garden^
 ||botanicalmonitoringengine.garden^
 ||botanicalprocessing.garden^
 ||botanicalprocessingengine.garden^
 ||botanicalresourcecontroller.garden^
-||botanicalresourceengine.garden^
 ||botanicalresourceplatform.garden^
 ||botanicalworkflowcenter.garden^
 ||botanicalworkflowplatform.garden^
@@ -1000,9 +989,9 @@
 ||cdmke7zf.sky7bet.casino^
 ||cdn-10049480.file.myqcloud.com^
 ||cdn-2faclov.sbs^
-||cdn-assets.xyz^
 ||cdn.anzho06.xyz^
 ||cdn.defenders.workers.dev^
+||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.imgtree.co^
 ||cdn.novoline.top^
@@ -1105,7 +1094,6 @@
 ||cloud.pearlpeel.com^
 ||cloud55file.cc^
 ||cloudaryx.cloud^
-||cloudfilenow.online^
 ||cloudimagehostingupdatesrealted.yzz.me^
 ||cloudruntime.christmas^
 ||cloudstorage-hub.com^
@@ -1146,12 +1134,10 @@
 ||containerizedgardenhub.garden^
 ||containerizedgardenmesh.garden^
 ||containerizedplantengine.garden^
-||containerizedplantmesh.garden^
 ||containerizedplantnetwork.garden^
 ||continentalgroup.net.in^
 ||controliumbt.com^
 ||conu6dbe.hugugmadanikatouzian.xyz^
-||coolcams.duckdns.org^
 ||coraline-cheats.pw^
 ||coraline.buzz^
 ||coraline.work^
@@ -1194,7 +1180,6 @@
 ||crypter.howto.rocks^
 ||crypter00.gt.tc^
 ||cryptex-core.pw^
-||crypticdialect.garden^
 ||crypto.betfakade.com^
 ||cryptomeshforge5.lol^
 ||crystalpvp.ru^
@@ -1301,7 +1286,6 @@
 ||ddj8f1ro.ruralrouterust.com^
 ||ddsr.hieliao-app.com^
 ||dduf.bolesfarms.com^
-||de.cloud.dxang.com^
 ||deagroup-ks.com^
 ||dealflung-four.xyz^
 ||dedzwcx.enfejarbahis.com^
@@ -1309,7 +1293,6 @@
 ||deep-space-artificial-gravity.garden^
 ||deft-army-glad.xyz^
 ||deglis.perspolisbet.bet^
-||dehjcpyw.byte-forge.digital^
 ||del.sou.pp.ua^
 ||deliozmabrano.site.je^
 ||deliverymailreport.co.za^
@@ -1326,8 +1309,6 @@
 ||desenv.foconohit.com.br^
 ||desktop-app.click^
 ||destinationanywhere.ca^
-||dev1-revitavive.com^
-||dev1-trucksdirectuk.com^
 ||deviceauth-code.us.com^
 ||devltl.top^
 ||dexios.co.za^
@@ -1362,7 +1343,6 @@
 ||distrib-ost-penal-network.garden^
 ||distributed-cache-storage-layer.wiki^
 ||distributed-garden-framework.garden^
-||distributed-growth-network.garden^
 ||distributedbloomnetwork.garden^
 ||distributedbotanicalnetwork.garden^
 ||distributedgardenanalytics.garden^
@@ -1451,7 +1431,6 @@
 ||download.logltech.workers.dev^
 ||download.pdf00.cn^
 ||download.pdf00.com^
-||download.suxiazai.com^
 ||download.tfyxzai.com^
 ||download.ubua.online^
 ||download2.huduntech.com^
@@ -1564,7 +1543,6 @@
 ||ecomarkperu.com^
 ||ecosystem-processing-tienginx-center.garden^
 ||ecosystemmanagementcore.garden^
-||ecosystemmanagementhub.garden^
 ||ecosystemprocessingcenter.garden^
 ||ecosystemworkflow.garden^
 ||ecourwue.takhtenard-online.com^
@@ -1611,6 +1589,9 @@
 ||elmap.smarthost.pl^
 ||elmqfzy.zsatom.hu^
 ||elng.jadoou.baby^
+||elpolacodelsur1.duckdns.org^
+||elpolacodelsur2.duckdns.org^
+||elpolacodelsur3.duckdns.org^
 ||elsms.webgondozas.hu^
 ||eluk.hazzaratbet.com^
 ||elvaruno.com^
@@ -1756,12 +1737,9 @@
 ||fds.jetbet1.online^
 ||febrn.laborfotostudio.hu^
 ||federated-storage-cluster-system.wiki^
-||federatedgardencluster.garden^
 ||federatedgardenplatform.garden^
 ||federatedgrowthnetwork.garden^
-||federatedmeadowcluster.garden^
 ||federatedmeadowsystem.garden^
-||federatedplantcluster.garden^
 ||federatedplantmesh.garden^
 ||federatedplantplatform.garden^
 ||feeykse.betbacklink.com^
@@ -1827,7 +1805,6 @@
 ||fjy9zygx.1xsignupbet.com^
 ||fkmrx4nm.signal-meridian.digital^
 ||fkoqonr2vgbsw7qu.public.blob.vercel-storage.com^
-||fkpsfevx.culling-posture-schnitzel.digital^
 ||fkqhi.drivingbook.xyz^
 ||fksdx.v-vill.hu^
 ||fkwiyfrv.leaguejazire.com^
@@ -1836,10 +1813,8 @@
 ||flnntj.persianabet.casino^
 ||flooriscoveringworld.com^
 ||flora-monitoring-core.garden^
-||flora-observability-core.garden^
 ||flora-observe-ability-engine.garden^
 ||flora-obsrvs-ability-todo.garden^
-||flora-processing-framework.garden^
 ||floraanalyticsengine.garden^
 ||floraanalyticsresource.garden^
 ||floraautomationnetwork.garden^
@@ -1975,10 +1950,8 @@
 ||gangteem-beam.xyz^
 ||gardenautomationframework.garden^
 ||gardeninfrastructurecore.garden^
-||gardeninfrastructurelab.garden^
 ||gardenprocessinghub.garden^
 ||gardenresourcecontroller.garden^
-||gardenworkflowcenter.garden^
 ||gardenworkflowhub.garden^
 ||gat-matics.com^
 ||gaviao.ba.gov.br^
@@ -2011,7 +1984,6 @@
 ||geostationary-orbit-altitude.garden^
 ||geovin.bet404farsi.com^
 ||gerenland.click^
-||gestionycobranzas.com^
 ||gestroom.it^
 ||get-1o8.pages.dev^
 ||get-shell-gard-frame-work.garden^
@@ -2091,7 +2063,6 @@
 ||gmyaxgk8.yekshart.app^
 ||gnetier6.hegong-tools.com^
 ||gng97m36.angizeshfarahani.store^
-||go.cmplistsonline.com^
 ||goal-soil-see.xyz^
 ||gobfmmh.casino888.promo^
 ||godww.accredit.hu^
@@ -2135,7 +2106,6 @@
 ||greenhousemanagementengine.garden^
 ||greenhousemonitoringhub.garden^
 ||greenhouseoperationscenter.garden^
-||greenhouseoperationshub.garden^
 ||greenhouseresourceengine.garden^
 ||greenhouseworkflowhub.garden^
 ||grgsg.onexbet.best^
@@ -2154,7 +2124,6 @@
 ||gtv6eszx.riskybet.casino^
 ||gud6pt4u.bet212.casino^
 ||gufbylzl.site-takhtenard-sharti-betland.com^
-||guildy.top^
 ||gukxgn.yasbet90.com^
 ||gulsen.kesug.com^
 ||gunanx.303-bet.buzz^
@@ -2514,9 +2483,7 @@
 ||irljgzvr.sanjeshvaandazegiri.shop^
 ||irrigation-control-framework.garden^
 ||irrigation-control-network.garden^
-||irrigation-management-system.garden^
 ||irrigation-monitoring-framework.garden^
-||irrigation-resource-system.garden^
 ||irrigationanalyticssystem.garden^
 ||irrigationautomationhub.garden^
 ||irrigationmanagementhub.garden^
@@ -2548,6 +2515,7 @@
 ||iwd21.icu^
 ||iwojm.webgondozas.hu^
 ||iwyx.bekabet.casino^
+||ixirgroup.com^
 ||iyejvhz.shansbartar.bet^
 ||iygfxiad.efcasino.bet^
 ||izehzccr.bet90forward.win^
@@ -2709,7 +2677,6 @@
 ||jz8kpepi.jadoou.store^
 ||jzl98lpw.betbuilder.promo^
 ||jzufjrnq.floraanalyticshub.garden^
-||k2bs9h2k.proxy-horizon.digital^
 ||k3q6fgf9.parsbet90.com^
 ||k57famtz.bordestan.com^
 ||k5k1f5zd.cloudzone.tr^
@@ -2948,7 +2915,6 @@
 ||liizlfb.bet30bet.com^
 ||like-hold-fray.xyz^
 ||lindnerelektroanlagen.de^
-||linguistic-puzzle-solver.garden^
 ||linguisticpuzzlesolver.christmas^
 ||linkedco.net^
 ||linkinglanguageliteracy.com^
@@ -3146,7 +3112,6 @@
 ||meadowoperationshub.garden^
 ||meadowprocessingcenter.garden^
 ||meadowworkflowframework.garden^
-||meadowworkflowplatform.garden^
 ||media-aviation.run.place^
 ||mediafacundo.varascundo.com^
 ||medicosantiagomarrero.com^
@@ -3164,7 +3129,6 @@
 ||meta-data-shredding-cleanup-utility.wiki^
 ||metecgroup.cam^
 ||meteorclient.shop^
-||meteorite-crater-safari.garden^
 ||metrics.gocloudmaps.com^
 ||mevd0fjv.phimmoichilla.org^
 ||mevrio.com^
@@ -3190,7 +3154,6 @@
 ||microservice-hub.christmas^
 ||microsmeet.xyz^
 ||microsoftupdater.info^
-||microwaved.info^
 ||midle-eastcompany.com^
 ||miixn.wilhelmglobal.com^
 ||miki-visitasia.com^
@@ -3274,7 +3237,6 @@
 ||mpygi.jadoou.space^
 ||mqbjnx.jamjahani.app^
 ||mqljf.newcoservicemower.com^
-||mqo7n5b2.script-vault.digital^
 ||mqp8iw5d.jetshart.net^
 ||mrjeehw.yek.beauty^
 ||mrlls.aileadfactory.com^
@@ -3707,6 +3669,7 @@
 ||pagar10.vendasptg.com^
 ||page-vest-lost.xyz^
 ||palenyz.gulshans.com^
+||palharesinformatica.com.br^
 ||palm-cartfind.xyz^
 ||panel.b2brouter-secure.com^
 ||panel.contactstellarsteel.com^
@@ -3718,7 +3681,6 @@
 ||paqcfwvt.winter-pulse.christmas^
 ||paqyqptu.hugugtejarat4.xyz^
 ||paradox924x.pages.dev^
-||parasjha.info^
 ||pardu.pages.dev^
 ||parisspinsnow.com^
 ||parquelosencinos.cl^
@@ -3734,7 +3696,6 @@
 ||pay.aqiu6.com^
 ||payables-deposit.com^
 ||paymentautomations.biz^
-||paysolutions.ink^
 ||pbcx.jadoou.lat^
 ||pbdb.bet303.site^
 ||pbhwzixj.boro1.bet^
@@ -3768,12 +3729,9 @@
 ||peqe8mvw.byte-foundry.digital^
 ||perfect-bolognese-simmer.garden^
 ||perfect-lasagna-layer.garden^
-||personal-store.netlify.app^
 ||pestrear-lamp.xyz^
 ||petal-distribution-engine.garden^
-||petal-distribution-hub.garden^
 ||petal-resource-engine.garden^
-||petal-routing-platform.garden^
 ||petalautomationplatform.garden^
 ||petaldistributioncenter.garden^
 ||petaldistributionplatform.garden^
@@ -4176,7 +4134,6 @@
 ||r2ozzh0s.modiriyatbehrangi.xyz^
 ||r2qz0qa2.poker-online.bet^
 ||r32rtlhu.1xbetpartnersiran.com^
-||r34fa352.duckdns.org^
 ||r4iuquzx.cookeatrun.com^
 ||r4zhwkgz.betbuf.live^
 ||r7mbajwk.bordestan.com^
@@ -4378,7 +4335,6 @@
 ||s8a20vxh.gavaedfagahe.xyz^
 ||s8p4n4bz.behtarin-site-shartbandi-football.bet^
 ||s9fsvyxk.seresniki.com^
-||sablayan.seasonshotelmindoro.com^
 ||saf-oil.ru^
 ||safeuploadz.com^
 ||sagdxf.krokodilpince.hu^
@@ -4415,7 +4371,6 @@
 ||scjzlqeyk.hazzarat.world^
 ||scoala1gherla.ro^
 ||scrbsmf.activebook.xyz^
-||screenly.cam^
 ||scrroeder.com^
 ||scsadmm.penaltibazi.com^
 ||scsjldll.prozhedownload.com^
@@ -4452,6 +4407,8 @@
 ||seniorsushi.com^
 ||separadordecc.com^
 ||seputartuban.com^
+||serasoo.direct.quickconnect.to^
+||serdaregitim.com^
 ||sergiodiazcoach.com^
 ||sergiotrabuccocineasta.com^
 ||server-176-97-210-186.da.direct^
@@ -4461,7 +4418,6 @@
 ||servercommunicationapiglobal.yzz.me^
 ||serverfile.click^
 ||serverless-mesh-core-yet-go.garden^
-||serverless-print-control-plane.garden^
 ||sesaddf.kesug.com^
 ||sesksz.venusbet90.com^
 ||setup-code.com^
@@ -4575,8 +4531,8 @@
 ||soonmuff-cob.xyz^
 ||sopranos-familytree.christmas^
 ||sorrystartstat1.net^
+||sostexampp.duckdns.org^
 ||sowmwvh.vip1xbet.org^
-||space-debris-trajectory.garden^
 ||spamgym.asia^
 ||spasopro.at^
 ||specsaversllc.online^
@@ -4606,7 +4562,6 @@
 ||stack-flow.christmas^
 ||stackbridge.christmas^
 ||stackforgeacademy.courses^
-||stage1-orschellx.com^
 ||star-workshop.christmas^
 ||starcountry.net^
 ||start.billy-surveys.online^
@@ -4627,7 +4582,6 @@
 ||stem-doseleft.xyz^
 ||sterich.online^
 ||stg.1xfa.xyz^
-||stg1-swaggrhockey.com^
 ||sth4xz5f.pacificcrestforaging.com^
 ||sticladevin.ro^
 ||stockholm-pump-aged-truck.trycloudflare.com^
@@ -4690,7 +4644,6 @@
 ||syheuby.mangobetfarsi.com^
 ||syjgiug.fibi-ireland.com^
 ||syn-096-011-145-107.biz.spectrum.com^
-||synctimenow.org^
 ||synergyconsulting.us^
 ||syqi.bahigo.casino^
 ||syqmn.calirayalake.com^
@@ -5015,7 +4968,6 @@
 ||uploadloop.com^
 ||uqknomxs.karbordriyaziyat.xyz^
 ||uqz8xcw9.gamebc.bet^
-||urban-graffiti-crew.garden^
 ||urdjsnn.jamjahani.net^
 ||urelelgc.betforwardkade.com^
 ||urqvdqc.dreambet.casino^
@@ -5165,6 +5117,7 @@
 ||virtual-pipeline-ten-it.courses^
 ||virtual-routing-gateway.wiki^
 ||virtual-session-broker.wiki^
+||visam.info^
 ||vitacocoyougoloco.potassium.st^
 ||viuc.jadoou.icu^
 ||viveturetiro.mx^
@@ -5329,7 +5282,6 @@
 ||wildfloraanalyticshub.garden^
 ||wildfloracontrolsystem.garden^
 ||wildfloragrowthsystem.garden^
-||wildflorainfrastructure.garden^
 ||wildflorainfrastructurehub.garden^
 ||wildfloraintegrationplatform.garden^
 ||wildfloramanagementplatform.garden^
@@ -5407,7 +5359,6 @@
 ||wvew.elitesport.ir^
 ||wvquvzx.kenzobet90.com^
 ||wvvbpwt.enfejar.game^
-||wwk6os4i.cloud-atlas.digital^
 ||wwkgzd.flybuiltstudio.com^
 ||wwocqmw.motorbook.xyz^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
@@ -5541,7 +5492,6 @@
 ||xt19c0ua.casinomhub.bet^
 ||xtktlprb.rial.bet^
 ||xtocpnhiv.jadoou.space^
-||xtrafftrck.net^
 ||xtrqgv.perspolisbet90.com^
 ||xtsfgslg.jamjahani2026.football^
 ||xtyqemyq.masaelmohandesi.xyz^
