@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: vivo
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt
-! Synced: 2026-08-05 03:34 UTC
-! Entries: 227 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.vivo-onlydomains.txt
+! Synced: 2026-08-15 13:00 UTC
+! Entries: 229 (removed 0 allow-listed)
 !
 ||adlog.vivo.com^
 ||adlog.vivo.com.cn^
@@ -160,6 +160,8 @@
 ||pnrt-stsdk.vivoglobal.com^
 ||prt-stsdk.vivoglobal.com^
 ||ro-up.vivoglobal.com^
+||ru-album-api.vivoglobal.com^
+||ru-analyzer-appstore.vivoglobal.com^
 ||ru-commonitor-stsdk.vivoglobal.com^
 ||ru-comonrt-stsdk.vivoglobal.com^
 ||ru-comort-stsdk.vivoglobal.com^

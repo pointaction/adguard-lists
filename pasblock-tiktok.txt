@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: tiktok
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
-! Synced: 2026-08-02 03:55 UTC
-! Entries: 427 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
+! Synced: 2026-08-15 13:00 UTC
+! Entries: 433 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-sg.tiktokv.com^
@@ -133,6 +133,12 @@
 ||location16-normal-useastred.tiktokv.eu^
 ||locationv16-normal-useastred.tiktokv.eu^
 ||log-boot.capcutapi.com^
+||log-dr.tiktokv.com^
+||log-dr16-normal-no1a.tiktokv.eu^
+||log-dr16-normal-useast1a.tiktokv.com^
+||log-dr16-normal-useast5.tiktokv.us^
+||log-dr16-normal-useast8.tiktokv.us^
+||log-dr16-normal-useastred.tiktokv.eu^
 ||log-hl.snssdk.com^
 ||log-i18n.tiktokv.com^
 ||log-lf.snssdk.com^

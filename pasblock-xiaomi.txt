@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: xiaomi
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt
-! Synced: 2026-07-11 06:34 UTC
-! Entries: 347 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi-onlydomains.txt
+! Synced: 2026-08-15 13:00 UTC
+! Entries: 346 (removed 0 allow-listed)
 !
 ||11-c3.bigdata.ctc.neo.xiaomi.com^
 ||3rdupgrade.pandora.xiaomi.com^
@@ -179,7 +179,6 @@
 ||kuyun.com^
 ||lg-bgp-misc.pandora.xiaomi.com^
 ||live.miphone.pandora.xiaomi.com^
-||log-abroad.avlyun.sec.miui.com^
 ||log.pt.xiaomi.com^
 ||logs.n.xiaomi.com^
 ||logupdate.avlyun.sec.miui.com^
