@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-14 14:03 UTC
-! Entries: 8080
+! Generated: 2026-08-15 13:18 UTC
+! Entries: 8083
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -697,7 +697,6 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
@@ -714,6 +713,7 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
+@@||api.getsidekick.comapi.hubapi.com^
 @@||api.hcaptcha.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
@@ -986,6 +986,7 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
@@ -3601,6 +3602,7 @@
 @@||hotmobile.co.il^
 @@||hotspotportals.com^
 @@||hp-webs01-s.eset.com^
+@@||hpt-cdn.exponea.com^
 @@||hrabritelefon.hr^
 @@||href.li^
 @@||hs.eloqua.com^
@@ -4444,7 +4446,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4486,6 +4487,7 @@
 @@||mkto-ab440025.com^
 @@||mkto-ab440026.com^
 @@||mkto-ab440032.com^
+@@||mkto-ab440076.com^
 @@||mkto-ab450015.com^
 @@||mkto-ab450037.com^
 @@||mkto-ab470119.com^
@@ -4494,6 +4496,7 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab520004.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
