@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-17
+
+**Added: 3** (3 allow, 0 block)
+
+- allow: `account.tds.net`, `tds.net`, `tdstelecom.com`
+
 ## 2026-08-14
 
 **Added: 1** (1 allow, 0 block)
