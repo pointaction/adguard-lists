@@ -1,6 +1,6 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-16 13:10 UTC
+! Synced: 2026-08-17 13:22 UTC
 ! Entries: 1594
 !
 @@||1-aclk.net^
@@ -279,7 +279,6 @@
 @@||awstrack.me^
 @@||aylink.co^
 @@||banners.livepartners.com^
-@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||bcp.crwdcntrl.net^
@@ -1023,6 +1022,7 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
+@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
