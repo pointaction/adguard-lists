@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-17 13:22 UTC
-! Entries: 1594
+! Synced: 2026-08-18 13:25 UTC
+! Entries: 1597
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -217,6 +217,7 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
+@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
@@ -698,6 +699,7 @@
 @@||m-b2o72.custobar.com^
 @@||m-bcta6.custobar.com^
 @@||m-bsp.custobar.com^
+@@||m-c5a3m.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-fucdf.custobar.com^
@@ -783,7 +785,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -792,6 +793,7 @@
 @@||mkto-ab290066.com^
 @@||mkto-ab290102.com^
 @@||mkto-ab290138.com^
+@@||mkto-ab300154.com^
 @@||mkto-ab310115.com^
 @@||mkto-ab320028.com^
 @@||mkto-ab320182.com^
@@ -1022,7 +1024,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1053,6 +1054,7 @@
 @@||p.placed.com^
 @@||pan-cdn.exponea.com^
 @@||partnerlinks.io^
+@@||partners.webmasterplan.com^
 @@||pepperjamnetwork.com^
 @@||personaclick.com^
 @@||personalservices.biz^
@@ -1203,6 +1205,7 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
