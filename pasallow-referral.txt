@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-18 13:25 UTC
-! Entries: 1597
+! Synced: 2026-08-19 13:26 UTC
+! Entries: 1603
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -87,7 +87,6 @@
 @@||adosiz.io^
 @@||ads.revjet.com^
 @@||adscendmedia.com^
-@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -217,7 +216,6 @@
 @@||api-02.moengage.com^
 @@||api-03.moengage.com^
 @@||api-04.moengage.com^
-@@||api-101.moengage.com^
 @@||api-ap1.hubapi.com^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
@@ -711,6 +709,7 @@
 @@||m-kpz.custobar.com^
 @@||m-kzo.custobar.com^
 @@||m-ll23a.custobar.com^
+@@||m-no5by.custobar.com^
 @@||m-nvdxq.custobar.com^
 @@||m-nxt.custobar.com^
 @@||m-oszhr.custobar.com^
@@ -754,6 +753,7 @@
 @@||mg.mail.notion.so^
 @@||micpn.com^
 @@||mkto-a0279.com^
+@@||mkto-ab010044.com^
 @@||mkto-ab010150.com^
 @@||mkto-ab040115.com^
 @@||mkto-ab040117.com^
@@ -847,6 +847,7 @@
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
+@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
@@ -876,6 +877,7 @@
 @@||mkto-abc0241.com^
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
+@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
@@ -919,6 +921,7 @@
 @@||mkto-m0106.com^
 @@||mkto-m0111.com^
 @@||mkto-mlm10010008.com^
+@@||mkto-mlm10030005.com^
 @@||mkto-n0092.com^
 @@||mkto-n0243.com^
 @@||mkto-nld1010057.com^
@@ -927,6 +930,7 @@
 @@||mkto-nld1010150.com^
 @@||mkto-nld1010159.com^
 @@||mkto-nld1020077.com^
+@@||mkto-nld1020138.com^
 @@||mkto-nld1020173.com^
 @@||mkto-nld1020221.com^
 @@||mkto-nld1030007.com^
@@ -1024,6 +1028,7 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
+@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1177,6 +1182,7 @@
 @@||s51.exacttarget.com^
 @@||s6.exacttarget.com^
 @@||s7.exacttarget.com^
+@@||s8.exacttarget.com^
 @@||safeads.com.br^
 @@||sailthru.com^
 @@||sctrack.sendcloud.net^
