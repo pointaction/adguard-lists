@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-19 13:26 UTC
-! Entries: 1603
+! Synced: 2026-08-20 13:28 UTC
+! Entries: 1601
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -87,6 +87,7 @@
 @@||adosiz.io^
 @@||ads.revjet.com^
 @@||adscendmedia.com^
+@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -492,6 +493,7 @@
 @@||d.hodes.com^
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
+@@||data.email.philips-hue.com^
 @@||data.email.tangerine.ca^
 @@||dct.klaviyodns.com^
 @@||dealabs.digidip.net^
@@ -785,6 +787,7 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
+@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -847,7 +850,6 @@
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
-@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
@@ -921,7 +923,6 @@
 @@||mkto-m0106.com^
 @@||mkto-m0111.com^
 @@||mkto-mlm10010008.com^
-@@||mkto-mlm10030005.com^
 @@||mkto-n0092.com^
 @@||mkto-n0243.com^
 @@||mkto-nld1010057.com^
@@ -1028,7 +1029,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1182,7 +1182,6 @@
 @@||s51.exacttarget.com^
 @@||s6.exacttarget.com^
 @@||s7.exacttarget.com^
-@@||s8.exacttarget.com^
 @@||safeads.com.br^
 @@||sailthru.com^
 @@||sctrack.sendcloud.net^
@@ -1211,7 +1210,6 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
-@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
