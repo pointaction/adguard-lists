@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-20 13:28 UTC
-! Entries: 1601
+! Synced: 2026-08-21 13:26 UTC
+! Entries: 1604
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -11,8 +11,6 @@
 @@||2-aclk.net^
 @@||2performant.com^
 @@||3-aclk.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||3cinteractive.com^
 @@||4-aclk.net^
 @@||4patientcare-cdn.exponea.com^
@@ -804,7 +802,9 @@
 @@||mkto-ab330047.com^
 @@||mkto-ab340022.com^
 @@||mkto-ab340093.com^
+@@||mkto-ab340128.com^
 @@||mkto-ab350042.com^
+@@||mkto-ab350047.com^
 @@||mkto-ab350123.com^
 @@||mkto-ab390033.com^
 @@||mkto-ab390129.com^
@@ -847,9 +847,11 @@
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
+@@||mkto-ab560171.com^
 @@||mkto-ab570110.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab580004.com^
+@@||mkto-ab590004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
 @@||mkto-ab610084.com^
@@ -879,7 +881,6 @@
 @@||mkto-abc0241.com^
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
-@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
@@ -1210,8 +1211,10 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
