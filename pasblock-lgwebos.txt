@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: lgwebos
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt
-! Synced: 2026-07-11 06:34 UTC
-! Entries: 340 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.lgwebos-onlydomains.txt
+! Synced: 2026-08-22 01:51 UTC
+! Entries: 341 (removed 0 allow-listed)
 !
 ||ad.lgsmartad.com^
 ||ads.lgtvcommon.com^
@@ -177,6 +177,7 @@
 ||kh-ad-lgsmartad-com.aws-prd.net^
 ||kic-ngfts.lge.com^
 ||kic-ngfts.lge.com.edgekey.net^
+||kic-qt2-ngfts.lge.com^
 ||kn.lgsmartad.com^
 ||kr-ad-lgsmartad-com.aws-prd.net^
 ||kr.lgsmartad.com^
