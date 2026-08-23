@@ -163,6 +163,9 @@ Referenced projects include:
 - **OISD Blocklist**  
   https://oisd.nl
 
+- **AdGuard DNS filter**  
+  https://github.com/AdguardTeam/AdguardSDNSFilter
+
 If you maintain an upstream list and have concerns regarding attribution, licensing, or redistribution, please contact the project maintainer through GitHub.
 
 ---
