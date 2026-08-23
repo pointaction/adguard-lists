@@ -4,6 +4,16 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-08-23
+
+**Added: 155** (0 allow, 155 block)
+
+- block: `15ep8vfaek.workers.dev`, `2nng0aadv4.workers.dev`, `575hjb0yu7.workers.dev`, `7bel.workers.dev`, `8t0dn8z0ji.workers.dev`, `988enrika.workers.dev`, `9i0gzoouli.workers.dev`, `adzvd59352.workers.dev`, `alnwickholidayhouse.co.uk`, `aubretteunemployed.workers.dev`, `bedataexcellent.ch`, `biqeketo.workers.dev`, `blog.worldcuptickets.io`, `boulevard.com.kw`, `bronzeverse9.com` _+140 more_
+
+**Removed: 106** (0 allow, 106 block)
+
+- block: `12aedehyj4dg79vd6w00fck854y3vun4cqgj.t3.storage.dev`, `agricultural-monitoring.freshhill.ru`, `arise.spiderwebzdesign.net`, `atmospheric-sensor-unit.quietwind.ru`, `auth.mercadolivreshop.shop`, `banglash.duckdns.org`, `bbb.mercadolivreshop.shop`, `blog.cementah.com`, `botanical-research-archive.wildfern.ru`, `bright-field-stat.brightvale.ru`, `central-hub-access.urbanlake.ru`, `central-monitoring-hub.clearcrest.ru`, `central-pine-node.smartpine.ru`, `city-management-portal.urbanlake.ru`, `coastal-storm-node.stormbay.ru` _+91 more_
+
 ## 2026-08-17
 
 **Added: 3** (3 allow, 0 block)
