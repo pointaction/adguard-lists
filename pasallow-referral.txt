@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-25 13:29 UTC
-! Entries: 1604
+! Synced: 2026-08-26 13:34 UTC
+! Entries: 1605
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -87,7 +87,6 @@
 @@||adosiz.io^
 @@||ads.revjet.com^
 @@||adscendmedia.com^
-@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -346,6 +345,7 @@
 @@||cjads.com^
 @@||ck.hdm3.in^
 @@||cl.adosiz.net^
+@@||cl.boa.exct.net^
 @@||cl.exct.net^
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
@@ -735,6 +735,7 @@
 @@||m-va.custobar.com^
 @@||m-vek.custobar.com^
 @@||m-vq63s.custobar.com^
+@@||m-zvrkv.custobar.com^
 @@||m-zwhsc.custobar.com^
 @@||m.dq.com^
 @@||m.exactag.com^
