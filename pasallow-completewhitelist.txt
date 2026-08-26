@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-25 13:36 UTC
-! Entries: 8092
+! Generated: 2026-08-26 13:41 UTC
+! Entries: 8093
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -439,7 +439,6 @@
 @@||ads.revjet.com^
 @@||adsbexchange.com^
 @@||adscendmedia.com^
-@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -1439,6 +1438,7 @@
 @@||cjads.com^
 @@||ck.hdm3.in^
 @@||cl.adosiz.net^
+@@||cl.boa.exct.net^
 @@||cl.exct.net^
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
@@ -4200,6 +4200,7 @@
 @@||m-va.custobar.com^
 @@||m-vek.custobar.com^
 @@||m-vq63s.custobar.com^
+@@||m-zvrkv.custobar.com^
 @@||m-zwhsc.custobar.com^
 @@||m.dq.com^
 @@||m.esa.eset.com^
