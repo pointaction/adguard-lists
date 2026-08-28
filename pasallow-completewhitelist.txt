@@ -1,7 +1,7 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-27 10:35 UTC
+! Generated: 2026-08-28 12:15 UTC
 ! Entries: 8098
 !
 ! Combined from:
@@ -439,7 +439,6 @@
 @@||ads.revjet.com^
 @@||adsbexchange.com^
 @@||adscendmedia.com^
-@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -1439,7 +1438,6 @@
 @@||cjads.com^
 @@||ck.hdm3.in^
 @@||cl.adosiz.net^
-@@||cl.boa.exct.net^
 @@||cl.exct.net^
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
@@ -4507,6 +4505,7 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
@@ -6401,6 +6400,7 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
