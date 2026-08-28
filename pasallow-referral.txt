@@ -1,6 +1,6 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-27 10:10 UTC
+! Synced: 2026-08-28 11:41 UTC
 ! Entries: 1610
 !
 @@||1-aclk.net^
@@ -87,7 +87,6 @@
 @@||adosiz.io^
 @@||ads.revjet.com^
 @@||adscendmedia.com^
-@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -346,7 +345,6 @@
 @@||cjads.com^
 @@||ck.hdm3.in^
 @@||cl.adosiz.net^
-@@||cl.boa.exct.net^
 @@||cl.exct.net^
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
@@ -844,6 +842,7 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
@@ -1219,6 +1218,7 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
