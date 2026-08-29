@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-28 11:41 UTC
-! Entries: 1610
+! Synced: 2026-08-29 16:50 UTC
+! Entries: 1609
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -11,8 +11,6 @@
 @@||2-aclk.net^
 @@||2performant.com^
 @@||3-aclk.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||3cinteractive.com^
 @@||4-aclk.net^
 @@||4patientcare-cdn.exponea.com^
@@ -23,6 +21,7 @@
 @@||7eer.net^
 @@||8-aclk.net^
 @@||9-aclk.net^
+@@||a.partner-versicherung.de^
 @@||a.slashdotmedia.com^
 @@||a1.adform.net^
 @@||a9.com^
@@ -87,6 +86,7 @@
 @@||adosiz.io^
 @@||ads.revjet.com^
 @@||adscendmedia.com^
+@@||adservice.google.ae^
 @@||adservice.google.at^
 @@||adservice.google.bg^
 @@||adservice.google.ca^
@@ -278,6 +278,7 @@
 @@||awstrack.me^
 @@||aylink.co^
 @@||banners.livepartners.com^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||bcp.crwdcntrl.net^
@@ -787,7 +788,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -842,7 +842,6 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
-@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540059.com^
 @@||mkto-ab540143.com^
@@ -1036,7 +1035,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1221,6 +1219,7 @@
 @@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
