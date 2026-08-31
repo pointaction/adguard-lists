@@ -1,7 +1,7 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-08-30 16:59 UTC
+! Generated: 2026-08-31 19:15 UTC
 ! Entries: 8100
 !
 ! Combined from:
@@ -178,8 +178,6 @@
 @@||33.courier-push-apple.com.akadns.net^
 @@||34-courier.push.apple.com^
 @@||34.courier-push-apple.com.akadns.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||35-courier.push.apple.com^
 @@||35.courier-push-apple.com.akadns.net^
 @@||36-courier.push.apple.com^
@@ -4423,6 +4421,7 @@
 @@||mkto-a0279.com^
 @@||mkto-ab010044.com^
 @@||mkto-ab010150.com^
+@@||mkto-ab020242.com^
 @@||mkto-ab040115.com^
 @@||mkto-ab040117.com^
 @@||mkto-ab060101.com^
@@ -5483,7 +5482,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6402,8 +6400,10 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
