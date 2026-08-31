@@ -1,6 +1,6 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-08-30 16:55 UTC
+! Synced: 2026-08-31 19:12 UTC
 ! Entries: 1612
 !
 @@||1-aclk.net^
@@ -11,8 +11,6 @@
 @@||2-aclk.net^
 @@||2performant.com^
 @@||3-aclk.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||3cinteractive.com^
 @@||4-aclk.net^
 @@||4patientcare-cdn.exponea.com^
@@ -760,6 +758,7 @@
 @@||mkto-a0279.com^
 @@||mkto-ab010044.com^
 @@||mkto-ab010150.com^
+@@||mkto-ab020242.com^
 @@||mkto-ab040115.com^
 @@||mkto-ab040117.com^
 @@||mkto-ab060101.com^
@@ -1038,7 +1037,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1220,8 +1218,10 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
