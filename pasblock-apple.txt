@@ -1,10 +1,11 @@
 ! Title: Point Action Blocklist: apple
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt
-! Synced: 2026-07-16 08:39 UTC
-! Entries: 107 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.apple-onlydomains.txt
+! Synced: 2026-09-01 16:42 UTC
+! Entries: 108 (removed 0 allow-listed)
 !
 ||ab.apple.com.akadns.net^
 ||acfeedbackws.icloud.com^
+||ads.apple.com^
 ||advertising.apple.com^
 ||advp.apple.com^
 ||analytics-events.apple.com^
