@@ -1,6 +1,6 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.winoffice-onlydomains.txt
-! Synced: 2026-08-15 13:00 UTC
+! Synced: 2026-09-02 04:38 UTC
 ! Entries: 389 (removed 0 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
@@ -297,6 +297,7 @@
 ||ppc-word-telemetry.officeapps.live.com^
 ||ppc-word-telemetry.wac.trafficmanager.net^
 ||ppm-licensingtelemetry.servicebus.windows.net^
+||prd-qlik-telemetry.servicebus.windows.net^
 ||preview.msn.com^
 ||prod-eh-v1-analytics.servicebus.windows.net^
 ||prod-eventhub-analytics.servicebus.windows.net^
@@ -343,7 +344,6 @@
 ||t-ring.msedge.net^
 ||t-s1-ring.msedge.net^
 ||t-s2-ring.msedge.net^
-||tar.microsoft.com^
 ||teams-events-data.trafficmanager.net^
 ||teams.nel.measure.office.net.cardano.com^
 ||telecommandsvc.microsoft.com^
