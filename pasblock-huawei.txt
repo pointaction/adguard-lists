@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: huawei
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt
-! Synced: 2026-07-20 09:40 UTC
-! Entries: 136 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.huawei-onlydomains.txt
+! Synced: 2026-09-05 04:33 UTC
+! Entries: 135 (removed 0 allow-listed)
 !
 ||0001-metrics1-data-hicloud-com.geac.dbankedge.cn^
 ||0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn^
@@ -39,7 +39,6 @@
 ||connect-drru.hispace.dbankcloud.ru^
 ||data.hicloud.com^
 ||datacollector-dra.dt.dbankcloud.cn^
-||datacollector-drcn.dt.dbankcloud.cn^
 ||datacollector-dre.dt.dbankcloud.cn^
 ||dnkeeper.dbankcloud.com^
 ||dnkeeper.hicloud.com^
