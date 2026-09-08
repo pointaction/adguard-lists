@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-09-07 17:56 UTC
-! Entries: 8095
+! Generated: 2026-09-08 16:51 UTC
+! Entries: 8094
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -4459,7 +4459,6 @@
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -5478,7 +5477,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6177,6 +6175,7 @@
 @@||rny9z6jab.cc.rs6.net^
 @@||roaming.sktelecom.com^
 @@||rocf.org^
+@@||rofikzxab.cc.rs6.net^
 @@||rog.asus.com^
 @@||rogers-core-appl1.apn^
 @@||root-x1.letsencrypt.org^
