@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: haGeZi-pro++
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt
-! Synced: 2026-09-09 16:46 UTC
-! Entries: 248023 (removed 155 allow-listed)
+! Synced: 2026-09-10 04:47 UTC
+! Entries: 248024 (removed 154 allow-listed)
 !
 ||0--4.com^
 ||0--d.com^
@@ -19409,6 +19409,7 @@
 ||adservice.dk^
 ||adservice.google.ac^
 ||adservice.google.ad^
+||adservice.google.ae^
 ||adservice.google.al^
 ||adservice.google.am^
 ||adservice.google.as^
