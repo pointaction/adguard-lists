@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: xiaomi
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi-onlydomains.txt
-! Synced: 2026-08-15 13:00 UTC
-! Entries: 346 (removed 0 allow-listed)
+! Synced: 2026-09-12 15:34 UTC
+! Entries: 345 (removed 0 allow-listed)
 !
 ||11-c3.bigdata.ctc.neo.xiaomi.com^
 ||3rdupgrade.pandora.xiaomi.com^
@@ -75,7 +75,6 @@
 ||awssgp0-files.fds.api.xiaomi.com^
 ||awsusor0-cdn.fds-ssl.api.xiaomi.com^
 ||bgp.fe01.c3.xiaomi.com^
-||bgp.tv.pandora.xiaomi.com^
 ||bigdata-lbs-pri-c3.alb.xiaomi.com^
 ||bossadmin.pandora.xiaomi.com^
 ||box.pandora.xiaomi.com^

@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: native-oppo
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt
-! Synced: 2026-08-03 15:18 UTC
-! Entries: 484 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
+! Synced: 2026-09-12 15:34 UTC
+! Entries: 483 (removed 0 allow-listed)
 !
 ||ad-growth-in.heytapmobile.com^
 ||ad-growth-ru.heytapmobile.com^
@@ -268,7 +268,6 @@
 ||icosa-service-sg-03.allawnos.com^
 ||icosa-service-sg.allawnos.com^
 ||icosa-service-us.allawnos.com^
-||icosa-sg.coloros.com^
 ||icota-eu.coloros.com^
 ||icota-service-eu.allawnos.com^
 ||icota-service-in.allawnos.com^
