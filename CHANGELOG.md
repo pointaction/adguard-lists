@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-09-15
 
+**Removed: 7** (7 allow, 0 block)
+
+- allow: `gstatic.cn`, `gstatic.com`, `hcaptcha.com`, `recaptcha.net`, `www.google.com`, `www.gstatic.com`, `www.recaptcha.net`
+
+## 2026-09-15
+
 **Added: 4** (4 allow, 0 block)
 
 - allow: `gstatic.cn`, `gstatic.com`, `www.google.com`, `www.gstatic.com`

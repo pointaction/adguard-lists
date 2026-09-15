@@ -36,41 +36,41 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-09-15 14:25 UTC_
+_Last updated: 2026-09-15 14:36 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 239 | — |
+| `false-positive-fixes.txt` | 235 | — |
 | `pasallow-badblock.txt` | 6,519 | — |
-| `pasallow-completewhitelist.txt` | 8,102 | — |
-| `pasallow-referral.txt` | 1,614 | — |
+| `pasallow-completewhitelist.txt` | 8,105 | — |
+| `pasallow-referral.txt` | 1,617 | — |
 | `pasblacklist.txt` | — | 376 |
-| `pasblock-adguard-sdns.txt` | — | 178,579 |
+| `pasblock-adguard-sdns.txt` | — | 178,738 |
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 368 |
 | `pasblock-apple.txt` | — | 108 |
-| `pasblock-completeblocklist.txt` | — | 3,504,813 |
+| `pasblock-completeblocklist.txt` | — | 3,546,869 |
 | `pasblock-dandelion-sprout.txt` | — | 11,548 |
-| `pasblock-gambling.txt` | — | 422,354 |
+| `pasblock-gambling.txt` | — | 424,519 |
 | `pasblock-goodbye-ads.txt` | — | 277,428 |
-| `pasblock-haGeZi-pro++.txt` | — | 247,129 |
+| `pasblock-haGeZi-pro++.txt` | — | 248,492 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 222 |
 | `pasblock-microsoft.txt` | — | 387 |
 | `pasblock-native-oppo.txt` | — | 483 |
-| `pasblock-nsfw.txt` | — | 73,568 |
-| `pasblock-osid.txt` | — | 247,823 |
+| `pasblock-nsfw.txt` | — | 74,062 |
+| `pasblock-osid.txt` | — | 245,514 |
 | `pasblock-roku.txt` | — | 72 |
 | `pasblock-samsung.txt` | — | 200 |
-| `pasblock-tif.txt` | — | 2,356,382 |
+| `pasblock-tif.txt` | — | 2,396,437 |
 | `pasblock-tiktok.txt` | — | 438 |
-| `pasblock-urlhaus.txt` | — | 3,806 |
+| `pasblock-urlhaus.txt` | — | 3,749 |
 | `pasblock-vivo.txt` | — | 233 |
 | `pasblock-xiaomi.txt` | — | 345 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,491** | **7,430,907** |
-| **Total (unique domains)** | **8,339** | **3,505,394** |
+| **Total (sum)** | **16,493** | **7,514,833** |
+| **Total (unique domains)** | **8,338** | **3,547,112** |
 
 <!-- STATS:END -->
 
