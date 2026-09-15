@@ -420,16 +420,13 @@
 
 ! ==========================================================
 ! GOOGLE reCAPTCHA / hCaptcha (WHITELIST - required for CAPTCHAs)
-! Path rules need AdGuard content/HTTPS filtering; the domain
-! rules (recaptcha.net, hcaptcha) also work at DNS level.
+! DNS-level whole-host allow rules (paths are invalid in DNS
+! filter syntax, so only hostnames are used here).
 ! ==========================================================
-@@||google.com/recaptcha/*
-@@||www.google.com/recaptcha/*
-@@||gstatic.com/recaptcha/*
-@@||www.gstatic.com/recaptcha/*
-@@||gstatic.cn/recaptcha/*
+@@||www.google.com^
+@@||gstatic.com^
+@@||www.gstatic.com^
+@@||gstatic.cn^
 @@||recaptcha.net^
-@@||*.recaptcha.net^
 @@||www.recaptcha.net^
 @@||hcaptcha.com^
-@@||*.hcaptcha.com^
