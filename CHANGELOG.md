@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-09-15
 
+**Added: 3** (3 allow, 0 block)
+
+- allow: `api.aidungeon.com`, `events.aidungeon.com`, `images.aidungeon.com`
+
+## 2026-09-15
+
 **Added: 1** (1 allow, 0 block)
 
 - allow: `www.google.com`
