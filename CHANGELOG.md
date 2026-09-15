@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-09-15
 
+**Added: 4** (4 allow, 0 block)
+
+- allow: `gstatic.cn`, `gstatic.com`, `www.google.com`, `www.gstatic.com`
+
+**Removed: 2** (2 allow, 0 block)
+
+- allow: `*.hcaptcha.com`, `*.recaptcha.net`
+
+## 2026-09-15
+
 **Removed: 2** (0 allow, 2 block)
 
 - block: `tdstelecom.com`, `vzw.com`
