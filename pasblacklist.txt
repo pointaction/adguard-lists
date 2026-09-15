@@ -134,7 +134,6 @@
 
 ! --- TDS TELECOM TELEMETRY & APPS BLOCKLIST ---
 ! (path rules like tds.net/telemetry can't work in DNS — hostname rules only)
-||tdstelecom.com^
 ||api.tdstelecom.com^
 ||metrics.tds.net^
 ||smetrics.tds.net^
@@ -167,7 +166,6 @@
 ||uwp-wifi-access-portal.cox.com^
 
 ! --- VERIZON CORPORATE TELEMETRY & TRACKING ---
-||vzw.com^
 ||vzw.demdex.net^
 ||api.verizon.com^
 
