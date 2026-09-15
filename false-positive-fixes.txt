@@ -417,3 +417,19 @@
 @@||tdstelecom.com^
 @@||account.tds.net^
 @@||tds.net^
+
+! ==========================================================
+! GOOGLE reCAPTCHA / hCaptcha (WHITELIST - required for CAPTCHAs)
+! Path rules need AdGuard content/HTTPS filtering; the domain
+! rules (recaptcha.net, hcaptcha) also work at DNS level.
+! ==========================================================
+@@||google.com/recaptcha/*
+@@||www.google.com/recaptcha/*
+@@||gstatic.com/recaptcha/*
+@@||www.gstatic.com/recaptcha/*
+@@||gstatic.cn/recaptcha/*
+@@||recaptcha.net^
+@@||*.recaptcha.net^
+@@||www.recaptcha.net^
+@@||hcaptcha.com^
+@@||*.hcaptcha.com^
