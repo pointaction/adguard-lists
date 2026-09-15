@@ -38,8 +38,15 @@
 ! CAPTCHA / BOT VERIFICATION
 ! (the #1 cause of "the login page won't submit")
 ! ============================================================
-! Google reCAPTCHA (recaptcha.net is the dedicated, tracker-free delivery domain)
+! Google reCAPTCHA.
+!   recaptcha.net = dedicated, tracker-free delivery domain (used when a site
+!     is configured for it).
+!   www.google.com = required by sites that embed reCAPTCHA the DEFAULT way —
+!     the /recaptcha/api2 verification iframe loads from www.google.com. Invisible
+!     reCAPTCHA (e.g. WHMCS admin/client login) silently hangs without it.
+!   gstatic.com = serves the reCAPTCHA script/asset bundle.
 @@||recaptcha.net^
+@@||www.google.com^
 @@||gstatic.com^
 ! hCaptcha
 @@||hcaptcha.com^
@@ -377,7 +384,7 @@
 
 ! ####################################
 ! Amazon / AWS
-####################################
+! ####################################
 @@||amazon.com^
 @@||amazonaws.com^
 @@||amazontrust.com^
