@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-09-15
+
+**Added: 5** (5 allow, 0 block)
+
+- allow: `*.hcaptcha.com`, `*.recaptcha.net`, `hcaptcha.com`, `recaptcha.net`, `www.recaptcha.net`
+
 ## 2026-08-23
 
 **Added: 155** (0 allow, 155 block)
