@@ -417,16 +417,3 @@
 @@||tdstelecom.com^
 @@||account.tds.net^
 @@||tds.net^
-
-! ==========================================================
-! GOOGLE reCAPTCHA / hCaptcha (WHITELIST - required for CAPTCHAs)
-! DNS-level whole-host allow rules (paths are invalid in DNS
-! filter syntax, so only hostnames are used here).
-! ==========================================================
-@@||www.google.com^
-@@||gstatic.com^
-@@||www.gstatic.com^
-@@||gstatic.cn^
-@@||recaptcha.net^
-@@||www.recaptcha.net^
-@@||hcaptcha.com^
