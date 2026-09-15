@@ -36,7 +36,7 @@ Feel free to copy, use, or contribute.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-09-15 14:15 UTC_
+_Last updated: 2026-09-15 14:22 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
@@ -44,7 +44,7 @@ _Last updated: 2026-09-15 14:15 UTC_
 | `pasallow-badblock.txt` | 6,519 | — |
 | `pasallow-completewhitelist.txt` | 8,102 | — |
 | `pasallow-referral.txt` | 1,614 | — |
-| `pasblacklist.txt` | — | 378 |
+| `pasblacklist.txt` | — | 376 |
 | `pasblock-adguard-sdns.txt` | — | 178,579 |
 | `pasblock-adway.txt` | — | 6,469 |
 | `pasblock-amazon.txt` | — | 368 |
@@ -69,8 +69,8 @@ _Last updated: 2026-09-15 14:15 UTC_
 | `pasblock-xiaomi.txt` | — | 345 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,490** | **7,430,909** |
-| **Total (unique domains)** | **8,338** | **3,505,396** |
+| **Total (sum)** | **16,490** | **7,430,907** |
+| **Total (unique domains)** | **8,338** | **3,505,394** |
 
 <!-- STATS:END -->
 

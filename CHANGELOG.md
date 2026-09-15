@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-09-15
 
+**Removed: 2** (0 allow, 2 block)
+
+- block: `tdstelecom.com`, `vzw.com`
+
+## 2026-09-15
+
 **Added: 5** (5 allow, 0 block)
 
 - allow: `*.hcaptcha.com`, `*.recaptcha.net`, `hcaptcha.com`, `recaptcha.net`, `www.recaptcha.net`
