@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-09-13 04:52 UTC
-! Entries: 277428 (removed 315 allow-listed)
+! Synced: 2026-09-16 04:53 UTC
+! Entries: 277427 (removed 316 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -138980,7 +138980,6 @@
 ||firebanner.com^
 ||firebase-settings.crashlytics.com^
 ||firebase.googleapis.com^
-||firebaseinstallations.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firecreditunion.ca.102.112.2o7.net^
