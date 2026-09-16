@@ -2,7 +2,7 @@
 ! Description: A privacy-respecting allowlist that fixes legitimate breakage caused
 !              by DNS blocklists — WITHOUT re-enabling ads, analytics, or tracking.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Version: 2.4
+! Version: 2.3
 ! Last modified: 2026-09-15
 ! Syntax: AdGuard (@@||domain^) — works in AdGuard Home, Technitium, Pi-hole, etc.
 !
@@ -111,6 +111,35 @@
 ! Government identity
 @@||login.gov^
 @@||id.me^
+
+! ============================================================
+! FIREBASE / GOOGLE APP BACKENDS
+! (many web & mobile apps keep their auth token, saved state,
+!  and feature flags in Firebase — when these are blocked the
+!  app authenticates but then hangs and "won't launch". This
+!  is auth/database infrastructure, NOT ads or analytics.)
+! ============================================================
+@@||apis.google.com^
+@@||firebaseio.com^
+@@||firebaseapp.com^
+@@||identitytoolkit.googleapis.com^
+@@||securetoken.googleapis.com^
+@@||firestore.googleapis.com^
+@@||firebaseinstallations.googleapis.com^
+@@||firebaseremoteconfig.googleapis.com^
+
+! ============================================================
+! VOYAGE / AI DUNGEON  (AI roleplay "worlds" won't launch)
+! Functional image/world-art delivery only. Deliberately kept
+! BLOCKED (do not add): www.googletagmanager.com, redditstatic.com,
+! r.wdfl.co / wdfl.co, static.cloudflareinsights.com,
+! events.aidungeon.com, vercel.live — all ads/analytics.
+! Firebase (section above) is the piece that actually gates launch.
+! ============================================================
+@@||imagedelivery.net^
+@@||images.aidungeon.com^
+@@||events.aidungeon.com^
+@@||api.aidungeon.com^
 
 ! ============================================================
 ! PAYMENT PROVIDERS
@@ -424,10 +453,3 @@
 @@||tdstelecom.com^
 @@||account.tds.net^
 @@||tds.net^
-
-! ####################################
-! Voyage Online
-! ####################################
-@@||images.aidungeon.com^
-@@||events.aidungeon.com^
-@@||api.aidungeon.com^
