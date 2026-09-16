@@ -8,6 +8,12 @@ _Domains added and removed automatically by the sync workflows._
 
 **Added: 1** (1 allow, 0 block)
 
+- allow: `voyage-ws-production-3.aidungeon.com`
+
+## 2026-09-16
+
+**Added: 1** (1 allow, 0 block)
+
 - allow: `auth.aidungeon.com`
 
 ## 2026-09-16
