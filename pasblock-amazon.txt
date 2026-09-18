@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon-onlydomains.txt
-! Synced: 2026-09-12 15:34 UTC
-! Entries: 368 (removed 1 allow-listed)
+! Synced: 2026-09-18 16:27 UTC
+! Entries: 370 (removed 1 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -281,6 +281,7 @@
 ||sponsored-ads.amazon.ca^
 ||sponsored-ads.amazon.co.jp^
 ||sponsored-ads.amazon.co.uk^
+||sponsored-ads.amazon.co.za^
 ||sponsored-ads.amazon.com^
 ||sponsored-ads.amazon.com.au^
 ||sponsored-ads.amazon.com.br^
@@ -293,6 +294,7 @@
 ||sponsored-ads.amazon.in.alphionsee.in^
 ||sponsored-ads.amazon.it^
 ||sponsored-ads.amazon.sa^
+||sponsored-ads.amazon.sg^
 ||sq-tungsten-ts-eu.amazon-adsystem.com^
 ||sq-tungsten-ts-fe.amazon-adsystem.com^
 ||sq-tungsten-ts.amazon-adsystem.com^
