@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-09-16 04:53 UTC
-! Entries: 277427 (removed 316 allow-listed)
+! Synced: 2026-09-21 05:00 UTC
+! Entries: 277428 (removed 315 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -176304,6 +176304,7 @@
 ||links-dev.letzbig.com^
 ||links-dev.sandboxx.us^
 ||links-marketing.getprizepool.com^
+||links-na.afterpay.com^
 ||links-ranking.de^
 ||links-test.connectcz.com^
 ||links-testing.goodpup.com^
