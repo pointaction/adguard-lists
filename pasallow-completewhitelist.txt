@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-09-22 17:19 UTC
-! Entries: 8117
+! Generated: 2026-09-23 17:29 UTC
+! Entries: 8145
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -772,12 +772,35 @@
 @@||app1-ap.central.arubanetworks.com^
 @@||app1-h2.central.arubanetworks.com^
 @@||app1.central.arubanetworks.com^
+@@||app1a.gateway.portal.outreach.io^
+@@||app1a.outreach.io^
+@@||app1a.portal.outreach.io^
+@@||app1b.outreach.io^
+@@||app1b.portal.outreach.io^
+@@||app1c.gateway.portal.outreach.io^
+@@||app1c.outreach.io^
+@@||app1c.portal.outreach.io^
+@@||app1e.gateway.portal.outreach.io^
+@@||app1e.outreach.io^
+@@||app1e.portal.outreach.io^
+@@||app1f.gateway.portal.outreach.io^
+@@||app1f.outreach.io^
+@@||app1f.portal.outreach.io^
 @@||app2-ap-ofc.central.arubanetworks.com^
 @@||app2-ap.central.arubanetworks.com^
 @@||app2-eu-ofc.central.arubanetworks.com^
 @@||app2-eu.central.arubanetworks.com^
 @@||app2-ofc.central.arubanetworks.com^
 @@||app2.salesmanago.pl^
+@@||app2a.gateway.portal.outreach.io^
+@@||app2a.outreach.io^
+@@||app2a.portal.outreach.io^
+@@||app2b.gateway.portal.outreach.io^
+@@||app2b.outreach.io^
+@@||app2b.portal.outreach.io^
+@@||app2c.gateway.portal.outreach.io^
+@@||app2c.outreach.io^
+@@||app2c.portal.outreach.io^
 @@||app3.salesmanago.pl^
 @@||appattest.apple.com^
 @@||appattest.v.aaplimg.com^
@@ -4452,6 +4475,7 @@
 @@||mkto-ab130188.com^
 @@||mkto-ab140048.com^
 @@||mkto-ab150013.com^
+@@||mkto-ab150224.com^
 @@||mkto-ab170094.com^
 @@||mkto-ab170123.com^
 @@||mkto-ab170161.com^
@@ -4512,6 +4536,7 @@
 @@||mkto-ab450015.com^
 @@||mkto-ab450037.com^
 @@||mkto-ab450153.com^
+@@||mkto-ab460099.com^
 @@||mkto-ab470013.com^
 @@||mkto-ab470119.com^
 @@||mkto-ab480014.com^
@@ -4554,6 +4579,7 @@
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
 @@||mkto-abm0065.com^
+@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
@@ -4692,6 +4718,7 @@
 @@||mkto-sj400023.com^
 @@||mkto-sjg0030.com^
 @@||mkto-sjh0084.com^
+@@||mkto-sjh0178.com^
 @@||mkto-sji0183.com^
 @@||mkto-sn010116.com^
 @@||mkto-sn030149.com^
@@ -6622,6 +6649,7 @@
 @@||suite45-cf.emarsys.net^
 @@||suite45.emarsys.net^
 @@||suite46.emarsys.net^
+@@||suite48.emarsys.net^
 @@||suite5.emarsys.net^
 @@||suite50.emarsys.net^
 @@||suite51.emarsys.net^
