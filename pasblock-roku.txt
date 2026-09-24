@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: roku
-! Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt
-! Synced: 2026-07-26 08:44 UTC
-! Entries: 72 (removed 0 allow-listed)
+! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.roku-onlydomains.txt
+! Synced: 2026-09-24 17:14 UTC
+! Entries: 73 (removed 0 allow-listed)
 !
 ||acr.roku.com^
 ||ad-bl.geoproximity.staging.rpay.roku.com^
@@ -38,6 +38,7 @@
 ||ads.beta.roku.com^
 ||ads.gcp.roku.com^
 ||ads.roku.com^
+||ads.rokuapi.net^
 ||ads.staging.roku.com^
 ||adservices.roku.com^
 ||advertising-qa.us-east-1.dev.msc.roku.com^
