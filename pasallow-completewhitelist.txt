@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-09-23 17:29 UTC
-! Entries: 8145
+! Generated: 2026-09-24 17:34 UTC
+! Entries: 8091
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -4086,13 +4086,11 @@
 @@||linkconnector.com^
 @@||linkmaker.itunes.apple.com.edgekey.net^
 @@||linkmybrand.com^
-@@||links-na.afterpay.com^
 @@||links.2ns.fi^
 @@||links.e.helloworldemail.com^
 @@||links.email.crunchbase.com^
 @@||links.iterable.com^
 @@||links.m.helloworldemail.com^
-@@||links.mkt41.net^
 @@||links.mkt61.net^
 @@||links.mozilla.org^
 @@||linksmail.geosolinc.com^
@@ -4230,7 +4228,6 @@
 @@||m-tmsif.custobar.com^
 @@||m-tp3tv.custobar.com^
 @@||m-ueuba.custobar.com^
-@@||m-va.custobar.com^
 @@||m-vek.custobar.com^
 @@||m-vq63s.custobar.com^
 @@||m-zvrkv.custobar.com^
@@ -4451,11 +4448,9 @@
 @@||missingkids.com^
 @@||mitmdetection.services.mozilla.com^
 @@||mjt.lu^
-@@||mkto-a0279.com^
 @@||mkto-ab010044.com^
 @@||mkto-ab010150.com^
 @@||mkto-ab020242.com^
-@@||mkto-ab040115.com^
 @@||mkto-ab040117.com^
 @@||mkto-ab060101.com^
 @@||mkto-ab060134.com^
@@ -4465,6 +4460,7 @@
 @@||mkto-ab070069.com^
 @@||mkto-ab080055.com^
 @@||mkto-ab080061.com^
+@@||mkto-ab080206.com^
 @@||mkto-ab100192.com^
 @@||mkto-ab100241.com^
 @@||mkto-ab110171.com^
@@ -4481,8 +4477,6 @@
 @@||mkto-ab170161.com^
 @@||mkto-ab180024.com^
 @@||mkto-ab220038.com^
-@@||mkto-ab220141.com^
-@@||mkto-ab220178.com^
 @@||mkto-ab230114.com^
 @@||mkto-ab240112.com^
 @@||mkto-ab250068.com^
@@ -4497,13 +4491,10 @@
 @@||mkto-ab290102.com^
 @@||mkto-ab290138.com^
 @@||mkto-ab300154.com^
-@@||mkto-ab320028.com^
 @@||mkto-ab320182.com^
 @@||mkto-ab320191.com^
 @@||mkto-ab330047.com^
-@@||mkto-ab330197.com^
 @@||mkto-ab340022.com^
-@@||mkto-ab340093.com^
 @@||mkto-ab340128.com^
 @@||mkto-ab350042.com^
 @@||mkto-ab350047.com^
@@ -4543,9 +4534,11 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab520004.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
+@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -4579,18 +4572,15 @@
 @@||mkto-abd0218.com^
 @@||mkto-abj0022.com^
 @@||mkto-abm0065.com^
-@@||mkto-abm0229.com^
 @@||mkto-abm0255.com^
 @@||mkto-b0025.com^
 @@||mkto-c0100.com^
 @@||mkto-cs0007.com^
-@@||mkto-d0024.com^
-@@||mkto-d0170.com^
+@@||mkto-d0071.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
 @@||mkto-f0235.com^
-@@||mkto-g0030.com^
 @@||mkto-h0163.com^
 @@||mkto-i0206.com^
 @@||mkto-j0126.com^
@@ -4624,6 +4614,7 @@
 @@||mkto-m0106.com^
 @@||mkto-m0111.com^
 @@||mkto-mlm10010008.com^
+@@||mkto-mlm10030005.com^
 @@||mkto-mlm20020041.com^
 @@||mkto-n0092.com^
 @@||mkto-n0243.com^
@@ -4647,8 +4638,6 @@
 @@||mkto-nld1050130.com^
 @@||mkto-nld1050142.com^
 @@||mkto-nld1050162.com^
-@@||mkto-o0039.com^
-@@||mkto-p0016.com^
 @@||mkto-q0155.com^
 @@||mkto-sj010128.com^
 @@||mkto-sj010203.com^
@@ -4659,10 +4648,8 @@
 @@||mkto-sj040252.com^
 @@||mkto-sj050029.com^
 @@||mkto-sj050106.com^
-@@||mkto-sj050137.com^
 @@||mkto-sj050202.com^
 @@||mkto-sj050237.com^
-@@||mkto-sj060054.com^
 @@||mkto-sj070141.com^
 @@||mkto-sj070193.com^
 @@||mkto-sj070214.com^
@@ -4698,7 +4685,6 @@
 @@||mkto-sj280147.com^
 @@||mkto-sj290040.com^
 @@||mkto-sj290167.com^
-@@||mkto-sj300124.com^
 @@||mkto-sj310061.com^
 @@||mkto-sj310157.com^
 @@||mkto-sj320061.com^
@@ -5522,6 +5508,7 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
+@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6082,11 +6069,7 @@
 @@||r3.i.lencr.org^
 @@||r3.o.lencr.org^
 @@||r4.o.lencr.org^
-@@||r4gh8tuab.cc.rs6.net^
-@@||r4khbybab.cc.rs6.net^
 @@||r5siqu4ab.cc.rs6.net^
-@@||r7avxrcab.cc.rs6.net^
-@@||r9amglzab.cc.rs6.net^
 @@||racgp.au1.qualtrics.com^
 @@||radar.com^
 @@||radar.io^
@@ -6101,15 +6084,12 @@
 @@||rasasc.org.uk^
 @@||ravn.click^
 @@||raw.githubusercontent.com^
-@@||rbv4yigbb.cc.rs6.net^
 @@||rcasu.org.uk^
 @@||rcom.co.in^
 @@||rcs-m.arubathena.com^
 @@||rcs-ng-yoda2.arubadev.cloud.hpe.com^
 @@||rcs.arubathena.com^
-@@||rdevbseab.cc.rs6.net^
 @@||rdr.wargaming.net^
-@@||rdtw69dab.cc.rs6.net^
 @@||reachlocal.com^
 @@||readdle.cmail20.com^
 @@||real.globe.com.ph^
@@ -6158,7 +6138,6 @@
 @@||register.appattest.apple.com^
 @@||register.appattest.v.aaplimg.com^
 @@||register.onboard.eurostar.com^
-@@||rekgn6nab.cc.rs6.net^
 @@||relationships.org.au^
 @@||relay.mms.telering.at^
 @@||release.calyxinstitute.org^
@@ -6206,20 +6185,16 @@
 @@||rethink.org^
 @@||revol.us^
 @@||rewardtk.com^
-@@||rfnptk8ab.cc.rs6.net^
 @@||rhel.pool.ntp.org^
 @@||ri-cdn.exponea.com^
-@@||ri7ofgjab.cc.rs6.net^
 @@||rides.sng.link^
 @@||rightsofwomen.org.uk^
 @@||rinawireless.com^
 @@||riwhpbyab.cc.rs6.net^
-@@||rjpz4ucab.cc.rs6.net^
 @@||rmit.au1.qualtrics.com^
 @@||rmit.qualtrics.com^
 @@||rmobile.jp^
 @@||rn-sq-device.apple.com^
-@@||rny9z6jab.cc.rs6.net^
 @@||roaming.sktelecom.com^
 @@||rocf.org^
 @@||rofikzxab.cc.rs6.net^
@@ -6237,8 +6212,6 @@
 @@||rozetka-cdn.exponea.com^
 @@||rpm.librewolf.net^
 @@||rpmfusion.org^
-@@||rpyplocab.cc.rs6.net^
-@@||rqtqnaqab.cc.rs6.net^
 @@||rsc.att.com^
 @@||rsc.wayport.net^
 @@||rsp.sysmocom.de^
@@ -6253,12 +6226,8 @@
 @@||rubsy.ingenious.cloud^
 @@||rules.emergingthreats.net^
 @@||run.admost.com^
-@@||ruwolxbab.cc.rs6.net^
 @@||rvalb7cab.cc.rs6.net^
-@@||rvn5oleab.cc.rs6.net^
-@@||rxfc49ebb.cc.rs6.net^
 @@||rxnpit6ab.cc.rs6.net^
-@@||ry9kgedab.cc.rs6.net^
 @@||s-mzstatic-applak.itunes-apple.com.akadns.net^
 @@||s.bluecore.com^
 @@||s.mzstatic.com^
@@ -6443,7 +6412,6 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
-@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
@@ -6754,16 +6722,13 @@
 @@||t.ltrmnt.com^
 @@||t.mmtrkr.com^
 @@||t.neory-tm.net^
-@@||t.sidekickopen01-eu1.com^
 @@||t.sidekickopen01.com^
-@@||t.sidekickopen02-eu1.com^
 @@||t.sidekickopen03.com^
 @@||t.sidekickopen04-eu1.com^
 @@||t.sidekickopen04.com^
 @@||t.sidekickopen05-eu1.com^
 @@||t.sidekickopen05.com^
 @@||t.sidekickopen06.com^
-@@||t.sidekickopen07-eu1.com^
 @@||t.sidekickopen07.com^
 @@||t.sidekickopen08.com^
 @@||t.sidekickopen09.com^
@@ -6784,21 +6749,13 @@
 @@||t.sidekickopen27.com^
 @@||t.sidekickopen28.com^
 @@||t.sidekickopen29.com^
-@@||t.sidekickopen30.com^
 @@||t.sidekickopen32.com^
 @@||t.sidekickopen35.com^
 @@||t.sidekickopen36.com^
 @@||t.sidekickopen37.com^
 @@||t.sidekickopen39.com^
 @@||t.sidekickopen40.com^
-@@||t.sidekickopen41.com^
-@@||t.sidekickopen42.com^
-@@||t.sidekickopen44.com^
-@@||t.sidekickopen45.com^
-@@||t.sidekickopen46.com^
 @@||t.sidekickopen48.com^
-@@||t.sidekickopen49.com^
-@@||t.sidekickopen50.com^
 @@||t.sidekickopen51.com^
 @@||t.sidekickopen52.com^
 @@||t.sidekickopen53.com^
@@ -6815,22 +6772,12 @@
 @@||t.sidekickopen68.com^
 @@||t.sidekickopen69.com^
 @@||t.sidekickopen70.com^
-@@||t.sidekickopen71.com^
-@@||t.sidekickopen72.com^
-@@||t.sidekickopen74.com^
 @@||t.sidekickopen75.com^
-@@||t.sidekickopen76.com^
 @@||t.sidekickopen77.com^
 @@||t.sidekickopen78.com^
 @@||t.sidekickopen79.com^
 @@||t.sidekickopen80.com^
-@@||t.sidekickopen81.com^
-@@||t.sidekickopen82.com^
-@@||t.sidekickopen83.com^
 @@||t.sidekickopen84.com^
-@@||t.sidekickopen85.com^
-@@||t.sidekickopen86.com^
-@@||t.sidekickopen87.com^
 @@||t.sidekickopen90.com^
 @@||t.xfin.me^
 @@||t.yesware.com^
@@ -7388,7 +7335,6 @@
 @@||victimsupport.org.nz^
 @@||viero.com^
 @@||viettelmobile.com.vn^
-@@||view.email.microsoftemail.com^
 @@||view.email.nzz.ch^
 @@||view.subscription.in.gov^
 @@||vinaphone.com.vn^
