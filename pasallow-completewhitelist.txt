@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-09-25 17:34 UTC
-! Entries: 8090
+! Generated: 2026-09-26 16:46 UTC
+! Entries: 8091
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -795,7 +795,6 @@
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
 @@||app2a.portal.outreach.io^
-@@||app2b.gateway.portal.outreach.io^
 @@||app2b.outreach.io^
 @@||app2b.portal.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
@@ -1013,6 +1012,7 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
@@ -1316,7 +1316,6 @@
 @@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
-@@||cdn.ftspecialist.exponea.com^
 @@||cdn.fwupd.org^
 @@||cdn.globalsigncdn.com^
 @@||cdn.globalsigncdn.com.cdn.cloudflare.net^
@@ -4467,6 +4466,7 @@
 @@||mkto-ab120041.com^
 @@||mkto-ab120150.com^
 @@||mkto-ab130037.com^
+@@||mkto-ab130147.com^
 @@||mkto-ab130188.com^
 @@||mkto-ab140048.com^
 @@||mkto-ab150013.com^
@@ -4534,11 +4534,9 @@
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
 @@||mkto-ab520004.com^
-@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
-@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -4595,6 +4593,7 @@
 @@||mkto-lon050034.com^
 @@||mkto-lon050143.com^
 @@||mkto-lon050200.com^
+@@||mkto-lon060128.com^
 @@||mkto-lon060131.com^
 @@||mkto-lon060180.com^
 @@||mkto-lon060217.com^
@@ -6296,6 +6295,7 @@
 @@||savannah.gnu.org^
 @@||savannah.nongnu.org^
 @@||saveindianfamily.in^
+@@||sazka-cdn.exponea.com^
 @@||sb-ssl.brave.com^
 @@||sb-ssl.brave.software^
 @@||sb-ssl.bravesoftware.com^
@@ -6411,6 +6411,7 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
