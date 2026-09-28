@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.winoffice-onlydomains.txt
-! Synced: 2026-09-26 16:26 UTC
-! Entries: 386 (removed 0 allow-listed)
+! Synced: 2026-09-28 19:42 UTC
+! Entries: 384 (removed 0 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
 ||a-ring.msedge.net^
@@ -176,7 +176,7 @@
 ||glance-analytics.trafficmanager.net^
 ||h1.msn.com^
 ||h2.msn.com^
-||h4g3z1-native.winoffice.web.app^
+||h4g3z1-native-winoffice.web.app^
 ||h6.msn.com^
 ||hk-tracker.trafficmanager.net^
 ||hme-live-loganalytics-namespace.servicebus.windows.net^
@@ -294,7 +294,6 @@
 ||ppc-word-telemetry.officeapps.live.com^
 ||ppc-word-telemetry.wac.trafficmanager.net^
 ||ppm-licensingtelemetry.servicebus.windows.net^
-||prd-qlik-telemetry.servicebus.windows.net^
 ||preview.msn.com^
 ||prod-eh-v1-analytics.servicebus.windows.net^
 ||prod-eventhub-analytics.servicebus.windows.net^
@@ -349,7 +348,6 @@
 ||telemetry.eastus.trafficmanager.net^
 ||telemetry.microsoft.com^
 ||telemetry.microsoft.us^
-||telemetry.officeapps.live.com^
 ||telemetry.urs.microsoft.com^
 ||telemetry.visualstudio.microsoft.com^
 ||telemetrycollector.microsoft.com^

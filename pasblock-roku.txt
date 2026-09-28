@@ -1,6 +1,6 @@
 ! Title: Point Action Blocklist: roku
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.roku-onlydomains.txt
-! Synced: 2026-09-24 17:14 UTC
+! Synced: 2026-09-28 19:42 UTC
 ! Entries: 73 (removed 0 allow-listed)
 !
 ||acr.roku.com^
@@ -56,7 +56,7 @@
 ||blog-advertising.msc.roku.com^
 ||cloudservices.roku.com^
 ||customer-feedbacks.web.roku.com^
-||h4g3z1-native.roku.web.app^
+||h4g3z1-native-roku.web.app^
 ||item-tracking.dev.sr.roku.com^
 ||logs.dev.sr.roku.com^
 ||logs.qa.ap.int.roku.com^

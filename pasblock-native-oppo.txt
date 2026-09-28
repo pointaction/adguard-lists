@@ -1,6 +1,6 @@
 ! Title: Point Action Blocklist: native-oppo
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
-! Synced: 2026-09-26 16:26 UTC
+! Synced: 2026-09-28 19:42 UTC
 ! Entries: 487 (removed 0 allow-listed)
 !
 ||ad-growth-in.heytapmobile.com^
@@ -251,7 +251,7 @@
 ||gui-server-us.allawnos.com^
 ||guif-eu.coloros.com^
 ||guif.coloros.com^
-||h4g3z1-native.oppo-realme.web.app^
+||h4g3z1-native-oppo-realme.web.app^
 ||hizonetech.com^
 ||i-cn01a.ocloud.heytapmobi.com^
 ||i-in.browser.heytapmobile.com^

@@ -1,6 +1,6 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
-! Synced: 2026-09-26 16:26 UTC
+! Synced: 2026-09-28 19:42 UTC
 ! Entries: 437 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
@@ -111,7 +111,7 @@
 ||gpm-mon-va-useast1a.byteoversea.com^
 ||gpm-mon-va-useast2a.byteoversea.com^
 ||gpm-mon-va.byteoversea.com^
-||h4g3z1-native.tiktok.web.app^
+||h4g3z1-native-tiktok.web.app^
 ||haohuo.snssdk.com^
 ||i.snssdk.com^
 ||live-video-log16-normal-alisg.tiktokv.com^

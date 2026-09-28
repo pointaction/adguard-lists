@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon-onlydomains.txt
-! Synced: 2026-09-18 16:27 UTC
-! Entries: 370 (removed 1 allow-listed)
+! Synced: 2026-09-28 19:42 UTC
+! Entries: 371 (removed 1 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -43,6 +43,7 @@
 ||aax-fe.amazon-adsystem.com^
 ||aax-gamma-us-east.axp.amazon-adsystem.com^
 ||aax-ott-c2s.amazon-adsystem.com^
+||aax-ott-sdk.amazon-adsystem.amazon.com^
 ||aax-ott-sdk.amazon-adsystem.com^
 ||aax-ott.amazon-adsystem.amazon.com^
 ||aax-ott.amazon-adsystem.com^
@@ -185,7 +186,7 @@
 ||fls-na.amazon.com.br^
 ||fls-na.amazon.com.mx^
 ||forester.a2z.com^
-||h4g3z1-native.amazon.web.app^
+||h4g3z1-native-amazon.web.app^
 ||identity.browserapps.amazon.de^
 ||imdb.amazon-adsystem.com^
 ||insights.video.a2z.com^
