@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-09-27 17:11 UTC
-! Entries: 1601
+! Synced: 2026-09-28 19:48 UTC
+! Entries: 1600
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -739,6 +739,7 @@
 @@||m-jzt.custobar.com^
 @@||m-kpz.custobar.com^
 @@||m-kzo.custobar.com^
+@@||m-lka.custobar.com^
 @@||m-ll23a.custobar.com^
 @@||m-no5by.custobar.com^
 @@||m-nvdxq.custobar.com^
@@ -1011,7 +1012,6 @@
 @@||mkto-sj220082.com^
 @@||mkto-sj240021.com^
 @@||mkto-sj250062.com^
-@@||mkto-sj250111.com^
 @@||mkto-sj250187.com^
 @@||mkto-sj270072.com^
 @@||mkto-sj270078.com^
@@ -1060,7 +1060,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
