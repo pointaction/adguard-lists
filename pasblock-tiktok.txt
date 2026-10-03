@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
-! Synced: 2026-10-02 05:43 UTC
-! Entries: 440 (removed 0 allow-listed)
+! Synced: 2026-10-03 16:20 UTC
+! Entries: 441 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-sg.tiktokv.com^
@@ -298,6 +298,7 @@
 ||pc-mon16-normal-us-ttp.capcutapi.us^
 ||rtc-logger-i18n.tiktokv.com^
 ||rtc-logger-ie.tiktokv.eu^
+||rtc-logger-ttp2.tiktokv.us^
 ||rtc-logger-ttp2.us.tiktokv.com^
 ||rtc-logger-va.tiktokv.com^
 ||rtc-logger.tiktokv.com^
