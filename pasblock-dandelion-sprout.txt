@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: dandelion-sprout
 ! Source: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-! Synced: 2026-08-26 02:00 UTC
-! Entries: 11548 (removed 4 allow-listed)
+! Synced: 2026-10-04 05:58 UTC
+! Entries: 11555 (removed 3 allow-listed)
 !
 ||0180info.de^
 ||03122e72f0.com^
@@ -6339,6 +6339,7 @@
 ||knowingdefenddefenceless.com^
 ||ko04rf8.cfd^
 ||kobemo.com^
+||koboldcpp.com^
 ||kocusa.com^
 ||kodiakproduce.com^
 ||kokanbhumimitra.com^
@@ -7119,6 +7120,7 @@
 ||minutelight-1.online^
 ||minutesdistrustuldistrustul.com^
 ||mip.api.mcafeewebadvisor.com^
+||mirappe.com^
 ||miraralcielo.net^
 ||miredindeed.net^
 ||mirrorbid.com^
@@ -8752,7 +8754,10 @@
 ||recurt.com^
 ||red12flyw2.site^
 ||redanemone.xyz^
+||redddit.com^
 ||reddingjetboattours.com^
+||reddtit.com^
+||reddtt.com^
 ||redefinelive.com^
 ||redif.com^
 ||redifd.com^
@@ -8764,6 +8769,8 @@
 ||redirectlayerprotocol.com^
 ||redirectme.net^
 ||redirekted.com^
+||redit.com^
+||reditt.com^
 ||redk-stron.site^
 ||redk-strong.info^
 ||redondobrewery.com^
