@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-03 16:45 UTC
-! Entries: 8099
+! Generated: 2026-10-04 06:23 UTC
+! Entries: 8115
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -856,6 +856,7 @@
 @@||armdl.adobe.com^
 @@||armdl.adobe.com.edgesuite.net^
 @@||armmf.adobe.com^
+@@||artifacts.celenity.dev^
 @@||artifacts.ironfoxoss.org^
 @@||arttrk.com^
 @@||aruba.odyssys.net^
@@ -1255,9 +1256,11 @@
 @@||captive-cdn.origin-apple.com.akadns.net^
 @@||captive-cidr.origin-apple.com.akadns.net^
 @@||captive.apple.com^
+@@||captive.celenity.dev^
 @@||captive.g.aaplimg.com^
 @@||captive.gogoinflight.com^
 @@||captive.inflightinternet.com^
+@@||captive.ironfoxoss.org^
 @@||captive.o2wifi.co.uk^
 @@||captivemgr.o2wifi.net.uk^
 @@||captiveportal-login.belex.com^
@@ -2514,6 +2517,8 @@
 @@||data.digital.costco.com^
 @@||data.email.philips-hue.com^
 @@||data.email.tangerine.ca^
+@@||data.m.starbucks.com^
+@@||data.m.starbucks.com.data.adobedc.net^
 @@||data1.eronet.ba^
 @@||data2.eronet.ba^
 @@||dct.klaviyodns.com^
@@ -2556,6 +2561,7 @@
 @@||depressievereniging.nl^
 @@||depression.org.nz^
 @@||despegar.com^
+@@||detectportal-fastly.firefox.com^
 @@||detectportal.firefox.com^
 @@||detectportal.prod.mozaws.net^
 @@||devcom.up.netgear.com^
@@ -3061,6 +3067,7 @@
 @@||event.proximus.be^
 @@||event.swisscom.ch^
 @@||event.vodafone.de^
+@@||events.cfa.sportscenter.espn.com^
 @@||events.release.narrativ.com^
 @@||evintl-crl.verisign.com^
 @@||evintl-ocsp.verisign.com^
@@ -3161,6 +3168,7 @@
 @@||firebaseinappmessaging.googleapis.com^
 @@||firebaseinappmessaging.mtls.googleapis.com^
 @@||firebaseperusertopics-pa.googleapis.com^
+@@||firefox-portal-detection.com^
 @@||firefox-settings-attachments.cdn.mozilla.net^
 @@||firefox-settings-attachments.mozilla-backup.org^
 @@||firefox-settings.mozilla-backup.org^
@@ -4059,6 +4067,7 @@
 @@||lgbthealth.org.uk^
 @@||lgbthotline.org^
 @@||lgbtqindiaresource.in^
+@@||librewolf.dev^
 @@||librewolf.net^
 @@||life.com.by^
 @@||lifeline.org.au^
@@ -5454,6 +5463,7 @@
 @@||mx.technolutions.net^
 @@||my-wifi.attwifi.com^
 @@||my.keenetic.net^
+@@||my.manychat.com^
 @@||my.router^
 @@||myactivity.google.com^
 @@||myblue.com^
@@ -5853,6 +5863,7 @@
 @@||paybills.mynt.xyz-v1.edgekey.net^
 @@||payg.mobilebysainsburys.co.uk^
 @@||payg.talkmobile.co.uk^
+@@||paywall.sports.client.dtci.technology^
 @@||pc.t-mobile.com^
 @@||pcsupport.lenovo.com^
 @@||pcsupport.lenovo.com.edgekey.net^
@@ -5999,6 +6010,7 @@
 @@||profitshare.emag.ro^
 @@||profitshare.ro^
 @@||proget.makedeb.org^
+@@||promo.api.my.chick-fil-a.com^
 @@||promo.mobile.de^
 @@||propelbon.com^
 @@||protect.eset.com^
@@ -6492,6 +6504,8 @@
 @@||spinboxmms.telia.se^
 @@||spmode.ne.jp^
 @@||sponsoredaccess.viasat.com^
+@@||sportscenter-cfa-api-cdn.espn.com^
+@@||sportscenter.fan.api.espn.com^
 @@||sprboost.mmsmvno.com^
 @@||springmobil.se^
 @@||sprintpcs.com^
@@ -7224,6 +7238,7 @@
 @@||update.eset.com^
 @@||update.googleapis.com^
 @@||update.gtm.eset.com^
+@@||update.librewolf.net^
 @@||update.microsoft.com^
 @@||update.mozilla.org^
 @@||update.vanadium.app^
@@ -7619,6 +7634,7 @@
 @@||wlan.three.com.hk^
 @@||wlb1-1579773356.us-east-1.elb.amazonaws.com^
 @@||wlb1.us-east-1.sbux-portal.globalreachtech.com^
+@@||wlc02.indy.gov^
 @@||wmgmms.telia.se^
 @@||wo.vzwwo.com^
 @@||womencentre.org.hk^
