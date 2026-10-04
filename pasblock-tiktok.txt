@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
-! Synced: 2026-10-03 16:20 UTC
-! Entries: 441 (removed 0 allow-listed)
+! Synced: 2026-10-04 16:52 UTC
+! Entries: 449 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-sg.tiktokv.com^
@@ -277,15 +277,23 @@
 ||mssdk-ru.tiktokv.com^
 ||mssdk-sg-bu.byteoversea.com^
 ||mssdk-sg.byteoversea.com^
+||mssdk-sg.capcutapi.com^
 ||mssdk-sg.tiktokv.com^
 ||mssdk-va-useast2a.byteoversea.com^
 ||mssdk-va-useast2a.tiktokv.com^
 ||mssdk-va.byteoversea.com^
+||mssdk.capcutapi.us^
 ||mssdk.snssdk.com^
 ||mssdk.tiktokw.eu^
 ||mssdk.tiktokw.us^
 ||mssdk.us.tiktok.com^
 ||mssdk.us.tiktokv.com^
+||mssdk16-normal-sg.capcutapi.com^
+||mssdk16-normal-us-ttp.capcutapi.us^
+||mssdk16-normal-us-ttp2.capcutapi.us^
+||mssdk16-normal.capcutapi.com^
+||mssdk32-normal-sg.capcutapi.com^
+||mssdk32-normal.capcutapi.com^
 ||open.snssdk.com^
 ||os-mon.snssdk.com^
 ||p16-ad.byteoversea.com^
