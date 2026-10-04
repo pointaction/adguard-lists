@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: badblock
 ! Source: https://badblock.celenity.dev/abp/whitelist.txt
-! Synced: 2026-07-23 14:46 UTC
-! Entries: 6519
+! Synced: 2026-10-04 06:12 UTC
+! Entries: 6524
 !
 @@||0.africa.pool.ntp.org^
 @@||0.amazon.pool.ntp.org^
@@ -574,6 +574,7 @@
 @@||armdl.adobe.com^
 @@||armdl.adobe.com.edgesuite.net^
 @@||armmf.adobe.com^
+@@||artifacts.celenity.dev^
 @@||artifacts.ironfoxoss.org^
 @@||aruba.odyssys.net^
 @@||arubanetworks.com^
@@ -911,9 +912,11 @@
 @@||captive-cdn.origin-apple.com.akadns.net^
 @@||captive-cidr.origin-apple.com.akadns.net^
 @@||captive.apple.com^
+@@||captive.celenity.dev^
 @@||captive.g.aaplimg.com^
 @@||captive.gogoinflight.com^
 @@||captive.inflightinternet.com^
+@@||captive.ironfoxoss.org^
 @@||captive.o2wifi.co.uk^
 @@||captivemgr.o2wifi.net.uk^
 @@||captiveportal-login.belex.com^
@@ -3397,6 +3400,7 @@
 @@||lgbthealth.org.uk^
 @@||lgbthotline.org^
 @@||lgbtqindiaresource.in^
+@@||librewolf.dev^
 @@||librewolf.net^
 @@||life.com.by^
 @@||lifeline.org.au^
@@ -6040,6 +6044,7 @@
 @@||wlan.three.com.hk^
 @@||wlb1-1579773356.us-east-1.elb.amazonaws.com^
 @@||wlb1.us-east-1.sbux-portal.globalreachtech.com^
+@@||wlc02.indy.gov^
 @@||wmgmms.telia.se^
 @@||wo.vzwwo.com^
 @@||womencentre.org.hk^
