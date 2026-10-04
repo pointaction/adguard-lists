@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: badblock
 ! Source: https://badblock.celenity.dev/abp/whitelist.txt
-! Synced: 2026-10-04 06:12 UTC
-! Entries: 6524
+! Synced: 2026-10-04 16:57 UTC
+! Entries: 6535
 !
 @@||0.africa.pool.ntp.org^
 @@||0.amazon.pool.ntp.org^
@@ -2004,6 +2004,8 @@
 @@||data-development.appattest.v.aaplimg.com^
 @@||data.appattest.apple.com^
 @@||data.appattest.v.aaplimg.com^
+@@||data.m.starbucks.com^
+@@||data.m.starbucks.com.data.adobedc.net^
 @@||data1.eronet.ba^
 @@||data2.eronet.ba^
 @@||dd-cdn.origin-apple.com.akadns.net^
@@ -2041,6 +2043,7 @@
 @@||depo.kamusm.gov.tr^
 @@||depressievereniging.nl^
 @@||depression.org.nz^
+@@||detectportal-fastly.firefox.com^
 @@||detectportal.firefox.com^
 @@||detectportal.prod.mozaws.net^
 @@||devcom.up.netgear.com^
@@ -2504,6 +2507,7 @@
 @@||event.proximus.be^
 @@||event.swisscom.ch^
 @@||event.vodafone.de^
+@@||events.cfa.sportscenter.espn.com^
 @@||evintl-crl.verisign.com^
 @@||evintl-ocsp.verisign.com^
 @@||evintl-t1-crl.verisign.com^
@@ -2598,6 +2602,7 @@
 @@||firebaseinappmessaging.googleapis.com^
 @@||firebaseinappmessaging.mtls.googleapis.com^
 @@||firebaseperusertopics-pa.googleapis.com^
+@@||firefox-portal-detection.com^
 @@||firefox-settings-attachments.cdn.mozilla.net^
 @@||firefox-settings-attachments.mozilla-backup.org^
 @@||firefox-settings.mozilla-backup.org^
@@ -4411,6 +4416,7 @@
 @@||mx.technolutions.net^
 @@||my-wifi.attwifi.com^
 @@||my.keenetic.net^
+@@||my.manychat.com^
 @@||my.router^
 @@||myactivity.google.com^
 @@||myblue.com^
@@ -4774,6 +4780,7 @@
 @@||paybills.mynt.xyz-v1.edgekey.net^
 @@||payg.mobilebysainsburys.co.uk^
 @@||payg.talkmobile.co.uk^
+@@||paywall.sports.client.dtci.technology^
 @@||pc.t-mobile.com^
 @@||pcsupport.lenovo.com^
 @@||pcsupport.lenovo.com.edgekey.net^
@@ -4892,6 +4899,7 @@
 @@||productdelivery.nonprod.webservices.mozgcp.net^
 @@||productdelivery.prod.webservices.mozgcp.net^
 @@||proget.makedeb.org^
+@@||promo.api.my.chick-fil-a.com^
 @@||protect.eset.com^
 @@||protonapps.com^
 @@||proximus.be^
@@ -5262,6 +5270,8 @@
 @@||spinboxmms.telia.se^
 @@||spmode.ne.jp^
 @@||sponsoredaccess.viasat.com^
+@@||sportscenter-cfa-api-cdn.espn.com^
+@@||sportscenter.fan.api.espn.com^
 @@||sprboost.mmsmvno.com^
 @@||springmobil.se^
 @@||sprintpcs.com^
@@ -5664,6 +5674,7 @@
 @@||update.eset.com^
 @@||update.googleapis.com^
 @@||update.gtm.eset.com^
+@@||update.librewolf.net^
 @@||update.microsoft.com^
 @@||update.mozilla.org^
 @@||update.vanadium.app^
