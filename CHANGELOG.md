@@ -4,6 +4,16 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-10-05
+
+**Added: 33759** (0 allow, 33759 block)
+
+- block: `00000.uno`, `001office.cn`, `004.am`, `007jitu.com`, `0088bet-br.com`, `00c8741ed3.com`, `015b31395f6ffbe1.com`, `016.ru`, `01cn.net`, `01jojobet.com`, `01pr.com.tr`, `0299wju3.work`, `02q.de`, `02so.casino`, `0310d.casino` _+33744 more_
+
+**Removed: 20923** (0 allow, 20923 block)
+
+- block: `0-metrics-logs-classic-0-appsfrontclassicclassic0-apps.tagomi.com`, `0.law`, `0.securedv.top`, `00.law`, `0007f2270c.icu`, `000fbcc2f5881026.com`, `0047cbac01b76e53.com`, `005ad66f1d.com`, `006tiyusaishimianfeizhibo.asia`, `006tiyuzhibobatiyuzhibo.asia`, `007bifenjishibifenzuqiu.asia`, `007bifenzuqiujishibifen.asia`, `007jishibifenzuqiu.asia`, `007qiutanjishizuqiubifenzhibo.asia`, `008d096a71.com` _+20908 more_
+
 ## 2026-09-16
 
 **Added: 1** (1 allow, 0 block)
