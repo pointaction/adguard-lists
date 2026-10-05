@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-04 16:57 UTC
-! Entries: 1637
+! Synced: 2026-10-05 06:05 UTC
+! Entries: 1638
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -927,6 +927,7 @@
 @@||mkto-ab640171.com^
 @@||mkto-ab650025.com^
 @@||mkto-ab650172.com^
+@@||mkto-ab660066.com^
 @@||mkto-ab660168.com^
 @@||mkto-ab680016.com^
 @@||mkto-ab690062.com^
