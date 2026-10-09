@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-08 19:01 UTC
-! Entries: 8160
+! Generated: 2026-10-09 18:32 UTC
+! Entries: 8159
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -225,7 +225,6 @@
 @@||46.courier-push-apple.com.akadns.net^
 @@||47-courier.push.apple.com^
 @@||47.courier-push-apple.com.akadns.net^
-@@||47587921.group0.sites.hscoscdn-ap1.net^
 @@||48-courier.push.apple.com^
 @@||48.courier-push-apple.com.akadns.net^
 @@||48months.liffeytelecom.com^
@@ -737,7 +736,6 @@
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
-@@||api-fra02-origin.hubapi.com^
 @@||api-mobile.cleverpush.com^
 @@||api-na1.hubapi.com^
 @@||api-na2.hubapi.com^
@@ -750,7 +748,6 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
-@@||api.eu1.hubapi.com^
 @@||api.hcaptcha.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
@@ -1046,6 +1043,7 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
@@ -4224,6 +4222,7 @@
 @@||m-42m67.custobar.com^
 @@||m-4wovq.custobar.com^
 @@||m-54yud.custobar.com^
+@@||m-55aim.custobar.com^
 @@||m-5fwyg.custobar.com^
 @@||m-5gene.custobar.com^
 @@||m-6pyms.custobar.com^
@@ -4529,7 +4528,6 @@
 @@||mkto-ab240175.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4584,10 +4582,10 @@
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
 @@||mkto-ab520004.com^
+@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
-@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -6476,6 +6474,7 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
