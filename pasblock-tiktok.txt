@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
-! Synced: 2026-10-04 16:52 UTC
-! Entries: 449 (removed 0 allow-listed)
+! Synced: 2026-10-10 05:56 UTC
+! Entries: 447 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-sg.tiktokv.com^
@@ -227,7 +227,6 @@
 ||mcs-i18n.tiktok.com^
 ||mcs-ie.tiktokw.eu^
 ||mcs-ie2.tiktokw.eu^
-||mcs-ie2.tiktokw.eu.dvaitas.lt^
 ||mcs-normal-sg.capcutapi.com^
 ||mcs-tiktok.byteoversea.net^
 ||mcs-ttp2.tiktokv.us^
@@ -250,7 +249,6 @@
 ||mon-csj-maliva-ios.byteoversea.com^
 ||mon-hl.snssdk.com^
 ||mon-i18n.tiktokv.com^
-||mon-i18n.tiktokv.com.dvaitas.lt^
 ||mon-phx.tiktokv.com^
 ||mon-ru.tiktokv.com^
 ||mon-sg.capcutapi.com^

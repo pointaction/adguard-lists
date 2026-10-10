@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: vivo
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.vivo-onlydomains.txt
-! Synced: 2026-10-03 16:20 UTC
-! Entries: 240 (removed 0 allow-listed)
+! Synced: 2026-10-10 05:56 UTC
+! Entries: 241 (removed 0 allow-listed)
 !
 ||adlog.vivo.com^
 ||adlog.vivo.com.cn^
@@ -62,6 +62,7 @@
 ||cname-in-bom01-nginxpool03.vivoglobal.com^
 ||cname-in-ctdbonrt-stsdk.vivoglobal.com^
 ||cname-sin01-stsdk09.vivoglobal.com^
+||co-album-api.vivoglobal.com^
 ||co-cota.vivoglobal.com^
 ||co-domaincfg.vivoglobal.com^
 ||co-onrt-stsdk.vivoglobal.com^
