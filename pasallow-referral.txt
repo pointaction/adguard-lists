@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-11 17:45 UTC
-! Entries: 1655
+! Synced: 2026-10-12 21:22 UTC
+! Entries: 1653
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -15,7 +15,6 @@
 @@||341850582.group0.sites.hscoscdn-na3.net^
 @@||3cinteractive.com^
 @@||4-aclk.net^
-@@||47587921.group0.sites.hscoscdn-ap1.net^
 @@||4patientcare-cdn.exponea.com^
 @@||5-aclk.net^
 @@||6-aclk.net^
@@ -290,7 +289,6 @@
 @@||app1a.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
-@@||app1b.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
@@ -758,6 +756,7 @@
 @@||m-b2o72.custobar.com^
 @@||m-bcta6.custobar.com^
 @@||m-bsp.custobar.com^
+@@||m-bzp7z.custobar.com^
 @@||m-c5a3m.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
@@ -1112,7 +1111,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1281,6 +1279,7 @@
 @@||shopnearme.us^
 @@||short.cm^
 @@||short.io^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
@@ -1623,7 +1622,6 @@
 @@||trk.wewotrk.com^
 @@||trk.zaptk.com^
 @@||trk2.genieshopping.com^
-@@||trkjkamaret.com^
 @@||trkn.us^
 @@||trkrcc.com^
 @@||ts.tradetracker.net^
