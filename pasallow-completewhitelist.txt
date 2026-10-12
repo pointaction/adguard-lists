@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-11 17:48 UTC
-! Entries: 8159
+! Generated: 2026-10-12 21:25 UTC
+! Entries: 8157
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -225,7 +225,6 @@
 @@||46.courier-push-apple.com.akadns.net^
 @@||47-courier.push.apple.com^
 @@||47.courier-push-apple.com.akadns.net^
-@@||47587921.group0.sites.hscoscdn-ap1.net^
 @@||48-courier.push.apple.com^
 @@||48.courier-push-apple.com.akadns.net^
 @@||48months.liffeytelecom.com^
@@ -806,7 +805,6 @@
 @@||app1a.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
-@@||app1b.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
@@ -4232,6 +4230,7 @@
 @@||m-b2o72.custobar.com^
 @@||m-bcta6.custobar.com^
 @@||m-bsp.custobar.com^
+@@||m-bzp7z.custobar.com^
 @@||m-c5a3m.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
@@ -5567,7 +5566,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6475,6 +6473,7 @@
 @@||singaporeair-krisworld.com^
 @@||singtel.com^
 @@||sisters-help.ru^
+@@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
 @@||sites.hscoscdn00.net^
@@ -7183,7 +7182,6 @@
 @@||trk.wewotrk.com^
 @@||trk.zaptk.com^
 @@||trk2.genieshopping.com^
-@@||trkjkamaret.com^
 @@||trkn.us^
 @@||trkrcc.com^
 @@||trueh.com^
