@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-13 19:33 UTC
-! Entries: 8161
+! Generated: 2026-10-14 17:37 UTC
+! Entries: 8168
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -178,8 +178,6 @@
 @@||33.courier-push-apple.com.akadns.net^
 @@||34-courier.push.apple.com^
 @@||34.courier-push-apple.com.akadns.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||35-courier.push.apple.com^
 @@||35.courier-push-apple.com.akadns.net^
 @@||36-courier.push.apple.com^
@@ -805,6 +803,7 @@
 @@||app1a.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
+@@||app1b.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
@@ -1042,6 +1041,7 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
@@ -1635,7 +1635,6 @@
 @@||cloud.imedia.ie^
 @@||cloudflarechallenge.com^
 @@||cloudfront.cdn.snapcraftcontent.com^
-@@||cloudmail15.netcore.co.in^
 @@||cloudmail17.netcore.co.in^
 @@||cloudmail18.netcore.co.in^
 @@||cloudmail19.netcore.co.in^
@@ -4274,6 +4273,7 @@
 @@||m-ueuba.custobar.com^
 @@||m-vek.custobar.com^
 @@||m-vq63s.custobar.com^
+@@||m-wg25k.custobar.com^
 @@||m-zvrkv.custobar.com^
 @@||m-zwhsc.custobar.com^
 @@||m.dq.com^
@@ -4496,6 +4496,7 @@
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
 @@||mkto-ab020242.com^
+@@||mkto-ab040003.com^
 @@||mkto-ab040117.com^
 @@||mkto-ab060101.com^
 @@||mkto-ab060134.com^
@@ -4521,6 +4522,7 @@
 @@||mkto-ab170123.com^
 @@||mkto-ab170161.com^
 @@||mkto-ab180024.com^
+@@||mkto-ab200187.com^
 @@||mkto-ab220038.com^
 @@||mkto-ab230114.com^
 @@||mkto-ab240112.com^
@@ -4585,11 +4587,13 @@
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
+@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
 @@||mkto-ab570052.com^
 @@||mkto-ab570128.com^
+@@||mkto-ab570178.com^
 @@||mkto-ab580004.com^
 @@||mkto-ab600004.com^
 @@||mkto-ab610035.com^
@@ -4627,6 +4631,7 @@
 @@||mkto-c0100.com^
 @@||mkto-cs0007.com^
 @@||mkto-d0071.com^
+@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
@@ -4721,6 +4726,7 @@
 @@||mkto-sj130243.com^
 @@||mkto-sj140007.com^
 @@||mkto-sj140170.com^
+@@||mkto-sj140221.com^
 @@||mkto-sj150025.com^
 @@||mkto-sj160006.com^
 @@||mkto-sj160014.com^
@@ -4768,6 +4774,7 @@
 @@||mkto-sji0183.com^
 @@||mkto-sn010116.com^
 @@||mkto-sn030149.com^
+@@||mkto-sn040139.com^
 @@||mkto-sn040166.com^
 @@||mkto-sn060071.com^
 @@||mkto-trk.cisco.com^
@@ -5569,7 +5576,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6480,6 +6486,7 @@
 @@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
