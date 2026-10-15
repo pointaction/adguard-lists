@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-14 17:37 UTC
-! Entries: 8168
+! Generated: 2026-10-15 05:17 UTC
+! Entries: 8167
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -555,7 +555,6 @@
 @@||adservice.google.pl^
 @@||adservice.google.ro^
 @@||adservice.google.rs^
-@@||adservice.google.ru^
 @@||adservice.google.se^
 @@||adservice.google.sk^
 @@||adservice.google.tt^
