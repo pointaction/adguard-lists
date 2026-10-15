@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-14 17:30 UTC
-! Entries: 1664
+! Synced: 2026-10-15 05:02 UTC
+! Entries: 1663
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -203,7 +203,6 @@
 @@||adservice.google.pl^
 @@||adservice.google.ro^
 @@||adservice.google.rs^
-@@||adservice.google.ru^
 @@||adservice.google.se^
 @@||adservice.google.sk^
 @@||adservice.google.tt^
