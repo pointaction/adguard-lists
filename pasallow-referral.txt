@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-15 05:02 UTC
-! Entries: 1663
+! Synced: 2026-10-15 17:16 UTC
+! Entries: 1664
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -11,6 +11,8 @@
 @@||2-aclk.net^
 @@||2performant.com^
 @@||3-aclk.net^
+@@||341676991.group0.sites.hscoscdn-na3.net^
+@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||3cinteractive.com^
 @@||4-aclk.net^
 @@||4patientcare-cdn.exponea.com^
@@ -286,7 +288,6 @@
 @@||app1a.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
-@@||app1b.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
@@ -856,6 +857,7 @@
 @@||mkto-ab240175.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
+@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -958,7 +960,6 @@
 @@||mkto-c0100.com^
 @@||mkto-cs0007.com^
 @@||mkto-d0071.com^
-@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
@@ -1202,6 +1203,7 @@
 @@||r5siqu4ab.cc.rs6.net^
 @@||rads.stackoverflow.com^
 @@||raisin-cdn.exponea.com^
+@@||ratm5k9ab.cc.rs6.net^
 @@||ravn.click^
 @@||rdr.wargaming.net^
 @@||reachlocal.com^
@@ -1291,7 +1293,6 @@
 @@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
-@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
