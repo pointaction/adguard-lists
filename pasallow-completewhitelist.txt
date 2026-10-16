@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-16 05:06 UTC
-! Entries: 8169
+! Generated: 2026-10-16 16:59 UTC
+! Entries: 8170
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -178,8 +178,6 @@
 @@||33.courier-push-apple.com.akadns.net^
 @@||34-courier.push.apple.com^
 @@||34.courier-push-apple.com.akadns.net^
-@@||341676991.group0.sites.hscoscdn-na3.net^
-@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||35-courier.push.apple.com^
 @@||35.courier-push-apple.com.akadns.net^
 @@||36-courier.push.apple.com^
@@ -4507,6 +4505,7 @@
 @@||mkto-ab070069.com^
 @@||mkto-ab080055.com^
 @@||mkto-ab080061.com^
+@@||mkto-ab090179.com^
 @@||mkto-ab100192.com^
 @@||mkto-ab100241.com^
 @@||mkto-ab110171.com^
@@ -4528,9 +4527,9 @@
 @@||mkto-ab230114.com^
 @@||mkto-ab240112.com^
 @@||mkto-ab240175.com^
+@@||mkto-ab250055.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -4586,6 +4585,7 @@
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
 @@||mkto-ab520004.com^
+@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
@@ -6488,6 +6488,7 @@
 @@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
+@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
