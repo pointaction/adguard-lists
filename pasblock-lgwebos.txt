@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: lgwebos
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.lgwebos-onlydomains.txt
-! Synced: 2026-10-04 16:52 UTC
-! Entries: 230 (removed 0 allow-listed)
+! Synced: 2026-10-17 04:31 UTC
+! Entries: 231 (removed 0 allow-listed)
 !
 ||ads.lgtvcommon.com^
 ||adts.lgtvcommon.com^
@@ -153,6 +153,7 @@
 ||mt-ad-lgsmartad-com.aws-prd.net^
 ||mu-ad-lgsmartad-com.aws-prd.net^
 ||mx-ad-lgsmartad-com.aws-prd.net^
+||mx-rdx2-lgtvsdp-com.aws-prd.net^
 ||my-ad-lgsmartad-com.aws-prd.net^
 ||mz-ad-lgsmartad-com.aws-prd.net^
 ||na-ad-lgsmartad-com.aws-prd.net^

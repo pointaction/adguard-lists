@@ -1,26 +1,10 @@
 ! Title: Point Action Blocklist: roku
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.roku-onlydomains.txt
-! Synced: 2026-09-28 19:42 UTC
-! Entries: 73 (removed 0 allow-listed)
+! Synced: 2026-10-17 04:31 UTC
+! Entries: 57 (removed 0 allow-listed)
 !
 ||acr.roku.com^
-||ad-bl.geoproximity.staging.rpay.roku.com^
-||ad-bl.prod.rpay.int.roku.com^
-||ad-bl.usw2.staging.rpay.int.roku.com^
-||ad-eng-bl.geoproximity.staging.rpay.roku.com^
-||ad-eng-bl.use1.prod.rpay.int.roku.com^
-||ad-eng-bl.usw2.prod.rpay.int.roku.com^
-||ad-eng-pci-bl.geoproximity.rpay.roku.com^
-||ad-eng-pci-bl.geoproximity.staging.rpay.roku.com^
-||ad-eng-pci-bl.prod.rpay.int.roku.com^
-||ad-eng-pci-bl.use1.prod.rpay.int.roku.com^
-||ad-eng-pci-bl.usw2.prod.rpay.int.roku.com^
-||ad-eng-pci.prod.rpay.int.roku.com^
-||ad-eng.prod.rpay.int.roku.com^
-||ad-eng.staging.rpay.int.roku.com^
-||ad.prod.rpay.int.roku.com^
 ||ad.qa.ap.int.roku.com^
-||ad.staging.rpay.int.roku.com^
 ||ad.usw2.qa.ap.int.roku.com^
 ||adeng-identity-prod3.bdp.roku.com^
 ||adeng-looker-bi-oneview-prod-1001.bdp.roku.com^
