@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-16 16:59 UTC
-! Entries: 8170
+! Generated: 2026-10-17 15:58 UTC
+! Entries: 8172
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -4546,6 +4546,7 @@
 @@||mkto-ab340128.com^
 @@||mkto-ab350042.com^
 @@||mkto-ab350047.com^
+@@||mkto-ab350122.com^
 @@||mkto-ab350123.com^
 @@||mkto-ab370015.com^
 @@||mkto-ab390033.com^
@@ -4589,7 +4590,6 @@
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
-@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -4732,6 +4732,7 @@
 @@||mkto-sj160006.com^
 @@||mkto-sj160014.com^
 @@||mkto-sj160211.com^
+@@||mkto-sj160226.com^
 @@||mkto-sj170174.com^
 @@||mkto-sj180011.com^
 @@||mkto-sj190104.com^
@@ -5577,6 +5578,7 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
+@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
