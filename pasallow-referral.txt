@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-16 16:52 UTC
-! Entries: 1666
+! Synced: 2026-10-17 15:50 UTC
+! Entries: 1668
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -874,6 +874,7 @@
 @@||mkto-ab340128.com^
 @@||mkto-ab350042.com^
 @@||mkto-ab350047.com^
+@@||mkto-ab350122.com^
 @@||mkto-ab350123.com^
 @@||mkto-ab370015.com^
 @@||mkto-ab390033.com^
@@ -917,7 +918,6 @@
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
-@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -1060,6 +1060,7 @@
 @@||mkto-sj160006.com^
 @@||mkto-sj160014.com^
 @@||mkto-sj160211.com^
+@@||mkto-sj160226.com^
 @@||mkto-sj170174.com^
 @@||mkto-sj180011.com^
 @@||mkto-sj190104.com^
@@ -1122,6 +1123,7 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
+@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
