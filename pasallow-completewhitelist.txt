@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-17 15:58 UTC
-! Entries: 8172
+! Generated: 2026-10-18 05:10 UTC
+! Entries: 8174
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -421,7 +421,9 @@
 @@||ad.dyntracker.de^
 @@||ad.jp^
 @@||ad.lifesight.io^
+@@||ad.trafficgate.net^
 @@||ad.vodafone.co.uk^
+@@||ad2.trafficgate.net^
 @@||adaway.org^
 @@||adaxxcloud.com^
 @@||adblock.ee^
