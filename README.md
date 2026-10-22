@@ -23,7 +23,7 @@ Feel free to copy, use, or contribute.
 🖥️  Technitium DNS Server on Ubuntu 24.04 LTS in Proxmox LXC Container ← loads the lists in this repo
    │
    ▼
-☁️  DNSSEC + DNS-over-TLS  (Cloudflare)
+☁️  DNSSEC + DNS-over-TLS (Cloudflare)
    │
    ▼
 🛜  (TP-Link Omada Cloud Controller) TP-Link ER605 Gateway + TP-Link Jet Stream Smart Switch (VLANs) 
