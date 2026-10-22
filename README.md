@@ -20,7 +20,7 @@ Feel free to copy, use, or contribute.
 📺💻📱  Clients
    │
    ▼
-🖥️  Technitium DNS Server on Ubuntu 24.04 LTS (Proxmox LXC Container) in ← loads the lists in this repo
+🖥️  Technitium DNS Server on Ubuntu 24.04 LTS (Proxmox LXC Container) ← loads the lists in this repo
    │
    ▼
 ☁️  DNSSEC + DNS-over-TLS (Cloudflare)
