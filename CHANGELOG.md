@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-10-22
+
+**Added: 31** (0 allow, 31 block)
+
+- block: `57px99h5wi1g9gfm.cfd`, `achggnfnubxum.online`, `athingjocelin.qpon`, `beuvgqdnqlexe.space`, `clwdemgvboiaz.space`, `flatwayspoofer.qpon`, `fogoncoulterlawing.cfd`, `glaceslawmakeoctarch.cyou`, `hababmayda.cyou`, `kptlsmwckktvt.space`, `ldfttidohyreh.online`, `lendubittium.cfd`, `lwuntajpwadku.online`, `meconbalms.qpon`, `nwrfgpvfwahmw.website` _+16 more_
+
 ## 2026-10-05
 
 **Added: 33759** (0 allow, 33759 block)
