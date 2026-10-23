@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-22 17:39 UTC
-! Entries: 8181
+! Generated: 2026-10-23 17:29 UTC
+! Entries: 8182
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -1042,6 +1042,7 @@
 @@||bam.entelpcs.cl^
 @@||banners.livepartners.com^
 @@||bap.aws.opennetworkexchange.net^
+@@||bapi-01.moengage.com^
 @@||bapi-02.moengage.com^
 @@||bapi-04.moengage.com^
 @@||baruch.az1.qualtrics.com^
@@ -4534,7 +4535,6 @@
 @@||mkto-ab250055.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
-@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -6714,6 +6714,7 @@
 @@||suite55.emarsys.net^
 @@||suite56-cf.emarsys.net^
 @@||suite56.emarsys.net^
+@@||suite57-cdnnet.emarsys.net^
 @@||suite57-cf.emarsys.net^
 @@||suite57.emarsys.net^
 @@||suite58-cf.emarsys.net^
