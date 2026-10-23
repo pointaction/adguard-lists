@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-10-23 04:56 UTC
-! Entries: 1795 (removed 0 allow-listed)
+! Synced: 2026-10-23 17:12 UTC
+! Entries: 1790 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -20,8 +20,6 @@
 ||176.65.148.145.ptr.pfcloud.network^
 ||176.65.149.168.ptr.pfcloud.network^
 ||178-83-121-204.cprapid.com^
-||178.248.3.202.ll.sta.mana.pf^
-||179.248.3.202.ll.sta.mana.pf^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
 ||198348.gl^
@@ -67,6 +65,7 @@
 ||aass111.tos-cn-beijing.volces.com^
 ||abilityindisabilityindia.org^
 ||abonent-app.ru^
+||acbcr.ro^
 ||acc.jiangsujiaxue.com^
 ||accessdocu.b-cdn.net^
 ||acms.saleseos.com^
@@ -118,6 +117,7 @@
 ||anibusclientpro.netlify.app^
 ||anthonyspizzeriainc.com^
 ||anubisclient.co.uk^
+||anyhoo.testeaza.eu^
 ||aolgepacklng.com^
 ||api-relay.cc^
 ||api-willserver.phonkstyle-workers.workers.dev^
@@ -182,6 +182,7 @@
 ||backup.tkspr1v.com^
 ||backupallfresh2030.com^
 ||backupso.com^
+||bagsrad.com^
 ||baileyemas.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||balkarsoftware.cubistech.com^
@@ -195,10 +196,10 @@
 ||basequill9.com^
 ||bauble.cleverpondky.com^
 ||beacon.ltdglobal.co.uk^
+||beak.in^
 ||beamtechmacros.com^
 ||becof.org^
 ||beinke-aufzuege.de^
-||bemao.com^
 ||benotrobot.online^
 ||benshamcentre.co.uk^
 ||benzinclick.live^
@@ -291,17 +292,16 @@
 ||cde.omsules.life^
 ||cdk.monther.life^
 ||cdn-10049480.file.myqcloud.com^
-||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.monther.life^
 ||cdn.wovplaying.help^
 ||cdn.xiaoduoai.com^
 ||cdnorigin.net^
+||cdp.wovplaying.help^
 ||cdt.omsules.life^
 ||cdw.omsules.life^
 ||celebratingseniors.net^
 ||centrodolce.screenconnect.com^
-||cepde.org^
 ||ceramicasaosebastiao.com.br^
 ||cfs10.blog.daum.net^
 ||cfs13.tistory.com^
@@ -317,7 +317,6 @@
 ||cheetoclient.com^
 ||chekcms432.cc^
 ||cheminees-philippe45.com^
-||chenwangqiao.com^
 ||chibomaydan.devs.surf^
 ||chiroartist.com^
 ||chrome-windows.ru^
@@ -371,6 +370,7 @@
 ||cosmical2049.com^
 ||counterscale.jean-r-mi-larcelet-prost.workers.dev^
 ||cpc188.day^
+||cpofficial.com^
 ||cqintzfep6rw6jc9.public.blob.vercel-storage.com^
 ||cqylt.net^
 ||crackedclients.com^
@@ -391,7 +391,6 @@
 ||csgroup.host^
 ||cta.edu.pe^
 ||cu.srijanajha.com.np^
-||customcreationsmaine.com^
 ||cutting-edge.in^
 ||cuttingedgefencing.ca^
 ||cxxz.co.za^
@@ -491,6 +490,7 @@
 ||directdownloadl.ink^
 ||disk.accord1key.cn^
 ||dklak.cam^
+||dl.1003b.56a.com^
 ||dl.2345.com^
 ||dl.dzqzd.com^
 ||dl.faster-cdn-hk.click^
@@ -535,7 +535,6 @@
 ||donutsmputilitys.netlify.app^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||down.ruanmei.com^
 ||down.unicron-cdn.click^
 ||down10d.zol.com.cn^
@@ -555,6 +554,7 @@
 ||download.ubua.online^
 ||download.vertex-software.digital^
 ||download.youlovemybiba.com^
+||download2.huduntech.com^
 ||downloader.exeexe.workers.dev^
 ||downloads.go-xlr.com^
 ||dra.com.ve^
@@ -593,11 +593,11 @@
 ||elrneba.com^
 ||elxxvvx.xyz^
 ||embalageral.hospedagemdesites.ws^
+||embedone.com^
 ||emeraldstonegc.blog^
 ||emphasis-friday-even-administrator.trycloudflare.com^
 ||empty-violet-63e1.maskify.workers.dev^
 ||emwqkekwqmekwq.work.gd^
-||en.taichuan.com^
 ||enter-pverif-code.info^
 ||entry-code-cdn.codes^
 ||eo3wuo9z334anlh.m.pipedream.net^
@@ -715,10 +715,10 @@
 ||gaode11223.oss-ap-southeast-7.aliyuncs.com^
 ||gboutros.howto.rocks^
 ||gd.ozzhlb.net^
+||geaix.com^
 ||genovaw.com^
 ||geo.estimator-undermostshelving.in.net^
 ||geoxsecurity.ro^
-||gestroom.it^
 ||get-auvorax.cyou^
 ||get.acitvated.win^
 ||get.acivated.win^
@@ -808,6 +808,7 @@
 ||hjha.ao^
 ||hll912-1484535448.cos.ap-hongkong.myqcloud.com^
 ||hnjgdl.geps.glodon.com^
+||hobobot.net^
 ||horion-static.pages.dev^
 ||horno-rafelet.es^
 ||host-195-103-203-106.business.telecomitalia.it^
@@ -853,7 +854,6 @@
 ||importantdocumentscopys.s3.us-east-2.amazonaws.com^
 ||infocardphoto.info^
 ||injurylawsocal.com^
-||intelli-sys.co.zw^
 ||intelligradeeducation.vicentecisnerospub.com^
 ||internetlouisiana.com^
 ||internetmissouri.com^
@@ -873,6 +873,7 @@
 ||jam.cleverpondky.com^
 ||java.omsules.life^
 ||javb.omsules.life^
+||jawaratekno.com^
 ||jd-forever.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -915,7 +916,6 @@
 ||kolpa.lol^
 ||kong07.s3.us-east-1.amazonaws.com^
 ||konsor.ru^
-||konterlink.hippamsas.com^
 ||korexnode.duckdns.org^
 ||korexnode.xyz^
 ||krause-fahrzeuge.de^
@@ -1080,7 +1080,6 @@
 ||munihuacho.gob.pe^
 ||mxh4h.com^
 ||my-buck01.s3.cubbit.eu^
-||myayurvedashoppe.com^
 ||myhpsd2.screenconnect.com^
 ||myissuereport.live^
 ||mysura.it^
@@ -1099,7 +1098,6 @@
 ||new-orleans.pl^
 ||new.omsules.life^
 ||newcert.s3.us-east-005.backblazeb2.com^
-||newkey.co.kr^
 ||newstan.online^
 ||nf.boletos-notas.com^
 ||nfadealer.top^
@@ -1155,6 +1153,7 @@
 ||onlyfiles.com^
 ||onlypackaging.grupoinde.com^
 ||oopz.app^
+||oopz.name^
 ||opalcraftsmp.com^
 ||oper.atlas101.us.kg^
 ||opsecmod.st^
@@ -1166,7 +1165,6 @@
 ||osfjkqoiw382r552q.hopto.org^
 ||osmb.net^
 ||oss.cop.lat^
-||ossapp.suning.com^
 ||otkrytkadnya.ru^
 ||out-agent.duckdns.org^
 ||outexfashion.com^
@@ -1428,11 +1426,9 @@
 ||security-analyze.ltd^
 ||sedrezltd.best^
 ||seguranca.versionnova.site^
-||seismophonic.com^
 ||seitech.ir^
 ||seitinloelinsa.com^
 ||semencepourlavie.org^
-||semprecardsecure.com^
 ||seniorsushi.com^
 ||seobandung.site^
 ||sep.dailytechinsight.com^
@@ -1488,6 +1484,7 @@
 ||software.security-analyze.ltd^
 ||sogo-download.oss-cn-hongkong.aliyuncs.com^
 ||solar-sanat.net^
+||somautomotivorj.com.br^
 ||somostask.co^
 ||southernalarm.screenconnect.com^
 ||southwindsfineart.com^
@@ -1593,7 +1590,6 @@
 ||threejrev.com^
 ||thu-iphone-07.cfd^
 ||tiacreation.club^
-||ticpc8a.com^
 ||timelevel12.com^
 ||timestampasa.howto.rocks^
 ||tinyurls.in^
@@ -1732,7 +1728,6 @@
 ||windowskernel.lol^
 ||windriversfiles.imeitools.com^
 ||winds11.site^
-||windsurfingthailand.org^
 ||windycreekbc.pro^
 ||wir.consultingics.com^
 ||without.kesug.com^
