@@ -1,6 +1,6 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-23 17:22 UTC
+! Synced: 2026-10-24 16:10 UTC
 ! Entries: 1679
 !
 @@||1-aclk.net^
@@ -387,7 +387,6 @@
 @@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
-@@||cdn.ftspecialist.exponea.com^
 @@||cdn.mie.exponea.com^
 @@||cdn.network.exponea.com^
 @@||cdn.pardot.com^
@@ -574,6 +573,7 @@
 @@||ecomclk.com^
 @@||ecomdmsclk.com^
 @@||edge-e-balw.customer.io^
+@@||edge-east-v2.customer.io^
 @@||edge-east.customer.io^
 @@||edge-eu.customer.io^
 @@||edge-w-balw.customer.io^
@@ -786,6 +786,7 @@
 @@||m-plo.custobar.com^
 @@||m-pwvgh.custobar.com^
 @@||m-qrl63.custobar.com^
+@@||m-qw4s3.custobar.com^
 @@||m-rst.custobar.com^
 @@||m-s6iau.custobar.com^
 @@||m-sdcm5.custobar.com^
@@ -999,6 +1000,7 @@
 @@||mkto-lon080006.com^
 @@||mkto-lon080059.com^
 @@||mkto-lon080118.com^
+@@||mkto-lon080132.com^
 @@||mkto-lon080147.com^
 @@||mkto-lon090040.com^
 @@||mkto-lon090045.com^
@@ -1131,7 +1133,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
@@ -1390,7 +1391,6 @@
 @@||suite55.emarsys.net^
 @@||suite56-cf.emarsys.net^
 @@||suite56.emarsys.net^
-@@||suite57-cdnnet.emarsys.net^
 @@||suite57-cf.emarsys.net^
 @@||suite57.emarsys.net^
 @@||suite58-cf.emarsys.net^
