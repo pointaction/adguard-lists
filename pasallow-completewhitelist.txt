@@ -1,7 +1,7 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-23 17:29 UTC
+! Generated: 2026-10-24 16:16 UTC
 ! Entries: 8182
 !
 ! Combined from:
@@ -1348,7 +1348,6 @@
 @@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
-@@||cdn.ftspecialist.exponea.com^
 @@||cdn.fwupd.org^
 @@||cdn.globalsigncdn.com^
 @@||cdn.globalsigncdn.com.cdn.cloudflare.net^
@@ -2867,6 +2866,7 @@
 @@||edf.eset.com^
 @@||edf.gtm.eset.com^
 @@||edge-e-balw.customer.io^
+@@||edge-east-v2.customer.io^
 @@||edge-east.customer.io^
 @@||edge-eu.customer.io^
 @@||edge-http.microsoft.com^
@@ -4260,6 +4260,7 @@
 @@||m-plo.custobar.com^
 @@||m-pwvgh.custobar.com^
 @@||m-qrl63.custobar.com^
+@@||m-qw4s3.custobar.com^
 @@||m-rst.custobar.com^
 @@||m-s6iau.custobar.com^
 @@||m-sdcm5.custobar.com^
@@ -4670,6 +4671,7 @@
 @@||mkto-lon080006.com^
 @@||mkto-lon080059.com^
 @@||mkto-lon080118.com^
+@@||mkto-lon080132.com^
 @@||mkto-lon080147.com^
 @@||mkto-lon090040.com^
 @@||mkto-lon090045.com^
@@ -5585,7 +5587,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6714,7 +6715,6 @@
 @@||suite55.emarsys.net^
 @@||suite56-cf.emarsys.net^
 @@||suite56.emarsys.net^
-@@||suite57-cdnnet.emarsys.net^
 @@||suite57-cf.emarsys.net^
 @@||suite57.emarsys.net^
 @@||suite58-cf.emarsys.net^
