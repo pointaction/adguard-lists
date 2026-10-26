@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-26 05:23 UTC
-! Entries: 8187
+! Generated: 2026-10-26 18:36 UTC
+! Entries: 8186
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -748,6 +748,7 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
+@@||api.github.comapi.hubapi.com^
 @@||api.hcaptcha.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
@@ -803,7 +804,6 @@
 @@||app1-h2.central.arubanetworks.com^
 @@||app1.central.arubanetworks.com^
 @@||app1a.gateway.portal.outreach.io^
-@@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
@@ -4644,7 +4644,6 @@
 @@||mkto-c0100.com^
 @@||mkto-cs0007.com^
 @@||mkto-d0071.com^
-@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
