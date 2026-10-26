@@ -4,6 +4,18 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-10-26
+
+**Added: 25765** (1 allow, 25764 block)
+
+- allow: `api.github.comapi.hubapi.com`
+- block: `0016824.com`, `0066bet30.app`, `00a154c916.48dd51f81a.com`, `00jac.com`, `0123h.shop`, `0146556.com`, `014952.cc`, `019bet88.icu`, `01zhekoushouyoupingt2lk.com.cn`, `021836.com`, `023zrkj.com`, `026tt.shop`, `0287h.shop`, `028bxgg.com`, `02969.shop` _+25749 more_
+
+**Removed: 55264** (2 allow, 55262 block)
+
+- allow: `app1a.outreach.io`, `mkto-dev.certinia.com`
+- block: `00006802.com`, `000663.vip`, `0011388.com`, `004c4f4d93ad.xyz`, `0066hgdfsda54234.22110066.vip`, `00690.my`, `007eaglegaze.online`, `00899.top`, `009928.com`, `00chatgpt.com`, `00wb.top`, `010147.com`, `011k011.co`, `011n011.co`, `012445.vip` _+55247 more_
+
 ## 2026-10-22
 
 **Added: 31** (0 allow, 31 block)
