@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-24 16:10 UTC
-! Entries: 1679
+! Synced: 2026-10-26 05:10 UTC
+! Entries: 1684
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -303,7 +303,6 @@
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
 @@||app2a.portal.outreach.io^
-@@||app2b.outreach.io^
 @@||app2b.portal.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
 @@||app2c.outreach.io^
@@ -372,6 +371,7 @@
 @@||c2-eu.piano.io^
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
+@@||c2827.dotomi.com^
 @@||cadent-match.dotomi.com^
 @@||callback.api.qgraph.io^
 @@||campaign.adobe.com^
@@ -449,6 +449,7 @@
 @@||click.figma.com^
 @@||click.holidayinnclubemail.com^
 @@||click.icptrack.com^
+@@||click.idprotect.experian.com^
 @@||click.instantink.hpsmart.com^
 @@||click.justwatch.com^
 @@||click.klarna.de^
@@ -676,6 +677,7 @@
 @@||iljmp.com^
 @@||image.email.microsoftemail.com^
 @@||impulseonline.shop^
+@@||indrive-cdn.exponea.com^
 @@||ink1001.com^
 @@||intercom-clicks.com^
 @@||internshala.bapi-03.moengage.com^
@@ -826,6 +828,7 @@
 @@||mg.mail.notion.so^
 @@||micpn.com^
 @@||mjt.lu^
+@@||mkto-a0279.com^
 @@||mkto-ab010044.com^
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
@@ -865,6 +868,7 @@
 @@||mkto-ab250055.com^
 @@||mkto-ab250068.com^
 @@||mkto-ab250105.com^
+@@||mkto-ab250167.com^
 @@||mkto-ab260164.com^
 @@||mkto-ab270090.com^
 @@||mkto-ab270109.com^
@@ -921,8 +925,8 @@
 @@||mkto-ab480015.com^
 @@||mkto-ab480166.com^
 @@||mkto-ab500022.com^
+@@||mkto-ab500023.com^
 @@||mkto-ab520004.com^
-@@||mkto-ab530057.com^
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
@@ -969,6 +973,7 @@
 @@||mkto-c0100.com^
 @@||mkto-cs0007.com^
 @@||mkto-d0071.com^
+@@||mkto-dev.certinia.com^
 @@||mkto-e0014.com^
 @@||mkto-e0126.com^
 @@||mkto-e0231.com^
