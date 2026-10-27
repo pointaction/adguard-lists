@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-26 18:34 UTC
-! Entries: 1683
+! Synced: 2026-10-27 18:10 UTC
+! Entries: 1685
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -261,7 +261,6 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
-@@||api.github.comapi.hubapi.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
 @@||api.narrativ.com^
@@ -288,6 +287,7 @@
 @@||app.tr.adjust.com^
 @@||app.us.adjust.com^
 @@||app1a.gateway.portal.outreach.io^
+@@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
@@ -303,6 +303,7 @@
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
 @@||app2a.portal.outreach.io^
+@@||app2b.outreach.io^
 @@||app2b.portal.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
 @@||app2c.outreach.io^
@@ -387,6 +388,7 @@
 @@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
+@@||cdn.ftspecialist.exponea.com^
 @@||cdn.mie.exponea.com^
 @@||cdn.network.exponea.com^
 @@||cdn.pardot.com^
@@ -449,7 +451,6 @@
 @@||click.figma.com^
 @@||click.holidayinnclubemail.com^
 @@||click.icptrack.com^
-@@||click.idprotect.experian.com^
 @@||click.instantink.hpsmart.com^
 @@||click.justwatch.com^
 @@||click.klarna.de^
@@ -1240,6 +1241,7 @@
 @@||redirect.tracify.ai^
 @@||redirect.viglink.com^
 @@||redirect1069.tagcommander.com^
+@@||redirect1587.tagcommander.com^
 @@||redirect3431.tagcommander.com^
 @@||redirect476.tagcommander.com^
 @@||redirect492.tagcommander.com^
