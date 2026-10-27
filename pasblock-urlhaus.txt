@@ -1,6 +1,6 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-10-26 18:35 UTC
+! Synced: 2026-10-27 05:10 UTC
 ! Entries: 1810 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
@@ -14,12 +14,13 @@
 ||11-4xt.pages.dev^
 ||123.ywxww.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
-||14-0-204-188.static.pccw-hkt.com^
 ||1717.1000uc.com^
 ||172-104-49-49.ip.linodeusercontent.com^
 ||176.65.148.145.ptr.pfcloud.network^
 ||176.65.149.168.ptr.pfcloud.network^
 ||178-83-121-204.cprapid.com^
+||178.248.3.202.ll.sta.mana.pf^
+||179.248.3.202.ll.sta.mana.pf^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
 ||198348.gl^
@@ -35,7 +36,6 @@
 ||2homebrews.com^
 ||3.zhzy999.net^
 ||3.zhzy999.net3.zhzy999.net^
-||31-56-209-153.cprapid.com^
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
 ||31.shaderzone.org^
 ||33841-28554.dchost.com^
@@ -68,7 +68,6 @@
 ||acc.jiangsujiaxue.com^
 ||accessdocu.b-cdn.net^
 ||acms.saleseos.com^
-||acrilicoporto.pt^
 ||acrobat.proposal.name.ng^
 ||activatef.win^
 ||activegrp.co.za^
@@ -92,7 +91,6 @@
 ||ahiak.com^
 ||ahsniper.com^
 ||ahsniper.org^
-||aidlifempowerment.com^
 ||aiqana.com^
 ||akb.cat^
 ||aksiyononline.best^
@@ -290,7 +288,6 @@
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
-||ccn.fdstat.vip^
 ||ccoffice.site^
 ||cda.omsules.life^
 ||cdaonline.com.ar^
@@ -311,7 +308,6 @@
 ||cdw.omsules.life^
 ||celebratingseniors.net^
 ||centrodolce.screenconnect.com^
-||ceramicasaosebastiao.com.br^
 ||cfs10.blog.daum.net^
 ||cfs13.tistory.com^
 ||cfs7.blog.daum.net^
@@ -369,7 +365,6 @@
 ||configprovider.short.gy^
 ||connectmagazineads.com^
 ||contididit.conti.pk^
-||continentalgroup.net.in^
 ||controliumbt.com^
 ||copiose.org^
 ||coralwebqe.help^
@@ -380,7 +375,6 @@
 ||cosmical2049.com^
 ||counterscale.jean-r-mi-larcelet-prost.workers.dev^
 ||cpc188.day^
-||cpofficial.com^
 ||cqintzfep6rw6jc9.public.blob.vercel-storage.com^
 ||cqylt.net^
 ||crackedclients.com^
@@ -397,6 +391,7 @@
 ||crystalbranchtw.blog^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||cs2xexternal.com^
 ||csgroup.host^
 ||cta.edu.pe^
 ||cu.srijanajha.com.np^
@@ -547,7 +542,6 @@
 ||donutsmputilitys.netlify.app^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||down.ruanmei.com^
 ||down.unicron-cdn.click^
 ||down10d.zol.com.cn^
@@ -579,7 +573,6 @@
 ||dreamwatchevent.com^
 ||drgenov.com^
 ||dropboxb3.duckdns.org^
-||dsgagfsahkfsahfjs.shop^
 ||dstats.qzz.io^
 ||dttjjkkllzbvesjzndtp.vercel.app^
 ||dubapkg.cmcmcdn.com^
@@ -590,6 +583,7 @@
 ||dungeonfive.rf.gd^
 ||duo-strengthening-essex-ian.trycloudflare.com^
 ||durakutihs.com^
+||dwh.multidex.life^
 ||dxa.multidex.life^
 ||dy.dpwqwaapp.xyz^
 ||dynga.pl^
@@ -683,7 +677,6 @@
 ||filezilla.cc^
 ||filmchill.net^
 ||final-aura.top^
-||fine-work-team.com^
 ||fingerprint-veri.info^
 ||finmonologips.top^
 ||first-security-verden.de^
@@ -861,6 +854,7 @@
 ||imagefiles-backup.oss-ap-southeast-7.aliyuncs.com^
 ||imagehopeag.com^
 ||images.fishing-tools.cyou^
+||imansport.ir^
 ||imap.usslimsounds.com^
 ||immortales.fun^
 ||impectorinternational.com^
@@ -1093,7 +1087,6 @@
 ||multiculturalbridge.screenconnect.com^
 ||multisavcx.xyz^
 ||munihuacho.gob.pe^
-||muriaspetin.es^
 ||mxh4h.com^
 ||my-buck01.s3.cubbit.eu^
 ||myhpsd2.screenconnect.com^
@@ -1101,6 +1094,7 @@
 ||mysura.it^
 ||myvcart.com^
 ||n.vs108.com^
+||nagl.com.pg^
 ||namaacont.com^
 ||natashamohan.com^
 ||nautt.co.uk^
@@ -1156,6 +1150,7 @@
 ||odinclient.st^
 ||odinmod.org^
 ||odxvj-fii5.marysasha20520.workers.dev^
+||oedturk.com^
 ||ofice365.github.io^
 ||ohhhhhmoney.com^
 ||oj44472.com^
@@ -1191,6 +1186,7 @@
 ||p3.zbjimg.com^
 ||paccbet.pages.dev^
 ||packmate.in^
+||panamgroup.com.pe^
 ||pancar.lol^
 ||panel.b2brouter-secure.com^
 ||panel.mkk9991999912.observer^
@@ -1264,9 +1260,9 @@
 ||promnet.jp^
 ||propertiesofcayman.com^
 ||ps-ps.cc^
-||pstbn.dev^
 ||pub-00d54ae289e84e93a3c8640fb2301c5f.r2.dev^
 ||pub-0216fa08b2b94e129cb9e002cf7cb1f4.r2.dev^
+||pub-0462440f54f44b9fb3474df61e32d6ba.r2.dev^
 ||pub-0478b308b8cf46709a73d0eed5afd633.r2.dev^
 ||pub-0aa1ca9c603a4b99b4e4dd7636b31f10.r2.dev^
 ||pub-0bf4d4ca8a6e426ea7d3d00ec3ecd192.r2.dev^
@@ -1404,7 +1400,6 @@
 ||ryanborn.net^
 ||ryzhe.com^
 ||s1w21.comen.store^
-||s3o65awrf56.net^
 ||saf-oil.ru^
 ||safe-pdf-viewer.lat^
 ||safeifm.com^
@@ -1436,6 +1431,7 @@
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
+||secomex.com.ar^
 ||secure.eicar.org^
 ||security-analyze.ltd^
 ||sedrezltd.best^
@@ -1443,6 +1439,7 @@
 ||seismophonic.com^
 ||seitech.ir^
 ||seitinloelinsa.com^
+||semantictic.cfd^
 ||semencepourlavie.org^
 ||seniorsushi.com^
 ||seobandung.site^
@@ -1461,6 +1458,8 @@
 ||share.dovgertz.com^
 ||shortsouth.screenconnect.com^
 ||shqdown.ggzuhao.com^
+||sidebyside26.org^
+||siedle-balkan.com^
 ||sigmaclient.net^
 ||sigmaclient.org^
 ||signaturenib.rest^
@@ -1525,7 +1524,6 @@
 ||stat.bestcompliance.net^
 ||statementreaderdownload.com^
 ||static.3001.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||static.zongheng.com^
@@ -1557,6 +1555,7 @@
 ||swervimgbackj.top^
 ||swiftfusion.tech^
 ||swiftonyx16.com^
+||swingerwives.com^
 ||swscripts.com^
 ||sxetnavelelaio.com^
 ||synergyconsulting.us^
@@ -1576,6 +1575,7 @@
 ||taunahi.client.farm^
 ||taunahi.skyblock-qol.com^
 ||taunahi.st^
+||taunahi.us^
 ||tax.eatleanbeans.com^
 ||tblcxmo.duckdns.org^
 ||tdejb.com^
@@ -1622,11 +1622,11 @@
 ||totalfitting.com.au^
 ||totemstudios.xyz^
 ||tpkpolus.ru^
-||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||trabzonmegareklamllc.shop^
 ||tradingengineers.in^
 ||transparenciacanaa.com.br^
+||transportfadila.com^
 ||trekworkshop3.com^
 ||trf.kookapp.pro^
 ||triapfog.com^
@@ -1755,7 +1755,6 @@
 ||wp.ameyiando.com^
 ||wp.fujeigroup.com^
 ||wpoler.help^
-||wqok85qtq.net^
 ||wsd.immortales.fun^
 ||wuming0.tech^
 ||ww.menara5d.net^
@@ -1805,6 +1804,7 @@
 ||zenledgerpolicy.com^
 ||zetaval.metcalfphoto.com^
 ||zhigao5191.com^
+||zhikey.com^
 ||zhimaly.com^
 ||zhostz.com^
 ||ziio.oss-ap-southeast-1.aliyuncs.com^
