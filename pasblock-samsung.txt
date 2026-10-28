@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: samsung
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.samsung-onlydomains.txt
-! Synced: 2026-09-28 19:42 UTC
-! Entries: 200 (removed 0 allow-listed)
+! Synced: 2026-10-28 18:21 UTC
+! Entries: 201 (removed 0 allow-listed)
 !
 ||acr-au-prd.samsungcloud.tv^
 ||acr-br-prd.samsungcloud.tv^
@@ -46,6 +46,7 @@
 ||dls-account.di.atlas.samsung.com^
 ||dls-ddc.dqa.samsung.com^
 ||dls-udc.dqa.samsung.com^
+||dls.di.atlas.samsung.com^
 ||dls.di.runestone.samsung.com^
 ||download-samsung.dtignite.com^
 ||dpu.samsungelectronics.com^
