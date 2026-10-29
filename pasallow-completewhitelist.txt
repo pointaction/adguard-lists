@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-10-28 18:31 UTC
-! Entries: 8190
+! Generated: 2026-10-29 18:39 UTC
+! Entries: 8194
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -178,6 +178,8 @@
 @@||33.courier-push-apple.com.akadns.net^
 @@||34-courier.push.apple.com^
 @@||34.courier-push-apple.com.akadns.net^
+@@||341676991.group0.sites.hscoscdn-na3.net^
+@@||341850582.group0.sites.hscoscdn-na3.net^
 @@||35-courier.push.apple.com^
 @@||35.courier-push-apple.com.akadns.net^
 @@||36-courier.push.apple.com^
@@ -4238,6 +4240,7 @@
 @@||m-bsp.custobar.com^
 @@||m-bzp7z.custobar.com^
 @@||m-c5a3m.custobar.com^
+@@||m-dpsxz.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-fqlpo.custobar.com^
@@ -4652,6 +4655,7 @@
 @@||mkto-e0339.com^
 @@||mkto-f0235.com^
 @@||mkto-h0163.com^
+@@||mkto-i0028.com^
 @@||mkto-i0206.com^
 @@||mkto-j0126.com^
 @@||mkto-lon020055.com^
@@ -5594,6 +5598,7 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
+@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6506,7 +6511,6 @@
 @@||sites.hscoscdn-ap1.net^
 @@||sites.hscoscdn-eu1.net^
 @@||sites.hscoscdn-na2.net^
-@@||sites.hscoscdn-na3.net^
 @@||sites.hscoscdn00.net^
 @@||sites.hscoscdn10.net^
 @@||sites.hscoscdn20.net^
