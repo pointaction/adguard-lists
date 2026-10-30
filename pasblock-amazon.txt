@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon-onlydomains.txt
-! Synced: 2026-10-24 15:59 UTC
-! Entries: 367 (removed 1 allow-listed)
+! Synced: 2026-10-30 18:01 UTC
+! Entries: 368 (removed 1 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -111,7 +111,6 @@
 ||alexa-mobile-analytics-configuration-prod.s3.us-east-1.amazonaws.com^
 ||alt1-3ps.amazon-adsystem.com^
 ||api.eu-west-1.aiv-delivery.net^
-||api.metrics.us-west-2.iris.apx.amazon.dev^
 ||api.us-east-1.aiv-delivery.net^
 ||api.us-west-2.aiv-delivery.net^
 ||applab-sdk.amazon.com^
@@ -224,6 +223,7 @@
 ||metrics.eu-west-1.iris.apx.amazon.dev^
 ||metrics.media-amazon.com^
 ||metrics.us-east-1.iris.apx.amazon.dev^
+||metrics.us-west-2.iris.apx.amazon.dev^
 ||minerva.devices.a2z.com^
 ||mobileanalytics.us-east-1.amazonaws.com^
 ||origin-s.amazon-adsystem.com^
@@ -244,6 +244,7 @@
 ||rcm-na.amazon-adsystem.com^
 ||rcm-uk.amazon.co.uk^
 ||rcm.amazon.com^
+||report.diagnostic.networking.aws.dev^
 ||rtb.axp.amazon-adsystem.com^
 ||rum.ap-northeast-1.amazonaws.com^
 ||rum.ap-southeast-1.amazonaws.com^
