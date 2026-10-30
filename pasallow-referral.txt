@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-10-29 18:36 UTC
-! Entries: 1691
+! Synced: 2026-10-30 18:08 UTC
+! Entries: 1694
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -291,6 +291,7 @@
 @@||app1a.gateway.portal.outreach.io^
 @@||app1a.outreach.io^
 @@||app1a.portal.outreach.io^
+@@||app1b.outreach.io^
 @@||app1b.portal.outreach.io^
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
@@ -767,6 +768,7 @@
 @@||m-bzp7z.custobar.com^
 @@||m-c5a3m.custobar.com^
 @@||m-dpsxz.custobar.com^
+@@||m-dsrbu.custobar.com^
 @@||m-eqxt2.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-fqlpo.custobar.com^
@@ -935,6 +937,7 @@
 @@||mkto-ab530192.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
+@@||mkto-ab550140.com^
 @@||mkto-ab550184.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab560119.com^
@@ -1105,6 +1108,7 @@
 @@||mkto-sj290167.com^
 @@||mkto-sj310061.com^
 @@||mkto-sj310157.com^
+@@||mkto-sj310175.com^
 @@||mkto-sj320061.com^
 @@||mkto-sj320080.com^
 @@||mkto-sj330006.com^
@@ -1144,7 +1148,6 @@
 @@||myplumber.co^
 @@||n.rich^
 @@||ndirect.ppro.de^
-@@||neoengage-va-cdn.exponea.com^
 @@||netbet.gr^
 @@||netbet.livepartners.com^
 @@||netbetfr.livepartners.com^
