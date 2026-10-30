@@ -2,8 +2,8 @@
 ! Description: A privacy-respecting allowlist that fixes legitimate breakage caused
 !              by DNS blocklists — WITHOUT re-enabling ads, analytics, or tracking.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Version: 2.6
-! Last modified: 2026-09-16
+! Version: 2.7
+! Last modified: 2026-10-30
 ! Syntax: AdGuard (@@||domain^) — works in AdGuard Home, Technitium, Pi-hole, etc.
 !
 ! ============================================================
