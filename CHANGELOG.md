@@ -8,6 +8,12 @@ _Domains added and removed automatically by the sync workflows._
 
 **Added: 2** (2 allow, 0 block)
 
+- allow: `claritystatic.azureedge.net`, `www.clarity.ms`
+
+## 2026-10-30
+
+**Added: 2** (2 allow, 0 block)
+
 - allow: `clarity.microsoft.com`, `nexus-websocket-a.intercom.io`
 
 ## 2026-10-26

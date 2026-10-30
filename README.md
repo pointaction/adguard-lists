@@ -38,11 +38,11 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-10-30 22:44 UTC_
+_Last updated: 2026-10-30 22:52 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 252 | — |
+| `false-positive-fixes.txt` | 254 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
 | `pasallow-completewhitelist.txt` | 8,197 | — |
 | `pasallow-referral.txt` | 1,694 | — |
@@ -71,8 +71,8 @@ _Last updated: 2026-10-30 22:44 UTC_
 | `pasblock-xiaomi.txt` | — | 350 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,695** | **6,671,226** |
-| **Total (unique domains)** | **8,447** | **3,058,587** |
+| **Total (sum)** | **16,697** | **6,671,226** |
+| **Total (unique domains)** | **8,449** | **3,058,587** |
 
 <!-- STATS:END -->
 
