@@ -38,41 +38,41 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-10-26 18:39 UTC_
+_Last updated: 2026-10-30 22:44 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 250 | — |
+| `false-positive-fixes.txt` | 252 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
-| `pasallow-completewhitelist.txt` | 8,186 | — |
-| `pasallow-referral.txt` | 1,683 | — |
+| `pasallow-completewhitelist.txt` | 8,197 | — |
+| `pasallow-referral.txt` | 1,694 | — |
 | `pasblacklist.txt` | — | 376 |
-| `pasblock-adguard-sdns.txt` | — | 183,160 |
+| `pasblock-adguard-sdns.txt` | — | 184,563 |
 | `pasblock-adway.txt` | — | 6,469 |
-| `pasblock-amazon.txt` | — | 367 |
+| `pasblock-amazon.txt` | — | 368 |
 | `pasblock-apple.txt` | — | 110 |
-| `pasblock-completeblocklist.txt` | — | 3,265,326 |
+| `pasblock-completeblocklist.txt` | — | 3,058,339 |
 | `pasblock-dandelion-sprout.txt` | — | 11,563 |
-| `pasblock-gambling.txt` | — | 617,758 |
+| `pasblock-gambling.txt` | — | 624,550 |
 | `pasblock-goodbye-ads.txt` | — | 277,426 |
-| `pasblock-haGeZi-pro++.txt` | — | 222,003 |
+| `pasblock-haGeZi-pro++.txt` | — | 225,471 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 231 |
 | `pasblock-microsoft.txt` | — | 383 |
 | `pasblock-native-oppo.txt` | — | 489 |
-| `pasblock-nsfw.txt` | — | 90,155 |
-| `pasblock-osid.txt` | — | 234,014 |
+| `pasblock-nsfw.txt` | — | 92,332 |
+| `pasblock-osid.txt` | — | 234,921 |
 | `pasblock-roku.txt` | — | 57 |
-| `pasblock-samsung.txt` | — | 200 |
-| `pasblock-tif.txt` | — | 2,102,226 |
-| `pasblock-tiktok.txt` | — | 437 |
-| `pasblock-urlhaus.txt` | — | 1,810 |
+| `pasblock-samsung.txt` | — | 201 |
+| `pasblock-tif.txt` | — | 1,852,590 |
+| `pasblock-tiktok.txt` | — | 550 |
+| `pasblock-urlhaus.txt` | — | 1,867 |
 | `pasblock-vivo.txt` | — | 244 |
-| `pasblock-xiaomi.txt` | — | 345 |
+| `pasblock-xiaomi.txt` | — | 350 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,671** | **7,112,925** |
-| **Total (unique domains)** | **8,434** | **3,265,575** |
+| **Total (sum)** | **16,695** | **6,671,226** |
+| **Total (unique domains)** | **8,447** | **3,058,587** |
 
 <!-- STATS:END -->
 

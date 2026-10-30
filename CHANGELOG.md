@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-10-30
+
+**Added: 2** (2 allow, 0 block)
+
+- allow: `clarity.microsoft.com`, `nexus-websocket-a.intercom.io`
+
 ## 2026-10-26
 
 **Added: 25765** (1 allow, 25764 block)
