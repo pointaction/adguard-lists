@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: haGeZi-pro++
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus-onlydomains.txt
-! Synced: 2026-10-30 18:02 UTC
-! Entries: 225471 (removed 149 allow-listed)
+! Synced: 2026-10-31 05:48 UTC
+! Entries: 225468 (removed 152 allow-listed)
 !
 ||0--4.com^
 ||0--d.com^
@@ -51347,14 +51347,12 @@
 ||clarity.intrinsify.de^
 ||clarity.landian.la^
 ||clarity.madetothrive.com^
-||clarity.microsoft.com^
 ||clarity.ms^
 ||clarity.org.bw^
 ||clarity.org.uk^
 ||clarity.uk.logica.com^
 ||claritycheck.com^
 ||clarityray.com^
-||claritystatic.azureedge.net^
 ||claritytag.com^
 ||clarium.global.ssl.fastly.net^
 ||clarium.io^
@@ -135547,7 +135545,6 @@
 ||nextyourcontent.com^
 ||nexus-analytics.co.id^
 ||nexus-analytics.com.my^
-||nexus-websocket-a.intercom.io^
 ||nexus.td.com^
 ||nexus.toyota.com^
 ||nexus.uniten.io^
