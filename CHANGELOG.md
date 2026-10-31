@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-10-31
+
+**Added: 8** (8 allow, 0 block)
+
+- allow: `api.matomo.org`, `builds.matomo.org`, `cdn.matomo.cloud`, `m-img.org`, `matomo.org`, `plugins.matomo.org`, `snap.licdn.com`, `uct.service.usercentrics.eu`
+
 ## 2026-10-30
 
 **Added: 2** (2 allow, 0 block)

@@ -38,41 +38,41 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-10-30 22:52 UTC_
+_Last updated: 2026-10-31 17:02 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 254 | — |
+| `false-positive-fixes.txt` | 262 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
 | `pasallow-completewhitelist.txt` | 8,197 | — |
 | `pasallow-referral.txt` | 1,694 | — |
 | `pasblacklist.txt` | — | 376 |
-| `pasblock-adguard-sdns.txt` | — | 184,563 |
-| `pasblock-adway.txt` | — | 6,469 |
+| `pasblock-adguard-sdns.txt` | — | 184,754 |
+| `pasblock-adway.txt` | — | 6,468 |
 | `pasblock-amazon.txt` | — | 368 |
 | `pasblock-apple.txt` | — | 110 |
-| `pasblock-completeblocklist.txt` | — | 3,058,339 |
+| `pasblock-completeblocklist.txt` | — | 3,058,549 |
 | `pasblock-dandelion-sprout.txt` | — | 11,563 |
 | `pasblock-gambling.txt` | — | 624,550 |
 | `pasblock-goodbye-ads.txt` | — | 277,426 |
-| `pasblock-haGeZi-pro++.txt` | — | 225,471 |
+| `pasblock-haGeZi-pro++.txt` | — | 225,468 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 231 |
-| `pasblock-microsoft.txt` | — | 383 |
+| `pasblock-microsoft.txt` | — | 382 |
 | `pasblock-native-oppo.txt` | — | 489 |
 | `pasblock-nsfw.txt` | — | 92,332 |
-| `pasblock-osid.txt` | — | 234,921 |
+| `pasblock-osid.txt` | — | 235,072 |
 | `pasblock-roku.txt` | — | 57 |
 | `pasblock-samsung.txt` | — | 201 |
 | `pasblock-tif.txt` | — | 1,852,590 |
 | `pasblock-tiktok.txt` | — | 550 |
-| `pasblock-urlhaus.txt` | — | 1,867 |
+| `pasblock-urlhaus.txt` | — | 1,884 |
 | `pasblock-vivo.txt` | — | 244 |
 | `pasblock-xiaomi.txt` | — | 350 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,697** | **6,671,226** |
-| **Total (unique domains)** | **8,449** | **3,058,587** |
+| **Total (sum)** | **16,705** | **6,671,790** |
+| **Total (unique domains)** | **8,457** | **3,058,802** |
 
 <!-- STATS:END -->
 
