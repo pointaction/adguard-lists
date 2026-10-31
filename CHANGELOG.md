@@ -6,6 +6,16 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-10-31
 
+**Added: 3** (3 allow, 0 block)
+
+- allow: `clarity.microsoft.com`, `download.db-ip.com`, `nexus-websocket-a.intercom.io`
+
+**Removed: 2** (2 allow, 0 block)
+
+- allow: `clarity.microsoft.com`, `nexus-websocket-a.intercom.io`
+
+## 2026-10-31
+
 **Added: 8** (8 allow, 0 block)
 
 - allow: `api.matomo.org`, `builds.matomo.org`, `cdn.matomo.cloud`, `m-img.org`, `matomo.org`, `plugins.matomo.org`, `snap.licdn.com`, `uct.service.usercentrics.eu`
