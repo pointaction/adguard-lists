@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: microsoft
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.winoffice-onlydomains.txt
-! Synced: 2026-10-31 05:48 UTC
-! Entries: 382 (removed 1 allow-listed)
+! Synced: 2026-10-31 17:15 UTC
+! Entries: 383 (removed 1 allow-listed)
 !
 ||a-ring-fallback.msedge.net^
 ||a-ring.msedge.net^
@@ -45,6 +45,7 @@
 ||arc2.msn.com^
 ||arc3.msn.com^
 ||arc9.msn.com^
+||arctb53wmig1gagbqjqgolj2ig.msn.com^
 ||auc-visio-telemetry.officeapps.live.com^
 ||az667904.vo.msecnd.net^
 ||azurewatson.microsoft.com^

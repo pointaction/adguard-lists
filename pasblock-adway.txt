@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: adway
 ! Source: https://adaway.org/hosts.txt
-! Synced: 2026-10-31 05:48 UTC
-! Entries: 6468 (removed 72 allow-listed)
+! Synced: 2026-10-31 17:15 UTC
+! Entries: 6467 (removed 73 allow-listed)
 !
 ||0ce3c-1fd43.api.pushwoosh.com^
 ||100016075.collect.igodigital.com^
@@ -5240,7 +5240,6 @@
 ||sms.mob.com^
 ||smt.admaster.com.cn^
 ||smy.iheart.com^
-||snap.licdn.com^
 ||snap.snapmobile.asia^
 ||snapabug.appspot.com^
 ||snapads.com^
