@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: gambling
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt
-! Synced: 2026-10-31 17:15 UTC
-! Entries: 626733 (removed 0 allow-listed)
+! Synced: 2026-11-01 06:12 UTC
+! Entries: 626725 (removed 0 allow-listed)
 !
 ||0-10-7.casino^
 ||0-2-0-7.casino^
@@ -24041,6 +24041,7 @@
 ||1xbet-body.top^
 ||1xbet-bof85.buzz^
 ||1xbet-bof88.cam^
+||1xbet-bofw.top^
 ||1xbet-bog5.cfd^
 ||1xbet-bog83.cam^
 ||1xbet-bogx.top^
@@ -122194,7 +122195,6 @@
 ||adm-agidel.info^
 ||adm-casino.com^
 ||adm-sl-78.icu^
-||adm.1xbet-bofw.top^
 ||adm1ral-casino.club^
 ||adm1ral-casino.com^
 ||adm289-casino.com^
@@ -124486,7 +124486,6 @@
 ||airdropbetted.xyz^
 ||airdropbettre.xyz^
 ||airdroppoker.xyz^
-||airflow.1xbet-bofw.top^
 ||airgaransi.xyz^
 ||airgorilla.com^
 ||airhijau.xyz^
@@ -262974,7 +262973,6 @@
 ||com-polybet-q64.com^
 ||com-polybet-q65.com^
 ||com-polybet-q66.com^
-||com-polybet-q67.com^
 ||com-polybet-q68.com^
 ||com-polybet-q69.com^
 ||com-polybet-q70.com^
@@ -263130,6 +263128,7 @@
 ||comixcasino.net^
 ||comjokerfeevvcswrbqueenslotstdeevferr.xyz^
 ||comlinesfewvveslotsfeenvw.xyz^
+||command.riobetcasino-fdu.top^
 ||commbank-casino.com^
 ||comment-devenir-un-agent-1xbet.com^
 ||comment.casino^
@@ -275874,7 +275873,6 @@
 ||diabetir.online^
 ||diabetis-mellitus.de^
 ||diabetologe-online.de^
-||diabetologia-budapest.hu^
 ||diabetologie-info.de^
 ||diabetologie-steglitz.berlin^
 ||diabetover-oficjalna.shop^
@@ -277298,6 +277296,7 @@
 ||diffusionpoker.xyz^
 ||diflucanfl.com^
 ||diflucanoverthecounter.store^
+||dify.1xslots-284.top^
 ||dig-wine.com^
 ||digadex.com^
 ||digestwebdesign.com^
@@ -317393,7 +317392,6 @@
 ||gomu837casino.com^
 ||gomu837hoki.com^
 ||gomu837slots.com^
-||gomubet-amp.site^
 ||gomubetsaldo.com^
 ||gomubetslots.com^
 ||gomubetx.com^
@@ -351639,6 +351637,7 @@
 ||jipan288a.com^
 ||jipan288b.com^
 ||jipan288c.com^
+||jira.1xbet-vxj.top^
 ||jirabet.com^
 ||jiraiyaa.xyz^
 ||jiraplanningpoker.com^
@@ -357646,9 +357645,6 @@
 ||jojobet15021.com^
 ||jojobet15022.com^
 ||jojobet15024.com^
-||jojobet15025.com^
-||jojobet15026.com^
-||jojobet15027.com^
 ||jojobet15444.com^
 ||jojobet15859.com^
 ||jojobet15862.com^
@@ -370566,7 +370562,6 @@
 ||kartupokergo.com^
 ||kartupokerss.com^
 ||kartupokerxxx.com^
-||kartupokerxxx.net^
 ||kartusayang.com^
 ||kartuscan.com^
 ||kartusepak.com^
@@ -410988,7 +410983,6 @@
 ||matteocasinos.org^
 ||matteocasinos.vip^
 ||matterhornslots.com^
-||mattermost.1xbet-bofw.top^
 ||matthew-yasaswini.com^
 ||matthewbetsill.com^
 ||matthewjure.net^
@@ -438734,7 +438728,6 @@
 ||nagapoker88.asia^
 ||nagapoker88.com^
 ||nagapoker9.us^
-||nagapoker988.net^
 ||nagapoker99.org^
 ||nagapokermax.com^
 ||nagapokerqq88.asia^
@@ -467316,6 +467309,7 @@
 ||pay-safecardcasino.nl^
 ||pay-to-win.su^
 ||pay-to-winpay.com^
+||pay.1xbet-vxj.top^
 ||pay.betterhelpwithhypnotherapy.com^
 ||pay.bettertogether-healthcare.com^
 ||pay1xbet.com^
@@ -491677,7 +491671,6 @@
 ||portableblackjacktable.com^
 ||portablecasino.xyz^
 ||portableslots.co^
-||portainer.1xbet-bofw.top^
 ||portal-alfabeta.biz^
 ||portal-cnweb-1xbet.com^
 ||portal-halobet.com^
@@ -494556,6 +494549,7 @@
 ||prowlerpi.com^
 ||prowlgaming.casino^
 ||proworldbetting.com^
+||proxmox.1xbet-vxj.top^
 ||proxmox.joycasino-bmt.top^
 ||proxy-slot-multibet88.online^
 ||proxybets.xyz^
@@ -508133,6 +508127,7 @@
 ||revolutionpoker.com.br^
 ||revolutions-casinos.com^
 ||revolutionscasino.net^
+||revolutonlineslot-fr.com^
 ||revoluts-casino.com^
 ||revolutscasino.ch^
 ||revolutscasino.co.uk^
@@ -523264,7 +523259,6 @@
 ||santollucky.ph^
 ||santorini-wine-tasting-tour.com^
 ||santoriniwine-tour.com^
-||santos-casino-official.online^
 ||santos-casino-official.site^
 ||santos-casino-ru.casino^
 ||santos-casino-vip.team^
@@ -536735,7 +536729,6 @@
 ||slotsasiapro.com^
 ||slotsate777.xyz^
 ||slotsatlas.online^
-||slotsau.site^
 ||slotsavana.co^
 ||slotsavanna.pro^
 ||slotsavant.pro^
@@ -624609,7 +624602,6 @@
 ||zgsyb.poker^
 ||zgy.casino^
 ||zh-app-betway.com^
-||zh-bet-1xbet.com^
 ||zh-bet-leisu.com^
 ||zh-bet-lolwc.com^
 ||zh-bet-s16lol.com^
