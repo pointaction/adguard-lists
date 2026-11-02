@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: amazon
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.amazon-onlydomains.txt
-! Synced: 2026-10-30 18:01 UTC
-! Entries: 368 (removed 1 allow-listed)
+! Synced: 2026-11-02 21:43 UTC
+! Entries: 367 (removed 2 allow-listed)
 !
 ||3px.axp.amazon-adsystem.com^
 ||aan.amazon.co.jp^
@@ -118,7 +118,6 @@
 ||aps.axp.amazon-adsystem.com^
 ||assoc-amazon.ca^
 ||assoc-amazon.co.uk^
-||assoc-amazon.com^
 ||assoc-amazon.de^
 ||assoc-amazon.es^
 ||assoc-amazon.fr^

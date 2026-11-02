@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-11-02 06:12 UTC
-! Entries: 277424 (removed 319 allow-listed)
+! Synced: 2026-11-02 21:43 UTC
+! Entries: 277422 (removed 321 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -54555,7 +54555,6 @@
 ||amazing-offers.co.il^
 ||amazingcl.ru^
 ||amazingcounters.com^
-||amazon-adsystem.com^
 ||amazon-cornerstone.com^
 ||amazon-email.branch.rocks^
 ||amazon.amazonptj.com^
@@ -61104,7 +61103,6 @@
 ||asslakothchan.com^
 ||assoc-amazon.ca^
 ||assoc-amazon.co.uk^
-||assoc-amazon.com^
 ||assoc-amazon.de^
 ||assoc-amazon.es^
 ||assoc-amazon.fr^
