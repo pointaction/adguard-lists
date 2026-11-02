@@ -435,7 +435,6 @@
 @@||amazon-adsystem.com^
 @@||assoc-amazon.com^
 @@||ssl-images-amazon.com^
-@@||media-amazon.com^
 
 ! ####################################
 ! Opera
@@ -506,7 +505,6 @@
 @@||api.themoviedb.org^
 @@||image.tmdb.org^
 @@||thetvdb.com^
-@@||://thetvdb.com^
 @@||fanart.tv^
 @@||webservice.fanart.tv^
 
@@ -514,7 +512,6 @@
 @@||opensubtitles.org^
 @@||api.opensubtitles.org^
 @@||opensubtitles.com^
-@@||://opensubtitles.com^
 @@||omdbapi.com^
 
 ! Official Jellyfin server for system updates, plugin catalog, and stable manifests
