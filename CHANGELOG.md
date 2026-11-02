@@ -6,6 +6,12 @@ _Domains added and removed automatically by the sync workflows._
 
 ## 2026-11-02
 
+**Added: 20** (20 allow, 0 block)
+
+- allow: `api.opensubtitles.org`, `api.themoviedb.org`, `fanart.tv`, `files.pythonhosted.org`, `image.tmdb.org`, `jellyfin.org`, `media-amazon.com`, `npmjs.org`, `omdbapi.com`, `opensubtitles.com`, `opensubtitles.org`, `pypi.org`, `registry.npmjs.org`, `repo.jellyfin.org`, `ssl-images-amazon.com` _+5 more_
+
+## 2026-11-02
+
 **Added: 6** (6 allow, 0 block)
 
 - allow: `amazon-adsystem.com`, `assoc-amazon.com`, `perimeterx.net`, `upsimages.com`, `walmart.com`, `walmartimages.com`

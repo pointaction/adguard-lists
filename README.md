@@ -38,41 +38,41 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-11-02 21:39 UTC_
+_Last updated: 2026-11-02 21:53 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
-| `false-positive-fixes.txt` | 269 | — |
+| `false-positive-fixes.txt` | 288 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
 | `pasallow-completewhitelist.txt` | 8,196 | — |
-| `pasallow-referral.txt` | 1,693 | — |
+| `pasallow-referral.txt` | 1,695 | — |
 | `pasblacklist.txt` | — | 376 |
-| `pasblock-adguard-sdns.txt` | — | 185,494 |
-| `pasblock-adway.txt` | — | 6,467 |
-| `pasblock-amazon.txt` | — | 368 |
+| `pasblock-adguard-sdns.txt` | — | 186,952 |
+| `pasblock-adway.txt` | — | 6,466 |
+| `pasblock-amazon.txt` | — | 367 |
 | `pasblock-apple.txt` | — | 110 |
 | `pasblock-completeblocklist.txt` | — | 3,059,990 |
 | `pasblock-dandelion-sprout.txt` | — | 11,563 |
-| `pasblock-gambling.txt` | — | 627,341 |
-| `pasblock-goodbye-ads.txt` | — | 277,424 |
-| `pasblock-haGeZi-pro++.txt` | — | 224,901 |
+| `pasblock-gambling.txt` | — | 627,108 |
+| `pasblock-goodbye-ads.txt` | — | 277,422 |
+| `pasblock-haGeZi-pro++.txt` | — | 257,272 |
 | `pasblock-huawei.txt` | — | 135 |
 | `pasblock-lgwebos.txt` | — | 231 |
 | `pasblock-microsoft.txt` | — | 383 |
 | `pasblock-native-oppo.txt` | — | 490 |
-| `pasblock-nsfw.txt` | — | 92,425 |
-| `pasblock-osid.txt` | — | 231,528 |
+| `pasblock-nsfw.txt` | — | 92,128 |
+| `pasblock-osid.txt` | — | 232,289 |
 | `pasblock-roku.txt` | — | 57 |
 | `pasblock-samsung.txt` | — | 201 |
-| `pasblock-tif.txt` | — | 1,850,878 |
+| `pasblock-tif.txt` | — | 1,879,636 |
 | `pasblock-tiktok.txt` | — | 550 |
-| `pasblock-urlhaus.txt` | — | 1,919 |
+| `pasblock-urlhaus.txt` | — | 1,911 |
 | `pasblock-vivo.txt` | — | 247 |
 | `pasblock-xiaomi.txt` | — | 350 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,710** | **6,671,069** |
-| **Total (unique domains)** | **8,463** | **3,060,242** |
+| **Total (sum)** | **16,731** | **6,733,875** |
+| **Total (unique domains)** | **8,484** | **3,179,144** |
 
 <!-- STATS:END -->
 
