@@ -304,6 +304,11 @@
 ! VMware / Broadcom
 @@||vmware.com^
 @@||broadcom.com^
+! Node & Python repository mirrors
+@@||npmjs.org^
+@@||registry.npmjs.org^
+@@||pypi.org^
+@@||files.pythonhosted.org^
 
 ! ============================================================
 ! OPERATING SYSTEM & SOFTWARE UPDATES
@@ -429,6 +434,8 @@
 @@||media-amazon.com^
 @@||amazon-adsystem.com^
 @@||assoc-amazon.com^
+@@||ssl-images-amazon.com^
+@@||media-amazon.com^
 
 ! ####################################
 ! Opera
@@ -483,3 +490,33 @@
 @@||walmart.com^
 @@||walmartimages.com^
 @@||perimeterx.net^
+
+! ####################################
+! Fixes modern WebAuthn / FIDO2 / Passkey API verification failures
+! ####################################
+
+@@||webauthn.org^
+@@||webauthn.io^
+
+! ============================================================
+! JELLYFIN & MEDIA SCRAPERS
+! ============================================================
+! Core metadata providers for posters, backdrops, and summaries
+@@||themoviedb.org^
+@@||api.themoviedb.org^
+@@||image.tmdb.org^
+@@||thetvdb.com^
+@@||://thetvdb.com^
+@@||fanart.tv^
+@@||webservice.fanart.tv^
+
+! Subtitles and alternative community metadata
+@@||opensubtitles.org^
+@@||api.opensubtitles.org^
+@@||opensubtitles.com^
+@@||://opensubtitles.com^
+@@||omdbapi.com^
+
+! Official Jellyfin server for system updates, plugin catalog, and stable manifests
+@@||jellyfin.org^
+@@||repo.jellyfin.org^
