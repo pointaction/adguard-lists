@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-01 18:08 UTC
-! Entries: 8196
+! Generated: 2026-11-02 21:57 UTC
+! Entries: 8198
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -2544,6 +2544,7 @@
 @@||data-development.appattest.v.aaplimg.com^
 @@||data.appattest.apple.com^
 @@||data.appattest.v.aaplimg.com^
+@@||data.customermail.colruyt.be^
 @@||data.digital.costco.ca^
 @@||data.digital.costco.com^
 @@||data.email.philips-hue.com^
@@ -7129,6 +7130,7 @@
 @@||track02.engagelab.email^
 @@||track2.sendcloud.net^
 @@||track34102166105.effiliation.com^
+@@||track34102167160.effiliation.com^
 @@||track34102180193.effiliation.com^
 @@||track3410224983.effiliation.com^
 @@||track349875230.effiliation.com^
