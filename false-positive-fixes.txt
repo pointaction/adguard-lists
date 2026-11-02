@@ -394,6 +394,7 @@
 @@||parcelsapp.com^
 @@||ship24.com^
 @@||parcelpanel.com^
+@@||upsimages.com^
 
 ! ============================================================
 ! SECURITY / ANTI-FRAUD  (device verification)
@@ -426,6 +427,8 @@
 @@||amazonvideo.com^
 @@||primevideo.com^
 @@||media-amazon.com^
+@@||amazon-adsystem.com^
+@@||assoc-amazon.com^
 
 ! ####################################
 ! Opera
@@ -472,3 +475,11 @@
 @@||uct.service.usercentrics.eu^
 @@||m-img.org^
 @@||download.db-ip.com^
+
+! ####################################
+! Walmart
+! ####################################
+
+@@||walmart.com^
+@@||walmartimages.com^
+@@||perimeterx.net^
