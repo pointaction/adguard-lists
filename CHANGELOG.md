@@ -4,6 +4,12 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-11-02
+
+**Added: 6** (6 allow, 0 block)
+
+- allow: `amazon-adsystem.com`, `assoc-amazon.com`, `perimeterx.net`, `upsimages.com`, `walmart.com`, `walmartimages.com`
+
 ## 2026-10-31
 
 **Added: 3** (3 allow, 0 block)
