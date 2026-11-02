@@ -38,20 +38,20 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-11-02 21:53 UTC_
+_Last updated: 2026-11-02 21:58 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
 | `false-positive-fixes.txt` | 288 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
-| `pasallow-completewhitelist.txt` | 8,196 | — |
+| `pasallow-completewhitelist.txt` | 8,198 | — |
 | `pasallow-referral.txt` | 1,695 | — |
 | `pasblacklist.txt` | — | 376 |
 | `pasblock-adguard-sdns.txt` | — | 186,952 |
 | `pasblock-adway.txt` | — | 6,466 |
 | `pasblock-amazon.txt` | — | 367 |
 | `pasblock-apple.txt` | — | 110 |
-| `pasblock-completeblocklist.txt` | — | 3,059,990 |
+| `pasblock-completeblocklist.txt` | — | 3,089,721 |
 | `pasblock-dandelion-sprout.txt` | — | 11,563 |
 | `pasblock-gambling.txt` | — | 627,108 |
 | `pasblock-goodbye-ads.txt` | — | 277,422 |
@@ -71,8 +71,8 @@ _Last updated: 2026-11-02 21:53 UTC_
 | `pasblock-xiaomi.txt` | — | 350 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,731** | **6,733,875** |
-| **Total (unique domains)** | **8,484** | **3,179,144** |
+| **Total (sum)** | **16,733** | **6,763,606** |
+| **Total (unique domains)** | **8,484** | **3,089,970** |
 
 <!-- STATS:END -->
 
