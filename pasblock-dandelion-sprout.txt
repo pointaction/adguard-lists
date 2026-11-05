@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: dandelion-sprout
 ! Source: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-! Synced: 2026-10-19 18:44 UTC
-! Entries: 11563 (removed 3 allow-listed)
+! Synced: 2026-11-05 19:59 UTC
+! Entries: 11565 (removed 3 allow-listed)
 !
 ||0180info.de^
 ||03122e72f0.com^
@@ -4948,6 +4948,8 @@
 ||ginza.pro^
 ||giphootchebs.net^
 ||giphy.cm^
+||giraffic.com^
+||giraffic.net^
 ||girdledeceivingbeamed.com^
 ||gistresolve.com^
 ||git-hub-tools.github.io^
