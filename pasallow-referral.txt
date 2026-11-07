@@ -1,7 +1,7 @@
 ! Title: Point Action Allowlist: referral
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/whitelist-referral-onlydomains.txt
-! Synced: 2026-11-06 19:38 UTC
-! Entries: 1391
+! Synced: 2026-11-07 06:27 UTC
+! Entries: 1392
 !
 @@||1-aclk.net^
 @@||1aurl.io^
@@ -320,8 +320,6 @@
 @@||c2-eu.piano.io^
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
-@@||c2827.dotomi.com^
-@@||c2990.dotomi.com^
 @@||cadent-match.dotomi.com^
 @@||callback.api.qgraph.io^
 @@||campaign.adobe.com^
@@ -788,6 +786,7 @@
 @@||mkto-ab440026.com^
 @@||mkto-ab450015.com^
 @@||mkto-ab460099.com^
+@@||mkto-ab460168.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
 @@||mkto-ab550140.com^
@@ -801,7 +800,9 @@
 @@||mkto-ab630042.com^
 @@||mkto-ab650172.com^
 @@||mkto-ab680016.com^
+@@||mkto-ab680085.com^
 @@||mkto-ab690132.com^
+@@||mkto-abb0069.com^
 @@||mkto-abc0114.com^
 @@||mkto-abc0203.com^
 @@||mkto-abj0022.com^
@@ -836,6 +837,7 @@
 @@||mkto-nld1010097.com^
 @@||mkto-nld1010150.com^
 @@||mkto-nld1020025.com^
+@@||mkto-nld1020077.com^
 @@||mkto-nld1020084.com^
 @@||mkto-nld1020138.com^
 @@||mkto-nld1020182.com^
@@ -993,7 +995,6 @@
 @@||redirect.stripe2.prod.experiment.routing.cloudfront.aws.a2z.com^
 @@||redirect.tracify.ai^
 @@||redirect.viglink.com^
-@@||redirect1587.tagcommander.com^
 @@||redirect271.tagcommander.com^
 @@||redirect28.tagcommander.com^
 @@||redirect33.tagcommander.com^
