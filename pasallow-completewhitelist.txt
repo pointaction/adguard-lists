@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-07 06:37 UTC
-! Entries: 7895
+! Generated: 2026-11-07 17:52 UTC
+! Entries: 7889
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -691,12 +691,10 @@
 @@||api-apps-lb.itunes-apple.com.akadns.net^
 @@||api-eu.cleverpush.com^
 @@||api-eu1.hubapi.com^
-@@||api-iad02-origin.hubapi.com^
 @@||api-mobile.cleverpush.com^
 @@||api-na1.hubapi.com^
 @@||api-na2.hubapi.com^
 @@||api-na3.hubapi.com^
-@@||api-pdx02-origin.hubapi.com^
 @@||api.airtime.geemedia.com^
 @@||api.apple-cloudkit.com^
 @@||api.apple-cloudkit.fe2.apple-dns.net^
@@ -711,7 +709,6 @@
 @@||api.letsencrypt.org^
 @@||api.mynt.xyz^
 @@||api.narrativ.com^
-@@||api.origin.hubapi.com^
 @@||api.palera.in^
 @@||api.pushwoosh.com^
 @@||api.radar.io^
@@ -1149,6 +1146,8 @@
 @@||c2-eu.piano.io^
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
+@@||c2827.dotomi.com^
+@@||c2990.dotomi.com^
 @@||c3sl.ufpr.br^
 @@||ca-31-main.csd.disa.mil^
 @@||ca-32-main.csd.disa.mil^
@@ -1449,6 +1448,7 @@
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
 @@||cl.s12.exct.net^
+@@||cl.s13.exct.net^
 @@||cl.s4.exct.net^
 @@||cl.s50.exct.net^
 @@||cl.s51.exct.net^
@@ -2847,7 +2847,6 @@
 @@||email.getalby.com^
 @@||email.gruv.com^
 @@||email.marketing.strikingly.com^
-@@||email.microsoft.com^
 @@||email.microsoftonline.com^
 @@||email.office.com^
 @@||email.plex.tv^
@@ -4419,7 +4418,6 @@
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
 @@||mkto-ab020242.com^
-@@||mkto-ab030019.com^
 @@||mkto-ab040081.com^
 @@||mkto-ab060134.com^
 @@||mkto-ab060144.com^
@@ -4456,16 +4454,13 @@
 @@||mkto-ab430187.com^
 @@||mkto-ab440026.com^
 @@||mkto-ab450015.com^
-@@||mkto-ab460099.com^
 @@||mkto-ab460168.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
-@@||mkto-ab550140.com^
 @@||mkto-ab560068.com^
 @@||mkto-ab570128.com^
 @@||mkto-ab570178.com^
 @@||mkto-ab580004.com^
-@@||mkto-ab600004.com^
 @@||mkto-ab620024.com^
 @@||mkto-ab630033.com^
 @@||mkto-ab630042.com^
@@ -4477,7 +4472,6 @@
 @@||mkto-abc0114.com^
 @@||mkto-abc0203.com^
 @@||mkto-abj0022.com^
-@@||mkto-abm0229.com^
 @@||mkto-cs0007.com^
 @@||mkto-d0071.com^
 @@||mkto-h0163.com^
@@ -4489,10 +4483,12 @@
 @@||mkto-lon030249.com^
 @@||mkto-lon030262.com^
 @@||mkto-lon030291.com^
+@@||mkto-lon030330.com^
 @@||mkto-lon040102.com^
 @@||mkto-lon060128.com^
 @@||mkto-lon060131.com^
 @@||mkto-lon070075.com^
+@@||mkto-lon070192.com^
 @@||mkto-lon080059.com^
 @@||mkto-lon080147.com^
 @@||mkto-lon080186.com^
@@ -4534,7 +4530,6 @@
 @@||mkto-sj210111.com^
 @@||mkto-sj210170.com^
 @@||mkto-sj240021.com^
-@@||mkto-sj250062.com^
 @@||mkto-sj250187.com^
 @@||mkto-sj270072.com^
 @@||mkto-sj270078.com^
@@ -4546,7 +4541,6 @@
 @@||mkto-sj320080.com^
 @@||mkto-sj330006.com^
 @@||mkto-sj360142.com^
-@@||mkto-sj390079.com^
 @@||mkto-sj400023.com^
 @@||mkto-sjh0084.com^
 @@||mkto-sjh0178.com^
@@ -6467,7 +6461,6 @@
 @@||suite30-cf.emarsys.net^
 @@||suite30.emarsys.net^
 @@||suite31-cf.emarsys.net^
-@@||suite32.emarsys.net^
 @@||suite33-cf.emarsys.net^
 @@||suite33.emarsys.net^
 @@||suite34.emarsys.net^
@@ -6754,6 +6747,7 @@
 @@||tj.symcd.com^
 @@||tjzuh.com^
 @@||tkqlhce.com^
+@@||tl.tradetracker.net^
 @@||tm.attrxs.de^
 @@||tm.simptrack.com^
 @@||tm.tradetracker.net^
