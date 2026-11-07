@@ -1,18 +1,16 @@
 ! Title: Point Action Blocklist: tiktok
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.tiktok-onlydomains.txt
-! Synced: 2026-10-29 05:52 UTC
-! Entries: 550 (removed 0 allow-listed)
+! Synced: 2026-11-07 06:03 UTC
+! Entries: 545 (removed 0 allow-listed)
 !
 ||abtest-ch.snssdk.com^
 ||ad-format-i18n.tiktokv.com^
 ||ad-format-ie.tiktokv.eu^
 ||ad-format-ru.tiktokv.com^
 ||ad-format-sg.tiktokv.com^
-||ad-format-ttp2.tiktokv.eu^
 ||ad-format-ttp2.tiktokv.us^
 ||ad-format-ttp2.us.tiktokv.com^
 ||ad-format.tiktokv.eu^
-||ad-format.tiktokv.us^
 ||ad-format.us.tiktokv.com^
 ||ad-format16-normal-useastred.tiktokv.eu^
 ||ad-instantpage-i18n.tiktokv.com^
@@ -144,9 +142,7 @@
 ||live-video-log16-normal-useastred.tiktokv.eu^
 ||location-i18n.tiktokv.com^
 ||location-ie.tiktokv.eu^
-||location-ru.tiktokv.com^
 ||location-sg.tiktokv.com^
-||location-ttp2.tiktokv.eu^
 ||location-ttp2.tiktokv.us^
 ||location-ttp2.tiktokw.eu^
 ||location-ttp2.tiktokw.us^
@@ -165,11 +161,9 @@
 ||location.tiktok.com^
 ||location.tiktokv.com^
 ||location.tiktokv.eu^
-||location.tiktokv.us^
 ||location.tiktokw.eu^
 ||location.tiktokw.us^
 ||location.us.tiktokv.com^
-||location16-normal-useastred.tiktokv.eu^
 ||location16-normal-useastred.tiktokw.eu^
 ||locationv16-normal-useastred.tiktokv.eu^
 ||log-boot.capcutapi.com^
@@ -237,6 +231,7 @@
 ||log22-applog-useast1a.tiktokv.com^
 ||log22-applog-useast2a.tiktokv.com^
 ||log22-normal-alisg.tiktokv.com^
+||log22-normal-alisg.tiktokv.com.kp45.ru^
 ||log22-normal-useast1a.tiktokv.com^
 ||log22-normal-useast2a.tiktokv.com^
 ||log22-normal-zr-alisg.tiktokv.com^
@@ -245,7 +240,9 @@
 ||log22-normal.capcutapi.com^
 ||log22-normal.tiktokv.com^
 ||log3-normal-c-alisg.tiktokv.com^
+||log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com^
 ||log3-normal-c-useast1a.tiktokv.com^
+||log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com^
 ||log31-normal-alisg.tiktokv.com^
 ||log31-normal-no1a.tiktokv.eu^
 ||log31-normal-sg.capcutapi.com^
@@ -278,6 +275,7 @@
 ||log77-normal-c-alisg.tiktokv.com^
 ||log77-normal-c-useast1a.tiktokv.com^
 ||log9-normal-c-useast1a.tiktokv.com^
+||log9-normal-c-useast1a.tiktokv.com.ecdnx.com^
 ||logbk.tiktokv.com^
 ||logtrace.snssdk.com^
 ||maliva-mcs-useast2a.byteoversea.com^
@@ -349,12 +347,8 @@
 ||mssdk-va.byteoversea.com^
 ||mssdk.capcutapi.us^
 ||mssdk.snssdk.com^
-||mssdk16-normal-sg.capcutapi.com^
 ||mssdk16-normal-us-ttp.capcutapi.us^
 ||mssdk16-normal-us-ttp2.capcutapi.us^
-||mssdk16-normal.capcutapi.com^
-||mssdk32-normal-sg.capcutapi.com^
-||mssdk32-normal.capcutapi.com^
 ||open.snssdk.com^
 ||os-mon.snssdk.com^
 ||p16-ad.byteoversea.com^
@@ -368,7 +362,6 @@
 ||pc-mon.snssdk.com^
 ||pc-mon16-normal-us-ttp.capcutapi.us^
 ||rtc-logger-i18n.tiktokv.com^
-||rtc-logger-ie.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.eu^
 ||rtc-logger-ttp2.tiktokv.us^
 ||rtc-logger-ttp2.us.tiktokv.com^
@@ -396,6 +389,7 @@
 ||rtlog16-applog-useast2a.tiktokv.com^
 ||rtlog16-applog-useast5.us.tiktokv.com^
 ||rtlog16-normal-alisg.tiktokv.com^
+||rtlog16-normal-alisg.tiktokv.com.kp45.ru^
 ||rtlog16-normal-ie.tiktokv.eu^
 ||rtlog16-normal-ind.tiktokv.com^
 ||rtlog16-normal-no1a.tiktokv.eu^
@@ -432,6 +426,7 @@
 ||rtlog22-applog-useast1a.tiktokv.com^
 ||rtlog22-applog-useast2a.tiktokv.com^
 ||rtlog22-normal-alisg.tiktokv.com^
+||rtlog22-normal-alisg.tiktokv.com.kp45.ru^
 ||rtlog22-normal-useast1a.tiktokv.com^
 ||rtlog22-normal-useast2a.tiktokv.com^
 ||rtlog22-normal-zr-alisg.tiktokv.com^

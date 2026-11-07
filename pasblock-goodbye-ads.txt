@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-11-06 06:52 UTC
-! Entries: 277428 (removed 315 allow-listed)
+! Synced: 2026-11-07 06:03 UTC
+! Entries: 277475 (removed 268 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -49881,6 +49881,7 @@
 ||adservice.google.ba^
 ||adservice.google.be^
 ||adservice.google.bf^
+||adservice.google.bg^
 ||adservice.google.bi^
 ||adservice.google.bj^
 ||adservice.google.bs^
@@ -49894,24 +49895,66 @@
 ||adservice.google.cl^
 ||adservice.google.cm^
 ||adservice.google.cn^
+||adservice.google.co.ao^
+||adservice.google.co.bw^
 ||adservice.google.co.ck^
+||adservice.google.co.cr^
+||adservice.google.co.ke^
+||adservice.google.co.ls^
+||adservice.google.co.ma^
+||adservice.google.co.mz^
+||adservice.google.co.nz^
+||adservice.google.co.tz^
+||adservice.google.co.ug^
+||adservice.google.co.uz^
+||adservice.google.co.ve^
+||adservice.google.co.vi^
+||adservice.google.co.zm^
+||adservice.google.co.zw^
+||adservice.google.com.af^
 ||adservice.google.com.ag^
 ||adservice.google.com.ai^
+||adservice.google.com.bd^
+||adservice.google.com.bh^
 ||adservice.google.com.bn^
 ||adservice.google.com.bo^
 ||adservice.google.com.bz^
 ||adservice.google.com.cu^
+||adservice.google.com.cy^
+||adservice.google.com.do^
+||adservice.google.com.ec^
+||adservice.google.com.eg^
 ||adservice.google.com.et^
 ||adservice.google.com.fj^
+||adservice.google.com.gh^
 ||adservice.google.com.gi^
+||adservice.google.com.hk^
+||adservice.google.com.jm^
+||adservice.google.com.kh^
+||adservice.google.com.kw^
 ||adservice.google.com.lb^
+||adservice.google.com.ly^
+||adservice.google.com.mm^
+||adservice.google.com.mt^
+||adservice.google.com.my^
 ||adservice.google.com.na^
 ||adservice.google.com.nf^
+||adservice.google.com.ng^
+||adservice.google.com.ni^
+||adservice.google.com.np^
+||adservice.google.com.om^
+||adservice.google.com.pa^
 ||adservice.google.com.pg^
+||adservice.google.com.pr^
 ||adservice.google.com.py^
+||adservice.google.com.qa^
+||adservice.google.com.sa^
 ||adservice.google.com.sb^
+||adservice.google.com.sg^
 ||adservice.google.com.sl^
+||adservice.google.com.sv^
 ||adservice.google.com.tj^
+||adservice.google.com.uy^
 ||adservice.google.com.vc^
 ||adservice.google.cv^
 ||adservice.google.dj^
@@ -49935,6 +49978,7 @@
 ||adservice.google.jo^
 ||adservice.google.kg^
 ||adservice.google.ki^
+||adservice.google.kz^
 ||adservice.google.la^
 ||adservice.google.li^
 ||adservice.google.lk^
@@ -49972,6 +50016,7 @@
 ||adservice.google.tm^
 ||adservice.google.tn^
 ||adservice.google.to^
+||adservice.google.tt^
 ||adservice.google.vu^
 ||adservice.google.ws^
 ||adservice.hani.co.kr^
@@ -70742,7 +70787,6 @@
 ||c2966.dotomi.com^
 ||c2981.dotomi.com^
 ||c2982.dotomi.com^
-||c2990.dotomi.com^
 ||c2997.dotomi.com^
 ||c2a0076d.xyz^
 ||c2c24.pl^
@@ -176013,6 +176057,7 @@
 ||link.upworthy.com^
 ||link.urbanpetersburg.com^
 ||link.urbansitter.com^
+||link.us.paramountplus.com^
 ||link.usa-network.com^
 ||link.usanetwork.com^
 ||link.utech-polyurethane.com^
@@ -206439,6 +206484,7 @@
 ||pixel2247.everesttech.net^
 ||pixel2257.everesttech.net^
 ||pixel2260.everesttech.net^
+||pixel2261.everesttech.net^
 ||pixel2264.everesttech.net^
 ||pixel2273.everesttech.net^
 ||pixel2321.everesttech.net^
@@ -244625,6 +244671,7 @@
 ||tl.hogtiescrawley.com^
 ||tl.onform.com^
 ||tl.r7ls.net^
+||tl.tradetracker.net^
 ||tl012dhs1l6034gq71-x6s3rzmsm.click-sap.sfmc-marketing.com^
 ||tl08jjsq8j9mg-0m7s25ghqh9934.click-sap.sfmc-marketing.com^
 ||tl0bxs2-vzq--s5dfbm4q5zkyhg4.view-sap.sfmc-marketing.com^
