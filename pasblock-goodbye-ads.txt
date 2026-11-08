@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-11-07 17:45 UTC
-! Entries: 277477 (removed 266 allow-listed)
+! Synced: 2026-11-08 06:07 UTC
+! Entries: 277474 (removed 269 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -70776,7 +70776,6 @@
 ||c2683.dotomi.com^
 ||c26b742fa3.com^
 ||c2729.dotomi.com^
-||c2827.dotomi.com^
 ||c2830.dotomi.com^
 ||c2842.dotomi.com^
 ||c2846.dotomi.com^
@@ -70788,7 +70787,6 @@
 ||c2966.dotomi.com^
 ||c2981.dotomi.com^
 ||c2982.dotomi.com^
-||c2990.dotomi.com^
 ||c2997.dotomi.com^
 ||c2a0076d.xyz^
 ||c2c24.pl^
@@ -244673,7 +244671,6 @@
 ||tl.hogtiescrawley.com^
 ||tl.onform.com^
 ||tl.r7ls.net^
-||tl.tradetracker.net^
 ||tl012dhs1l6034gq71-x6s3rzmsm.click-sap.sfmc-marketing.com^
 ||tl08jjsq8j9mg-0m7s25ghqh9934.click-sap.sfmc-marketing.com^
 ||tl0bxs2-vzq--s5dfbm4q5zkyhg4.view-sap.sfmc-marketing.com^

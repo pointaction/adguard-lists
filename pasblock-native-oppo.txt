@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: native-oppo
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
-! Synced: 2026-11-07 06:03 UTC
-! Entries: 492 (removed 0 allow-listed)
+! Synced: 2026-11-08 06:07 UTC
+! Entries: 496 (removed 0 allow-listed)
 !
 ||ad-growth-in.heytapmobile.com^
 ||ad-growth-ru.heytapmobile.com^
@@ -247,6 +247,7 @@
 ||fourier-videoclip-in.allawnos.com^
 ||fourier-videoclip-sg.allawnos.com^
 ||fourier-videoclip-us.allawnos.com^
+||fxltsbl.com^
 ||globalcolor-service-eu.allawnos.com^
 ||globalcolor-service-in.allawnos.com^
 ||globalcolor-service-sg.allawnos.com^
@@ -260,6 +261,7 @@
 ||hizonetech.com^
 ||i-cn01a.ocloud.heytapmobi.com^
 ||i-in.browser.heytapmobile.com^
+||i-insurance.finzfin.com^
 ||i-sg.browser.heytapmobile.com^
 ||i-sg01a.ocloud.heytapmobi.com^
 ||i-th.browser.heytapmobile.com^
@@ -402,6 +404,7 @@
 ||moa-upload-online.coloros.com^
 ||moa-upload-sg.allawnos.com^
 ||obus-cn.dc.heytapmobi.com^
+||obus-conf-cn.heytapmobi.com^
 ||obus-conf-fr.heytapmobile.com^
 ||obus-conf-in.heytapmobile.com^
 ||obus-conf-sg.heytapmobile.com^
@@ -447,6 +450,7 @@
 ||oversea-nebula-in.heytapmobi.com^
 ||oversea-nebula-sg.heytapmobi.com^
 ||predragate.dc.oppomobile.com^
+||push-ads-cn.heytapmobi.com^
 ||push-dc-us.heytapmobile.com^
 ||push.heytapmobile.com^
 ||report-eu.uc.heytapmobile.com^
