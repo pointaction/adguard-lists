@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: dandelion-sprout
 ! Source: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-! Synced: 2026-11-05 19:59 UTC
-! Entries: 11565 (removed 3 allow-listed)
+! Synced: 2026-11-08 17:56 UTC
+! Entries: 11568 (removed 3 allow-listed)
 !
 ||0180info.de^
 ||03122e72f0.com^
@@ -6731,6 +6731,8 @@
 ||luckymonsieur.com^
 ||lucymods.com^
 ||lucyremoved.com^
+||ludashi.com^
+||ludashisafe.com^
 ||luglawhaulsano.net^
 ||luisa.world^
 ||lukewarmapplications.com^
@@ -11312,6 +11314,7 @@
 ||wkrgtv.com^
 ||wlg-telegram.org^
 ||wlink2.com^
+||wlygrowth.com^
 ||wmrewards.com^
 ||wmscholars.org^
 ||wnk-telegram.org^
