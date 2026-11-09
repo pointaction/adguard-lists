@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-08 18:05 UTC
-! Entries: 7887
+! Generated: 2026-11-09 22:43 UTC
+! Entries: 7888
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -717,6 +717,7 @@
 @@||api.webengage.com^
 @@||apiservices.krxd.net^
 @@||apkudo.navattic.com^
+@@||apmebf.com^
 @@||apms5.com^
 @@||apn.fastweb.it^
 @@||apn01.cwpanama.com.pa^
@@ -761,7 +762,6 @@
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
 @@||app1e.gateway.portal.outreach.io^
-@@||app1e.outreach.io^
 @@||app1f.gateway.portal.outreach.io^
 @@||app1f.outreach.io^
 @@||app2-ap-ofc.central.arubanetworks.com^
@@ -1021,6 +1021,7 @@
 @@||bhmobile.ba^
 @@||bidminer.com^
 @@||big.oisd.nl^
+@@||bigcattracks.com^
 @@||biglobe.jp^
 @@||bilitis.org^
 @@||binarydefense.com^
@@ -1265,6 +1266,7 @@
 @@||cb.sailthru.com^
 @@||cbhomes.org.uk^
 @@||cbp-guest.cbp.dhs.gov^
+@@||cc-dt.com^
 @@||cca.gov.in^
 @@||cccomm.csky.us^
 @@||ccd.acsoluti.com.br^
@@ -1446,7 +1448,6 @@
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
 @@||cl.s12.exct.net^
-@@||cl.s13.exct.net^
 @@||cl.s4.exct.net^
 @@||cl.s50.exct.net^
 @@||cl.s51.exct.net^
@@ -1618,6 +1619,7 @@
 @@||commander1.com^
 @@||commerce.itunes.apple.com.edgesuite.net^
 @@||commercial.ocsp.identrust.com^
+@@||commission-junction.com^
 @@||community-comcastxfinity.sprinklr.com^
 @@||community.chocolatey.org^
 @@||community.letsencrypt.org^
@@ -3038,6 +3040,7 @@
 @@||event.swisscom.ch^
 @@||event.vodafone.de^
 @@||events.cfa.sportscenter.espn.com^
+@@||events.release.narrativ.com^
 @@||evintl-crl.verisign.com^
 @@||evintl-ocsp.verisign.com^
 @@||evintl-t1-crl.verisign.com^
@@ -3936,6 +3939,7 @@
 @@||jawalnet.com.sa^
 @@||jawwal.ps^
 @@||jazztelmms.com^
+@@||jdoqocy.com^
 @@||jeevanaastha.com^
 @@||jnn-pa.googleapis.com^
 @@||jo.zain.com^
@@ -4412,7 +4416,6 @@
 @@||mitmdetection.services.mozilla.com^
 @@||mjt.lu^
 @@||mkto-a0279.com^
-@@||mkto-a0345.com^
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
 @@||mkto-ab020242.com^
@@ -4488,8 +4491,6 @@
 @@||mkto-lon070075.com^
 @@||mkto-lon070192.com^
 @@||mkto-lon080059.com^
-@@||mkto-lon080147.com^
-@@||mkto-lon080186.com^
 @@||mkto-lon090040.com^
 @@||mkto-lon100192.com^
 @@||mkto-m0111.com^
@@ -5343,7 +5344,6 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
-@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -5872,6 +5872,7 @@
 @@||qau1.au1.qualtrics.com^
 @@||qbmore.mobi^
 @@||qflm.net^
+@@||qksrv.net^
 @@||qlife.org.au^
 @@||qmulbusiness.eu.qualtrics.com^
 @@||qrcodes.pro^
