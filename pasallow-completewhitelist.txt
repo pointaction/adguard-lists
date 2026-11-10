@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-09 22:43 UTC
-! Entries: 7888
+! Generated: 2026-11-10 20:01 UTC
+! Entries: 7890
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -695,6 +695,7 @@
 @@||api-na1.hubapi.com^
 @@||api-na2.hubapi.com^
 @@||api-na3.hubapi.com^
+@@||api-origin.hubapi.com^
 @@||api.airtime.geemedia.com^
 @@||api.apple-cloudkit.com^
 @@||api.apple-cloudkit.fe2.apple-dns.net^
@@ -762,6 +763,7 @@
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
 @@||app1e.gateway.portal.outreach.io^
+@@||app1e.outreach.io^
 @@||app1f.gateway.portal.outreach.io^
 @@||app1f.outreach.io^
 @@||app2-ap-ofc.central.arubanetworks.com^
@@ -772,6 +774,7 @@
 @@||app2.salesmanago.pl^
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
+@@||app2b.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
 @@||app2c.outreach.io^
 @@||app3.salesmanago.pl^
@@ -1147,7 +1150,6 @@
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
 @@||c2827.dotomi.com^
-@@||c2990.dotomi.com^
 @@||c3sl.ufpr.br^
 @@||ca-31-main.csd.disa.mil^
 @@||ca-32-main.csd.disa.mil^
@@ -1292,9 +1294,9 @@
 @@||cdn.braze.eu^
 @@||cdn.calibour.net^
 @@||cdn.d-trust-cloudcrl.net^
-@@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
+@@||cdn.ftspecialist.exponea.com^
 @@||cdn.fwupd.org^
 @@||cdn.globalsigncdn.com^
 @@||cdn.globalsigncdn.com.cdn.cloudflare.net^
@@ -1448,6 +1450,7 @@
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
 @@||cl.s12.exct.net^
+@@||cl.s13.exct.net^
 @@||cl.s4.exct.net^
 @@||cl.s50.exct.net^
 @@||cl.s51.exct.net^
@@ -4164,7 +4167,6 @@
 @@||m-ax.custobar.com^
 @@||m-b2o72.custobar.com^
 @@||m-bzp7z.custobar.com^
-@@||m-dpsxz.custobar.com^
 @@||m-dsrbu.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-gzmk5.custobar.com^
@@ -4430,7 +4432,6 @@
 @@||mkto-ab130037.com^
 @@||mkto-ab130147.com^
 @@||mkto-ab130188.com^
-@@||mkto-ab140048.com^
 @@||mkto-ab170094.com^
 @@||mkto-ab180024.com^
 @@||mkto-ab240112.com^
@@ -4474,9 +4475,10 @@
 @@||mkto-abc0114.com^
 @@||mkto-abc0203.com^
 @@||mkto-abj0022.com^
+@@||mkto-abm0229.com^
+@@||mkto-cs0007.com^
 @@||mkto-d0071.com^
 @@||mkto-h0163.com^
-@@||mkto-i0028.com^
 @@||mkto-lon020055.com^
 @@||mkto-lon020062.com^
 @@||mkto-lon020302.com^
@@ -4486,10 +4488,8 @@
 @@||mkto-lon030291.com^
 @@||mkto-lon030330.com^
 @@||mkto-lon040102.com^
-@@||mkto-lon060128.com^
 @@||mkto-lon060131.com^
 @@||mkto-lon070075.com^
-@@||mkto-lon070192.com^
 @@||mkto-lon080059.com^
 @@||mkto-lon090040.com^
 @@||mkto-lon100192.com^
@@ -4541,7 +4541,6 @@
 @@||mkto-sj360142.com^
 @@||mkto-sj400023.com^
 @@||mkto-sjh0084.com^
-@@||mkto-sjh0178.com^
 @@||mkto-sji0033.com^
 @@||mkto-sji0183.com^
 @@||mkto-test.com^
@@ -5344,6 +5343,7 @@
 @@||ndirect.ppro.de^
 @@||nedic.ca^
 @@||nemont.mobi^
+@@||neoengage-va-cdn.exponea.com^
 @@||neowin.net^
 @@||nep.data^
 @@||nep.mms^
@@ -6464,6 +6464,7 @@
 @@||suite33.emarsys.net^
 @@||suite34.emarsys.net^
 @@||suite37.emarsys.net^
+@@||suite38-cf.emarsys.net^
 @@||suite38.emarsys.net^
 @@||suite40-cf.emarsys.net^
 @@||suite40.emarsys.net^
@@ -6998,6 +6999,7 @@
 @@||unchecky.com^
 @@||unico.tim.it^
 @@||unilever2.demdex.net^
+@@||unilever3.demdex.net^
 @@||union.mms.com^
 @@||unionwireless.com^
 @@||unisasurveys.qualtrics.com^
