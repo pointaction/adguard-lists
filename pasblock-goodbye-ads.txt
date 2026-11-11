@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-11-10 07:23 UTC
-! Entries: 277467 (removed 276 allow-listed)
+! Synced: 2026-11-11 06:30 UTC
+! Entries: 277468 (removed 275 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -70785,6 +70785,7 @@
 ||c2966.dotomi.com^
 ||c2981.dotomi.com^
 ||c2982.dotomi.com^
+||c2990.dotomi.com^
 ||c2997.dotomi.com^
 ||c2a0076d.xyz^
 ||c2c24.pl^

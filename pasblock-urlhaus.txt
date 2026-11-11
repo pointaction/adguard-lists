@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-11-10 19:46 UTC
-! Entries: 1956 (removed 0 allow-listed)
+! Synced: 2026-11-11 06:30 UTC
+! Entries: 1958 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -18,6 +18,7 @@
 ||1717.1000uc.com^
 ||172-104-49-49.ip.linodeusercontent.com^
 ||178-83-121-204.cprapid.com^
+||178.248.3.202.ll.sta.mana.pf^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
 ||198348.gl^
@@ -87,7 +88,6 @@
 ||adopdf.shop^
 ||adpayworks.b-cdn.net^
 ||adps.pro^
-||adubuildersco.com^
 ||adv.dailytechinsight.com^
 ||aegic.top^
 ||aeplled.cfd^
@@ -106,6 +106,7 @@
 ||alahlam.sa^
 ||alarmline.com.br^
 ||alaseeldates.com^
+||alccounseling.screenconnect.com^
 ||algi-english.4lima.at^
 ||alineeleuterio.com.br^
 ||allegro.wicreset.pl^
@@ -248,6 +249,7 @@
 ||bmdcompany.com^
 ||bmnjhy.shop^
 ||bmpincorporated.com^
+||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||boitim.oss-eu-west-2.aliyuncs.com^
 ||book.rollingvideogames.com^
@@ -316,7 +318,6 @@
 ||cdk.monther.life^
 ||cdm.wovplaying.help^
 ||cdn-10049480.file.myqcloud.com^
-||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.monther.life^
 ||cdn.wovplaying.help^
@@ -381,6 +382,7 @@
 ||clubdetiroelpicarcho.com^
 ||cmp4.top^
 ||cn.devglobal.biz^
+||cn.unionlever.com^
 ||coconutoficial.com.br^
 ||cocuktekstil.com^
 ||coinworknew.com^
@@ -524,6 +526,7 @@
 ||dfd.zhzy999.net^
 ||dfdghfhddhdhfhdfhdfyhdfdfh.pages.dev^
 ||dfgjnisdjfgnisjdfng.online^
+||dh.1121103.xyz^
 ||diag.wpoler.help^
 ||digitalisonesapps.com^
 ||dimonpert.com^
@@ -561,6 +564,7 @@
 ||dongyu.us^
 ||donkeytourscroatia.com^
 ||donutbasefinder.com^
+||donutclient.de^
 ||donutclients.cc^
 ||donutclients.net^
 ||donutclients.org^
@@ -586,7 +590,6 @@
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
-||down.ruanmei.com^
 ||down.stellarcedar.live^
 ||down.unicron-cdn.click^
 ||down10d.zol.com.cn^
@@ -771,6 +774,7 @@
 ||fz.tiansys.cn^
 ||g6.wtf^
 ||gabyagozetim.com^
+||gaenterprises.in^
 ||gaiadeqi.com^
 ||galeri3.arkitera.com^
 ||galerisenimutiara.com^
@@ -829,6 +833,7 @@
 ||gloryhaven.org^
 ||gmxx.online^
 ||go.lumibricks.com^
+||gold-marylee-16.tiiny.site^
 ||gonzaskid-1.paiza-user-free.cloud^
 ||goobaaclient.com^
 ||goobaaclient.lovable.app^
@@ -880,11 +885,11 @@
 ||hjha.ao^
 ||hll912-1484535448.cos.ap-hongkong.myqcloud.com^
 ||hnjgdl.geps.glodon.com^
-||hobobot.net^
 ||horion-static.pages.dev^
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-95-230-215-65.business.telecomitalia.it^
 ||host-95-255-114-11.business.telecomitalia.it^
+||hostingcloud.science^
 ||hotelembuguacu.blob.core.windows.net^
 ||hotelhungry.com^
 ||hoteljune2026.blogspot.com^
@@ -896,6 +901,7 @@
 ||hponline.run.place^
 ||hseda.com^
 ||htdentshop.com^
+||humaneanimalpartner.screenconnect.com^
 ||hya.codedevfuture.buzz^
 ||hylrukrxwfwbooknmtyx.supabase.co^
 ||hypercorevector4.lol^
@@ -956,7 +962,6 @@
 ||johnsonsvalves.cam^
 ||jointaxel.online^
 ||jokely.icu^
-||joker.aec944b68370194a50.link^
 ||journeylake11.com^
 ||jozefinskiatelje.si^
 ||jscdncloude.beer^
@@ -1066,6 +1071,7 @@
 ||luminouspower.com.pk^
 ||luxcar-24.com^
 ||m.jkoa.co.kr^
+||m.meta-dm.com^
 ||maciejbi.hosting24.pl^
 ||macos.vettasy.com^
 ||madeiracityschools.screenconnect.com^
@@ -1081,7 +1087,6 @@
 ||makemewin.club^
 ||malaysianpastrybakery.org^
 ||malupieng.com.br^
-||manbipll.duckdns.org^
 ||mandarin.net.au^
 ||manita.lol^
 ||manmenduster.online^
@@ -1190,12 +1195,12 @@
 ||newcert.s3.us-east-005.backblazeb2.com^
 ||newkey.co.kr^
 ||newstan.online^
-||nexorafoundry.com^
 ||nfadealer.top^
 ||nieuw.technoberg.nl^
 ||niggersmp.net^
 ||nightmare-cheats.su^
 ||nimblenumbers.screenconnect.com^
+||nimbus-90.com^
 ||nishiwaki.ne.jp^
 ||nmhjnu.shop^
 ||noamaddons.com^
@@ -1244,6 +1249,7 @@
 ||oj44472.com^
 ||ojang.pe.kr^
 ||okhan.net^
+||okieprint.screenconnect.com^
 ||oknoplastik.sk^
 ||okp.dailytechinsight.com^
 ||old.bullydog.com^
@@ -1343,6 +1349,7 @@
 ||postelnini.mk^
 ||power-shell.cc^
 ||power.belyxhost.in^
+||powershell.lat^
 ||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
 ||premuimline-mea.cam^
@@ -1422,7 +1429,6 @@
 ||pub-cbeeb81b1c2d40df823a412f702451a3.r2.dev^
 ||pub-cdd0dd27ae6a4aee9841d397e0496374.r2.dev^
 ||pub-ce02802067934e0eb072f69bf6427bf6.r2.dev^
-||pub-ce256d2118c14becb5bbce4cc0655db9.r2.dev^
 ||pub-ce4d5a76d41f4db48601a0a54208636e.r2.dev^
 ||pub-cf9a2985033542d9a17b3c9a644b66be.r2.dev^
 ||pub-d21b4190a47f45628c828456f23dd66e.r2.dev^
@@ -1433,7 +1439,6 @@
 ||pub-e33c72ad3ac74028914da0187313eeb3.r2.dev^
 ||pub-e95a23a0e3944ef49a26647f1ec168e0.r2.dev^
 ||pub-eab9eb7761644f51bceeecfefdf0ec2b.r2.dev^
-||pub-ec081eb0fab74385a17d8d77afeeda3b.r2.dev^
 ||pub-ecb7161ffc7a4a67bdd8761583e21d16.r2.dev^
 ||pub-ef44c35b13984ebc836b5bb28bb93c95.r2.dev^
 ||pub-f225fc4c925f4cad963c543c3378b1ae.r2.dev^
@@ -1460,6 +1465,8 @@
 ||qpwot.cfd^
 ||qq.kipsharijan.cfd^
 ||qqwwaa.tos-cn-hongkong.volces.com^
+||qsk.renwr.life^
+||qsx.renwr.life^
 ||quest-hz-preds-mod.pages.dev^
 ||quietsurfwi.help^
 ||quill-95.com^
@@ -1511,6 +1518,7 @@
 ||rough-glade-bfc8.pentagon-e8b.workers.dev^
 ||rough-truth-e072.publicftpresend.workers.dev^
 ||round-breeze-3e9d.jay-e45.workers.dev^
+||royal-wood-3c0d.julianosilvasantospiresrosa.workers.dev^
 ||royalcuts.co.uk^
 ||royalindiancurryclub.com^
 ||rs74ed.s.gy^
@@ -1521,6 +1529,7 @@
 ||runeliteplus.net^
 ||rup.ksoftir.cc^
 ||rusa-inion24-novst.vercel.app^
+||rush360.net^
 ||rxb.immortales.fun^
 ||ryanborn.net^
 ||ryzhe.com^
@@ -1659,8 +1668,6 @@
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
-||static.zongheng.com^
-||stdown.dinju.com^
 ||steelstanleystaystrong.top^
 ||stellaspicy.org^
 ||stratagemzw.com^
@@ -1686,7 +1693,6 @@
 ||swanrecovery.com^
 ||swatting.wiki^
 ||swervimgbackj.top^
-||swiftfusion.tech^
 ||swiftonyx16.com^
 ||swingerwives.com^
 ||sxetnavelelaio.com^
@@ -1785,10 +1791,6 @@
 ||u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz^
 ||uasputnik.com^
 ||uber-joeleasing.de^
-||uc1fb1e965c6d803f97040b2d495.dl.dropboxusercontent.com^
-||ucb795b953262a1f75be02669385.dl.dropboxusercontent.com^
-||ucd9bd7b2d78fd09cd6b92e4ab63.dl.dropboxusercontent.com^
-||ucfea10e4d01e1b5c131c0c41850.dl.dropboxusercontent.com^
 ||udn.jp^
 ||udn48vb.com^
 ||unby6r.oss-cn-beijing.aliyuncs.com^
