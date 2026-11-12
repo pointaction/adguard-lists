@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-11-11 19:38 UTC
-! Entries: 1966 (removed 0 allow-listed)
+! Synced: 2026-11-12 07:15 UTC
+! Entries: 1963 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -13,10 +13,8 @@
 ||10.185.202.64.host.secureserver.net^
 ||123.ywxww.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
-||14-0-204-188.static.pccw-hkt.com^
 ||156.233.235.86.nip.io^
 ||1717.1000uc.com^
-||172-104-49-49.ip.linodeusercontent.com^
 ||178-83-121-204.cprapid.com^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
@@ -49,6 +47,7 @@
 ||67clientofficial.shop^
 ||6ab746fb57212ca6e1e7b121.imgix.net^
 ||6ae7d77987027fb6113ab10c.imgix.net^
+||6af3227a926b60443dfa4412.imgix.net^
 ||6sim.vip^
 ||6tu2zzl7q5wtdm6icmutlb6ifr7zz3z2svxvieaz7u4pqxrbblc7ltid.onion^
 ||80a6jnaz.basickantoor1.nl^
@@ -90,7 +89,6 @@
 ||adps.pro^
 ||adv.dailytechinsight.com^
 ||aegic.top^
-||aeplled.cfd^
 ||aetherius.live^
 ||aetherone.su^
 ||aftelecom.com.br^
@@ -187,6 +185,7 @@
 ||awarenessexhibition.com^
 ||axionasports.com^
 ||axqua.com^
+||ayub.cptz.wtf^
 ||azhu.cakkaao.com^
 ||azlvaka.vu^
 ||azq0yqtjd.s3.ap-southeast-1.amazonaws.com^
@@ -213,6 +212,7 @@
 ||basequill9.com^
 ||bb2c6-42dfkea8-9fhh47-927aebce12d4.fasterflogging.cc^
 ||beacon.ltdglobal.co.uk^
+||beak.in^
 ||beamtechmacros.com^
 ||becof.org^
 ||beinke-aufzuege.de^
@@ -256,7 +256,6 @@
 ||boowellness.screenconnect.com^
 ||bot.lithium.zone^
 ||botcheck-cf.top^
-||botnet.botnet.xd.67.flightleaks.xyz^
 ||brandtinoda.com^
 ||brasilengenhariaecom.store^
 ||bratarfood.com^
@@ -280,6 +279,7 @@
 ||build.polysupport.team^
 ||bumcoinc.site^
 ||bun-pullz.b-cdn.net^
+||bunaisd.screenconnect.com^
 ||bundle.kpzip.com^
 ||bunnyview.b-cdn.net^
 ||bvaco.com^
@@ -331,7 +331,6 @@
 ||celebratingseniors.net^
 ||centrodolce.screenconnect.com^
 ||cepde.org^
-||ceramicasaosebastiao.com.br^
 ||cfs10.blog.daum.net^
 ||cfs13.tistory.com^
 ||cfs7.blog.daum.net^
@@ -434,6 +433,7 @@
 ||cutting-edge.in^
 ||cyberleak.top^
 ||cyclograph.xyz^
+||czarnolandia.world^
 ||d-j-d.com^
 ||d.14yaa.com^
 ||d.kpzip.com^
@@ -492,7 +492,6 @@
 ||damiancollier.com^
 ||dao1an8ingei2dinnnpgqa7k564nf3q81.oast.live^
 ||darkroute.mypi.co^
-||dasberlinerhotel.com^
 ||dasdase13.icu^
 ||dasgems.com^
 ||data.yhydl.com^
@@ -592,6 +591,7 @@
 ||donutsmphackclient.netlify.app^
 ||donutsmplarp.com^
 ||donutsmputilitys.netlify.app^
+||dosyaupload.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.ruanmei.com^
@@ -608,6 +608,7 @@
 ||download.doumaibiji.cn^
 ||download.foden.site^
 ||download.haozip.com^
+||download.kaobeitu.com^
 ||download.kbcard.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
@@ -641,7 +642,6 @@
 ||dxa.rewan.live^
 ||dxb.rewan.live^
 ||dy.dpwqwaapp.xyz^
-||dynga.pl^
 ||e76d78a-ab4760-db52-652cd4fy-u43jda.tidepull.cc^
 ||easyaround.st^
 ||easybillingsolutions.xyz^
@@ -741,6 +741,7 @@
 ||firstalwayshere.com^
 ||firstratezim.com^
 ||fiscalizarais.xyz^
+||fitforevercavan.ie^
 ||fkjhsdfg478fdm.com^
 ||flexsportpools.com^
 ||flicargo.com^
@@ -833,7 +834,6 @@
 ||gitrm.sbs^
 ||gitsl.xyz^
 ||gitview.sbs^
-||glbeletronica.com.br^
 ||glcdn.githack.com^
 ||globalbank.us^
 ||globalsupportupdate.top^
@@ -892,6 +892,7 @@
 ||hjha.ao^
 ||hll912-1484535448.cos.ap-hongkong.myqcloud.com^
 ||hnjgdl.geps.glodon.com^
+||hobobot.net^
 ||horion-static.pages.dev^
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-95-230-215-65.business.telecomitalia.it^
@@ -907,7 +908,6 @@
 ||hpfile.cyou^
 ||hponline.run.place^
 ||hseda.com^
-||htdentshop.com^
 ||humaneanimalpartner.screenconnect.com^
 ||hya.codedevfuture.buzz^
 ||hylrukrxwfwbooknmtyx.supabase.co^
@@ -940,6 +940,7 @@
 ||importantdocumentscopys.s3.us-east-2.amazonaws.com^
 ||infocardphoto.info^
 ||injurylawsocal.com^
+||intelli-sys.co.zw^
 ||intelligradeeducation.vicentecisnerospub.com^
 ||internetlouisiana.com^
 ||internetmissouri.com^
@@ -1000,6 +1001,7 @@
 ||kits.frog.tw^
 ||kj6pcc.net^
 ||kjjt.pages.dev^
+||kk88cc.com^
 ||kmmiiaaa.com^
 ||kn.devmicro7.workers.dev^
 ||kolpa.lol^
@@ -1048,6 +1050,7 @@
 ||lepafonso.bz^
 ||letsupconfig.sbs^
 ||liesetaler.de^
+||lifeisabouthavingfun448.duckdns.org^
 ||liikepalvelu.com^
 ||likedrink.beer^
 ||lilong.kmmiiaaa.com^
@@ -1071,13 +1074,13 @@
 ||loveher.dpdns.org^
 ||lp.afonsonobreadv.com.br^
 ||lsmdngnakjbgazxv.com^
+||lucas.cptz.wtf^
 ||lucky-shadow-703a.modpages.workers.dev^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.com^
 ||luminexclient.net^
 ||luminouspower.com.pk^
-||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maciejbi.hosting24.pl^
 ||macos.vettasy.com^
@@ -1092,7 +1095,6 @@
 ||mailservicesgroup.org^
 ||mailto-carmen-connected-paying.trycloudflare.com^
 ||makemewin.club^
-||malaysianpastrybakery.org^
 ||malupieng.com.br^
 ||mandarin.net.au^
 ||manita.lol^
@@ -1138,7 +1140,6 @@
 ||mibd.org^
 ||micstndasap.world^
 ||mida.cam^
-||midle-eastcompany.com^
 ||mindrix.top^
 ||minecraft-cheats.com^
 ||minefox.lol^
@@ -1176,7 +1177,6 @@
 ||munihuacho.gob.pe^
 ||mx9x.com^
 ||mxh4h.com^
-||my-buck01.s3.cubbit.eu^
 ||myhpsd2.screenconnect.com^
 ||mysura.it^
 ||myvcart.com^
@@ -1190,6 +1190,7 @@
 ||ncxps.com^
 ||nd.tdpqnf.com^
 ||ndigitals.in^
+||ndjvmuvkoahnopfqn2jpva.on.drv.tw^
 ||nebula-client.com^
 ||nebula-client.org^
 ||nebulaclient.co^
@@ -1204,6 +1205,7 @@
 ||newstan.online^
 ||nexorafoundry.com^
 ||nfadealer.top^
+||nfshgu.top^
 ||nieuw.technoberg.nl^
 ||niggersmp.net^
 ||nightmare-cheats.su^
@@ -1253,7 +1255,6 @@
 ||ofice365.github.io^
 ||ohhhhhmoney.com^
 ||ohwcadvisor.com^
-||oim.doganltd.com.tr^
 ||oj44472.com^
 ||ojang.pe.kr^
 ||okhan.net^
@@ -1288,6 +1289,7 @@
 ||otkrytkadnya.ru^
 ||out-agent.duckdns.org^
 ||outexfashion.com^
+||outpost.co.ke^
 ||overkill-client.com^
 ||owr4u.com^
 ||oz-courses.com^
@@ -1412,12 +1414,10 @@
 ||pub-72295f71e45d431995028c79cf261dae.r2.dev^
 ||pub-7390aebc53504408b09c0dc5390d6cc4.r2.dev^
 ||pub-77d009eac01a41e0a84eaf9d00acd597.r2.dev^
-||pub-7bb797b9d5664a109b755165099495ac.r2.dev^
 ||pub-80a0cc6d7e3d475dac1422cf49122362.r2.dev^
 ||pub-82f13abd468442119ddfb068e9f5ad33.r2.dev^
 ||pub-86c95a2c899a422ebe1c96f17984252f.r2.dev^
 ||pub-8cd123cf29f247f8bf6c3b4507e3a5fb.r2.dev^
-||pub-8ce03602555a436b80dbe377ce6f81de.r2.dev^
 ||pub-8d59738861b849e5a38b795cc17b1019.r2.dev^
 ||pub-8f07b712b50246eca5982f64bd695eea.r2.dev^
 ||pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev^
@@ -1542,6 +1542,8 @@
 ||ryanborn.net^
 ||ryzhe.com^
 ||s1w21.comen.store^
+||s4.ncreuh.icu^
+||saf-oil.ru^
 ||safe-pdf-viewer.lat^
 ||safeifm.com^
 ||sail.autolabsouthgate.com^
@@ -1555,7 +1557,6 @@
 ||sandybeachesandsunsets.com^
 ||sanghyun.nfile.net^
 ||santaclaracountyproperties.com^
-||sarafinance.in^
 ||satgob-mx.shop^
 ||satinmaple4.com^
 ||sayosay.cc^
@@ -1674,25 +1675,24 @@
 ||stat.bestcompliance.net^
 ||statementreaderdownload.com^
 ||static.3001.net^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
+||static.zongheng.com^
 ||stdown.dinju.com^
 ||steelstanleystaystrong.top^
 ||stellaspicy.org^
-||stratagemzw.com^
 ||stratos-delta.com^
 ||streammobs.com^
 ||students16.screenconnect.com^
 ||studiogagnegagne.screenconnect.com^
 ||sugarfreedcup.co.za^
 ||sugarfreedcupcake.co.za^
-||sumiko.vu^
 ||summitcapitalpatners.info^
 ||summitcapitalpatners.ink^
 ||sumnitasinvestment.com^
 ||sunix-technology.com^
 ||superdudesjr.com^
-||suppliers.lovestoblog.com^
 ||support.clz.kr^
 ||support.connectuser.store^
 ||surround-tough-method-zinc.trycloudflare.com^
@@ -1702,6 +1702,7 @@
 ||swanrecovery.com^
 ||swatting.wiki^
 ||swervimgbackj.top^
+||swiftfusion.tech^
 ||swiftonyx16.com^
 ||swingerwives.com^
 ||sxetnavelelaio.com^
@@ -1717,7 +1718,6 @@
 ||tantralegacy.com^
 ||tapestryoftruth.com^
 ||tapped.top^
-||tarkioweb.com^
 ||tartaklegnica.pl^
 ||taskerempresascol.co^
 ||tattinamecheap.com^
@@ -1734,7 +1734,6 @@
 ||teleabonent.ru^
 ||telemetryloop.net^
 ||telpak.icu^
-||ten.devurek.xyz^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||termoglas.ba^
@@ -1767,9 +1766,7 @@
 ||tools.lumma.cy^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
-||totalfitting.com.au^
 ||totemstudios.xyz^
-||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||trabzonmegareklamllc.shop^
 ||transparenciacanaa.com.br^
@@ -1797,7 +1794,6 @@
 ||twitch.tj^
 ||twu-hwt.org^
 ||tycons.com^
-||u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz^
 ||uasputnik.com^
 ||uber-joeleasing.de^
 ||udn.jp^
@@ -1903,6 +1899,7 @@
 ||windriversfiles.imeitools.com^
 ||winds11.site^
 ||winx64-letskauliian-1374029367.cos.ap-tokyo.myqcloud.com^
+||wios.tron3.vip^
 ||wir.consultingics.com^
 ||wittenhorst.eu^
 ||wizzyaddon.com^
