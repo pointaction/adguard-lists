@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-11-13 06:50 UTC
-! Entries: 1985 (removed 0 allow-listed)
+! Synced: 2026-11-13 19:45 UTC
+! Entries: 2013 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -13,10 +13,11 @@
 ||10.185.202.64.host.secureserver.net^
 ||123.ywxww.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
+||14-0-204-188.static.pccw-hkt.com^
 ||156.233.235.86.nip.io^
 ||1717.1000uc.com^
 ||178-83-121-204.cprapid.com^
-||179.248.3.202.ll.sta.mana.pf^
+||178.248.3.202.ll.sta.mana.pf^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
 ||198348.gl^
@@ -73,6 +74,7 @@
 ||acc.jiangsujiaxue.com^
 ||acc.munber.life^
 ||accessdocu.b-cdn.net^
+||accesstelematics.com^
 ||acd.munber.life^
 ||acms.saleseos.com^
 ||acrobat.proposal.name.ng^
@@ -112,6 +114,7 @@
 ||alineeleuterio.com.br^
 ||allegro.wicreset.pl^
 ||allendostmen.com^
+||allgamerunengine.com^
 ||allowcsxan2.site^
 ||alotic.net^
 ||alphapicaficagency.com^
@@ -141,6 +144,7 @@
 ||api.vexxuhq.site^
 ||api.xyz-code.biz^
 ||app-artifacts-1305923417.cos.ap-guangzhou.myqcloud.com^
+||app-yifanyi.com^
 ||app.app-river.icu^
 ||app.appdowsdy.xyz^
 ||app.appzcvb.com^
@@ -215,7 +219,6 @@
 ||basequill9.com^
 ||bb2c6-42dfkea8-9fhh47-927aebce12d4.fasterflogging.cc^
 ||beacon.ltdglobal.co.uk^
-||beak.in^
 ||beamtechmacros.com^
 ||becof.org^
 ||beinke-aufzuege.de^
@@ -244,11 +247,13 @@
 ||blaze-x.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
+||bloodcheat.com^
 ||bloom-88.com^
 ||bluehorizons.travel^
 ||blueoceanealtd.co.ke^
 ||blueprint-71.com^
 ||bluerelic155.mypi.co^
+||blueskycheat.com^
 ||bm2contabilidade.com.br^
 ||bmdcompany.com^
 ||bmnjhy.shop^
@@ -389,7 +394,6 @@
 ||clubdetiroelpicarcho.com^
 ||cmp4.top^
 ||cn.devglobal.biz^
-||cn.unionlever.com^
 ||coconutoficial.com.br^
 ||cocuktekstil.com^
 ||coinworknew.com^
@@ -400,6 +404,7 @@
 ||configprovider.short.gy^
 ||connectmagazineads.com^
 ||contididit.conti.pk^
+||continentalgroup.net.in^
 ||controliumbt.com^
 ||copiose.org^
 ||coreprotector.org^
@@ -662,6 +667,7 @@
 ||eldertechsupport.com^
 ||electri.billregulator.com^
 ||eleganceclub.xyz^
+||elev.mcgrorys.top^
 ||elisans.novayonetim.com^
 ||elitecheatsx.live^
 ||elrianda.com^
@@ -679,6 +685,7 @@
 ||eo3wuo9z334anlh.m.pipedream.net^
 ||epanpano.com^
 ||epibenie.dz^
+||epsilonau.shop-theeloncode.com^
 ||epsinf.com^
 ||epstexsecutor.com^
 ||ertdyfiabwggujakd.duckdns.org^
@@ -733,6 +740,7 @@
 ||ficus.in^
 ||fil.immortales.life^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||fileget.plumbco.co.nz^
 ||filegoat.s3.de.io.cloud.ovh.net^
 ||filequanticore.com^
@@ -830,6 +838,7 @@
 ||get.ctivated.win^
 ||get.sctivated.win^
 ||getoutofthebackseat.com^
+||getpkg0.tools^
 ||getreroll.cc^
 ||gfgxcx.com^
 ||gfisoda.biz^
@@ -962,8 +971,10 @@
 ||ircftp.net^
 ||isiore.com.co^
 ||itbakersfield.com^
+||itco.pe^
 ||itsmystik.com^
 ||itssprout.com^
+||ivory-antoinette-9.tiiny.site^
 ||iyn4ce9o.casero.store^
 ||j-0-09g-9bh-h-ggf-1324992141.cos.ap-bangkok.myqcloud.com^
 ||jagexlauncher.net^
@@ -1032,6 +1043,7 @@
 ||kryptonclientcrack.lovable.app^
 ||kryptonclientliista.lovable.app^
 ||kryptonclientplus.lovable.app^
+||kryptonhub.netlify.app^
 ||kryptonofficial.org^
 ||kryptonv2-v1.lovable.app^
 ||kss-kwt.cam^
@@ -1076,7 +1088,6 @@
 ||localfiles.live^
 ||locservice.short.gy^
 ||lomejordesalamanca.es^
-||lomeqpe.com^
 ||long-wildflower-b4f5.gustavosoftware.workers.dev^
 ||loop-lumen.com^
 ||lorelion.cloud^
@@ -1168,6 +1179,7 @@
 ||mng.multidex.life^
 ||mnurlogistics.az^
 ||mobiletoolapp.com^
+||mobix.work^
 ||modhider.com^
 ||modhollow.netlify.app^
 ||mogimall.com^
@@ -1423,6 +1435,7 @@
 ||pub-53fe969c6db649fba6466eb765f54359.r2.dev^
 ||pub-5590b15da27f4f219811312b19a8df05.r2.dev^
 ||pub-5aaa0feaeca64ddda0e256f8793ca2fd.r2.dev^
+||pub-5cc52b70262a4f5b8364aae5d25fa4ea.r2.dev^
 ||pub-5fd52250a6494c859025a3cd39713703.r2.dev^
 ||pub-6a90252f6d70443d960d6ac029dbd446.r2.dev^
 ||pub-72295f71e45d431995028c79cf261dae.r2.dev^
@@ -1524,6 +1537,7 @@
 ||repo.huaweicloud.com^
 ||repositoryserver.dpdns.org^
 ||rerollnow.cc^
+||reshow35.com^
 ||ret.cloudrack.in.net^
 ||reutilizemais.co.mz^
 ||revengegrompegroups.pl^
@@ -1538,6 +1552,7 @@
 ||robinhoodwallet.dervano.vu^
 ||roblox-expl.info^
 ||roboth.ir^
+||rockymountainstoneart.screenconnect.com^
 ||romeopirlanta.com^
 ||roptik.com^
 ||rosidlhassan.com^
@@ -1552,6 +1567,7 @@
 ||rukeyou.com^
 ||runelight.net^
 ||runelite.cc^
+||runelite.ch^
 ||runelitepluginhub.net^
 ||runeliteplus.net^
 ||rup.ksoftir.cc^
@@ -1582,6 +1598,7 @@
 ||sbmods.top^
 ||sc.c1s.su^
 ||schemaleap1.com^
+||scjwc.screenconnect.com^
 ||scoala1gherla.ro^
 ||scooter.cozyvistany.com^
 ||screen.lixiiimunchiihamzzz.live^
@@ -1670,6 +1687,7 @@
 ||sok.soclable8jas.top^
 ||somostask.co^
 ||soniamart.com^
+||sooyun-yun.com.cn^
 ||sosogou.oss-cn-hongkong.aliyuncs.com^
 ||southernalarm.screenconnect.com^
 ||southwindsfineart.com^
@@ -1687,6 +1705,8 @@
 ||src1.minibai.com^
 ||srsorvete.com.br^
 ||srv.conti.pk^
+||ssh-node.hrtb.wreath.website^
+||st.fsyehm.top^
 ||stacysublett.com^
 ||stanarcservice.com^
 ||star.zcnet.net^
@@ -1696,6 +1716,7 @@
 ||statementreaderdownload.com^
 ||static.3001.net^
 ||static.ilclock.com^
+||static.startcode.cyou^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||static.zongheng.com^
@@ -1729,6 +1750,7 @@
 ||sxetnavelelaio.com^
 ||syguihdburb.com^
 ||synergyconsulting.us^
+||systhub.top^
 ||t-trustresnew.com^
 ||t3u5y0liyio.map.azionedge.net^
 ||t9.systha.top^
@@ -1768,6 +1790,7 @@
 ||therapygeorgia.com^
 ||theservice4u.com^
 ||thetamarindleafresidency.com^
+||thewildandfreecafe.screenconnect.com^
 ||thorfish.is^
 ||threedrows.net^
 ||threejrev.com^
@@ -1812,6 +1835,7 @@
 ||tttkkkssww.com^
 ||tuiskr.com^
 ||tutpaste.com^
+||tvel.mcgrorys.top^
 ||tw.mcgrorys.top^
 ||tweakz-dream-launcher.lovable.app^
 ||twejamaica.org^
@@ -1895,6 +1919,7 @@
 ||waveplus.mediabyte.be^
 ||wda.messag.life^
 ||webpagehelp.online^
+||websenorllc.com^
 ||website.mypetapp.co.za^
 ||weco2.oss-me-east-1.aliyuncs.com^
 ||wegrowcoaching.com^
@@ -1912,6 +1937,7 @@
 ||wielixclient.com^
 ||wielixclient.net^
 ||willow-13.com^
+||win.down.55kantu.com^
 ||winbitbrowser.com^
 ||wind.ntlsmartfull.com^
 ||windomstatetheater.com^
@@ -1925,6 +1951,7 @@
 ||wir.consultingics.com^
 ||wittenhorst.eu^
 ||wizzyaddon.com^
+||wocgranted.screenconnect.com^
 ||wordtax.ink^
 ||wp.fujeigroup.com^
 ||wpoler.help^
@@ -1934,7 +1961,6 @@
 ||wurstclient.org^
 ||ww.menara5d.net^
 ||wwalucircle.com^
-||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||wwwiiisss.oss-ap-northeast-1.aliyuncs.com^
@@ -1967,7 +1993,9 @@
 ||yakult-hk.com^
 ||yaniatbisb.duckdns.org^
 ||ybgctdtbzvgpdxjivafy.supabase.co^
+||yifayiapp.oss-cn-hongkong.aliyuncs.com^
 ||yimmenu.live^
+||yiwaiwaikehuduan.com^
 ||ymbbbklz4w24ikhj.public.blob.vercel-storage.com^
 ||yoauction.com^
 ||youreonlymassive.com^

@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: native-oppo
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
-! Synced: 2026-11-09 22:25 UTC
-! Entries: 489 (removed 0 allow-listed)
+! Synced: 2026-11-13 19:45 UTC
+! Entries: 491 (removed 0 allow-listed)
 !
 ||ad-growth-in.heytapmobile.com^
 ||ad-growth-ru.heytapmobile.com^
@@ -50,6 +50,7 @@
 ||bdapi-ads-sg.heytapmobile.com^
 ||browser-api-br.heytapmobile.com^
 ||browser-api-fr.heytapmobile.com^
+||browser-api-gl-01.heytapmobile.com^
 ||browser-api-gl.heytapmobile.com^
 ||browser-api-id.heytapmobile.com^
 ||browser-api-in.heytapmobile.com^
@@ -232,7 +233,6 @@
 ||featureinfo-service-sg.allawnos.com^
 ||file-intl-push.heytapdl.com^
 ||finosfin.com^
-||foreign.coloros.com^
 ||fourier-videoclip-eu.allawnos.com^
 ||fourier-videoclip-in.allawnos.com^
 ||fourier-videoclip-sg.allawnos.com^
@@ -443,6 +443,7 @@
 ||opex-service-sg.allawnos.com^
 ||ostorage-ocloud-in.allawnos.com^
 ||ostorage-ocloud-sg.allawnos.com^
+||ota.foreign.coloros.com^
 ||oversea-nebula-in.heytapmobi.com^
 ||oversea-nebula-sg.heytapmobi.com^
 ||predragate.dc.oppomobile.com^
@@ -453,6 +454,7 @@
 ||rus-service-in.allawnos.com^
 ||rus-service-sg.allawnos.com^
 ||rus-service-us.allawnos.com^
+||rus.foreign.coloros.com^
 ||sau-server-eu.allawnos.com^
 ||sau-server-in.allawnos.com^
 ||sau-server-sg.allawnos.com^
