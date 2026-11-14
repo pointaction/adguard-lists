@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: huawei
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.huawei-onlydomains.txt
-! Synced: 2026-11-10 07:23 UTC
-! Entries: 146 (removed 0 allow-listed)
+! Synced: 2026-11-14 06:29 UTC
+! Entries: 148 (removed 0 allow-listed)
 !
 ||0001-metrics1-data-hicloud-com.geac.dbankedge.cn^
 ||0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn^
@@ -125,6 +125,7 @@
 ||metrics1-drcn-dt-dbankcloud-cn.gere.dbankedge.cn^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics1.data.dbankcloud.cn^
+||metrics6.data.dbankcloud.cn^
 ||nebula-collector.huawei.com^
 ||nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru^
 ||nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com^
@@ -149,3 +150,4 @@
 ||tracking-data.platform.hihonorcloud.com^
 ||uba.huaweicloud.com^
 ||ubacollect-drcn.cloud.dbankcloud.cn^
+||ug-drcn.media.dbankcloud.cn^

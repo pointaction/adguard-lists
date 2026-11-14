@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: xiaomi
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi-onlydomains.txt
-! Synced: 2026-11-13 19:45 UTC
-! Entries: 402 (removed 0 allow-listed)
+! Synced: 2026-11-14 06:29 UTC
+! Entries: 410 (removed 0 allow-listed)
 !
 ||11-c3.bigdata.ctc.neo.xiaomi.com^
 ||3rdupgrade.pandora.xiaomi.com^
@@ -82,6 +82,7 @@
 ||bigdata-lbs-pri-c3.alb.xiaomi.com^
 ||bossadmin.pandora.xiaomi.com^
 ||box.pandora.xiaomi.com^
+||br-miuilog.sms.intl.xiaomi.com^
 ||br.tv.global.mi.com^
 ||browser.miui.com^
 ||bsp.sasdc.pandora.xiaomi.com^
@@ -145,9 +146,6 @@
 ||extranet.eu-east-1.miui-l7-feedback.c7qiwffdmn.elb.xiaomi.com^
 ||extranet.eu-east-1.miui-l7-feedback.fvlyh0lisv.elb.xiaomi.com^
 ||feedback.miui.com^
-||feedback.pt.intl.xiaomi.com^
-||feedback.pt.rus.xiaomi.com^
-||feedback.pt.xiaomi.com^
 ||file.cdn.mvideo.xiaomi.com^
 ||findapi.micloud.xiaomi.net^
 ||flash.sec.intl.miui.com^
@@ -165,6 +163,7 @@
 ||global-ad-extranet-pri-azams.alb.xiaomi.com^
 ||global-ad-extranet-pri-azpn.alb.xiaomi.com^
 ||global-ad-intl-pri-alisgp.alb.xiaomi.com^
+||global-ad-pri-alisgp.alb.xiaomi.com^
 ||globalvideo.cdn.pandora.intl.xiaomi.com^
 ||gr.tv.global.mi.com^
 ||gstat.pandora.xiaomi.com^
@@ -182,6 +181,7 @@
 ||huosai.xiaomi.com^
 ||hybrid.miui.com^
 ||i.xiaomi.com^
+||id-miuilog.sms.intl.xiaomi.com^
 ||id.tv.global.mi.com^
 ||idm.iot.mi.com^
 ||idmb-api.xmpush.global.xiaomi.com^
@@ -246,6 +246,7 @@
 ||miui-l7-data-other.pt.miui.com^
 ||miui.net^
 ||mlog.search.xiaomi.net^
+||mm-miuilog.sms.intl.xiaomi.com^
 ||mm.tv.global.mi.com^
 ||mob.pandora.xiaomi.com^
 ||mon.be.xiaomi.com^
@@ -257,7 +258,9 @@
 ||msg.video.ptqy.gitv.tv^
 ||msg2.video.ptqy.gitv.tv^
 ||msga.ptqy.gitv.tv^
+||mx-miuilog.sms.intl.xiaomi.com^
 ||mx.tv.global.mi.com^
+||my-miuilog.sms.intl.xiaomi.com^
 ||my.tv.global.mi.com^
 ||nav.sec.miui.com^
 ||netcheck.pandora.xiaomi.com^
@@ -276,6 +279,7 @@
 ||package.cdn.pandora.xiaomi.com^
 ||pandora.mi.com^
 ||pb.bi.gitv.tv^
+||ph-miuilog.sms.intl.xiaomi.com^
 ||pi.ias.xiaomi.com^
 ||pk.tv.global.mi.com^
 ||pl.tv.global.mi.com^
@@ -304,6 +308,7 @@
 ||rtmpott.pandora.xiaomi.com^
 ||ru-api.xmpush.global.xiaomi.com^
 ||ru-feedback.xmpush.global.xiaomi.com^
+||ru-miuilog.sms.intl.xiaomi.com^
 ||ru-register.xmpush.global.xiaomi.com^
 ||ru.feedback.xmpush.global.xiaomi.com^
 ||ru.tv.global.mi.com^
@@ -362,6 +367,7 @@
 ||t7.market.xiaomi.com^
 ||test.admin.xmpush.xiaomi.com^
 ||testit.miui.com^
+||th-miuilog.sms.intl.xiaomi.com^
 ||th.tv.global.mi.com^
 ||thm.market.xiaomi.com^
 ||time.video.ptqy.gitv.tv^
@@ -375,6 +381,7 @@
 ||tj1.staging.pay.xiaomi.com^
 ||tj1.stagingouter.pay.xiaomi.com^
 ||tj1.test.pay.xiaomi.com^
+||tr-miuilog.sms.intl.xiaomi.com^
 ||tr.tv.global.mi.com^
 ||tracker-preview.ai.xiaomi.com^
 ||tracker.ai.xiaomi.com^
@@ -396,6 +403,7 @@
 ||video.market.xiaomi.com^
 ||vip-api.xmpush.global.xiaomi.com^
 ||vip-api.xmpush.xiaomi.com^
+||vn-miuilog.sms.intl.xiaomi.com^
 ||vn.tv.global.mi.com^
 ||voip.game.xiaomi.com^
 ||w.pandora.xiaomi.com^

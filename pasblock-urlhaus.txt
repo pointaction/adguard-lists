@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-11-13 19:45 UTC
-! Entries: 2013 (removed 0 allow-listed)
+! Synced: 2026-11-14 06:29 UTC
+! Entries: 2028 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -13,7 +13,6 @@
 ||10.185.202.64.host.secureserver.net^
 ||123.ywxww.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
-||14-0-204-188.static.pccw-hkt.com^
 ||156.233.235.86.nip.io^
 ||1717.1000uc.com^
 ||178-83-121-204.cprapid.com^
@@ -30,6 +29,7 @@
 ||297-47d1-852d-0f1a190c45.garbagestress.cc^
 ||2bxvrc1.com^
 ||2cfc0222.salamanderprocessing.pages.dev^
+||2duo.com.br^
 ||2goelectricity.cloud^
 ||2homebrews.com^
 ||3.zhzy999.net^
@@ -67,6 +67,7 @@
 ||aass111.tos-cn-beijing.volces.com^
 ||aass1122.tos-cn-beijing.volces.com^
 ||aawwf.hkg.bcebos.com^
+||abangpoteh.com^
 ||abc.highpnk.life^
 ||abilityindisabilityindia.org^
 ||abonent-app.ru^
@@ -74,7 +75,6 @@
 ||acc.jiangsujiaxue.com^
 ||acc.munber.life^
 ||accessdocu.b-cdn.net^
-||accesstelematics.com^
 ||acd.munber.life^
 ||acms.saleseos.com^
 ||acrobat.proposal.name.ng^
@@ -92,6 +92,7 @@
 ||adopdf.shop^
 ||adpayworks.b-cdn.net^
 ||adps.pro^
+||adubuildersco.com^
 ||adv.dailytechinsight.com^
 ||aegic.top^
 ||aetherius.live^
@@ -135,6 +136,7 @@
 ||anubisclient.net^
 ||anvil13.com^
 ||aolgepacklng.com^
+||apapg.com^
 ||api-relay.cc^
 ||api-willserver.phonkstyle-workers.workers.dev^
 ||api.cdn22.net^
@@ -219,6 +221,7 @@
 ||basequill9.com^
 ||bb2c6-42dfkea8-9fhh47-927aebce12d4.fasterflogging.cc^
 ||beacon.ltdglobal.co.uk^
+||beak.in^
 ||beamtechmacros.com^
 ||becof.org^
 ||beinke-aufzuege.de^
@@ -306,7 +309,6 @@
 ||cablewireltd.site^
 ||caizom.eu.cc^
 ||cakkaao.com^
-||cambodiatouristservice.com^
 ||campus-engine-neural-chorus.trycloudflare.com^
 ||capricecapitalpartners.com^
 ||captainx-download.captainleontian.workers.dev^
@@ -329,6 +331,7 @@
 ||cdm.wovplaying.help^
 ||cdn-10049480.file.myqcloud.com^
 ||cdn.876553.xyz^
+||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.monther.life^
 ||cdn.wovplaying.help^
@@ -394,6 +397,7 @@
 ||clubdetiroelpicarcho.com^
 ||cmp4.top^
 ||cn.devglobal.biz^
+||cn.unionlever.com^
 ||coconutoficial.com.br^
 ||cocuktekstil.com^
 ||coinworknew.com^
@@ -542,6 +546,7 @@
 ||dh.1121103.xyz^
 ||diag.wpoler.help^
 ||digitalisonesapps.com^
+||digitalonline.cl^
 ||dimonpert.com^
 ||dinamikakargo.com^
 ||dipre.com.tr^
@@ -774,6 +779,7 @@
 ||forgewillow.com^
 ||forspeed.onlinedown.net^
 ||fotoschop.cl^
+||fotosdepuebla.org^
 ||foundrysourcings.co.uk^
 ||fr.mcgrorys.top^
 ||frame-kite.com^
@@ -864,6 +870,7 @@
 ||goobaaclient.com^
 ||goobaaclient.lovable.app^
 ||goobaaclient.sbs^
+||goodlandfp.com^
 ||goododeqvip.com^
 ||google-meet-verification.icu^
 ||goto.stnts.com^
@@ -897,6 +904,7 @@
 ||hasilgov-my.my.id^
 ||hasilgov-my.shop^
 ||haven-post.com^
+||hdsoftware.org^
 ||helnivo.vu^
 ||helpdesk09-26.com^
 ||hf-offshores.cc^
@@ -912,7 +920,6 @@
 ||hjha.ao^
 ||hll912-1484535448.cos.ap-hongkong.myqcloud.com^
 ||hnjgdl.geps.glodon.com^
-||hobobot.net^
 ||horion-static.pages.dev^
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-95-230-215-65.business.telecomitalia.it^
@@ -928,6 +935,7 @@
 ||hpfile.cyou^
 ||hponline.run.place^
 ||hseda.com^
+||hskstrading.com^
 ||htdentshop.com^
 ||humaneanimalpartner.screenconnect.com^
 ||hya.codedevfuture.buzz^
@@ -961,6 +969,7 @@
 ||importantdocumentscopys.s3.us-east-2.amazonaws.com^
 ||infocardphoto.info^
 ||injurylawsocal.com^
+||intelli-sys.co.zw^
 ||intelligradeeducation.vicentecisnerospub.com^
 ||internetlouisiana.com^
 ||internetmissouri.com^
@@ -969,6 +978,7 @@
 ||ip-69-33-213-199.dfw.megapath.net^
 ||iploglab.store^
 ||ircftp.net^
+||irm.st^
 ||isiore.com.co^
 ||itbakersfield.com^
 ||itco.pe^
@@ -980,7 +990,6 @@
 ||jagexlauncher.net^
 ||java.omsules.life^
 ||javb.omsules.life^
-||jawaratekno.com^
 ||jd-forever.com^
 ||jdaram.com^
 ||jenniferloeffler.com^
@@ -1028,6 +1037,7 @@
 ||kolpa.lol^
 ||kong07.s3.us-east-1.amazonaws.com^
 ||konsor.ru^
+||kop4r.com^
 ||korexnode.duckdns.org^
 ||korexnode.xyz^
 ||kral.shaderzone.org^
@@ -1035,13 +1045,11 @@
 ||krem.mesoptik.com^
 ||kronemedia.de^
 ||krypton-client.lol^
-||krypton-client.net^
 ||kryptonclient-cracked.com^
 ||kryptonclient-donutsmp.com^
 ||kryptonclient.lol^
 ||kryptonclient.vip^
 ||kryptonclientcrack.lovable.app^
-||kryptonclientliista.lovable.app^
 ||kryptonclientplus.lovable.app^
 ||kryptonhub.netlify.app^
 ||kryptonofficial.org^
@@ -1071,6 +1079,7 @@
 ||lepafonso.bz^
 ||letsupconfig.sbs^
 ||liesetaler.de^
+||lifeisabouthavingfun448.duckdns.org^
 ||liikepalvelu.com^
 ||likedrink.beer^
 ||lilong.kmmiiaaa.com^
@@ -1097,6 +1106,7 @@
 ||lucas.cptz.wtf^
 ||lucky-shadow-703a.modpages.workers.dev^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminexclient.com^
 ||luminexclient.net^
 ||luminouspower.com.pk^
@@ -1182,6 +1192,7 @@
 ||mobix.work^
 ||modhider.com^
 ||modhollow.netlify.app^
+||mofa-gov-np.donwloaad-file.org^
 ||mogimall.com^
 ||mon-blanc-03.cfd^
 ||mon-blanc-04.cfd^
@@ -1203,7 +1214,6 @@
 ||myvcart.com^
 ||n.uguu.se^
 ||n.vs108.com^
-||nagl.com.pg^
 ||namaacont.com^
 ||namuvpn.com^
 ||natashamohan.com^
@@ -1211,7 +1221,6 @@
 ||ncxps.com^
 ||nd.tdpqnf.com^
 ||ndigitals.in^
-||ndjvmuvkoahnopfqn2jpva.on.drv.tw^
 ||nebula-client.com^
 ||nebula-client.org^
 ||nebulaclient.co^
@@ -1290,6 +1299,7 @@
 ||omskin.org^
 ||on.mcgrorys.top^
 ||one-graup.com^
+||onfiltre.com.tr^
 ||onlocity.com^
 ||onlyfiles.com^
 ||onlypackaging.grupoinde.com^
@@ -1336,6 +1346,7 @@
 ||pawsockenjoyer.site^
 ||pay.aqiu6.com^
 ||payap.ir^
+||pcdanfhn.appdlhub.workers.dev^
 ||pcupd.com^
 ||pdf-editore.com^
 ||pdfmun.software^
@@ -1573,6 +1584,7 @@
 ||rup.ksoftir.cc^
 ||rusa-inion24-novst.vercel.app^
 ||rush360.net^
+||ruthaiv.com^
 ||rxb.immortales.fun^
 ||ryanborn.net^
 ||ryzhe.com^
@@ -1633,7 +1645,6 @@
 ||sex.gemlogin.space^
 ||sg123.net^
 ||sgeseducation.com^
-||sgivertise.xyz^
 ||sgwv.jp^
 ||sh.classera.com^
 ||shadowbot-dih.pages.dev^
@@ -1719,7 +1730,6 @@
 ||static.startcode.cyou^
 ||static.topxgun.com^
 ||static.youdm.cn^
-||static.zongheng.com^
 ||stdown.dinju.com^
 ||steelstanleystaystrong.top^
 ||stellaspicy.org^
@@ -1754,6 +1764,7 @@
 ||t-trustresnew.com^
 ||t3u5y0liyio.map.azionedge.net^
 ||t9.systha.top^
+||taizi.fdstat.vip^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tangible-drink.surge.sh^
@@ -1842,6 +1853,7 @@
 ||twitch.tj^
 ||twu-hwt.org^
 ||tycons.com^
+||u.pone.rs^
 ||uasputnik.com^
 ||uber-joeleasing.de^
 ||udn.jp^
@@ -1874,6 +1886,7 @@
 ||v-k.com.ua^
 ||v-w-v.com^
 ||v15.next.forgejo.org^
+||v2raynapps.com.cn^
 ||v5q.eu^
 ||v7yp4wts.fourstarcampground.com^
 ||vaamsmgfreocmroe-1342087530.cos.sa-saopaulo.myqcloud.com^
@@ -1893,6 +1906,7 @@
 ||verizon.systyu.top^
 ||veryboys.com^
 ||vexonmods.shop^
+||vfils.shop^
 ||vibecoders.vip^
 ||victorregenerativemedicinecenters.com^
 ||videdtp-rus.vercel.app^
@@ -1961,6 +1975,7 @@
 ||wurstclient.org^
 ||ww.menara5d.net^
 ||wwalucircle.com^
+||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||wwwiiisss.oss-ap-northeast-1.aliyuncs.com^
