@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-14 18:31 UTC
-! Entries: 7897
+! Generated: 2026-11-15 07:14 UTC
+! Entries: 7914
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -3695,6 +3695,23 @@
 @@||imms.orange.sk^
 @@||imovil.entelpcs.cl^
 @@||imovil.virginmobile.cl^
+@@||imp.i104546.net^
+@@||imp.i114863.net^
+@@||imp.i116503.net^
+@@||imp.i125364.net^
+@@||imp.i127447.net^
+@@||imp.i128439.net^
+@@||imp.i146998.net^
+@@||imp.i215020.net^
+@@||imp.i254217.net^
+@@||imp.i256749.net^
+@@||imp.i305175.net^
+@@||imp.i310051.net^
+@@||imp.i319830.net^
+@@||imp.i326929.net^
+@@||imp.i346552.net^
+@@||imp.i350665.net^
+@@||imp.i384100.net^
 @@||impulseonline.shop^
 @@||ims.attmex.mx^
 @@||ims.bell.ca^
