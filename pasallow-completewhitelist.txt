@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-16 22:32 UTC
-! Entries: 7916
+! Generated: 2026-11-17 21:21 UTC
+! Entries: 7927
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -761,6 +761,7 @@
 @@||app1c.gateway.portal.outreach.io^
 @@||app1c.outreach.io^
 @@||app1e.gateway.portal.outreach.io^
+@@||app1e.outreach.io^
 @@||app1f.gateway.portal.outreach.io^
 @@||app1f.outreach.io^
 @@||app2-ap-ofc.central.arubanetworks.com^
@@ -771,7 +772,9 @@
 @@||app2.salesmanago.pl^
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
+@@||app2b.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
+@@||app2c.outreach.io^
 @@||app3.salesmanago.pl^
 @@||appattest.apple.com^
 @@||appattest.v.aaplimg.com^
@@ -1291,6 +1294,7 @@
 @@||cdn.d-trust-cloudcrl.net^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
+@@||cdn.ftspecialist.exponea.com^
 @@||cdn.fwupd.org^
 @@||cdn.globalsigncdn.com^
 @@||cdn.globalsigncdn.com.cdn.cloudflare.net^
@@ -1444,6 +1448,7 @@
 @@||cl.s10.exct.net^
 @@||cl.s11.exct.net^
 @@||cl.s12.exct.net^
+@@||cl.s13.exct.net^
 @@||cl.s4.exct.net^
 @@||cl.s50.exct.net^
 @@||cl.s51.exct.net^
@@ -2846,6 +2851,7 @@
 @@||email.getalby.com^
 @@||email.gruv.com^
 @@||email.marketing.strikingly.com^
+@@||email.microsoft.com^
 @@||email.microsoftonline.com^
 @@||email.office.com^
 @@||email.plex.tv^
@@ -3692,6 +3698,7 @@
 @@||imovil.virginmobile.cl^
 @@||imp.i104546.net^
 @@||imp.i114863.net^
+@@||imp.i116503.net^
 @@||imp.i127447.net^
 @@||imp.i128439.net^
 @@||imp.i146998.net^
@@ -3706,6 +3713,8 @@
 @@||imp.i319830.net^
 @@||imp.i326929.net^
 @@||imp.i346552.net^
+@@||imp.i350665.net^
+@@||imp.i366014.net^
 @@||imp.i384100.net^
 @@||impulseonline.shop^
 @@||ims.attmex.mx^
@@ -4085,7 +4094,6 @@
 @@||links.email.crunchbase.com^
 @@||links.iterable.com^
 @@||links.m.helloworldemail.com^
-@@||links.mkt91.net^
 @@||links.mozilla.org^
 @@||linksaffiliate.com^
 @@||linksmail.geosolinc.com^
@@ -4484,6 +4492,7 @@
 @@||mkto-ab570128.com^
 @@||mkto-ab570178.com^
 @@||mkto-ab580004.com^
+@@||mkto-ab610096.com^
 @@||mkto-ab620024.com^
 @@||mkto-ab630033.com^
 @@||mkto-ab630042.com^
@@ -4540,6 +4549,7 @@
 @@||mkto-sj010128.com^
 @@||mkto-sj010203.com^
 @@||mkto-sj040252.com^
+@@||mkto-sj050202.com^
 @@||mkto-sj070214.com^
 @@||mkto-sj080048.com^
 @@||mkto-sj090132.com^
@@ -5935,6 +5945,7 @@
 @@||r3.i.lencr.org^
 @@||r3.o.lencr.org^
 @@||r4.o.lencr.org^
+@@||rabuur8ab.cc.rs6.net^
 @@||racgp.au1.qualtrics.com^
 @@||radar.com^
 @@||radar.io^
