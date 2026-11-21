@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: xiaomi
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi-onlydomains.txt
-! Synced: 2026-11-14 06:29 UTC
-! Entries: 410 (removed 0 allow-listed)
+! Synced: 2026-11-21 07:14 UTC
+! Entries: 411 (removed 0 allow-listed)
 !
 ||11-c3.bigdata.ctc.neo.xiaomi.com^
 ||3rdupgrade.pandora.xiaomi.com^
@@ -242,6 +242,7 @@
 ||mistat.rus.xiaomi.com.ksyna.net^
 ||mistat.xiaomi.com^
 ||mistat.xiaomi.com.download.ks-cdn.com^
+||mistat.xiaomi.com.mgslb.com^
 ||miui-l7-data-other-c3.pt.miui.com^
 ||miui-l7-data-other.pt.miui.com^
 ||miui.net^
