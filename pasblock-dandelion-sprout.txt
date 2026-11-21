@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: dandelion-sprout
 ! Source: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-! Synced: 2026-11-09 06:40 UTC
-! Entries: 11474 (removed 3 allow-listed)
+! Synced: 2026-11-21 19:20 UTC
+! Entries: 11473 (removed 3 allow-listed)
 !
 ||0180info.de^
 ||03122e72f0.com^
@@ -7364,7 +7364,6 @@
 ||nammathoothukudi.com^
 ||nan.ydns.eu^
 ||nana-vypredaj.sk^
-||nanacalistar.com^
 ||nanavypredaj.sk^
 ||nancydroppedsupplied.com^
 ||nancypaternal.com^
