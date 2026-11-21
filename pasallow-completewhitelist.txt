@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-20 20:45 UTC
-! Entries: 7942
+! Generated: 2026-11-21 19:49 UTC
+! Entries: 7958
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -179,6 +179,7 @@
 @@||34-courier.push.apple.com^
 @@||34.courier-push-apple.com.akadns.net^
 @@||341850582.group0.sites.hscoscdn-na3.net^
+@@||343135192.group0.sites.hscoscdn-na3.net^
 @@||35-courier.push.apple.com^
 @@||35.courier-push-apple.com.akadns.net^
 @@||36-courier.push.apple.com^
@@ -774,6 +775,7 @@
 @@||app2.salesmanago.pl^
 @@||app2a.gateway.portal.outreach.io^
 @@||app2a.outreach.io^
+@@||app2b.gateway.portal.outreach.io^
 @@||app2b.outreach.io^
 @@||app2c.gateway.portal.outreach.io^
 @@||app2c.outreach.io^
@@ -1149,7 +1151,11 @@
 @@||c2-eu.piano.io^
 @@||c2-sandbox.piano.io^
 @@||c2.piano.io^
+@@||c2369.dotomi.com^
+@@||c2411.dotomi.com^
+@@||c2466.dotomi.com^
 @@||c2827.dotomi.com^
+@@||c2990.dotomi.com^
 @@||c3sl.ufpr.br^
 @@||ca-31-main.csd.disa.mil^
 @@||ca-32-main.csd.disa.mil^
@@ -1296,7 +1302,6 @@
 @@||cdn.d-trust-cloudcrl.net^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
-@@||cdn.ftspecialist.exponea.com^
 @@||cdn.fwupd.org^
 @@||cdn.globalsigncdn.com^
 @@||cdn.globalsigncdn.com.cdn.cloudflare.net^
@@ -2854,7 +2859,6 @@
 @@||email.getalby.com^
 @@||email.gruv.com^
 @@||email.marketing.strikingly.com^
-@@||email.microsoft.com^
 @@||email.microsoftonline.com^
 @@||email.office.com^
 @@||email.plex.tv^
@@ -3701,7 +3705,6 @@
 @@||imovil.entelpcs.cl^
 @@||imovil.virginmobile.cl^
 @@||imp.i104546.net^
-@@||imp.i114863.net^
 @@||imp.i116503.net^
 @@||imp.i127447.net^
 @@||imp.i127448.net^
@@ -4449,6 +4452,7 @@
 @@||mkto-ab010150.com^
 @@||mkto-ab010164.com^
 @@||mkto-ab020242.com^
+@@||mkto-ab040081.com^
 @@||mkto-ab060134.com^
 @@||mkto-ab060144.com^
 @@||mkto-ab060212.com^
@@ -4463,6 +4467,7 @@
 @@||mkto-ab180024.com^
 @@||mkto-ab240112.com^
 @@||mkto-ab240185.com^
+@@||mkto-ab250051.com^
 @@||mkto-ab250055.com^
 @@||mkto-ab250105.com^
 @@||mkto-ab250115.com^
@@ -4474,12 +4479,12 @@
 @@||mkto-ab300154.com^
 @@||mkto-ab310016.com^
 @@||mkto-ab330018.com^
-@@||mkto-ab330197.com^
 @@||mkto-ab340022.com^
 @@||mkto-ab350122.com^
 @@||mkto-ab370015.com^
 @@||mkto-ab390033.com^
 @@||mkto-ab390037.com^
+@@||mkto-ab390108.com^
 @@||mkto-ab390129.com^
 @@||mkto-ab410098.com^
 @@||mkto-ab420198.com^
@@ -4490,8 +4495,12 @@
 @@||mkto-ab430186.com^
 @@||mkto-ab430187.com^
 @@||mkto-ab440026.com^
+@@||mkto-ab440036.com^
 @@||mkto-ab450015.com^
+@@||mkto-ab460165.com^
 @@||mkto-ab470060.com^
+@@||mkto-ab480200.com^
+@@||mkto-ab500098.com^
 @@||mkto-ab530057.com^
 @@||mkto-ab540143.com^
 @@||mkto-ab550041.com^
@@ -4546,6 +4555,7 @@
 @@||mkto-mlm10010008.com^
 @@||mkto-mlm10030005.com^
 @@||mkto-mlm10040018.com^
+@@||mkto-mlm20020026.com^
 @@||mkto-nld1010057.com^
 @@||mkto-nld1010079.com^
 @@||mkto-nld1010150.com^
@@ -4568,25 +4578,30 @@
 @@||mkto-sj080048.com^
 @@||mkto-sj090063.com^
 @@||mkto-sj090132.com^
+@@||mkto-sj110048.com^
 @@||mkto-sj130243.com^
 @@||mkto-sj140007.com^
 @@||mkto-sj140170.com^
+@@||mkto-sj160016.com^
 @@||mkto-sj160226.com^
 @@||mkto-sj170174.com^
 @@||mkto-sj180011.com^
+@@||mkto-sj190104.com^
+@@||mkto-sj200095.com^
 @@||mkto-sj200186.com^
 @@||mkto-sj200201.com^
 @@||mkto-sj210111.com^
+@@||mkto-sj210146.com^
 @@||mkto-sj210170.com^
 @@||mkto-sj220006.com^
-@@||mkto-sj230010.com^
 @@||mkto-sj240021.com^
 @@||mkto-sj250033.com^
-@@||mkto-sj250062.com^
+@@||mkto-sj250171.com^
 @@||mkto-sj270078.com^
 @@||mkto-sj270080.com^
 @@||mkto-sj280085.com^
 @@||mkto-sj290040.com^
+@@||mkto-sj290197.com^
 @@||mkto-sj300023.com^
 @@||mkto-sj310061.com^
 @@||mkto-sj320080.com^
@@ -4597,8 +4612,8 @@
 @@||mkto-sj400023.com^
 @@||mkto-sjg0030.com^
 @@||mkto-sjh0178.com^
-@@||mkto-sji0033.com^
 @@||mkto-sji0183.com^
+@@||mkto-sjo0288.com^
 @@||mkto-sn040110.com^
 @@||mkto-test.com^
 @@||mkto-trk.cisco.com^
@@ -6120,6 +6135,7 @@
 @@||rozetka-cdn.exponea.com^
 @@||rpm.librewolf.net^
 @@||rpmfusion.org^
+@@||rqkmqleab.cc.rs6.net^
 @@||rsc.att.com^
 @@||rsc.wayport.net^
 @@||rsp.sysmocom.de^
@@ -6517,8 +6533,8 @@
 @@||suite33-cf.emarsys.net^
 @@||suite33.emarsys.net^
 @@||suite34.emarsys.net^
+@@||suite36.emarsys.net^
 @@||suite37.emarsys.net^
-@@||suite38-cf.emarsys.net^
 @@||suite38.emarsys.net^
 @@||suite40-cf.emarsys.net^
 @@||suite40.emarsys.net^
@@ -6631,7 +6647,6 @@
 @@||t.mmtrkr.com^
 @@||t.neory-tm.net^
 @@||t.sidekickopen05-eu1.com^
-@@||t.sidekickopen21.com^
 @@||t.xfin.me^
 @@||t.yesware.com^
 @@||t1.symcb.com^
@@ -6986,6 +7001,7 @@
 @@||tsfe.trafficshaping.dsp.mp.microsoft.com^
 @@||tubiedronka.pl^
 @@||tuenti.com^
+@@||tuifr.tradetracker.net^
 @@||tunisiana.com^
 @@||turkcell.com.tr^
 @@||tusmobil.si^
