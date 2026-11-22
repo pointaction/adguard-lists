@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: goodbye-ads
 ! Source: https://cdn.jsdelivr.net/gh/jerryn70/GoodbyeAds@master/Formats/GoodbyeAds-AdBlock-Filter.txt
-! Synced: 2026-11-20 07:21 UTC
-! Entries: 277469 (removed 274 allow-listed)
+! Synced: 2026-11-22 06:55 UTC
+! Entries: 277465 (removed 278 allow-listed)
 !
 ||0--skitch--0.tt.omtrdc.net^
 ||0-0-0-birkart-clws-ifs-globalmn.net.daraz.com^
@@ -70734,7 +70734,6 @@
 ||c2363.dotomi.com^
 ||c2365.dotomi.com^
 ||c2366.dotomi.com^
-||c2369.dotomi.com^
 ||c2372.dotomi.com^
 ||c2379.dotomi.com^
 ||c2384.dotomi.com^
@@ -70742,7 +70741,6 @@
 ||c2405.dotomi.com^
 ||c2406.dotomi.com^
 ||c2410.dotomi.com^
-||c2411.dotomi.com^
 ||c2416.dotomi.com^
 ||c2418.dotomi.com^
 ||c2419.dotomi.com^
@@ -70755,7 +70753,6 @@
 ||c2453.dotomi.com^
 ||c2462.dotomi.com^
 ||c2465.dotomi.com^
-||c2466.dotomi.com^
 ||c2468.dotomi.com^
 ||c2474.dotomi.com^
 ||c2496.dotomi.com^
@@ -70787,7 +70784,6 @@
 ||c2966.dotomi.com^
 ||c2981.dotomi.com^
 ||c2982.dotomi.com^
-||c2990.dotomi.com^
 ||c2997.dotomi.com^
 ||c2a0076d.xyz^
 ||c2c24.pl^
