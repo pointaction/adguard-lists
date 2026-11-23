@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-22 19:59 UTC
-! Entries: 7958
+! Generated: 2026-11-23 08:18 UTC
+! Entries: 7960
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -1153,7 +1153,6 @@
 @@||c2411.dotomi.com^
 @@||c2466.dotomi.com^
 @@||c2827.dotomi.com^
-@@||c2990.dotomi.com^
 @@||c3sl.ufpr.br^
 @@||ca-31-main.csd.disa.mil^
 @@||ca-32-main.csd.disa.mil^
@@ -1298,6 +1297,7 @@
 @@||cdn.braze.eu^
 @@||cdn.calibour.net^
 @@||cdn.d-trust-cloudcrl.net^
+@@||cdn.e-pfg.exponea.com^
 @@||cdn.eu1.exponea.com^
 @@||cdn.exponea.com^
 @@||cdn.fwupd.org^
@@ -4196,6 +4196,7 @@
 @@||m-b2o72.custobar.com^
 @@||m-bcta6.custobar.com^
 @@||m-bzp7z.custobar.com^
+@@||m-c5a3m.custobar.com^
 @@||m-dpsxz.custobar.com^
 @@||m-fi32s.custobar.com^
 @@||m-gs5w6.custobar.com^
@@ -4536,7 +4537,6 @@
 @@||mkto-lon030291.com^
 @@||mkto-lon040022.com^
 @@||mkto-lon040102.com^
-@@||mkto-lon060043.com^
 @@||mkto-lon060131.com^
 @@||mkto-lon060196.com^
 @@||mkto-lon060213.com^
@@ -4563,6 +4563,7 @@
 @@||mkto-nld1020182.com^
 @@||mkto-nld1020221.com^
 @@||mkto-nld1030007.com^
+@@||mkto-nld1040021.com^
 @@||mkto-nld1040165.com^
 @@||mkto-nld1050103.com^
 @@||mkto-nld1050162.com^
@@ -4593,6 +4594,7 @@
 @@||mkto-sj210146.com^
 @@||mkto-sj210170.com^
 @@||mkto-sj220006.com^
+@@||mkto-sj220121.com^
 @@||mkto-sj240021.com^
 @@||mkto-sj250033.com^
 @@||mkto-sj250171.com^
