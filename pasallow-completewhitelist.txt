@@ -1,8 +1,8 @@
 ! Title: Point Action Complete Whitelist
 ! Description: Curated combined feed. All credit to each source's maintainer.
 ! Homepage: https://github.com/pointaction/adguard-lists
-! Generated: 2026-11-23 08:18 UTC
-! Entries: 7960
+! Generated: 2026-11-24 00:24 UTC
+! Entries: 7957
 !
 ! Combined from:
 !   - badblock: https://badblock.celenity.dev/abp/whitelist.txt
@@ -704,6 +704,7 @@
 @@||api.bam-x.com^
 @@||api.cleverpush.com^
 @@||api.elasticemail.com^
+@@||api.getsidekick.comapi.hubapi.com^
 @@||api.hcaptcha.com^
 @@||api.heylink.com^
 @@||api.hubapi.com^
@@ -1525,7 +1526,6 @@
 @@||click.member.americanexpress.com^
 @@||click.members.nra.org^
 @@||click.mfilter.net^
-@@||click.microsoftstoreemail.com^
 @@||click.mlsend.com^
 @@||click.myctm.canadiantire.ca^
 @@||click.mz.simba.taobao.com^
@@ -3711,7 +3711,6 @@
 @@||imp.i215020.net^
 @@||imp.i254217.net^
 @@||imp.i255443.net^
-@@||imp.i256749.net^
 @@||imp.i261257.net^
 @@||imp.i287301.net^
 @@||imp.i305175.net^
@@ -4491,7 +4490,6 @@
 @@||mkto-ab430045.com^
 @@||mkto-ab430076.com^
 @@||mkto-ab430111.com^
-@@||mkto-ab430114.com^
 @@||mkto-ab430186.com^
 @@||mkto-ab430187.com^
 @@||mkto-ab440026.com^
@@ -4600,7 +4598,6 @@
 @@||mkto-sj250171.com^
 @@||mkto-sj270078.com^
 @@||mkto-sj270080.com^
-@@||mkto-sj280085.com^
 @@||mkto-sj290040.com^
 @@||mkto-sj290197.com^
 @@||mkto-sj300023.com^
@@ -6466,7 +6463,6 @@
 @@||static.redhat.com^
 @@||static2.ips.apple.com.edgekey.net^
 @@||statically.map.fastly.net^
-@@||staticiv.com^
 @@||statistics.kavakci.dev^
 @@||stats.izzyondroid.org^
 @@||stats.izzysoft.de^
@@ -6544,6 +6540,7 @@
 @@||suite45-cf.emarsys.net^
 @@||suite45.emarsys.net^
 @@||suite46.emarsys.net^
+@@||suite47-cf.emarsys.net^
 @@||suite48.emarsys.net^
 @@||suite5.emarsys.net^
 @@||suite50.emarsys.net^
