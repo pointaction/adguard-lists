@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: urlhaus
 ! Source: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-! Synced: 2026-11-24 22:29 UTC
-! Entries: 2156 (removed 0 allow-listed)
+! Synced: 2026-11-25 08:40 UTC
+! Entries: 2154 (removed 0 allow-listed)
 !
 ||0.232.205.92.host.secureserver.net^
 ||02teste.cc^
@@ -14,10 +14,10 @@
 ||123.ywxww.net^
 ||132.red-81-42-249.staticip.rima-tde.net^
 ||156.233.235.86.nip.io^
+||1628394.xyz^
 ||167-148-195-171.sslip.io^
 ||1717.1000uc.com^
 ||178-83-121-204.cprapid.com^
-||178.248.3.202.ll.sta.mana.pf^
 ||18tllktok.xyz^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
@@ -85,7 +85,6 @@
 ||accessdocu.b-cdn.net^
 ||acd.munber.life^
 ||acms.saleseos.com^
-||acrilicoporto.pt^
 ||acrobat.proposal.name.ng^
 ||acten.topickks.icu^
 ||activatef.win^
@@ -121,7 +120,6 @@
 ||alarmline.com.br^
 ||alaseeldates.com^
 ||alccounseling.screenconnect.com^
-||algi-english.4lima.at^
 ||alineeleuterio.com.br^
 ||allegro.wicreset.pl^
 ||allendostmen.com^
@@ -136,7 +134,6 @@
 ||amc-us.mprevive.com^
 ||amparolarsonpw.com^
 ||andbake.cam^
-||andrewtreks.com^
 ||angefundsu.sbs^
 ||anibusclientpro.netlify.app^
 ||anthonyspizzeriainc.com^
@@ -162,7 +159,6 @@
 ||app.appzcvb.com^
 ||app.dydowsdy.xyz^
 ||app.ezmarketz.com^
-||app.static-file.lol^
 ||appset.autos^
 ||aqclqkcfjwbgknkwnvmm.supabase.co^
 ||aranos1.duckdns.org^
@@ -173,7 +169,6 @@
 ||armoniamiddleeast.ae^
 ||artalivedesign.com^
 ||ascomsecurity.com.au^
-||asdsocial.pt^
 ||asniqdkw.com^
 ||astenterprises.com.pk^
 ||astraia.co.za^
@@ -202,6 +197,7 @@
 ||axionasports.com^
 ||axqua.com^
 ||ayub.cptz.wtf^
+||ayumiya.co.jp^
 ||azhu.cakkaao.com^
 ||b.9-9-11.com^
 ||b.clu-e.eu^
@@ -394,7 +390,6 @@
 ||chiroartist.com^
 ||chrome.browserdownloads.ru^
 ||chrome.windows-browser.net^
-||chuorinkan-mensesthe.xyz^
 ||churchinmanila.org^
 ||cianet.ir^
 ||cid.gov.so^
@@ -471,7 +466,7 @@
 ||cs2xexternal.com^
 ||csgroup.host^
 ||csjdasioeqwgpt.com^
-||cta.edu.pe^
+||ctsfactory.com^
 ||cu.srijanajha.com.np^
 ||cube-60.com^
 ||curlservice.com^
@@ -514,6 +509,7 @@
 ||debugify.net^
 ||deffnelreports.bramblequarz.ru^
 ||del.sou.pp.ua^
+||deliciassobencomenda.com.br^
 ||delii.icu^
 ||dellabetgiris.live^
 ||delp-heizungsbau.de^
@@ -521,7 +517,6 @@
 ||delta-canvas.com^
 ||deltabehavioralhealth.org^
 ||deltaoutline8.com^
-||demirancho.xyz^
 ||demo.eugas8job.online^
 ||demo.moolsap.com^
 ||denizcerceve.com^
@@ -751,6 +746,7 @@
 ||fil.immortales.life^
 ||file.blackint3.com^
 ||file.celciuscreditor.com^
+||file.uhsea.com^
 ||fileget.plumbco.co.nz^
 ||filegoat.s3.de.io.cloud.ovh.net^
 ||filequanticore.com^
@@ -776,6 +772,7 @@
 ||flocmaterials.shop^
 ||floppaclient.com^
 ||floppaclient.org^
+||florinn.dev^
 ||flycheats.xyz^
 ||flyingmutts.com^
 ||fmrio.com^
@@ -892,6 +889,7 @@
 ||grupocaprem.com^
 ||gtm.aryzap.com^
 ||guanfangxiazai-oss-cn-singapore-aliyuncs.top^
+||gyp.hyperseqk.icu^
 ||h-hss-za.co^
 ||hacks.librehub.click^
 ||hadescheats.cc^
@@ -918,6 +916,7 @@
 ||helpdesk09-26.com^
 ||hf-offshores.cc^
 ||hfm-qnyxrf78xc1i0k.cfd^
+||hhautoinvestment.co.tz^
 ||hhbs.hhu.edu.cn^
 ||hhtdyj.com^
 ||hickamhealthcare.com^
@@ -955,6 +954,7 @@
 ||humaneanimalpartner.screenconnect.com^
 ||hya.codedevfuture.buzz^
 ||hylrukrxwfwbooknmtyx.supabase.co^
+||hyp.hyperseqk.icu^
 ||hypercorevector4.lol^
 ||hzwbl.com^
 ||hzxcaq-github-io.pages.dev^
@@ -965,7 +965,6 @@
 ||iconic-cracksds.vercel.app^
 ||identyclick.com^
 ||idid.pl^
-||idylliccreations.net^
 ||ifunayaikechukwu.kesug.com^
 ||igat.sn^
 ||ihmmkvkaiwnilneauhfn.supabase.co^
@@ -990,7 +989,6 @@
 ||infinitevote.com^
 ||infocardphoto.info^
 ||injurylawsocal.com^
-||intelli-sys.co.zw^
 ||intelligradeeducation.vicentecisnerospub.com^
 ||internetlouisiana.com^
 ||internetmissouri.com^
@@ -1010,6 +1008,7 @@
 ||jagexlauncher.net^
 ||java.omsules.life^
 ||javb.omsules.life^
+||jawaratekno.com^
 ||jcsncorp.screenconnect.com^
 ||jd-forever.com^
 ||jdaram.com^
@@ -1019,6 +1018,7 @@
 ||johnsonsvalves.cam^
 ||jointaxel.online^
 ||jokely.icu^
+||jonathanelsteinlaw.com^
 ||journeylake11.com^
 ||jozefinskiatelje.si^
 ||jscdncloude.beer^
@@ -1042,6 +1042,7 @@
 ||kekman.space^
 ||kernelapi.cfd^
 ||kernelscv.cfd^
+||kg8wvmar.stevenheyman.com^
 ||khavar.com^
 ||khsnec.icu^
 ||killurself1337-cdn.doxbin.mom^
@@ -1179,7 +1180,6 @@
 ||mc.heyiwei.net^
 ||mccl.com.vn^
 ||meadow-facet.com^
-||medicosantiagomarrero.com^
 ||mediocasavolponi.com^
 ||medises.co.kr^
 ||meissner.ae^
@@ -1222,7 +1222,6 @@
 ||mmns.oss-me-east-1.aliyuncs.com^
 ||mna.multidex.life^
 ||mng.multidex.life^
-||mnurlogistics.az^
 ||mobiletoolapp.com^
 ||mobix.work^
 ||modhider.com^
@@ -1370,14 +1369,12 @@
 ||pakdigital.org^
 ||palharesinformatica.com.br^
 ||panamgroup.com.pe^
-||pancar.lol^
 ||panel.mkk9991999912.observer^
 ||pannki.com^
 ||paradox924x.pages.dev^
 ||parallelchain-labs.com^
 ||pardu.pages.dev^
 ||paretandassociates.screenconnect.com^
-||paste.mangsud.org^
 ||patricstoremegans2.com^
 ||pay.aqiu6.com^
 ||payap.ir^
@@ -1581,6 +1578,7 @@
 ||reaffirm-neatness-rigid.ngrok-free.dev^
 ||recon-rival.nyc.boxd.sh^
 ||records.dennisign.se^
+||red-defeated-bass-280.mypinata.cloud^
 ||redeamazoniaazul.org^
 ||redxcvfsdgth.info^
 ||refining.qpon^
@@ -1592,7 +1590,6 @@
 ||release-activation.cc^
 ||remote-helpdesk.com^
 ||render-6.com^
-||repositoryserver.dpdns.org^
 ||rerollnow.cc^
 ||res2.topkitss.icu^
 ||reshow35.com^
@@ -1652,6 +1649,7 @@
 ||sandiegomobiletire.com^
 ||sandybeachesandsunsets.com^
 ||sanghyun.nfile.net^
+||sanpaul.ae^
 ||santaclaracountyproperties.com^
 ||sasa2.fixiow.icu^
 ||sasa3.fixiow.icu^
@@ -1798,11 +1796,11 @@
 ||stat.bestcompliance.net^
 ||statementreaderdownload.com^
 ||static.3001.net^
-||static.ilclock.com^
 ||static.startcode.cyou^
 ||static.tnkjmec.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
+||static.zongheng.com^
 ||statist.site^
 ||stb.hypstok.info^
 ||stca.topickks.icu^
@@ -1922,6 +1920,7 @@
 ||topkitss.icu^
 ||torurr.click^
 ||totemstudios.xyz^
+||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||trabzonmegareklamllc.shop^
 ||transparenciacanaa.com.br^
@@ -2001,7 +2000,6 @@
 ||valerovati03.github.io^
 ||vape-client-landing.netlify.app^
 ||vaul8.s3.us-east-2.amazonaws.com^
-||vc.tnygbw.com^
 ||vcc-data.bond^
 ||vd1s.hypstok.info^
 ||vd2s.hypstok.info^
@@ -2045,7 +2043,6 @@
 ||w5q.eu^
 ||wall.casajuanchos.com^
 ||wandering-hall-d65e.modpages.workers.dev^
-||wappingerbicornshaps.com^
 ||watt-n8n.duckdns.org^
 ||waveplus.mediabyte.be^
 ||wda.messag.life^
@@ -2103,6 +2100,7 @@
 ||wwalucircle.com^
 ||wwce.hellowortnm.cn^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
+||www-featherwallet.com^
 ||www-featherwallet.org^
 ||www2.0zz0.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
