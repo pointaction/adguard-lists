@@ -4,6 +4,18 @@ _Domains added and removed automatically by the sync workflows._
 
 <!-- CHANGELOG:TOP -->
 
+## 2026-11-26
+
+**Added: 16927** (8 allow, 16919 block)
+
+- allow: `amway-cdn.exponea.com`, `imp.i201009.net`, `mkto-ab520004.com`, `mkto-ab530057.com`, `mkto-ab630057.com`, `mkto-nld1010097.com`, `mkto-sj210057.com`, `t.sidekickopen00-eu1.com`
+- block: `00008.sbs`, `005514.com`, `006629.com`, `006683.com`, `007tanqiuwangqiujishibifen2dj.asia`, `0086sj.cn`, `008qp54.com`, `008qp70.com`, `008qp75.com`, `008qp76.com`, `008qp78.com`, `008qp79.com`, `008qp83.com`, `008qp85.com`, `008qp87.com` _+16904 more_
+
+**Removed: 70625** (8 allow, 70617 block)
+
+- allow: `app2b.outreach.io`, `email.microsoft.com`, `fis-moominarabia-cdn.exponea.com`, `mkto-ab270090.com`, `mkto-ab370015.com`, `mkto-ab610096.com`, `mkto-lon060213.com`, `rabuur8ab.cc.rs6.net`
+- block: `0-0sc.com`, `0-0x.xyz`, `0-105.com`, `0-zeddex.ink`, `0.0.16.standardweb3.com`, `00.ai`, `0000.vc`, `0000000000000000000000000.findyourjacket.com`, `00000000000000000update.emy.ba`, `000000011.xyz`, `0000way.iraj.trsr57d.co.uk`, `000166.xyz`, `000441.com`, `00057365.com`, `001107018.studentserver.com.au` _+70602 more_
+
 ## 2026-11-02
 
 **Removed: 1** (1 allow, 0 block)

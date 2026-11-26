@@ -38,41 +38,41 @@ Note: Technitium DNS Server and Network is setup with full private recursion.
 
 <!-- STATS:START -->
 
-_Last updated: 2026-11-02 21:58 UTC_
+_Last updated: 2026-11-26 18:11 UTC_
 
 | List | Allow rules | Block rules |
 |------|------------:|------------:|
 | `false-positive-fixes.txt` | 288 | — |
 | `pasallow-badblock.txt` | 6,535 | — |
-| `pasallow-completewhitelist.txt` | 8,198 | — |
-| `pasallow-referral.txt` | 1,695 | — |
+| `pasallow-completewhitelist.txt` | 7,964 | — |
+| `pasallow-referral.txt` | 1,460 | — |
 | `pasblacklist.txt` | — | 376 |
-| `pasblock-adguard-sdns.txt` | — | 186,952 |
-| `pasblock-adway.txt` | — | 6,466 |
-| `pasblock-amazon.txt` | — | 367 |
-| `pasblock-apple.txt` | — | 110 |
-| `pasblock-completeblocklist.txt` | — | 3,089,721 |
-| `pasblock-dandelion-sprout.txt` | — | 11,563 |
-| `pasblock-gambling.txt` | — | 627,108 |
-| `pasblock-goodbye-ads.txt` | — | 277,422 |
-| `pasblock-haGeZi-pro++.txt` | — | 257,272 |
-| `pasblock-huawei.txt` | — | 135 |
-| `pasblock-lgwebos.txt` | — | 231 |
-| `pasblock-microsoft.txt` | — | 383 |
-| `pasblock-native-oppo.txt` | — | 490 |
-| `pasblock-nsfw.txt` | — | 92,128 |
-| `pasblock-osid.txt` | — | 232,289 |
-| `pasblock-roku.txt` | — | 57 |
+| `pasblock-adguard-sdns.txt` | — | 194,170 |
+| `pasblock-adway.txt` | — | 6,465 |
+| `pasblock-amazon.txt` | — | 378 |
+| `pasblock-apple.txt` | — | 105 |
+| `pasblock-completeblocklist.txt` | — | 2,472,717 |
+| `pasblock-dandelion-sprout.txt` | — | 11,473 |
+| `pasblock-gambling.txt` | — | 700,946 |
+| `pasblock-goodbye-ads.txt` | — | 277,467 |
+| `pasblock-haGeZi-pro++.txt` | — | 251,774 |
+| `pasblock-huawei.txt` | — | 148 |
+| `pasblock-lgwebos.txt` | — | 461 |
+| `pasblock-microsoft.txt` | — | 394 |
+| `pasblock-native-oppo.txt` | — | 532 |
+| `pasblock-nsfw.txt` | — | 80,514 |
+| `pasblock-osid.txt` | — | 222,087 |
+| `pasblock-roku.txt` | — | 64 |
 | `pasblock-samsung.txt` | — | 201 |
-| `pasblock-tif.txt` | — | 1,879,636 |
-| `pasblock-tiktok.txt` | — | 550 |
-| `pasblock-urlhaus.txt` | — | 1,911 |
-| `pasblock-vivo.txt` | — | 247 |
-| `pasblock-xiaomi.txt` | — | 350 |
+| `pasblock-tif.txt` | — | 1,092,411 |
+| `pasblock-tiktok.txt` | — | 553 |
+| `pasblock-urlhaus.txt` | — | 2,159 |
+| `pasblock-vivo.txt` | — | 302 |
+| `pasblock-xiaomi.txt` | — | 411 |
 | `pasblock-youtube.txt` | — | 97,641 |
 | `paswhitelist.txt` | 17 | — |
-| **Total (sum)** | **16,733** | **6,763,606** |
-| **Total (unique domains)** | **8,484** | **3,089,970** |
+| **Total (sum)** | **16,264** | **5,413,749** |
+| **Total (unique domains)** | **8,250** | **2,472,963** |
 
 <!-- STATS:END -->
 
