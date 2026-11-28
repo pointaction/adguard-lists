@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: native-oppo
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme-onlydomains.txt
-! Synced: 2026-11-21 07:14 UTC
-! Entries: 532 (removed 0 allow-listed)
+! Synced: 2026-11-28 07:54 UTC
+! Entries: 535 (removed 0 allow-listed)
 !
 ||ad-growth-in.heytapmobile.com^
 ||ad-growth-ru.heytapmobile.com^
@@ -17,6 +17,7 @@
 ||ads.oppomobile.com^
 ||adsfs-sdkconfig.heytapimage.com^
 ||adsfs.oppomobile.com^
+||adx-ads-fr-heytapmobila-c7870.fr-w01.cngw.heytapmobile.com^
 ||adx-ads-fr.heytapmobile.com^
 ||adx-ads-ru.heytapmobile.com^
 ||adx-ads.realmemobile.com^
@@ -26,6 +27,7 @@
 ||adx-op-in.heytapmobile.com^
 ||adx-op-ru.heytapmobile.com^
 ||adx-op-sg.heytapmobile.com^
+||adx-u-fr.heytapmobile.com^
 ||adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com^
 ||adx-u-in.heytapmobile.com^
 ||adx-u-ru.heytapmobile.com^
@@ -61,6 +63,7 @@
 ||browser-api-id.heytapmobile.com^
 ||browser-api-in.heytapmobile.com^
 ||browser-api-my.heytapmobile.com^
+||browser-api-nz.heytapmobile.com^
 ||browser-api-ph.heytapmobile.com^
 ||browser-api-ru.heytapmobile.com^
 ||browser-api-th.heytapmobile.com^

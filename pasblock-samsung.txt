@@ -1,7 +1,7 @@
 ! Title: Point Action Blocklist: samsung
 ! Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.samsung-onlydomains.txt
-! Synced: 2026-11-14 06:29 UTC
-! Entries: 201 (removed 0 allow-listed)
+! Synced: 2026-11-28 07:54 UTC
+! Entries: 200 (removed 0 allow-listed)
 !
 ||acr-au-prd.samsungcloud.tv^
 ||acr-br-prd.samsungcloud.tv^
@@ -98,7 +98,6 @@
 ||samsung.ecorebates.com^
 ||samsung.telemetry.eyeo.com^
 ||samsungacr.com^
-||samsungadhub.com^
 ||samsungads.adsmeasurement.com^
 ||samsungads.com^
 ||samsungafrica.demdex.net^
